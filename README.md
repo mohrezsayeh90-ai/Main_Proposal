@@ -8,7 +8,7 @@ By: Hamid Zarrabi-Zadeh
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 ## راهنمای استفاده
 
-بخش‌های ۳٫۱ تا ۳٫۴ در فصل «تئوری مسئله» تکمیل شده‌اند.
+بخش‌های ۳٫۱ تا ۳٫۵ در فصل «تئوری مسئله» تکمیل شده‌اند.
 فایل این فصل `chapters/theory.tex` است.
 سایر فصل‌ها و مشخصات فردی همچنان محتوای نمونهٔ قالب را دارند.
 
@@ -17,8 +17,12 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 - متن فصل‌ها: `chapters/`
 - منابع: `bibs/full.bib` و `bibs/refs.bib`
 - فونت‌های همراه قالب: `styles/fonts/`
-- [PDF پایان‌نامه](thesis.pdf) خروجی جدید شامل بخش‌های ۳٫۱ تا ۳٫۴ است.
+- [PDF پایان‌نامه](thesis.pdf) خروجی جدید شامل بخش‌های ۳٫۱ تا ۳٫۵ است.
 - [گزارش بررسی خروجی](docs/VALIDATION_FA.md) وضعیت کامپایل و شکل‌ها را توضیح می‌دهد.
+
+بخش ۳٫۵ روش اعتبارسنجی و معیارهای بی‌بعد ارزیابی را توضیح می‌دهد.
+جدول پایانی آن، مرجع و معیار اصلی هفت مطالعه را جمع‌بندی می‌کند.
+این بخش مطابق دستورالعمل به شکل جدید نیاز ندارد.
 
 ### شکل‌های فصل سوم
 
