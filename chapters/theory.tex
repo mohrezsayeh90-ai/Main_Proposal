@@ -375,3 +375,367 @@ d_{\mathrm{search}}^*=d_{\mathrm{acc}}^*+0.0003=0.0263.
 در هر دو بازپخش، کمینهٔ فاصلهٔ مراکز باید دست‌کم $0.026$ باشد.
 این بررسی عددی در بازهٔ حضور مشترک هر جفت انجام می‌شود.
 آرایش با مکان مراکز ذرات در لحظهٔ $T^*$ تعریف می‌شود.
+
+\قسمت{دو مسئلهٔ مستقیم با شبکهٔ عملگر عمیق}
+\label{sec:theory-forward-operators}
+
+شبکهٔ عملگر عمیق (\lr{DeepONet})، ورودی تابعی را به تابع پاسخ نگاشت می‌کند.
+این معماری دو شاخهٔ ورودی و پرس‌وجو دارد \cite{lu2021deeponet}.
+شاخهٔ ورودی، نمونه‌های تابع را به ضرایب آموخته‌شده تبدیل می‌کند.
+شاخهٔ پرس‌وجو، توابع پایه را در مختصات خواسته‌شده ارزیابی می‌کند.
+ضرب داخلی ضرایب و پایه‌ها، پاسخ شبکه را می‌سازد.
+
+در آموزش فیزیک‌آگاه، باقیماندهٔ معادلات در تابع هزینه وارد می‌شود \cite{wang2021pideeponet}.
+در مسئلهٔ جریان، شاخهٔ پرس‌وجو مختصات مکانی را دریافت می‌کند.
+در مسئلهٔ مغناطیسی، ورودی این شاخه زمان داخل پنجره است.
+در هر مسئله، پروفایل سرعت یا تحریک مغناطیسی از پیش معلوم است.
+
+\زیرقسمت{پیش‌بینی میدان جریان و مسیر ذره از پروفایل ورودی}
+\label{sec:forward-flow-operator}
+
+جریان پایا در کانال مستطیلی دوبعدی بررسی می‌شود.
+ارتفاع کانال $H$ مقیاس طول است.
+سرعت میانگین ورودی $\bar U$ مقیاس سرعت میدان است.
+فشار نسبت به فشار مرجع خروجی بی‌بعد می‌شود.
+
+\begin{equation}
+\begin{aligned}
+(x^*,y^*) &= (x/H,y/H),&
+\mathbf U^* &= \mathbf U/\bar U,\\
+p^* &= \frac{p-p_{\mathrm{ext}}}{\rho_f\bar U^2},&
+\psi^* &= \frac{\psi}{H\bar U},\\
+\mathrm{Re} &= \frac{\rho_f\bar U H}{\mu},&
+\Omega^* &= (0,5)\times(0,1).
+\end{aligned}
+\label{eq:forward-flow-scales}
+\end{equation}
+
+در این روابط، $\psi^*$ تابع جریان بی‌بعد است.
+بازهٔ آموزش عدد رینولدز از $10$ تا $100$ است.
+معادلات ناویر–استوکس پایا در دامنه با همین مقیاس‌ها نوشته می‌شوند.
+
+\begin{equation}
+\begin{aligned}
+\nabla^*\!\cdot\mathbf U^* &=0,\\
+(\mathbf U^*\!\cdot\nabla^*)\mathbf U^*
+&=-\nabla^*p^*+\mathrm{Re}^{-1}(\nabla^*)^2\mathbf U^* .
+\end{aligned}
+\label{eq:forward-flow-equations}
+\end{equation}
+
+پروفایل محوری ورودی $f^*(y^*)$ است.
+مؤلفهٔ عرضی سرعت در ورودی صفر است.
+دیواره‌ها شرط عدم لغزش دارند.
+در خروجی، شرط طبیعی مطابق پیاده‌سازی به‌صورت زیر اعمال می‌شود.
+
+\begin{equation}
+\begin{aligned}
+u^*(0,y^*)&=f^*(y^*), & v^*(0,y^*)&=0,\\
+\mathbf U^*(x^*,0)&=\mathbf 0, &
+\mathbf U^*(x^*,1)&=\mathbf 0,\\
+\mathrm{Re}^{-1}\partial_{x^*}u^*(5,y^*)-p^*(5,y^*)&=0,\\
+\mathrm{Re}^{-1}\partial_{x^*}v^*(5,y^*)&=0.
+\end{aligned}
+\label{eq:forward-flow-boundaries}
+\end{equation}
+
+\textbf{نمایش پروفایل ورودی.}
+پروفایل سرعت با اسپلاین مکعبی نمایش داده می‌شود.
+پروفایل ورودی در دو سر عرض کانال صفر است.
+پروفایل با سرعت میانگین مثبت نرمال می‌شود.
+انتگرال $f^*$ روی عرض بی‌بعد کانال برابر یک است.
+پروفایل سهموی مرجع با $f_{\mathrm P}^*(y^*)=6y^*(1-y^*)$ تعریف می‌شود.
+شاخهٔ ورودی اختلاف دو پروفایل را در $257$ نقطه دریافت می‌کند.
+نقاط نمونه‌برداری روی کل بازهٔ عرضی یکنواخت‌اند.
+دو ویژگی اسکالر نیز به این بردار اضافه می‌شوند.
+
+\begin{equation}
+\begin{aligned}
+y_j^*&=j/256,\qquad j=0,\ldots,256,\\
+\Delta f^*&=f^*-f_{\mathrm P}^*,\\
+\boldsymbol\chi&=
+\left[
+\big(\Delta f^*(y_j^*)\big)_{j=0}^{256},
+\frac{\log(\mathrm{Re}/10)}{\log 10},
+\frac{\log(1+\kappa)}{5}
+\right].
+\end{aligned}
+\label{eq:forward-flow-branch-input}
+\end{equation}
+
+کمیت $\kappa$ مقیاس مؤثر تغییرات پروفایل را نشان می‌دهد.
+این کمیت از نسبت نرم مشتق به نرم اختلاف محاسبه می‌شود.
+\[
+\kappa \approx \frac{\|(\Delta f^*)'\|_2}{\pi\|\Delta f^*\|_2}.
+\]
+نرم‌ها روی عرض بی‌بعد کانال محاسبه می‌شوند.
+در پیاده‌سازی، $\kappa$ در بازهٔ $[1,128]$ محدود می‌شود.
+برای اختلاف ناچیز با پروفایل سهموی، مقدار یک به‌کار می‌رود.
+انتگرال کل اسپلاین از مسیر دیگری به فرم مرزی وارد می‌شود.
+
+\textbf{ساخت تابع جریان و فشار.}
+شاخهٔ پرس‌وجو از ویژگی‌های مکانی ساخته می‌شود.
+مختصات، ویژگی‌های مثلثاتی و ویژگی‌های محوری در این شاخه وارد می‌شوند.
+تابع جریان و فشار هرکدام زوج شاخه‌های جداگانه دارند.
+هر زوج از $64$ ضریب آموخته‌شده در ترکیب پایه‌ها استفاده می‌کند.
+خروجی‌های آموخته‌شدهٔ این دو زوج را $N_\psi$ و $N_p$ می‌نامیم.
+
+\begin{equation}
+\begin{aligned}
+I(y^*)&=\int_0^{y^*} f^*(\xi)\,\mathrm d\xi,\qquad
+\psi_{\mathrm P}^*(y^*)=3(y^*)^2-2(y^*)^3,\\
+\psi_{\mathrm{lift}}^*
+&=\psi_{\mathrm P}^*+\big(I-\psi_{\mathrm P}^*\big)D_{\mathrm O}(x^*),\\
+M^*&=16(y^*)^2(1-y^*)^2(1-e^{-x^*/0.1})^2,\\
+\psi^*&=\psi_{\mathrm{lift}}^*+M^*N_\psi,\\
+p^*&=\frac{12(5-x^*)}{\mathrm{Re}}+p_{\mathrm O}^*+N_p.
+\end{aligned}
+\label{eq:forward-flow-lift}
+\end{equation}
+
+در این روابط، $D_{\mathrm O}$ عامل کاهش اثر ورودی در راستای محور است.
+عامل کاهش و تصحیح فشار از تقریب خطی‌شدهٔ اوسین به دست می‌آیند.
+
+\begin{equation}
+\begin{aligned}
+k&=\pi\kappa,\qquad
+\lambda=\frac{2k^2}{\sqrt{\mathrm{Re}^2+4k^2}+\mathrm{Re}},\\
+\delta&=\frac{\mathrm{Re}\lambda}{k+\lambda},\\
+D_{\mathrm O}(x^*)&=e^{-\lambda x^*}
+\left(1-\lambda\frac{e^{-\delta x^*}-1}{\delta}\right),\\
+p_{\mathrm O}^*(x^*,y^*)&=
+\frac{k+\lambda}{\mathrm{Re}}\Delta f^*(y^*)e^{-kx^*}.
+\end{aligned}
+\label{eq:forward-flow-oseen}
+\end{equation}
+
+انتگرال $I$ در فرم مرزی تمام گره‌های اسپلاین را حفظ می‌کند.
+فرم تابع جریان، شرایط سرعت ورودی و دیواره‌ها را برقرار می‌کند.
+سرعت از مشتق‌های تابع جریان به دست می‌آید.
+\[
+u^*=\partial_{y^*}\psi^*,\qquad
+v^*=-\partial_{x^*}\psi^*.
+\]
+این تعریف، معادلهٔ پیوستگی را در ساختار خروجی برقرار می‌کند.
+شکل~\ref{fig:forward-flow-operator} دو مسیر ورود اسپلاین را نشان می‌دهد.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.93\textwidth]{figs/deeponet-flow-forward.pdf}
+\caption{دامنهٔ بی‌بعد و نگاشت پروفایل ورودی به میدان و مسیر ذره.}
+\label{fig:forward-flow-operator}
+\end{figure}
+
+\textbf{آموزش و محاسبهٔ مسیر.}
+تابع هزینه شامل باقیماندهٔ مومنتوم غیرخطی و شرط طبیعی خروجی است.
+در پیکربندی منتخب، سهم مومنتوم برحسب انحنای پروفایل ورودی مقیاس‌بندی می‌شود.
+اگر $\mathbf R_{\mathrm{NS}}^*$ و $\mathbf R_{\mathrm{out}}^*$ دو باقیمانده باشند، هزینه چنین است.
+\begin{equation}
+\mathcal L_{\mathrm f}=
+\left\langle
+\frac{\|\mathbf R_{\mathrm{NS}}^*\|^2}
+ {1+\|(f^*)''\|_2/\mathrm{Re}}
+\right\rangle_{\Omega^*}
++10\left\langle\|\mathbf R_{\mathrm{out}}^*\|^2\right\rangle_{\mathrm{out}}.
+\label{eq:forward-flow-training-loss}
+\end{equation}
+میانگین‌ها روی نقاط هم‌مکانی و نمونه‌های ورودی گرفته می‌شوند.
+حل اجزای محدود فقط برای ارزیابی میدان استفاده می‌شود.
+
+برای محاسبهٔ مسیر، سرعت سیال در مکان لحظه‌ای ذره خوانده می‌شود.
+در این مطالعه، اینرسی ذره و درگ استوکس لحاظ می‌شوند.
+زمان مسیر با سرعت مرجع معلوم $U_{\mathrm{ref}}$ بی‌بعد می‌شود.
+نسبت مقیاس‌های سرعت را با $A=\bar U/U_{\mathrm{ref}}$ نشان می‌دهیم.
+
+\begin{equation}
+\begin{aligned}
+t_{\mathrm s}^*&=t U_{\mathrm{ref}}/H,\qquad
+\mathrm{St}=\tau_p U_{\mathrm{ref}}/H,\\
+\frac{\mathrm d\mathbf r_p^*}{\mathrm dt_{\mathrm s}^*}
+&=\mathbf v_{p,\mathrm s}^*,\\
+\frac{\mathrm d\mathbf v_{p,\mathrm s}^*}{\mathrm dt_{\mathrm s}^*}
+&=\frac{A\mathbf U^*(\mathbf r_p^*)-\mathbf v_{p,\mathrm s}^*}{\mathrm{St}}.
+\end{aligned}
+\label{eq:forward-flow-stokes-path}
+\end{equation}
+
+سرعت $\mathbf v_{p,\mathrm s}^*$ با $U_{\mathrm{ref}}$ مقیاس می‌شود.
+انتگرال‌گیری با مکان و سرعت اولیهٔ معلوم انجام می‌شود.
+در مسئلهٔ معکوس، همین زنجیره مسیر را برای ورودی‌های نامزد محاسبه می‌کند.
+وزن‌های گام $94000$ مبنای بازسازی معکوس هستند.
+این وزن‌ها همهٔ معیارهای پذیرش عمومی میدان را برآورده نکردند.
+خطاهای میدان و باقیماندهٔ معادلات در فصل نتایج گزارش می‌شوند.
+
+\زیرقسمت{پیش‌بینی مسیر ذره از دو تحریک مغناطیسی}
+\label{sec:forward-magnetic-operator}
+
+حرکت ذره در صفحهٔ محوری‌ـ‌عرضی یک لولهٔ دایره‌ای مستقیم بررسی می‌شود.
+جریان حامل، پروفایل پوازوی کاملاً توسعه‌یافته دارد.
+دو منبع ثابت در دو سوی لوله قرار دارند.
+دامنهٔ هر منبع با تابعی بی‌بعد و زمان‌متغیر تعیین می‌شود.
+
+\textbf{مقیاس‌ها و میدان دو منبع.}
+شعاع لوله $R$ و فاصلهٔ مشخصهٔ منبع $D$ مقیاس‌های مکانی هستند.
+سرعت مرجع محوری برابر دو برابر سرعت میانگین مرجع است.
+میدان مغناطیسی با مقیاس ثابت $B_s$ بی‌بعد می‌شود.
+برای منبع ایده‌آل، $M_s$ مغناطش و $R_m$ شعاع مشخصهٔ منبع است.
+\[
+B_s=\frac{\mu_0 M_s}{2}\left(\frac{R_m}{D}\right)^2,
+\qquad R_m/D=1/2.
+\]
+
+\begin{equation}
+\begin{aligned}
+X&=x/R,& Z&=z/D,& \xi&=x/D=\epsilon X,\\
+\epsilon&=R/D=0.001875,&
+\tau&=\frac{2U_{\mathrm{ref}}t}{D},&
+\mathbf q&=(X,Z),\\
+\mathbf B^*&=\mathbf B/B_s,&
+\bar U^*&=\bar U/U_{\mathrm{ref}}.
+\end{aligned}
+\label{eq:forward-mag-scales}
+\end{equation}
+
+سرعت مرجع $U_{\mathrm{ref}}$ در این زیربخش به مدل مغناطیسی تعلق دارد.
+نسبت شعاع ذره به شعاع لوله $r_p/R=1/150$ است.
+در معادلهٔ میدان، مشتق‌گیری نسبت به $(\xi,Z)$ انجام می‌شود.
+برای منبع چپ و راست، $\sigma$ به‌ترتیب $+1$ و $-1$ است.
+
+\begin{equation}
+\begin{aligned}
+Y_\sigma&=1+\sigma\xi,\qquad
+S_\sigma=Y_\sigma^2+Z^2,\\
+\mathbf b_\sigma(\xi,Z)&=
+\frac{1}{S_\sigma^2}
+\begin{pmatrix}
+\sigma(Y_\sigma^2-Z^2)\\[2pt] 2Y_\sigma Z
+\end{pmatrix},\\
+\mathbf B^*(\xi,Z,\tau)&=
+ a_L(\tau)\mathbf b_{+1}(\xi,Z)+a_R(\tau)\mathbf b_{-1}(\xi,Z).
+\end{aligned}
+\label{eq:forward-mag-field}
+\end{equation}
+
+توابع $\mathbf b_\sigma$ شکل فضایی ثابت هر منبع را مشخص می‌کنند.
+توابع $a_L$ و $a_R$ دامنه‌های علامت‌دار منابع هستند.
+قید تحریک در هر زمان $|a_L|+|a_R|\le\sqrt{0.5}$ است.
+
+\textbf{نیروی مغناطیسی و معادلهٔ حرکت.}
+مغناطش القایی ذره خطی و بدون اشباع فرض می‌شود.
+ضریب قطبش ذره برابر $\alpha=3V_p/\mu_0$ است.
+در این تعریف، $V_p$ حجم ذره و $\mu_0$ تراوایی خلأ است.
+مقیاس نیرو برابر $F_s=\alpha B_s^2/D$ انتخاب می‌شود.
+با این مقیاس، نیروی بی‌بعد به‌صورت زیر نوشته می‌شود.
+
+\begin{equation}
+\begin{aligned}
+\mathbf F_m^*&=\frac{\mathbf F_m}{F_s}
+=\frac12\nabla_{(\xi,Z)}\|\mathbf B^*\|^2\\
+&=\frac{a_L^2}{2}\nabla_{(\xi,Z)}\|\mathbf b_{+1}\|^2
+ +\frac{a_R^2}{2}\nabla_{(\xi,Z)}\|\mathbf b_{-1}\|^2\\
+&\quad+a_La_R\nabla_{(\xi,Z)}
+ \big(\mathbf b_{+1}\!\cdot\mathbf b_{-1}\big).
+\end{aligned}
+\label{eq:forward-mag-force}
+\end{equation}
+
+جملهٔ آخر اثر هم‌زمانی دو منبع را در نیرو وارد می‌کند.
+در تقریب بیش‌میرا، درگ استوکس و نیروی مغناطیسی موازنه می‌شوند.
+معادلهٔ بی‌بعد حرکت در مختصات محوری‌ـ‌عرضی چنین است.
+
+\begin{equation}
+\begin{aligned}
+\frac{\mathrm d\mathbf q}{\mathrm d\tau}
+&=\begin{pmatrix}0\\\bar U^*(1-X^2)\end{pmatrix}
++\Gamma
+  \begin{pmatrix}1&0\\0&\epsilon\end{pmatrix}
+  \mathbf F_m^*(\epsilon X,Z,\tau)
+=:\mathbf G(\mathbf q,\mathbf a;\boldsymbol\pi),\\
+\Gamma&=\frac{\alpha B_s^2}{12\pi\mu r_p U_{\mathrm{ref}}R},
+\qquad \mathbf a=(a_L,a_R).
+\end{aligned}
+\label{eq:forward-mag-motion}
+\end{equation}
+
+در این معادله، $\boldsymbol\pi$ مجموعهٔ پارامترهای سیال را مشخص می‌کند.
+گرانروی مرجع $\mu_{\mathrm{ref}}$ همان مقیاس نرمال‌سازی شاخهٔ ورودی است.
+در نمونه‌های آموزش، سرعت و گرانروی بی‌بعد در بازه‌های زیر قرار دارند.
+\[
+1/3\le\bar U^*\le2,\qquad
+20/49\le \mu/\mu_{\mathrm{ref}}\le120/49.
+\]
+ضریب $\Gamma$ و عامل $\epsilon$ هر دو بی‌بعد هستند.
+عامل $\epsilon$ تفاوت مقیاس محوری و عرضی را لحاظ می‌کند.
+زمان آرامش با مقیاس زمانی $D/(2U_{\mathrm{ref}})$ بی‌بعد می‌شود.
+برای برآورد آن، جرم مؤثر شامل نصف جرم سیال جابه‌جاشده است.
+\[
+\tau_p^*=
+\frac{2U_{\mathrm{ref}}}{D}
+\frac{2(\rho_p+\rho_f/2)r_p^2}{9\mu}.
+\]
+زمان آرامش بی‌بعد در بازهٔ پارامترها حدود $4\times10^{-8}$ تا $2.4\times10^{-7}$ است.
+این زمان از کوتاه‌ترین پنجرهٔ آموزش بسیار کوچک‌تر است.
+تقریب بیش‌میرا برای تحریک‌هایی با تغییرات کندتر از آرامش ذره به‌کار می‌رود.
+گرانش، حرکت براونی و تصحیح درگ نزدیک دیواره در مدل حذف شده‌اند.
+
+\textbf{عملگر پنجره‌ای مسیر.}
+در هر پنجره، زمان پرس‌وجو با $s=(\tau-\tau_j)/h$ تعریف می‌شود.
+طول بی‌بعد پنجره $h$ و مکان آغازین آن $\mathbf q_j$ است.
+هر منبع در $17$ زمان یکنواخت نمونه‌برداری می‌شود.
+دامنهٔ تحریک میان نمونه‌ها با درون‌یابی خطی محاسبه می‌شود.
+نمونه‌های دو منبع، مکان آغازین و طول پنجره وارد شاخهٔ ورودی می‌شوند.
+نمایش نرمال‌شدهٔ گرانروی، سرعت میانگین و چگالی نیز وارد همین شاخه می‌شود.
+در معادلهٔ بیش‌میرا، چگالی مستقیماً وارد سرعت ذره نمی‌شود.
+شاخهٔ پرس‌وجو زمان نرمال‌شدهٔ $s$ را دریافت می‌کند.
+تصحیح هر مؤلفه از ضرب داخلی دو بردار $48$مؤلفه‌ای ساخته می‌شود.
+
+\begin{equation}
+\begin{aligned}
+\mathbf q_\theta(s)&=
+\mathbf q_j+
+h\int_0^s \mathbf G\big(\mathbf q_j,\mathbf a(\zeta);\boldsymbol\pi\big)\,\mathrm d\zeta
++h^2s^2E_a\,\mathbf C_\theta(s),\\
+E_a&=\frac{1}{17\,a_{\max}^2}
+\sum_{k=0}^{16}(a_{L,k}^2+a_{R,k}^2),
+\qquad a_{\max}=\sqrt{0.5}.
+\end{aligned}
+\label{eq:forward-mag-window}
+\end{equation}
+
+در انتگرال، $\mathbf a(\zeta)$ تحریک درون‌یابی‌شده در زمان محلی است.
+جملهٔ انتگرالی، میدان و جریان را در مکان آغاز پنجره ارزیابی می‌کند.
+انتگرال زمانی برای نمایش خطی تحریک به‌صورت تحلیلی محاسبه می‌شود.
+تصحیح $\mathbf C_\theta$ از ترکیب خروجی دو شاخه به دست می‌آید.
+عامل $s^2$ شرط اولیهٔ مکان را دقیق برقرار می‌کند.
+عامل $E_a$ تصحیح را برای تحریک صفر حذف می‌کند.
+شرط اولیهٔ مدل بیش‌میرا فقط مکان آغازین را مشخص می‌کند.
+
+\textbf{آموزش و اتصال پنجره‌ها.}
+تابع هزینه از میانگین مربعات باقیماندهٔ بی‌بعد حرکت ساخته می‌شود.
+در پیاده‌سازی، باقیمانده با طول پنجره نیز مقیاس‌بندی می‌شود.
+
+\begin{equation}
+\mathbf R_{\mathrm m}(s)=
+\frac{h^{-1}\partial_s\mathbf q_\theta
+-\mathbf G(\mathbf q_\theta,\mathbf a(s);\boldsymbol\pi)}{h},
+\qquad
+\mathcal L_{\mathrm m}=\left\langle\|\mathbf R_{\mathrm m}\|^2/2\right\rangle .
+\label{eq:forward-mag-training-loss}
+\end{equation}
+
+مسیرهای حاصل از حل مستقل در آموزش وارد نمی‌شوند.
+آموزش پنجره‌های بی‌بعد $0.00625\le h\le0.10$ را پوشش می‌دهد.
+پیش‌بینی پیوسته با انتقال مکان نهایی هر پنجره به پنجرهٔ بعد انجام می‌شود.
+طول پیش‌فرض پنجرهٔ پیش‌بینی $0.05$ است.
+نگاشت‌های محلی بلندتر از $0.05$ به دو نیم‌پنجره تقسیم می‌شوند.
+بازهٔ مکانی ارزیابی $|X|\le0.7$ و $-2\le Z\le1.7$ است.
+تعمیم به دامنهٔ تحریک و وضوح نمونه‌برداری هر پنجره وابسته است.
+حل عددی مستقل معادلهٔ حرکت، مرجع مقایسهٔ مسیر است.
+شکل~\ref{fig:forward-magnetic-operator} تحریک، هندسه و اتصال پنجره‌ها را نشان می‌دهد.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.93\textwidth]{figs/deeponet-magnetic-forward.pdf}
+\caption{تحریک دو منبع، نمای محوری‌ـ‌عرضی لوله و اتصال پنجره‌های بی‌بعد.}
+\label{fig:forward-magnetic-operator}
+\end{figure}
