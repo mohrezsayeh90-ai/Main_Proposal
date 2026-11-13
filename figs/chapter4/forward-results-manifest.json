@@ -1,0 +1,266 @@
+{
+  "source_revisions": {
+    "flow": "d5e9b5a1a08107cbfbce34fdd66932f2f99588df",
+    "magnetic": "a4fc9d722487a5af09b9a05c745f5184d1c87b22"
+  },
+  "checkpoint_sha256": {
+    "flow": "ccf6fa2b3e179a22c443384083e2dec338fc497f9562a567ed7e0955d3c67bf8",
+    "magnetic": "080b7e5dd76c98a75fca7f92cc4ec314907a7f7340c809b739b1e2eabc0e3133"
+  },
+  "input_sha256": {
+    "flow/reports/experiments/pressure_long/output/selected_checkpoint.validation.json": "eade7ebaab09b950e6aeaf2ed9814c8322e3c81a6d1f271ccaf22803afafdd99",
+    "flow/reports/experiments/pressure_long/output/validation_best_checkpoint/metrics.json": "5847a1894bc671ad6e654fed4c161a410c8f43036037f1ac8d6c78067f97156d",
+    "flow/reports/experiments/pressure_long/output/selected_checkpoint.npz": "ccf6fa2b3e179a22c443384083e2dec338fc497f9562a567ed7e0955d3c67bf8",
+    "magnetic/results/operator/checkpoint.pt": "080b7e5dd76c98a75fca7f92cc4ec314907a7f7340c809b739b1e2eabc0e3133",
+    "flow/reports/experiments/pressure_long/output/validation_best_checkpoint/beta.npz": "6fa4eb5c28e9e37055d806440d2d28e0f0f178154bb7a26e36aad3c8ee671f0f",
+    "flow/validation/references/beta.npz": "34fb61c2b7b232a6c5928709b5768edc749cfc4c71d736614d51e47d3b5f9ba1",
+    "flow/reports/experiments/pressure_long/output/validation_best_checkpoint/flat.npz": "e6717fb95b3265183d3913ac740836fb0601012df5ebe1c22d832d13e7a16420",
+    "flow/validation/references/flat.npz": "f9e6dd71b99231164d2f6dae128e967045e9878f41661098e43ab603ee716f6e",
+    "flow/reports/experiments/pressure_long/output/validation_best_checkpoint/asymmetric.npz": "2daf9774b20a8579f2fffadf1c8e138e7ef5300506737e0c8d1d90601b1ab5b5",
+    "flow/validation/references/asymmetric.npz": "0db341d75992967e50ddac34e9bb31f3820d8c94fdf9e61ca10f8bf76c20bdd3",
+    "flow/reports/experiments/pressure_long/output/validation_best_checkpoint/nine.npz": "227070d2cc90128e53e205c84a18b1c8b7dabc97933303a3a94c522b17cc5b13",
+    "flow/validation/references/nine.npz": "6726f082c625b37ba5fcbe77079c914ed062e8083b3b9be3fcf6dbd389add2bd",
+    "flow/reports/experiments/pressure_long/output/validation_checkpoint/metrics.json": "20ada2e7306a32d9e7b753214268e3c71315550c0fdc4a9bbd9b2deb91388cc8",
+    "flow/results/diverse_profiles_2026_11_07/metrics.json": "986d1f04a962417bd1790513937ad6c2b084493bb5c811942e1e0c5bd836a9fa",
+    "magnetic/results/trained_presentation/validation.json": "f38ff320866a097474bef63d531eee45efb91b5d254ff14788a2fece797a07a8",
+    "magnetic/results/trained_presentation/01_constant_right.csv": "728e06843fe92aae4b981d88e9afb7c707cb9e4ac63bddfb726039741144a943",
+    "magnetic/results/trained_presentation/02_constant_left.csv": "17430c9f822193d5e3503c490277932a14cb17ca420307b1c324f2ae116a6c89",
+    "magnetic/results/trained_presentation/03_gaussian_pulse.csv": "25e7051f2b6de128a516cd246892fdb56dcb2d4108bd34e356d4970dd3144a26",
+    "magnetic/results/trained_presentation/04_sinusoidal.csv": "f98b9785a41e682104b8dd8e7e9d962fda0151bfe9a556b21e48da5fc3b93cdf",
+    "magnetic/results/trained_presentation/05_source_switch.csv": "d674a2446a13ad8829fb4cdf737a7d61e844ebc3f1795b630fceac89237f84be",
+    "magnetic/results/trained_presentation/06_two_source_chirp.csv": "0e09104ecc9b52d87d402955787a6165bf228a6516768c54a3fd3f4e416bc4d5",
+    "magnetic/results/trained_presentation/07_offset_alternating.csv": "eca61829039fd7b674c1c7301d7fd1feefd165b0934e37509ae387ac06685149",
+    "magnetic/results/trained_presentation/08_alternating_pulses.csv": "0cf222eeef8da6157b024280e01563d7405bf6a8fb1af644a64b93d11981bd6b",
+    "magnetic/results/trained_presentation/09_slow_dual_chirp.csv": "c8d77d7b1760e6bb6285bc131820f003dedd282b62ec4f2a40c072f6e95d1811",
+    "magnetic/results/trained_presentation/10_fast_multisine.csv": "49a9583ad77fd13e8f0e4d57c8690d903122a00f6ea62c3bb22f2a74f1a36fed",
+    "magnetic/results/trained_presentation/11_downstream_switch.csv": "7704938806592b64e63bc88f76a726d32698994d16b5ab9557fec65a93e29749",
+    "magnetic/results/trained_presentation/12_phase_interference.csv": "5d87a2ccfa7e9962332fcd062726c41069beea555c195d0ec1fc702975ea9ecd"
+  },
+  "units": {
+    "flow": "Already dimensionless; no pressure shift",
+    "magnetic": {
+      "X": "x_m / 75e-6",
+      "Z": "z_m / 0.04",
+      "tau": "0.75 * time_s",
+      "error": "absolute nondimensional difference"
+    }
+  },
+  "validation": {
+    "flow": {
+      "beta": {
+        "velocity_relative_l2": 0.009060065852523582,
+        "v_relative_l2": 0.09261043323870884,
+        "v_rmse": 0.004158989743234261,
+        "pressure_relative_l2": 0.03082342150145328,
+        "reynolds": 30.0,
+        "momentum_rms": 0.2758569584903527,
+        "inlet_flux": 0.999999999976191,
+        "mesh_change": {
+          "velocity_relative_l2": 3.1572251183129914e-05,
+          "pressure_relative_l2": 0.0003620140274082291
+        },
+        "inlet_max_error": 8.881784197001252e-16
+      },
+      "flat": {
+        "velocity_relative_l2": 0.030019309455908475,
+        "v_relative_l2": 0.397805783282916,
+        "v_rmse": 0.010812076290035921,
+        "pressure_relative_l2": 0.10974254153129304,
+        "reynolds": 70.0,
+        "momentum_rms": 0.5170347123447507,
+        "inlet_flux": 1.0000000034751308,
+        "mesh_change": {
+          "velocity_relative_l2": 5.287027428633451e-05,
+          "pressure_relative_l2": 0.00038784851899154423
+        },
+        "inlet_max_error": 4.440892098500626e-16
+      },
+      "asymmetric": {
+        "velocity_relative_l2": 0.04649095790441279,
+        "v_relative_l2": 0.37159561052478224,
+        "v_rmse": 0.0081450975382775,
+        "pressure_relative_l2": 0.17844667487757435,
+        "reynolds": 100.0,
+        "momentum_rms": 0.15086371880233035,
+        "inlet_flux": 0.9999990463256838,
+        "mesh_change": {
+          "velocity_relative_l2": 7.111801490119606e-06,
+          "pressure_relative_l2": 0.00011103079125298316
+        },
+        "inlet_max_error": 4.440892098500626e-16
+      },
+      "nine": {
+        "velocity_relative_l2": 0.06603996222734278,
+        "v_relative_l2": 0.8919863288084644,
+        "v_rmse": 0.024466121988857212,
+        "pressure_relative_l2": 0.08209510240381988,
+        "reynolds": 55.0,
+        "momentum_rms": 2.09289578504481,
+        "inlet_flux": 0.9999996207759416,
+        "mesh_change": {
+          "velocity_relative_l2": 9.460151127438107e-05,
+          "pressure_relative_l2": 0.001985771516601888
+        },
+        "inlet_max_error": 8.881784197001252e-16
+      }
+    },
+    "magnetic": {
+      "01_constant_right": {
+        "X0": 0.0,
+        "Z0": -2.0,
+        "tau_f": 2.25,
+        "max_X_error": 5.017114087775554e-05,
+        "max_Z_error": 1.5317448958940272e-05,
+        "samples": 801
+      },
+      "02_constant_left": {
+        "X0": 0.0,
+        "Z0": -2.0,
+        "tau_f": 2.25,
+        "max_X_error": 7.850719075525037e-06,
+        "max_Z_error": 1.161011045028304e-05,
+        "samples": 801
+      },
+      "03_gaussian_pulse": {
+        "X0": 0.0,
+        "Z0": -2.0,
+        "tau_f": 2.25,
+        "max_X_error": 3.198757309370859e-05,
+        "max_Z_error": 2.083720386403254e-06,
+        "samples": 801
+      },
+      "04_sinusoidal": {
+        "X0": 0.0,
+        "Z0": -2.0,
+        "tau_f": 2.25,
+        "max_X_error": 5.3487714722466606e-05,
+        "max_Z_error": 6.99734701919974e-06,
+        "samples": 801
+      },
+      "05_source_switch": {
+        "X0": 0.0,
+        "Z0": -2.0,
+        "tau_f": 2.25,
+        "max_X_error": 2.6184242003096658e-05,
+        "max_Z_error": 1.212363779068415e-05,
+        "samples": 801
+      },
+      "06_two_source_chirp": {
+        "X0": 0.0,
+        "Z0": -2.0,
+        "tau_f": 2.25,
+        "max_X_error": 2.0350373538461156e-05,
+        "max_Z_error": 7.88915453348027e-06,
+        "samples": 801
+      },
+      "07_offset_alternating": {
+        "X0": -0.3,
+        "Z0": -1.0,
+        "tau_f": 2.4000000000000004,
+        "max_X_error": 5.065712939616995e-05,
+        "max_Z_error": 3.256864132092363e-05,
+        "samples": 801
+      },
+      "08_alternating_pulses": {
+        "X0": 0.35,
+        "Z0": -1.125,
+        "tau_f": 2.0999999999999996,
+        "max_X_error": 1.8853191268763947e-05,
+        "max_Z_error": 1.1916017284424596e-05,
+        "samples": 801
+      },
+      "09_slow_dual_chirp": {
+        "X0": 0.15,
+        "Z0": -0.625,
+        "tau_f": 2.25,
+        "max_X_error": 4.4602717905101175e-05,
+        "max_Z_error": 6.07870471883154e-06,
+        "samples": 801
+      },
+      "10_fast_multisine": {
+        "X0": -0.4,
+        "Z0": -1.875,
+        "tau_f": 1.35,
+        "max_X_error": 2.3582905289476486e-05,
+        "max_Z_error": 3.2433473389156114e-05,
+        "samples": 801
+      },
+      "11_downstream_switch": {
+        "X0": 0.25,
+        "Z0": 0.5,
+        "tau_f": 1.5,
+        "max_X_error": 2.28567299242477e-05,
+        "max_Z_error": 5.502765233478257e-06,
+        "samples": 801
+      },
+      "12_phase_interference": {
+        "X0": -0.25,
+        "Z0": -1.5,
+        "tau_f": 2.4000000000000004,
+        "max_X_error": 9.570890351640049e-06,
+        "max_Z_error": 1.3521989524728495e-05,
+        "samples": 801
+      }
+    },
+    "flow_gates": {
+      "velocity_relative_l2": false,
+      "pressure_relative_l2": false,
+      "momentum_rms": false,
+      "divergence_rms": true,
+      "outlet_traction_rms": true,
+      "flux_max_error": true,
+      "boundary_max_error": true
+    },
+    "exploratory_selected": [
+      {
+        "name": "skew_b3",
+        "reynolds": 30.0,
+        "velocity_relative_l2": 0.016026090345352205,
+        "pressure_relative_l2": 0.02374453901074557
+      },
+      {
+        "name": "twin_b3_r20",
+        "reynolds": 20.0,
+        "velocity_relative_l2": 0.009456950195721094,
+        "pressure_relative_l2": 0.018326284345310515
+      },
+      {
+        "name": "waves3_r20",
+        "reynolds": 20.0,
+        "velocity_relative_l2": 0.018012693599490953,
+        "pressure_relative_l2": 0.050433631774199066
+      },
+      {
+        "name": "lobes4_r20",
+        "reynolds": 20.0,
+        "velocity_relative_l2": 0.029284512119717918,
+        "pressure_relative_l2": 0.022061852328534384
+      },
+      {
+        "name": "mixed",
+        "reynolds": 30.0,
+        "velocity_relative_l2": 0.02328008464747943,
+        "pressure_relative_l2": 0.051595827107060094
+      },
+      {
+        "name": "shoulder",
+        "reynolds": 30.0,
+        "velocity_relative_l2": 0.022374265932263843,
+        "pressure_relative_l2": 0.05658492839459937
+      },
+      {
+        "name": "nine",
+        "reynolds": 55.0,
+        "velocity_relative_l2": 0.027529171329491023,
+        "pressure_relative_l2": 0.0683939225570666
+      }
+    ]
+  },
+  "output_sha256": {
+    "forward-flow-beta.pdf": "2d8c264c05750290c520ae880dca80f7fc52762ed0e5c70ab63398d55410eee1",
+    "forward-flow-inlets.pdf": "7c1188a392b30b55761e440d5997f5dbae5580eafea8548e58d059efe311b76c",
+    "forward-flow-nine.pdf": "72cd66f40b20e1b72e16d5d0ddb0f2941159f6219bf7cb4144fd2fabdbde185f",
+    "forward-magnetic-errors.pdf": "b46fb7d5053c3ee0d37da0ce65df61cc012209d8214a4880219a24642ce840ec",
+    "forward-magnetic-paths.pdf": "3dc1730ec94f32205effcab8c9281e7b687da7c7dc5c0832c67c666d1951d3a9"
+  }
+}
