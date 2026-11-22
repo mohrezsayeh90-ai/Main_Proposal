@@ -1,0 +1,118 @@
+{
+  "doi": "10.1103/PhysRevE.73.061919",
+  "results": [
+    {
+      "beta": 1.0,
+      "radius_nm": 400.00000000000006,
+      "max_error_Rv": 6.354843913225494e-05,
+      "rms_error_Rv": 2.849672689016565e-05,
+      "pinn_captured": false,
+      "reference_captured": false,
+      "capture_location_error_Rmag": null,
+      "initial_error": 0.0
+    },
+    {
+      "beta": 1.0,
+      "radius_nm": 450.00000000000006,
+      "max_error_Rv": 9.399499296747216e-05,
+      "rms_error_Rv": 1.704194679095563e-05,
+      "pinn_captured": true,
+      "reference_captured": true,
+      "capture_location_error_Rmag": 1.8627687273675697e-05,
+      "initial_error": 0.0
+    },
+    {
+      "beta": 1.0,
+      "radius_nm": 500.00000000000006,
+      "max_error_Rv": 0.0001325865395490622,
+      "rms_error_Rv": 2.7839346236188997e-05,
+      "pinn_captured": true,
+      "reference_captured": true,
+      "capture_location_error_Rmag": 3.0578802662217797e-07,
+      "initial_error": 0.0
+    },
+    {
+      "beta": 1.0,
+      "radius_nm": 550.0,
+      "max_error_Rv": 0.0006755631244158566,
+      "rms_error_Rv": 7.945107100666524e-05,
+      "pinn_captured": true,
+      "reference_captured": true,
+      "capture_location_error_Rmag": 5.090842831555198e-05,
+      "initial_error": 0.0
+    },
+    {
+      "beta": 1.0,
+      "radius_nm": 600.0000000000001,
+      "max_error_Rv": 0.0008456598410979677,
+      "rms_error_Rv": 0.0001367173994544362,
+      "pinn_captured": true,
+      "reference_captured": true,
+      "capture_location_error_Rmag": 3.3967245463423223e-05,
+      "initial_error": 0.0
+    },
+    {
+      "beta": 1.25,
+      "radius_nm": 400.00000000000006,
+      "max_error_Rv": 2.8322878245501393e-05,
+      "rms_error_Rv": 1.0788568098902316e-05,
+      "pinn_captured": false,
+      "reference_captured": false,
+      "capture_location_error_Rmag": null,
+      "initial_error": 0.0
+    },
+    {
+      "beta": 1.25,
+      "radius_nm": 450.00000000000006,
+      "max_error_Rv": 2.570949920188692e-05,
+      "rms_error_Rv": 1.2495719706303971e-05,
+      "pinn_captured": false,
+      "reference_captured": false,
+      "capture_location_error_Rmag": null,
+      "initial_error": 0.0
+    },
+    {
+      "beta": 1.25,
+      "radius_nm": 500.00000000000006,
+      "max_error_Rv": 3.438767771080098e-05,
+      "rms_error_Rv": 1.1838845486618137e-05,
+      "pinn_captured": false,
+      "reference_captured": false,
+      "capture_location_error_Rmag": null,
+      "initial_error": 0.0
+    },
+    {
+      "beta": 1.25,
+      "radius_nm": 550.0,
+      "max_error_Rv": 0.00019540238480941774,
+      "rms_error_Rv": 3.890717377162047e-05,
+      "pinn_captured": true,
+      "reference_captured": true,
+      "capture_location_error_Rmag": 4.421756948516653e-05,
+      "initial_error": 0.0
+    },
+    {
+      "beta": 1.25,
+      "radius_nm": 600.0000000000001,
+      "max_error_Rv": 0.0003152487703294016,
+      "rms_error_Rv": 4.617184913077202e-05,
+      "pinn_captured": true,
+      "reference_captured": true,
+      "capture_location_error_Rmag": 7.295539802651407e-06,
+      "initial_error": 0.0
+    }
+  ],
+  "checks": {
+    "all_events_match": true,
+    "max_path_error_below_0_005_Rv": true,
+    "capture_position_below_0_01_Rmag": true,
+    "hard_initial_condition": true,
+    "heldout_residual_below_0_001": true,
+    "no_saturation": true
+  },
+  "all_passed": true,
+  "seconds": 54.53250538599991,
+  "device": "cpu",
+  "max_path_error_Rv": 0.0008456598410979677,
+  "scope": "PINN validation of reduced magnetic particle transport only. Prescribed one-way flow; NOT full two-way CFD, controller or experimental validation."
+}

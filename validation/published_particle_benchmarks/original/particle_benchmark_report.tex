@@ -1,0 +1,141 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,top=18mm,bottom=18mm,left=19mm,right=19mm]{geometry}
+\usepackage{fontspec}
+\usepackage{amsmath,amssymb,graphicx,xcolor,hyperref}
+\hypersetup{colorlinks=true,urlcolor=teal,pdftitle={Particle trajectory benchmarks}}
+\usepackage[english,bidi=bidi]{babel}
+\babelprovide[import,main]{persian}
+\babelfont[persian]{rm}[Script=Arabic]{Noto Naskh Arabic}
+\babelfont[english]{rm}{Latin Modern Roman}
+\definecolor{ink}{HTML}{193B50}
+\definecolor{teal}{HTML}{00746B}
+\definecolor{muted}{HTML}{526779}
+\definecolor{hairline}{HTML}{BDCDD7}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\linespread{1.13}
+\pagestyle{empty}
+\providecommand{\lr}[1]{\foreignlanguage{english}{#1}}
+\input{data/stats.tex}
+\newcommand{\topline}[1]{\noindent{\color{teal}\small\bfseries #1}\par
+  \vspace{2pt}{\color{hairline}\hrule height .6pt}\vspace{6pt}}
+\newcommand{\titleline}[1]{\par{\color{ink}\LARGE\bfseries #1}\par\vspace{4pt}}
+\newcommand{\subhead}[1]{\par\vspace{3pt}{\color{teal}\large\bfseries #1}\par}
+\newcommand{\panel}[2]{\par\noindent
+  \makebox[\linewidth][c]{\includegraphics[width=.93\linewidth]{assets/#1.pdf}}\par
+  {\small\color{muted}#2\par}\vspace{1pt}}
+\newcommand{\folio}[1]{\vfill{\color{hairline}\hrule height .5pt}\vspace{4pt}
+  {\small\color{muted}اعتبارسنجی عددی مسیر ذره\hfill #1}\par}
+
+\newcommand{\MagRow}[6]{\noindent\makebox[.08\linewidth][r]{#1}%
+\makebox[.15\linewidth][r]{#2}\makebox[.17\linewidth][r]{#3}%
+\makebox[.17\linewidth][r]{#4}\makebox[.17\linewidth][c]{#5}%
+\makebox[.24\linewidth][r]{#6}\par}
+\newcommand{\WaveRow}[5]{\noindent\makebox[.12\linewidth][r]{#1}%
+\makebox[.24\linewidth][c]{#2}\makebox[.23\linewidth][c]{#3}%
+\makebox[.17\linewidth][r]{#4}\makebox[.21\linewidth][r]{#5}\par}
+\newcommand{\tableline}{\par{\color{hairline}\hrule height .5pt}\vspace{2pt}}
+
+\begin{document}
+\topline{۱ \quad انتقال مغناطیسی تک‌ذره}
+\titleline{اعتبارسنجی مسیر ذره با پاسخ‌های منتشرشده}
+در این گزارش مسیر پیش‌بینی‌شده با شبکهٔ عصبی آگاه از فیزیک \lr{(PINN)} با دو مرجع عددی منتشرشده مقایسه می‌شود. مختصات مرجع در حل حرکت به‌عنوان هدف آموزشی استفاده نشده‌اند.
+\subhead{هندسه و شرایط ورودی}
+ذرهٔ کروی اکسید آهن روی محور یک ریزرگ استوانه‌ای در $z=-4R_{\mathrm{mag}}$ رها می‌شود. جریان پوازوی با سرعت متوسط $\bar v_f=15\,\mathrm{mm/s}$ تجویز شده است. شعاع رگ $R_v=75\,\mu\mathrm m$ و شعاع آهنربا $R_{\mathrm{mag}}=20\,\mathrm{mm}$ است. فاصلهٔ محور رگ تا مرکز آهنربا $d=(1+\beta)R_{\mathrm{mag}}$ است. دو فاصلهٔ $40$ و $45\,\mathrm{mm}$ و پنج شعاع ذره از $400$ تا $600\,\mathrm{nm}$ بررسی شدند.
+\panel{magnetic_geometry}{شکل ۱. نمای شماتیک رگ، جهت جریان، نقطهٔ رهاسازی و آهنربای استوانه‌ای.}
+\subhead{معادلات و فیزیک حاکم}
+در مدل کاهش‌یافتهٔ فرلانی و انگ، حرکت عرضی از تعادل نیروی مغناطیسی و درگ استوکس به دست می‌آید. سرعت محوری ذره از پروفیل پوازوی گرفته می‌شود. با $X=x/R_v$، $Z=z/d$ و $\tau=2\bar v_ft/d$ داریم
+\[
+ \frac{dX}{d\tau}=-\frac{C}{(1+Z^2)^3},\qquad
+ \frac{dZ}{d\tau}=1-X^2,\qquad
+ C=\frac{3\mu_0R_p^2M_s^2}{18\eta R_v\bar v_f(1+\beta)^4}.
+\]
+مغناطش آهنربا $M_s=10^6\,\mathrm{A/m}$ و ویسکوزیتهٔ مؤثر $\eta\simeq3.277\,\mathrm{mPa\,s}$ است. شبکهٔ زمان‌ورودی با شرط اولیهٔ سخت و با کمینه‌کردن باقیماندهٔ همین دو معادله در پنجره‌های زمانی بازآموزی شد.
+\subhead{مقایسهٔ مسیر}
+\panel{magnetic_comparison}{شکل ۲. خط‌چین‌های سیاه پاسخ تحلیلی معادلهٔ ۵۹ مرجع \lr{[1]} را برای هر شعاع نشان می‌دهند. نشانگرهای رنگی و توخالی خروجی \lr{PINN} هستند و رنگ و شکل آن‌ها شعاع ذره را مشخص می‌کند. رسیدن به خط افقیِ $|x|/R_v=1$ رویداد جذب است.}
+\folio{۱}
+
+\clearpage
+\topline{۱ \quad انتقال مغناطیسی تک‌ذره}
+\titleline{خطای مسیر و محل جذب}
+خطای عرضی در مختصات محوری مشترک با استفاده از مقادیر خروجی شبکه سنجیده شد. مقادیر نقطه‌ای فقط در بخش مشترک تا پیش از رویداد و برای $|X_{\rm PINN}|<0.98$ محاسبه شدند. محل جذب جداگانه از موقعیت محوری در $X=-1$ به دست آمد. نقاط با خطای کمتر از $10^{-8}$ در نمودار لگاریتمی روی کف نمایش قرار گرفته‌اند.
+\panel{magnetic_error}{شکل ۳. قدرمطلق خطای مسیر روی محور لگاریتمی مشترک. خط‌چین، آستانهٔ ازپیش‌تعریف‌شدهٔ \lr{Master6} به اندازهٔ $0.005R_v$ است.}
+\subhead{خطا برای هر شعاع و فاصله}
+\begin{otherlanguage}{english}
+\small\setlength{\parskip}{1pt}
+\tableline
+\MagRow{$\beta$}{$R_p$ (nm)}{RMSE ($\mu$m)}{Max ($\mu$m)}{Outcome}{Capture error ($\mu$m)}
+\tableline
+\input{data/magnetic_rows.tex}
+\tableline
+\end{otherlanguage}
+بیشترین خطای عرضی در اجرای تازه $\MagMax\,\mu\mathrm m$، معادل $\MagPct\%$ شعاع رگ بود. در هر ۱۰ حالت برچسب جذب یا عبور با مرجع یکسان بود. از میان \MagCaptureCount\ حالت جذب، بیشترین اختلاف در مکان محوری جذب $\MagCaptureMax\,\mu\mathrm m$ بود.
+\panel{magnetic_capture}{شکل ۴. خطای علامت‌دار محل جذب، $\Delta z_{\rm cap}=z_{\rm cap,PINN}-z_{\rm cap,ref}$. مقدار مثبت یعنی جذب دورتر در جهت جریان پیش‌بینی شده است. فقط شش حالت جذب در نمودار آمده‌اند.}
+مرجع این آزمون، حل تحلیلی تک‌ذره در میدان ثابت و جریان تجویزشده است.
+\folio{۲}
+
+\clearpage
+\topline{۲ \quad تمرکز اینرسی در کانال موج‌دار}
+\titleline{حرکت ذره در کانال صاف و موج‌دار}
+\subhead{هندسه و شرایط ورودی}
+کانال صفحه‌ای با نیم‌عرض متوسط $h$ و دیواره‌های $Z=\pm[1-\epsilon_w\cos(\omega X)]$ در نظر گرفته شد. مختصات $X$ و $Z$ با $h$ بی‌بعدند. جریان پایاست و با گرادیان فشار رانده می‌شود. ذره با چگالی برابر سیال از $(X_p,Z_p)=(0,0.1)$ رها شد. مطابق شکل \lr{9(a-2)} مرجع \lr{[2]}، $R_c=10$، $\omega=2$ و $\epsilon=0.2$ در هر سه حالت ثابت‌اند. در بازتولید، سرعت اولیهٔ ذره برابر سرعت موضعی سیال فرض شد.
+\panel{wavy_geometry}{شکل ۵. هندسهٔ بی‌بعد و نقطهٔ رهاسازی. برای خوانایی، تنها سه دوره از کانال و دامنهٔ موج $0.10$ نمایش داده شده‌اند.}
+\subhead{معادلات و فیزیک حاکم}
+میدان حامل از برهم‌نهی پوازوی صفحه‌ای و تصحیح مرتبهٔ اولِ معادلهٔ ۲٫۵ به دست آمد. معادلهٔ حرکت ذره شکل کاهش‌یافتهٔ مکسی و رایلی در معادلهٔ ۵٫۴ است. با زمانِ بی‌بعد بر اساس $h/U_m$ و $\kappa=2\epsilon^2/3$،
+\[
+ \kappa\ddot{\boldsymbol r}_p+\dot{\boldsymbol r}_p
+ =\boldsymbol V+\kappa(\boldsymbol V\!\cdot\!\nabla)\boldsymbol V
+ +\frac{F_{L,z}^{(0)}}{6\pi}\boldsymbol e_z .
+\]
+نیروی برآی مرتبهٔ صفر از منحنی $R_c=10$ شکل ۶ مقاله استخراج و با درون‌یابی شکل‌نگهدار وارد معادله شد. حرکت با شبکهٔ پنجره‌ای و هم‌مکانی باقیمانده در راستای $X_p$ حل شد.
+\subhead{مقایسهٔ مسیر و پوش نوسان}
+\panel{wavy_comparison}{شکل ۶. در کانال صاف، خود مسیر مقایسه شده است. در دو کانال موج‌دار، ناحیهٔ سایه‌دار پوش نوسان استخراج‌شده از شکل \lr{9(a-2)} است. خطوط رنگی حد پایین و بالای مسیر محاسبه‌شده در هر دورهٔ مکانی‌اند.}
+\folio{۳}
+
+\clearpage
+\topline{۲ \quad تمرکز اینرسی در کانال موج‌دار}
+\titleline{خطای عرضی و موقعیت نهایی تمرکز}
+برای کانال صاف، اختلاف علامت‌دار $Z_{p,\mathrm{PINN}}-Z_{p,\mathrm{ref}}$ در $10\le X_p\le1990$ گزارش شد. در کانال موج‌دار، خطای هر دو مرز پوش بر ۶۲۱ دوره در بازهٔ $20\le X_p\le1980$ ارزیابی شد. سه دورهٔ واقع بر اتصال مسیرهای برداری در هر حالت موج‌دار از محاسبهٔ خطا کنار گذاشته شدند.
+\panel{wavy_error}{شکل ۷. مقیاس خطای عرضی در هر سه پنل یکسان است. جابه‌جایی پوش در دامنهٔ $0.10$ در بخش توسعهٔ مسیر و در ناحیهٔ تمرکز دیده می‌شود.}
+\subhead{مقایسهٔ کمی}
+\begin{otherlanguage}{english}
+\small\setlength{\parskip}{1pt}
+\tableline
+\WaveRow{$\epsilon_w$}{Published final $Z_p$}{PINN final $Z_p$}{RMSE}{Max $|\Delta Z_p|$}
+\tableline
+\input{data/wavy_rows.tex}
+\tableline
+\end{otherlanguage}
+خطاها برحسب مختصات عرضی بی‌بعدند. برای کانال موج‌دار، \lr{RMSE} به‌صورت تجمیعی روی خطای هر دو مرز پوش و موقعیت نهایی به‌صورت میانهٔ مرزها در $1800<X_p<1950$ به دست آمد. بیشترین اختلافِ \lr{PINN} با انتگرال‌گیر مستقل همان معادله $9.88\times10^{-7}$ بود. این مقایسه نشان می‌دهد اختلاف با شکل مقاله عمدتاً از تقریب عددیِ حل عصبی نمی‌آید. سهم جداگانهٔ تقریب نیروی برآ، فرض سرعت اولیه و استخراج نمودار در اختلاف با مقاله تعیین نشده است.
+\panel{wavy_focusing}{شکل ۸. نقطهٔ تمرکز در کانال صاف و بازهٔ نوسان نهایی در کانال‌های موج‌دار. انتهای هر خط حدود نوسان مسیر را نشان می‌دهد. در دامنهٔ موج $0.10$ هر دو حد به سمت $Z_p$ بزرگ‌تر جابه‌جا شده‌اند.}
+\subhead{دامنهٔ نتیجه}
+این آزمون مسیر تک‌ذره را با پاسخ شبیه‌سازی مقاله مقایسه می‌کند و به نیروی برآی واردشده از شکل ۶ مشروط است. شکل ۹ فقط در مرحلهٔ ارزیابی استفاده شد.
+\folio{۴}
+
+\clearpage
+\topline{۳ \quad مقایسه با رویهٔ مقالات}
+\titleline{مقالات چه چیزی را اعتبارسنجی کردند؟}
+\subhead{\lr{Furlani \& Ng (2006)} \lr{[1]}}
+در شکل‌های ۴ و ۵، میدان و نیروی تحلیلی با حل اجزای محدود مقایسه می‌شوند. شکل ۸ مسیرهای پیش‌بینی‌شده را نشان می‌دهد. بنچمارک مغناطیسی ما مسیر و رویداد جذب را نسبت به همین مدل تحلیلی می‌سنجد. نمودار محل جذب، اطلاعات مکملِ خطای عرضی مسیر را نشان می‌دهد.
+\subhead{\lr{Mao et al. (2023)} \lr{[2]}}
+شکل ۹ پاسخ شبیه‌سازی مسیر است. در شکل ۱۱، مکان تمرکزِ پیش‌بینی‌شده با اندازه‌گیری آزمایشگاهی در مقطع پایین‌دست مقایسه می‌شود. گزارش ما مسیر و پوش شکل ۹ را بازتولید می‌کند و موقعیت یا بازهٔ نهایی تمرکز را جداگانه نشان می‌دهد. اعتبارسنجی آزمایشگاهیِ شکل ۱۱ مستلزم مقایسه در شرایط همان آزمایش است.
+\subhead{\lr{Xu et al. (2020)} \lr{[3]}}
+در شکل \lr{2d}، مکان نهایی مهره‌های مغناطیسی در شبیه‌سازی و آزمایش برای چند دبی و چند موقعیت آهنربا کنار هم آمده است. این مثال نشان می‌دهد چرا کمیت نهایی باید مستقیماً سنجیده شود. در بنچمارک ما، کمیت متناظر محل محوری جذب است و مرجع آن تحلیلی است.
+\subhead{\lr{ten Cate et al. (2002)} \lr{[4]}}
+در شکل ۸، مسیر و سرعت ته‌نشینی اندازه‌گیری‌شده در کنار پیش‌بینی عددی آمده‌اند. دو اجرای آزمایش در شکل ۵ تکرارپذیری را نشان می‌دهند. گزارش ما از اصل نمایش مسیر و کمیت مکمل در پنل‌های مستقل استفاده می‌کند. داده‌های ته‌نشینی به هندسه و فیزیک آن آزمایش تعلق دارند.
+\subhead{\lr{Wan et al. (2026)} \lr{[5]}}
+در \lr{TrajectoryFlowNet}، جدول \lr{S.4} خطای نسبی $\ell_2$ مکان و سرعت را برای مجموعهٔ آزمون به تفکیک مؤلفه و سناریو گزارش می‌کند. در گزارش حاضر نیز هر حالت جداگانه گزارش می‌شود. تعریف خطا و نوع مرجع باید هنگام خواندن درصدها همراه نتیجه بمانند.
+\subhead{منابع}
+{\small\begin{otherlanguage}{english}
+[1] Furlani, E.~P. and Ng, K.~C. (2006). \emph{Analytical model of magnetic nanoparticle transport and capture in the microvasculature}. Physical Review E 73, 061919. \href{https://doi.org/10.1103/PhysRevE.73.061919}{DOI}.
+
+[2] Mao, X., Bischofberger, I. and Hosoi, A.~E. (2023). \emph{Particle focusing in a wavy channel}. Journal of Fluid Mechanics 968, A25. \href{https://doi.org/10.1017/jfm.2023.558}{DOI}.
+
+[3] Xu, Y. et al. (2020). \emph{Continuous microfluidic purification of DNA using magnetophoresis}. Micromachines 11, 187. \href{https://doi.org/10.3390/mi11020187}{DOI}.
+
+[4] ten Cate, A. et al. (2002). \emph{Particle imaging velocimetry experiments and lattice-Boltzmann simulations on a single sphere settling under gravity}. Physics of Fluids 14, 4012--4025. \href{https://doi.org/10.1063/1.1512918}{DOI}.
+
+[5] Wan, J. et al. (2026). \emph{Lagrangian--Eulerian learning of flow field and trajectories with TrajectoryFlowNet}. Nature Machine Intelligence. \href{https://doi.org/10.1038/s42256-026-01316-7}{DOI}.
+\end{otherlanguage}}
+\folio{۵}
+\end{document}

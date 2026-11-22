@@ -1,0 +1,160 @@
+{
+  "seed": 42,
+  "device": "cpu",
+  "dtype": "float64",
+  "seconds": 54.53250538599991,
+  "events": [
+    "exit",
+    "capture",
+    "capture",
+    "capture",
+    "capture",
+    "exit",
+    "exit",
+    "exit",
+    "capture",
+    "capture"
+  ],
+  "history": [
+    {
+      "segment": 0,
+      "tau_start": 0.0,
+      "loss": 5.022651828072765e-08,
+      "heldout_residual_rms": 0.00021794650854477552
+    },
+    {
+      "segment": 1,
+      "tau_start": 0.5,
+      "loss": 6.18618606968012e-08,
+      "heldout_residual_rms": 0.0002414466558218375
+    },
+    {
+      "segment": 2,
+      "tau_start": 1.0,
+      "loss": 7.359939372589419e-08,
+      "heldout_residual_rms": 0.0002648788876790551
+    },
+    {
+      "segment": 3,
+      "tau_start": 1.5,
+      "loss": 4.8532864611431684e-08,
+      "heldout_residual_rms": 0.00021441135532851782
+    },
+    {
+      "segment": 4,
+      "tau_start": 2.0,
+      "loss": 2.7619936504504577e-07,
+      "heldout_residual_rms": 0.0005101621441288503
+    },
+    {
+      "segment": 5,
+      "tau_start": 2.5,
+      "loss": 6.273176790853279e-08,
+      "heldout_residual_rms": 0.00024375451661660778
+    },
+    {
+      "segment": 6,
+      "tau_start": 3.0,
+      "loss": 5.3148008904234845e-08,
+      "heldout_residual_rms": 0.0002243673513845699
+    },
+    {
+      "segment": 7,
+      "tau_start": 3.5,
+      "loss": 1.1594326251754182e-07,
+      "heldout_residual_rms": 0.0003304933713410904
+    },
+    {
+      "segment": 8,
+      "tau_start": 4.0,
+      "loss": 1.8052888462151003e-08,
+      "heldout_residual_rms": 0.00013052074276557064
+    },
+    {
+      "segment": 9,
+      "tau_start": 4.5,
+      "loss": 3.935828312182661e-08,
+      "heldout_residual_rms": 0.00019296616723043437
+    },
+    {
+      "segment": 10,
+      "tau_start": 5.0,
+      "loss": 2.132054488785613e-08,
+      "heldout_residual_rms": 0.00014188657007517929
+    },
+    {
+      "segment": 11,
+      "tau_start": 5.5,
+      "loss": 5.731241752797226e-08,
+      "heldout_residual_rms": 0.00023300941906120808
+    },
+    {
+      "segment": 12,
+      "tau_start": 6.0,
+      "loss": 7.797369876653662e-08,
+      "heldout_residual_rms": 0.00027163102199845285
+    },
+    {
+      "segment": 13,
+      "tau_start": 6.5,
+      "loss": 4.446961146729783e-09,
+      "heldout_residual_rms": 6.452176195846478e-05
+    },
+    {
+      "segment": 14,
+      "tau_start": 7.0,
+      "loss": 9.28079714219752e-10,
+      "heldout_residual_rms": 2.9501828547525176e-05
+    },
+    {
+      "segment": 15,
+      "tau_start": 7.5,
+      "loss": 9.823052559998505e-09,
+      "heldout_residual_rms": 9.624135729271525e-05
+    },
+    {
+      "segment": 16,
+      "tau_start": 8.0,
+      "loss": 2.1853860353786604e-08,
+      "heldout_residual_rms": 0.0001439404518770534
+    },
+    {
+      "segment": 17,
+      "tau_start": 8.5,
+      "loss": 3.7561457295581125e-08,
+      "heldout_residual_rms": 0.00019036836317231362
+    },
+    {
+      "segment": 18,
+      "tau_start": 9.0,
+      "loss": 6.96122297166603e-08,
+      "heldout_residual_rms": 0.0002573499465346079
+    },
+    {
+      "segment": 19,
+      "tau_start": 9.5,
+      "loss": 1.5685589123097743e-08,
+      "heldout_residual_rms": 0.00012232401436409123
+    },
+    {
+      "segment": 20,
+      "tau_start": 10.0,
+      "loss": 3.630764973424079e-09,
+      "heldout_residual_rms": 5.81225713968498e-05
+    },
+    {
+      "segment": 21,
+      "tau_start": 10.5,
+      "loss": 1.1396986539309006e-07,
+      "heldout_residual_rms": 0.00032771100562877117
+    }
+  ],
+  "settings": {
+    "slab": 0.5,
+    "adam_steps": 200,
+    "lbfgs_steps": 800,
+    "collocation": 129,
+    "max_slabs": 40
+  },
+  "training_data": "ODE residuals + hard initial conditions only; no analytical trajectories, no solve_ivp, no fitted physical parameters"
+}

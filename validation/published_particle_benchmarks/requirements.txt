@@ -1,0 +1,8 @@
+# Rebuild figures / verify CSV metrics:
+numpy
+scipy
+matplotlib
+# Re-extract the official wavy paper PDF:
+PyMuPDF
+# Only needed for NEW magnetic training:
+torch

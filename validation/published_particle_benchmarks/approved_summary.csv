@@ -1,0 +1,5 @@
+benchmark,case,metric,rmse,max_abs_error,normalization
+magnetic,all_10,max_over_cases_pre_capture,,0.0008456598410979677,Rv
+wavy,0.0,trajectory,0.0005018973947132549,0.0009802927720160004,h
+wavy,0.05,pooled_two_bound_envelope,0.004535250781434164,0.009285125085277124,h
+wavy,0.1,pooled_two_bound_envelope,0.01120232779894715,0.018175638923541237,h

@@ -1,0 +1,80 @@
+{
+  "review_date": "2026-11-22",
+  "review_type": "source inspection and recomputation from saved comparison CSVs; no training rerun",
+  "magnetic_max_abs_error_Rv": 0.0008456598410979677,
+  "magnetic_max_capture_error_Rmag": 5.090842831555198e-05,
+  "events_match": 10,
+  "cases": 10,
+  "wavy_cases": [
+    {
+      "waviness": 0.0,
+      "max_residual": [
+        3.817196973517176e-07,
+        3.7017253443335076e-07,
+        1.4315061400954306e-05
+      ],
+      "max_pinn_vs_ode": 7.10472169984655e-09,
+      "max_neural_refinement_change": 6.024710656193921e-07,
+      "figure_rmse": 0.0005018973947132549,
+      "figure_max_abs_error": 0.0009802927720160004,
+      "published_plateau": 0.6264561653218161,
+      "neural_plateau": 0.6266634967793733
+    },
+    {
+      "waviness": 0.05,
+      "max_residual": [
+        3.209632141176755e-07,
+        3.2361235843817205e-07,
+        1.1998422709916853e-05
+      ],
+      "max_pinn_vs_ode": 2.562074885581467e-07,
+      "max_neural_refinement_change": 5.322329249823898e-07,
+      "figure_envelope_rmse": 0.004535250781434164,
+      "figure_envelope_max_abs_error": 0.009285125085277124,
+      "published_plateau": [
+        0.5998667359732635,
+        0.6471927339708144
+      ],
+      "neural_plateau": [
+        0.6023567903980495,
+        0.6503725829564795
+      ],
+      "figure_envelope_period_count": 621,
+      "interpolated_pdf_join_centers": [
+        1182.8096340765571,
+        1185.9512267301468,
+        1189.0928193837367
+      ]
+    },
+    {
+      "waviness": 0.1,
+      "max_residual": [
+        2.7147994772873385e-07,
+        2.835800041415653e-07,
+        1.0104436909205412e-05
+      ],
+      "max_pinn_vs_ode": 9.884317609953897e-07,
+      "max_neural_refinement_change": 4.7106455100531797e-07,
+      "figure_envelope_rmse": 0.01120232779894715,
+      "figure_envelope_max_abs_error": 0.018175638923541237,
+      "published_plateau": [
+        0.5705032984590911,
+        0.6632272105141364
+      ],
+      "neural_plateau": [
+        0.5778944201487773,
+        0.6730745900128767
+      ],
+      "figure_envelope_period_count": 621,
+      "interpolated_pdf_join_centers": [
+        1201.6591899980958,
+        1204.8007826516857,
+        1207.9423753052754
+      ]
+    }
+  ],
+  "source_sha256": {
+    "particle_benchmark_report (2).pdf": "01b1e852f0ce6bfbe6927d99c3eb35bf5af54688d8954829724062fbfb22b505",
+    "particle_benchmark_latex_and_data(1).zip": "c5f5cbe00204e039ba20c242ebc2a78239dabe213688922f4d22a46e59aa8403"
+  }
+}
