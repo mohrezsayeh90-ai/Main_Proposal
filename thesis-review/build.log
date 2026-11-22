@@ -1,0 +1,4108 @@
+Rc files read:
+  /etc/LatexMk
+Latexmk: This is Latexmk, John Collins, 11 Dec. 2024. Version 4.86.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'xelatex' forced or previously required:
+    Reason or flag: 'Initial setup'
+
+------------
+Run number 1 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -interaction=nonstopmode -halt-on-error -file-line-error -recorder  "thesis.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./thesis.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo)) (./styles/common.tex
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/latex/pstricks/
+pstricks.sty (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+
+Package xcolor Warning: Package option `usenames' is obsolete and ignored on in
+put line 265.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def)
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex))))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/pstricks.tex
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/pst-fp.tex `pst-fp' v0.06, 2020/11/20 (hv))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/latex/pgf/utili
+ties/pgffor.sty
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/latex/pgf/utili
+ties/pgfrcs.sty
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/uti
+lities/pgfutil-common.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/uti
+lities/pgfutil-latex.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/uti
+lities/pgfrcs.code.tex
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf
+.revision.tex)))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/latex/pgf/utili
+ties/pgfkeys.sty
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/uti
+lities/pgfkeys.code.tex
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/uti
+lities/pgfkeyslibraryfiltered.code.tex)))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/latex/pgf/math/
+pgfmath.sty
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmath.code.tex
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathutil.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathparser.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.basic.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.trigonometric.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.random.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.comparison.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.base.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.round.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.misc.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.integerarithmetics.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathcalc.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfloat.code.tex)))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/uti
+lities/pgffor.code.tex))
+`PSTricks' v3.21  <2024/11/16> (tvz,hv)
+--- We are running latex or xelatex ---
+(/usr/share/texlive/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/config/xdvipdfmx.cfg))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/pstricks-color.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/pstricks-arrows.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/pstricks-dots.tex)
+(/usr/share/texlive/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/config/xdvipdfmx.cfg
+Using PSTricks configuration for LaTeX+dvipdfmx
+)))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/pst-fp.tex `pst-fp' v0.06, 2020/11/20 (hv))
+>>> Loading XeTeX special macros
+
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/pstricks-xetex.def))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/euscript.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/latex/algorithm
+icx/algorithmicx.sty (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/latex/algorithm
+s/algorithm.sty (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty))
+(./styles/review-highlights.tex
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidihl/
+bidihl.sty) (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-abspage.sty
+(/usr/share/texlive/texmf-dist/tex/latex/zref/zref-base.sty
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty))))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/xepersian.sty
+****************************************************
+* 
+* xepersian package (Persian for LaTeX, using XeTeX engine)
+* 
+* Description: The package supports Persian
+* typesetting, using fonts provided in the
+* distribution.
+* 
+* Copyright (c) 2008--2025 Vafa Khalighi
+* Copyright (c) 2018--2020 bidi-tex GitHub Organization
+* 
+* v25.2.2 (Release Persian Gate), 2025/02/02
+* 
+* License: LaTeX Project Public License, version
+* 1.3c or higher (your choice)
+* 
+* Location on CTAN: /macros/xetex/latex/xepersian
+* 
+* Issue tracker: https://github.com/xepersian/xepersian/issues
+* 
+* Discussions: https://github.com/xepersian/xepersian/discussions
+* 
+* Primary author of xepersian package: Vafa Khalighi.
+* 
+****************************************************
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/xepersian-persiancal.sty)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/unicode-persianmath.sty)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/bi
+di.sty
+****************************************************
+* 
+* bidi package (Bidirectional typesetting in
+* plain TeX and LaTeX, using XeTeX engine)
+* 
+* Description: A convenient interface for
+* typesetting bidirectional texts in plain TeX
+* and LaTeX. The package includes adaptations
+* for use with many other commonly-used packages.
+* 
+* Copyright (c) 2007--2025 Vafa Khalighi
+* Copyright (c) 2018--2020 bidi-tex GitHub organization
+* 
+* v25.2.2 (Release Maryam Mirzakhani), 2025/02/02
+* 
+* License: LaTeX Project Public License, version
+* 1.3c or higher (your choice)
+* 
+* Location on CTAN: /macros/xetex/latex/bidi
+* 
+* Issue tracker: https://github.com/xepersian/bidi/issues
+* 
+* Discussions: https://github.com/xepersian/bidi/discussions
+* 
+* Primary author of bidi package: Vafa Khalighi.
+* 
+****************************************************
+
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/bi
+ditools.sty)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/la
+tex-xetex-bidi.def
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/fo
+otnote-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/am
+smath-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/am
+stext-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/ca
+ption-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/ca
+ption3-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/co
+lor-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/fl
+oat-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/ge
+ometry-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/gr
+aphicx-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/hy
+perref-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/mu
+lticol-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/su
+bfigure-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/wr
+apfig-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/xc
+olor-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/ps
+tricks-xetex-bidi.def))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/ex
+trafootnotefeatures-xetex-bidi.def))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/footnote-xetex-bidi-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/extrafootnotefeatures-xetex-bidi-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/book-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/algorithm-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/hyperref-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/url-xetex-xepersian.def))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/localize-xetex-xepersian.def
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/latex-localize-commands-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/xepersian-localize-commands-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/latex-localize-environments-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/xepersian-localize-environments-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/latex-localize-messages-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/latex-localize-misc-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/packages-localize-xetex-xepersian.def
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/color-localize-xetex-xepersian.def)))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/latex/algorithm
+icx/algpseudocode.sty
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (./styles/alg-fa.tex)) (./styles/custom.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/bo
+ok-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/fl
+oat-xetex-bidi.def) (./thesis.aux)
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+(./front/info.tex) (./front/template/title.tex)
+[1] (./front/acknowledge.tex)
+[1] (./front/abstract.tex
+[2])
+No file thesis.toc.
+
+[3]
+No file thesis.lot.
+
+[4]
+No file thesis.lof.
+
+[5] (./chapters/introduction.tex
+فصل 1.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 24.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 26.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 28.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 30.
+
+
+[1]
+
+LaTeX Warning: Citation `knuth1984texbook' on page 2 undefined on input line 39
+.
+
+
+LaTeX Warning: Citation `lamport1985LaTeX' on page 2 undefined on input line 39
+.
+
+)
+[2] (./chapters/literature.tex
+فصل 2.
+
+LaTeX Warning: Citation `SquiresQuake2005' on page 3 undefined on input line 12
+.
+
+
+LaTeX Warning: Citation `Raissi2019PINN' on page 3 undefined on input line 26.
+
+
+LaTeX Warning: Citation `Kovachki2023NeuralOperator' on page 3 undefined on inp
+ut line 26.
+
+
+[3]
+
+LaTeX Warning: Citation `SquiresQuake2005' on page 4 undefined on input line 59
+.
+
+
+LaTeX Warning: Citation `SquiresQuake2005' on page 4 undefined on input line 64
+.
+
+
+[4]
+
+LaTeX Warning: Citation `Bruus2014Governing' on page 5 undefined on input line 
+96.
+
+
+LaTeX Warning: Citation `Bruus2014Governing' on page 5 undefined on input line 
+104.
+
+
+LaTeX Warning: Citation `Bruus2014Governing' on page 5 undefined on input line 
+110.
+
+
+LaTeX Warning: Citation `ProvencherLanglois2015' on page 5 undefined on input l
+ine 122.
+
+
+LaTeX Warning: Citation `MaxeyRiley1983' on page 5 undefined on input line 127.
+
+
+
+LaTeX Warning: Citation `ProvencherLanglois2015' on page 5 undefined on input l
+ine 132.
+
+
+[5]
+
+LaTeX Warning: Citation `MorsiAlexander1972' on page 6 undefined on input line 
+147.
+
+
+LaTeX Warning: Citation `MorsiAlexander1972' on page 6 undefined on input line 
+153.
+
+
+LaTeX Warning: Citation `ProvencherLanglois2015' on page 6 undefined on input l
+ine 167.
+
+
+LaTeX Warning: Citation `Furlani2006Transport' on page 6 undefined on input lin
+e 167.
+
+
+LaTeX Warning: Citation `Furlani2006Transport' on page 6 undefined on input lin
+e 173.
+
+
+LaTeX Warning: Citation `ProvencherLanglois2015' on page 6 undefined on input l
+ine 177.
+
+
+LaTeX Warning: Citation `Furlani2006Transport' on page 6 undefined on input lin
+e 186.
+
+
+LaTeX Warning: Citation `Furlani2006Transport' on page 6 undefined on input lin
+e 190.
+
+
+[6]
+
+LaTeX Warning: Citation `Furlani2006Transport' on page 7 undefined on input lin
+e 199.
+
+
+LaTeX Warning: Citation `SquiresQuake2005' on page 7 undefined on input line 20
+3.
+
+
+LaTeX Warning: Citation `SquiresQuake2005' on page 7 undefined on input line 20
+7.
+
+
+LaTeX Warning: Citation `Goodfellow2016' on page 7 undefined on input line 229.
+
+
+
+[7]
+
+LaTeX Warning: Citation `Goodfellow2016' on page 8 undefined on input line 250.
+
+
+
+LaTeX Warning: Citation `Lagaris1998' on page 8 undefined on input line 258.
+
+
+LaTeX Warning: Citation `Baydin2018' on page 8 undefined on input line 265.
+
+
+LaTeX Warning: Citation `Baydin2018' on page 8 undefined on input line 272.
+
+
+LaTeX Warning: Citation `Lagaris1998' on page 8 undefined on input line 287.
+
+
+LaTeX Warning: Citation `Raissi2019PINN' on page 8 undefined on input line 293.
+
+
+
+[8]
+
+LaTeX Warning: Citation `Raissi2019PINN' on page 9 undefined on input line 352.
+
+
+
+[9]
+
+LaTeX Warning: Citation `SukumarSrivastava2022' on page 10 undefined on input l
+ine 368.
+
+
+LaTeX Warning: Citation `SukumarSrivastava2022' on page 10 undefined on input l
+ine 374.
+
+
+LaTeX Warning: Citation `Raissi2019PINN' on page 10 undefined on input line 379
+.
+
+
+LaTeX Warning: Citation `WangTengPerdikaris2021' on page 10 undefined on input 
+line 397.
+
+
+[10]
+
+LaTeX Warning: Citation `Wu2023Sampling' on page 11 undefined on input line 421
+.
+
+
+LaTeX Warning: Citation `Rathore2024' on page 11 undefined on input line 435.
+
+
+LaTeX Warning: Citation `Rathore2024' on page 11 undefined on input line 446.
+
+
+[11]
+
+LaTeX Warning: Citation `Khademi2025' on page 12 undefined on input line 485.
+
+
+LaTeX Warning: Citation `Khademi2025' on page 12 undefined on input line 492.
+
+
+LaTeX Warning: Reference `sec:lit-timed-flow-inverse' on page 12 undefined on i
+nput line 496.
+
+
+LaTeX Warning: Citation `Steinfurth2024' on page 12 undefined on input line 497
+.
+
+
+LaTeX Warning: Reference `sec:lit-timed-flow-inverse' on page 12 undefined on i
+nput line 501.
+
+
+LaTeX Warning: Citation `Wan2026TrajectoryFlowNet' on page 12 undefined on inpu
+t line 502.
+
+
+[12]
+
+LaTeX Warning: Citation `Kovachki2023NeuralOperator' on page 13 undefined on in
+put line 528.
+
+
+LaTeX Warning: Citation `lu2021deeponet' on page 13 undefined on input line 565
+.
+
+
+LaTeX Warning: Citation `wang2021pideeponet' on page 13 undefined on input line
+ 573.
+
+
+LaTeX Warning: Citation `Kovachki2023NeuralOperator' on page 13 undefined on in
+put line 573.
+
+
+[13]
+
+LaTeX Warning: Citation `Kovachki2023NeuralOperator' on page 14 undefined on in
+put line 589.
+
+
+LaTeX Warning: Citation `lu2021deeponet' on page 14 undefined on input line 599
+.
+
+
+[14]
+
+LaTeX Warning: Citation `lu2021deeponet' on page 15 undefined on input line 633
+.
+
+
+LaTeX Warning: Citation `Kovachki2023NeuralOperator' on page 15 undefined on in
+put line 639.
+
+
+LaTeX Warning: Citation `Bahmani2025RINO' on page 15 undefined on input line 65
+7.
+
+
+LaTeX Warning: Citation `lu2021deeponet' on page 15 undefined on input line 664
+.
+
+
+LaTeX Warning: Reference `tab:lit-operator-counts' on page 15 undefined on inpu
+t line 667.
+
+
+[15]
+
+LaTeX Warning: Citation `wang2021pideeponet' on page 16 undefined on input line
+ 699.
+
+
+LaTeX Warning: Citation `wang2021pideeponet' on page 16 undefined on input line
+ 743.
+
+
+[16]
+
+LaTeX Warning: Citation `SukumarSrivastava2022' on page 17 undefined on input l
+ine 759.
+
+
+LaTeX Warning: Citation `Huang2025DONIS' on page 17 undefined on input line 784
+.
+
+
+LaTeX Warning: Citation `Yang2026PIDeepONet' on page 17 undefined on input line
+ 792.
+
+
+[17]
+
+LaTeX Warning: Citation `lu2021deeponet' on page 18 undefined on input line 809
+.
+
+
+LaTeX Warning: Citation `wang2021pideeponet' on page 18 undefined on input line
+ 809.
+
+
+LaTeX Warning: Citation `Lu2022FairComparison' on page 18 undefined on input li
+ne 857.
+
+
+[18]
+
+LaTeX Warning: Citation `Onishi2026FlowConditions' on page 19 undefined on inpu
+t line 867.
+
+
+LaTeX Warning: Citation `Onishi2026FlowConditions' on page 19 undefined on inpu
+t line 876.
+
+
+LaTeX Warning: Citation `CruzGonzalez2026Vascular' on page 19 undefined on inpu
+t line 885.
+
+
+LaTeX Warning: Citation `Li2024PINO' on page 19 undefined on input line 894.
+
+
+LaTeX Warning: Reference `tab:lit-variable-inlet-studies' on page 19 undefined 
+on input line 896.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 908--909
+[][]\TU/XBNiloofar(0)/m/n/12 دامنهٔ بسته و خانوادهٔ[]
+
+Underfull \hbox (badness 2384) in paragraph at lines 910--910
+[][]\TU/XBNiloofar(0)/m/n/12 کروز گونزالس،[]
+
+Underfull \hbox (badness 2680) in paragraph at lines 910--910
+[][]\TU/XBNiloofar(0)/m/n/12 شدت ورودی و شرایط[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 910--910
+[][]\TU/XBNiloofar(0)/m/n/12 دادهٔ عددی و قیود[]
+
+Underfull \hbox (badness 6625) in paragraph at lines 911--911
+[][]\TU/XBNiloofar(0)/m/n/12 خانواده‌های معادلات و[]
+
+Underfull \hbox (badness 2735) in paragraph at lines 911--912
+[][]\TU/XBNiloofar(0)/m/n/12 معماری طیفی و نقش[]
+
+[19]
+[20]
+
+LaTeX Warning: Citation `lu2021deeponet' on page 21 undefined on input line 957
+.
+
+
+LaTeX Warning: Citation `Wang2023LongTime' on page 21 undefined on input line 9
+94.
+
+
+[21]
+
+LaTeX Warning: Citation `Liu2024Causality' on page 22 undefined on input line 1
+062.
+
+
+[22]
+
+LaTeX Warning: Citation `Mandl2026PITI' on page 23 undefined on input line 1095
+.
+
+
+LaTeX Warning: Citation `Fan2026MagneticBed' on page 23 undefined on input line
+ 1104.
+
+
+LaTeX Warning: Reference `tab:lit-temporal-operator-studies' on page 23 undefin
+ed on input line 1113.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1125--1125
+[][]\TU/XBNiloofar(0)/m/n/12 اتصال نگاشت‌های تحول[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1126--1126
+[][]\TU/XBNiloofar(0)/m/n/12 لیو و همکاران،[]
+
+Underfull \hbox (badness 5563) in paragraph at lines 1127--1127
+[][]\TU/XBNiloofar(0)/m/n/12 ماندل و همکاران،[]
+
+Underfull \hbox (badness 2302) in paragraph at lines 1127--1127
+[][]\TU/XBNiloofar(0)/m/n/12 یادگیری مشتق و انتگرال‌گیری[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1128--1128
+[][]\TU/XBNiloofar(0)/m/n/12 فن و همکاران،[]
+
+[23]
+[24]
+
+LaTeX Warning: Citation `Shenoy2016StokesTrap' on page 25 undefined on input li
+ne 1167.
+
+
+LaTeX Warning: Citation `Fang2023DataDriven' on page 25 undefined on input line
+ 1175.
+
+
+LaTeX Warning: Citation `Kislaya2025Programmable' on page 25 undefined on input
+ line 1184.
+
+
+LaTeX Warning: Citation `Li2026ParticleArchitecture' on page 25 undefined on in
+put line 1208.
+
+
+[25]
+
+LaTeX Warning: Reference `eq:lit-reference-scales' on page 26 undefined on inpu
+t line 1210.
+
+
+LaTeX Warning: Reference `sec:lit-lagrangian-particle' on page 26 undefined on 
+input line 1211.
+
+
+[26] (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd)
+
+LaTeX Warning: Citation `Erben2024Optofluidic' on page 27 undefined on input li
+ne 1287.
+
+
+LaTeX Warning: Citation `Shum2025HydrodynamicControl' on page 27 undefined on i
+nput line 1295.
+
+
+LaTeX Warning: Citation `Alhashim2025DifferentiableFlow' on page 27 undefined o
+n input line 1303.
+
+
+[27]
+
+LaTeX Warning: Reference `tab:lit-formation-design-comparison' on page 28 undef
+ined on input line 1341.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1350--1351
+[][]\TU/XBNiloofar(0)/m/n/12 تفاوت با طراحی[]
+
+Underfull \hbox (badness 3965) in paragraph at lines 1352--1352
+[][]\TU/XBNiloofar(0)/m/n/12 دبی درگاه‌ها با کنترل[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1353--1353
+[][]\TU/XBNiloofar(0)/m/n/12 فرمان‌های کنترل[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1353--1354
+[][]\TU/XBNiloofar(0)/m/n/12 بازخورد با مدل[]
+
+Underfull \hbox (badness 1097) in paragraph at lines 1354--1354
+[][]\TU/XBNiloofar(0)/m/n/12 هدایت، جداسازی و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1355--1355
+[][]\TU/XBNiloofar(0)/m/n/12 ماژول‌ها، هندسه و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1356--1356
+[][]\TU/XBNiloofar(0)/m/n/12 تحریک‌های اپتوسیالی[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1356--1356
+[][]\TU/XBNiloofar(0)/m/n/12 موقعیت و آرایش[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1356--1357
+[][]\TU/XBNiloofar(0)/m/n/12 تحریک مداوم و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1357--1358
+[][]\TU/XBNiloofar(0)/m/n/12 اتکا به برهم‌کنش[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1358--1358
+[][]\TU/XBNiloofar(0)/m/n/12 پارامترهای طراحی در[]
+
+[28]
+[29]
+
+LaTeX Warning: Reference `eq:lit-reference-scales' on page 30 undefined on inpu
+t line 1395.
+
+
+LaTeX Warning: Citation `MaxeyRiley1983' on page 30 undefined on input line 141
+1.
+
+
+LaTeX Warning: Citation `ZhouGrauer2026Joint' on page 30 undefined on input lin
+e 1437.
+
+
+[30]
+
+LaTeX Warning: Citation `Raissi2020HFM' on page 31 undefined on input line 1449
+.
+
+
+LaTeX Warning: Citation `Steinfurth2024' on page 31 undefined on input line 145
+7.
+
+
+LaTeX Warning: Citation `Thakur2025ELPINN' on page 31 undefined on input line 1
+471.
+
+
+LaTeX Warning: Citation `Wan2026TrajectoryFlowNet' on page 31 undefined on inpu
+t line 1483.
+
+
+[31]
+
+LaTeX Warning: Citation `ZhouGrauer2026Joint' on page 32 undefined on input lin
+e 1502.
+
+
+LaTeX Warning: Citation `Nakao2025LagrangianDA' on page 32 undefined on input l
+ine 1512.
+
+
+LaTeX Warning: Reference `eq:lit-timed-observation-models' on page 32 undefined
+ on input line 1535.
+
+
+[32]
+
+LaTeX Warning: Citation `lu2021deeponet' on page 33 undefined on input line 155
+9.
+
+
+[33]
+
+LaTeX Warning: Reference `tab:lit-timed-flow-comparison' on page 34 undefined o
+n input line 1597.
+
+
+LaTeX Warning: Citation `Raissi2020HFM' on page 34 undefined on input line 1611
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1614--1615
+[][]\TU/XBNiloofar(0)/m/n/10.95 مشاهدهٔ اسکالر، بدون[]
+
+LaTeX Warning: Citation `Steinfurth2024' on page 34 undefined on input line 161
+5.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1615--1616
+[][]\TU/XBNiloofar(0)/m/n/10.95 اشتاینفورت و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1618--1619
+[][]\TU/XBNiloofar(0)/m/n/10.95 ورودی پردازش‌شدهٔ[]
+
+LaTeX Warning: Citation `Thakur2025ELPINN' on page 34 undefined on input line 1
+619.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1621--1622
+[][]\TU/XBNiloofar(0)/m/n/10.95 مسیر، سرعت و فشار[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1622--1623
+[][]\TU/XBNiloofar(0)/m/n/10.95 آموزش مرحله‌ای؛[]
+
+LaTeX Warning: Citation `Wan2026TrajectoryFlowNet' on page 34 undefined on inpu
+t line 1623.
+
+
+LaTeX Warning: Citation `ZhouGrauer2026Joint' on page 34 undefined on input lin
+e 1627.
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 1629--1630
+[][]\TU/XBNiloofar(0)/m/n/10.95 جریان، مسیر و ویژگی‌های[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1630--1631
+[][]\TU/XBNiloofar(0)/m/n/10.95 آزمون ردیاب و ذرهٔ[]
+
+LaTeX Warning: Citation `Nakao2025LagrangianDA' on page 34 undefined on input l
+ine 1631.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1634--1635
+[][]\TU/XBNiloofar(0)/m/n/10.95 روش تغییراتی، بدون[]
+
+LaTeX Warning: Citation `ZhouGrauer2026Joint' on page 34 undefined on input lin
+e 1659.
+
+
+[34]
+
+LaTeX Warning: Citation `Srivastava2011ElasticCurves' on page 35 undefined on i
+nput line 1668.
+
+
+LaTeX Warning: Reference `eq:lit-reference-scales' on page 35 undefined on inpu
+t line 1680.
+
+
+[35]
+[36]
+
+LaTeX Warning: Citation `lu2021deeponet' on page 37 undefined on input line 180
+4.
+
+
+LaTeX Warning: Citation `wang2021pideeponet' on page 37 undefined on input line
+ 1811.
+
+
+[37]
+
+LaTeX Warning: Citation `Tiwari2026BayesianCFD' on page 38 undefined on input l
+ine 1858.
+
+
+LaTeX Warning: Citation `RoySarkar2026HiddenPhysics' on page 38 undefined on in
+put line 1867.
+
+
+LaTeX Warning: Citation `Li2024PINO' on page 38 undefined on input line 1875.
+
+
+[38]
+
+LaTeX Warning: Citation `Cao2023ResidualCorrection' on page 39 undefined on inp
+ut line 1938.
+
+
+[39]
+
+LaTeX Warning: Reference `tab:lit-inverse-operator-strategies' on page 40 undef
+ined on input line 1983.
+
+
+LaTeX Warning: Citation `Tiwari2026BayesianCFD' on page 40 undefined on input l
+ine 1997.
+
+
+LaTeX Warning: Citation `RoySarkar2026HiddenPhysics' on page 40 undefined on in
+put line 2000.
+
+
+LaTeX Warning: Citation `Cao2023ResidualCorrection' on page 40 undefined on inp
+ut line 2006.
+
+
+[40]
+
+LaTeX Warning: Citation `ElHamdaoui2026Tracking' on page 41 undefined on input 
+line 2038.
+
+
+LaTeX Warning: Citation `Strayer2024ForceMapping' on page 41 undefined on input
+ line 2047.
+
+
+[41]
+
+LaTeX Warning: Citation `Furlani2006Transport' on page 42 undefined on input li
+ne 2055.
+
+
+[42]
+[43]
+
+LaTeX Warning: Citation `Raue2009ProfileLikelihood' on page 44 undefined on inp
+ut line 2177.
+
+
+LaTeX Warning: Citation `WangZaki2025OuterObservations' on page 44 undefined on
+ input line 2195.
+
+
+LaTeX Warning: Citation `ZhouGrauer2026Joint' on page 44 undefined on input lin
+e 2199.
+
+
+[44]
+[45]
+
+LaTeX Warning: Reference `sec:lit-frozen-operator-inverse' on page 46 undefined
+ on input line 2269.
+
+
+LaTeX Warning: Citation `Cao2023ResidualCorrection' on page 46 undefined on inp
+ut line 2271.
+
+
+[46]
+
+LaTeX Warning: Reference `tab:lit-inverse-information-comparison' on page 47 un
+defined on input line 2325.
+
+
+LaTeX Warning: Citation `Wan2026TrajectoryFlowNet' on page 47 undefined on inpu
+t line 2339.
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 2340--2341
+[][]\TU/XBNiloofar(0)/m/n/10.95 جریان و ردیاب[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2341--2342
+[][]\TU/XBNiloofar(0)/m/n/10.95 موقعیت و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2342--2343
+[][]\TU/XBNiloofar(0)/m/n/10.95 مسیر و میدان[]
+
+LaTeX Warning: Citation `ZhouGrauer2026Joint' on page 47 undefined on input lin
+e 2345.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2347--2348
+[][]\TU/XBNiloofar(0)/m/n/10.95 موقعیت‌های[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2348--2349
+[][]\TU/XBNiloofar(0)/m/n/10.95 جریان و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2349--2350
+[][]\TU/XBNiloofar(0)/m/n/10.95 قوانین حرکت[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2349--2350
+[]\TU/XBNiloofar(0)/m/n/10.95 و مدل[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2350--2351
+[][]\TU/XBNiloofar(0)/m/n/10.95 مرجع عددی[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2350--2351
+[]\TU/XBNiloofar(0)/m/n/10.95 داده‌های[]
+
+LaTeX Warning: Citation `Strayer2024ForceMapping' on page 47 undefined on input
+ line 2351.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2351--2352
+[][]\TU/XBNiloofar(0)/m/n/10.95 استرایر و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2352--2353
+[][]\TU/XBNiloofar(0)/m/n/10.95 توازن نیرو در[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2354--2355
+[][]\TU/XBNiloofar(0)/m/n/10.95 توزیع محرک[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2355--2356
+[][]\TU/XBNiloofar(0)/m/n/10.95 خواص ذره،[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2356--2357
+[][]\TU/XBNiloofar(0)/m/n/10.95 مقایسه با حل[]
+
+LaTeX Warning: Citation `ElHamdaoui2026Tracking' on page 47 undefined on input 
+line 2357.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2357--2358
+[][]\TU/XBNiloofar(0)/m/n/10.95 الحمداوی و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2358--2359
+[][]\TU/XBNiloofar(0)/m/n/10.95 حرکت ذره با[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2359--2360
+[][]\TU/XBNiloofar(0)/m/n/10.95 حالت و مسیر[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2360--2361
+[][]\TU/XBNiloofar(0)/m/n/10.95 نیروی کنترل[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2362--2363
+[][]\TU/XBNiloofar(0)/m/n/10.95 شبیه‌سازی[]
+
+LaTeX Warning: Citation `WangZaki2025OuterObservations' on page 47 undefined on
+ input line 2363.
+
+
+Underfull \hbox (badness 4792) in paragraph at lines 2363--2364
+[][]\TU/XBNiloofar(0)/m/n/10.95 وانگ و زکی[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2364--2365
+[][]\TU/XBNiloofar(0)/m/n/10.95 ناویر–استوکس[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2365--2366
+[][]\TU/XBNiloofar(0)/m/n/10.95 سرعت ناحیهٔ[]
+
+Underfull \hbox (badness 3068) in paragraph at lines 2366--2367
+[][]\TU/XBNiloofar(0)/m/n/10.95 حالت جریان و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2367--2368
+[][]\TU/XBNiloofar(0)/m/n/10.95 معادلات و[]
+
+Underfull \hbox (badness 3557) in paragraph at lines 2368--2369
+[][]\TU/XBNiloofar(0)/m/n/10.95 دادهٔ مرجع حل[]
+
+LaTeX Warning: Citation `Shenoy2016StokesTrap' on page 47 undefined on input li
+ne 2395.
+
+
+LaTeX Warning: Citation `Erben2024Optofluidic' on page 47 undefined on input li
+ne 2395.
+
+
+[47]
+
+LaTeX Warning: Citation `lu2021deeponet' on page 48 undefined on input line 241
+6.
+
+
+LaTeX Warning: Citation `Onishi2026FlowConditions' on page 48 undefined on inpu
+t line 2422.
+
+
+LaTeX Warning: Citation `Wang2023LongTime' on page 48 undefined on input line 2
+422.
+
+
+LaTeX Warning: Citation `Wan2026TrajectoryFlowNet' on page 48 undefined on inpu
+t line 2442.
+
+
+LaTeX Warning: Citation `ZhouGrauer2026Joint' on page 48 undefined on input lin
+e 2442.
+
+
+[48]
+
+LaTeX Warning: Citation `Cao2023ResidualCorrection' on page 49 undefined on inp
+ut line 2463.
+
+
+LaTeX Warning: Citation `ElHamdaoui2026Tracking' on page 49 undefined on input 
+line 2471.
+
+
+LaTeX Warning: Citation `Strayer2024ForceMapping' on page 49 undefined on input
+ line 2471.
+
+
+LaTeX Warning: Citation `Raue2009ProfileLikelihood' on page 49 undefined on inp
+ut line 2486.
+
+
+LaTeX Warning: Reference `tab:lit-synthesis-thesis-links' on page 49 undefined 
+on input line 2490.
+
+
+LaTeX Warning: Citation `Shenoy2016StokesTrap' on page 49 undefined on input li
+ne 2504.
+
+
+LaTeX Warning: Citation `Erben2024Optofluidic' on page 49 undefined on input li
+ne 2504.
+
+
+LaTeX Warning: Reference `sec:theory-particle-formation' on page 49 undefined o
+n input line 2505.
+
+
+LaTeX Warning: Citation `Onishi2026FlowConditions' on page 49 undefined on inpu
+t line 2507.
+
+
+LaTeX Warning: Reference `sec:forward-flow-operator' on page 49 undefined on in
+put line 2508.
+
+
+LaTeX Warning: Citation `Wang2023LongTime' on page 49 undefined on input line 2
+510.
+
+
+LaTeX Warning: Reference `sec:forward-magnetic-operator' on page 49 undefined o
+n input line 2511.
+
+
+LaTeX Warning: Citation `Wan2026TrajectoryFlowNet' on page 49 undefined on inpu
+t line 2513.
+
+
+LaTeX Warning: Citation `ZhouGrauer2026Joint' on page 49 undefined on input lin
+e 2513.
+
+
+LaTeX Warning: Reference `sec:inverse-flow-timed' on page 49 undefined on input
+ line 2514.
+
+
+LaTeX Warning: Reference `sec:inverse-flow-geometry' on page 49 undefined on in
+put line 2514.
+
+
+LaTeX Warning: Citation `ElHamdaoui2026Tracking' on page 49 undefined on input 
+line 2516.
+
+
+LaTeX Warning: Citation `Strayer2024ForceMapping' on page 49 undefined on input
+ line 2516.
+
+
+LaTeX Warning: Reference `sec:inverse-magnetic-drive' on page 49 undefined on i
+nput line 2517.
+
+)
+[49]
+[50]
+[51] (./chapters/theory.tex
+فصل 3.
+
+[52]
+
+LaTeX Warning: Reference `fig:theory-particle-kinematics' on page 53 undefined 
+on input line 39.
+
+
+[53]
+[54]
+[55]
+[56]
+[57]
+
+LaTeX Warning: Reference `fig:formation-release-schematic' on page 58 undefined
+ on input line 364.
+
+
+[58]
+[59]
+
+LaTeX Warning: Citation `lu2021deeponet' on page 60 undefined on input line 396
+.
+
+
+LaTeX Warning: Citation `wang2021pideeponet' on page 60 undefined on input line
+ 403.
+
+
+[60]
+[61]
+
+LaTeX Warning: Reference `fig:forward-flow-operator' on page 62 undefined on in
+put line 541.
+
+
+[62]
+[63]
+[64]
+[65]
+
+LaTeX Warning: Reference `fig:forward-magnetic-operator' on page 66 undefined o
+n input line 763.
+
+
+[66]
+[67]
+
+LaTeX Warning: Reference `sec:forward-flow-operator' on page 68 undefined on in
+put line 823.
+
+
+LaTeX Warning: Reference `eq:forward-flow-stokes-path' on page 68 undefined on 
+input line 824.
+
+
+[68]
+
+LaTeX Warning: Reference `fig:inverse-flow-fit-replay' on page 69 undefined on 
+input line 893.
+
+
+[69]
+
+LaTeX Warning: Reference `fig:inverse-flow-geometry-clock' on page 70 undefined
+ on input line 934.
+
+
+LaTeX Warning: Reference `eq:inverse-flow-integral-path' on page 70 undefined o
+n input line 945.
+
+
+[70]
+[71]
+
+LaTeX Warning: Reference `fig:inverse-magnetic-master9' on page 72 undefined on
+ input line 1013.
+
+
+LaTeX Warning: Reference `sec:forward-magnetic-operator' on page 72 undefined o
+n input line 1025.
+
+
+[72]
+
+LaTeX Warning: Reference `eq:forward-mag-force' on page 73 undefined on input l
+ine 1065.
+
+
+[73]
+
+LaTeX Warning: Reference `sec:theory-particle-formation' on page 74 undefined o
+n input line 1126.
+
+
+LaTeX Warning: Reference `eq:forward-flow-equations' on page 74 undefined on in
+put line 1151.
+
+
+[74]
+
+LaTeX Warning: Reference `eq:inverse-flow-geometry-errors' on page 75 undefined
+ on input line 1208.
+
+
+[75]
+
+LaTeX Warning: Reference `sec:inverse-magnetic-drive' on page 76 undefined on i
+nput line 1242.
+
+
+LaTeX Warning: Reference `eq:validation-forward-magnetic-errors' on page 76 und
+efined on input line 1244.
+
+
+[76]
+
+LaTeX Warning: Reference `tab:validation-summary' on page 77 undefined on input
+ line 1282.
+
+
+Underfull \hbox (badness 6157) in paragraph at lines 1306--1306
+[][]\TU/XBNiloofar(0)/m/n/10.95 هندسهٔ مشاهده‌شده و تخمین[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1311--1311
+[][]\TU/XBNiloofar(0)/m/n/10.95 بازیابی دو تحریک[]
+
+Underfull \hbox (badness 3724) in paragraph at lines 1312--1312
+[][]\TU/XBNiloofar(0)/m/n/10.95 تحریک معلوم و مسیر مرجع[]
+)
+[77] (./chapters/results.tex
+فصل 4.
+
+LaTeX Warning: Reference `sec:theory-particle-formation' on page 78 undefined o
+n input line 8.
+
+
+LaTeX Warning: Reference `eq:validation-formation-errors' on page 78 undefined 
+on input line 11.
+
+
+LaTeX Warning: Reference `fig:results-formation-basic' on page 78 undefined on 
+input line 23.
+
+
+LaTeX Warning: Reference `fig:results-formation-basic' on page 78 undefined on 
+input line 43.
+
+
+[78]
+[79]
+
+LaTeX Warning: Reference `tab:results-formation-letters' on page 80 undefined o
+n input line 46.
+
+
+LaTeX Warning: Reference `fig:results-formation-ducks' on page 80 undefined on 
+input line 84.
+
+
+LaTeX Warning: Reference `tab:results-formation-ducks' on page 80 undefined on 
+input line 86.
+
+
+[80]
+[81]
+
+LaTeX Warning: Reference `fig:results-formation-launcher-count' on page 82 unde
+fined on input line 141.
+
+
+[82]
+
+LaTeX Warning: Reference `fig:results-formation-dense' on page 83 undefined on 
+input line 174.
+
+
+LaTeX Warning: Reference `tab:results-formation-dense' on page 83 undefined on 
+input line 176.
+
+
+LaTeX Warning: Reference `fig:results-formation-center' on page 83 undefined on
+ input line 218.
+
+
+[83]
+
+LaTeX Warning: Reference `fig:results-formation-ellipse' on page 84 undefined o
+n input line 241.
+
+
+LaTeX Warning: Reference `fig:results-formation-clearance' on page 84 undefined
+ on input line 262.
+
+
+[84]
+[85]
+[86]
+
+LaTeX Warning: Reference `eq:forward-flow-scales' on page 87 undefined on input
+ line 297.
+
+
+LaTeX Warning: Reference `fig:results-forward-flow-inlets' on page 87 undefined
+ on input line 298.
+
+
+LaTeX Warning: Reference `fig:results-forward-flow-beta' on page 87 undefined o
+n input line 325.
+
+
+LaTeX Warning: Reference `fig:results-forward-flow-nine' on page 87 undefined o
+n input line 326.
+
+
+LaTeX Warning: Reference `tab:results-forward-flow-errors' on page 87 undefined
+ on input line 347.
+
+
+LaTeX Warning: Reference `eq:validation-relative-l2' on page 87 undefined on in
+put line 349.
+
+
+LaTeX Warning: Reference `eq:validation-forward-flow-rms' on page 87 undefined 
+on input line 350.
+
+
+[87]
+[88]
+
+LaTeX Warning: Reference `eq:forward-mag-scales' on page 89 undefined on input 
+line 432.
+
+
+[89]
+
+LaTeX Warning: Reference `fig:results-forward-magnetic-paths' on page 90 undefi
+ned on input line 439.
+
+
+LaTeX Warning: Reference `eq:validation-forward-magnetic-errors' on page 90 und
+efined on input line 455.
+
+
+LaTeX Warning: Reference `tab:results-forward-magnetic-errors' on page 90 undef
+ined on input line 456.
+
+
+[90]
+
+LaTeX Warning: Reference `fig:results-forward-magnetic-errors' on page 91 undef
+ined on input line 493.
+
+
+LaTeX Warning: Reference `sec:forward-magnetic-operator' on page 91 undefined o
+n input line 511.
+
+
+[91]
+
+LaTeX Warning: Reference `sec:inverse-flow-timed' on page 92 undefined on input
+ line 541.
+
+
+LaTeX Warning: Reference `fig:results-inverse-timed-replay' on page 92 undefine
+d on input line 545.
+
+
+LaTeX Warning: Reference `fig:results-inverse-timed-fields' on page 92 undefine
+d on input line 559.
+
+
+LaTeX Warning: Reference `tab:results-inverse-timed' on page 92 undefined on in
+put line 575.
+
+
+LaTeX Warning: Reference `eq:validation-inverse-timed-path' on page 92 undefine
+d on input line 576.
+
+
+LaTeX Warning: Reference `eq:validation-relative-l2' on page 92 undefined on in
+put line 577.
+
+
+LaTeX Warning: Reference `sec:results-forward-flow' on page 92 undefined on inp
+ut line 624.
+
+
+[92]
+[93]
+
+LaTeX Warning: Reference `fig:inverse-count-design' on page 94 undefined on inp
+ut line 637.
+
+
+LaTeX Warning: Reference `fig:inverse-count-errors' on page 94 undefined on inp
+ut line 655.
+
+
+LaTeX Warning: Reference `fig:inverse-count-profiles' on page 94 undefined on i
+nput line 677.
+
+
+[94]
+[95]
+[96]
+
+LaTeX Warning: Reference `fig:results-inverse-geometry' on page 97 undefined on
+ input line 712.
+
+
+LaTeX Warning: Reference `tab:results-inverse-geometry' on page 97 undefined on
+ input line 713.
+
+
+LaTeX Warning: Reference `eq:inverse-flow-geometry-errors' on page 97 undefined
+ on input line 714.
+
+
+[97]
+
+LaTeX Warning: Reference `fig:results-inverse-duration' on page 98 undefined on
+ input line 777.
+
+
+LaTeX Warning: Reference `eq:forward-mag-scales' on page 98 undefined on input 
+line 808.
+
+
+LaTeX Warning: Reference `eq:inverse-master9-tracking' on page 98 undefined on 
+input line 811.
+
+
+[98]
+
+LaTeX Warning: Reference `fig:results-master9-tracking' on page 99 undefined on
+ input line 821.
+
+
+LaTeX Warning: Reference `tab:results-master9-tracking' on page 99 undefined on
+ input line 834.
+
+
+LaTeX Warning: Reference `eq:validation-master9-tracking' on page 99 undefined 
+on input line 835.
+
+
+[99]
+[100]
+
+LaTeX Warning: Reference `eq:inverse-master10-proposed-objective' on page 101 u
+ndefined on input line 885.
+
+
+LaTeX Warning: Reference `fig:results-master10-controls' on page 101 undefined 
+on input line 904.
+
+
+LaTeX Warning: Reference `eq:validation-master10-proposed-recovery' on page 101
+ undefined on input line 907.
+
+
+LaTeX Warning: Reference `fig:results-master10-replay' on page 101 undefined on
+ input line 918.
+
+
+[101]
+
+LaTeX Warning: Reference `tab:results-master10-inverse' on page 102 undefined o
+n input line 933.
+
+
+LaTeX Warning: Reference `fig:results-master10-ambiguity' on page 102 undefined
+ on input line 1034.
+
+
+[102])
+[103]
+[104] (./chapters/conclusions.tex
+فصل 5.
+)
+[105] (./bibs/bibs.tex
+No file thesis.bbl.
+) (./front/dictionary.tex
+Overfull \hbox (18.0pt too wide) in paragraph at lines 10--18
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--18
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 19--24
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--24
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 25--30
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--30
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 31--38
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--38
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 39--43
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--43
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 44--47
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--47
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 48--51
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--51
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 52--58
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--58
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 59--62
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--62
+[][]
+[106]
+Overfull \hbox (18.0pt too wide) in paragraph at lines 63--65
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--65
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 66--69
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 70--73
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--73
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 74--76
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 77--79
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 80--83
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--83
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 84--86
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 87--91
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--91
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 95--101
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--101
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 102--107
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--107
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 108--110
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--110
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 111--113
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--113
+[][]
+
+Overfull \vbox (3.92294pt too high) has occurred while \output is active
+[107]) (./chapters/appendix.tex
+پیوست آ.
+)
+[108] (./front/abstract-eng.tex)
+[109] (./front/template/title-eng.tex)
+[110] (./thesis.aux (./front/info.aux) (./front/template/title.aux)
+(./front/acknowledge.aux) (./front/abstract.aux) (./chapters/introduction.aux)
+(./chapters/literature.aux) (./chapters/theory.aux) (./chapters/results.aux)
+(./chapters/conclusions.aux) (./bibs/bibs.aux) (./front/dictionary.aux)
+(./chapters/appendix.aux) (./front/abstract-eng.aux)
+(./front/template/title-eng.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)
+Output written on thesis.xdv (116 pages, 3263672 bytes).
+Transcript written on thesis.log.
+Latexmk: Getting log file 'thesis.log'
+Latexmk: Examining 'thesis.fls'
+Latexmk: Examining 'thesis.log'
+Latexmk: References changed.
+Latexmk: Missing input file 'thesis.toc' (or dependence on it) from following:
+  No file thesis.toc.
+Latexmk: Missing input file 'thesis.lot' (or dependence on it) from following:
+  No file thesis.lot.
+Latexmk: Missing input file 'thesis.lof' (or dependence on it) from following:
+  No file thesis.lof.
+Latexmk: Missing bbl file 'thesis.bbl' in following:
+ No file thesis.bbl.
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'thesis.xdv'
+Latexmk: Found bibliography file(s):
+  ./bibs/full.bib
+  ./bibs/refs.bib
+Latexmk: applying rule 'bibtex thesis'...
+Rule 'bibtex thesis':  Reasons for rerun
+Category 'other':
+  Rerun of 'bibtex thesis' forced or previously required:
+    Reason or flag: 'Initial set up of rule'
+
+------------
+Run number 1 of rule 'bibtex thesis'
+------------
+------------
+Running 'bibtex  "thesis.aux"'
+------------
+This is BibTeX, Version 0.99d (TeX Live 2025/dev/Debian)
+The top-level auxiliary file: thesis.aux
+The style file: ./styles/packages/unsrtabbrv.bst
+Database file #1: bibs/full.bib
+Database file #2: bibs/refs.bib
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Changed files or newly in use/created:
+  bibs/bibs.aux
+  chapters/appendix.aux
+  chapters/conclusions.aux
+  chapters/introduction.aux
+  chapters/literature.aux
+  chapters/results.aux
+  chapters/theory.aux
+  front/abstract-eng.aux
+  front/abstract.aux
+  front/acknowledge.aux
+  front/dictionary.aux
+  front/info.aux
+  front/template/title-eng.aux
+  front/template/title.aux
+  thesis.aux
+  thesis.bbl
+  thesis.lof
+  thesis.lot
+  thesis.out
+  thesis.toc
+
+------------
+Run number 2 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -interaction=nonstopmode -halt-on-error -file-line-error -recorder  "thesis.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./thesis.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo)) (./styles/common.tex
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/latex/pstricks/
+pstricks.sty (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+
+Package xcolor Warning: Package option `usenames' is obsolete and ignored on in
+put line 265.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def)
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex))))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/pstricks.tex
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/pst-fp.tex `pst-fp' v0.06, 2020/11/20 (hv))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/latex/pgf/utili
+ties/pgffor.sty
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/latex/pgf/utili
+ties/pgfrcs.sty
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/uti
+lities/pgfutil-common.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/uti
+lities/pgfutil-latex.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/uti
+lities/pgfrcs.code.tex
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf
+.revision.tex)))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/latex/pgf/utili
+ties/pgfkeys.sty
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/uti
+lities/pgfkeys.code.tex
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/uti
+lities/pgfkeyslibraryfiltered.code.tex)))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/latex/pgf/math/
+pgfmath.sty
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmath.code.tex
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathutil.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathparser.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.basic.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.trigonometric.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.random.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.comparison.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.base.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.round.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.misc.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.integerarithmetics.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathcalc.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfloat.code.tex)))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/uti
+lities/pgffor.code.tex))
+`PSTricks' v3.21  <2024/11/16> (tvz,hv)
+--- We are running latex or xelatex ---
+(/usr/share/texlive/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/config/xdvipdfmx.cfg))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/pstricks-color.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/pstricks-arrows.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/pstricks-dots.tex)
+(/usr/share/texlive/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/config/xdvipdfmx.cfg
+Using PSTricks configuration for LaTeX+dvipdfmx
+)))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/pst-fp.tex `pst-fp' v0.06, 2020/11/20 (hv))
+>>> Loading XeTeX special macros
+
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/pstricks-xetex.def))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/euscript.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/latex/algorithm
+icx/algorithmicx.sty (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/latex/algorithm
+s/algorithm.sty (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty))
+(./styles/review-highlights.tex
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidihl/
+bidihl.sty) (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-abspage.sty
+(/usr/share/texlive/texmf-dist/tex/latex/zref/zref-base.sty
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty))))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/xepersian.sty
+****************************************************
+* 
+* xepersian package (Persian for LaTeX, using XeTeX engine)
+* 
+* Description: The package supports Persian
+* typesetting, using fonts provided in the
+* distribution.
+* 
+* Copyright (c) 2008--2025 Vafa Khalighi
+* Copyright (c) 2018--2020 bidi-tex GitHub Organization
+* 
+* v25.2.2 (Release Persian Gate), 2025/02/02
+* 
+* License: LaTeX Project Public License, version
+* 1.3c or higher (your choice)
+* 
+* Location on CTAN: /macros/xetex/latex/xepersian
+* 
+* Issue tracker: https://github.com/xepersian/xepersian/issues
+* 
+* Discussions: https://github.com/xepersian/xepersian/discussions
+* 
+* Primary author of xepersian package: Vafa Khalighi.
+* 
+****************************************************
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/xepersian-persiancal.sty)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/unicode-persianmath.sty)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/bi
+di.sty
+****************************************************
+* 
+* bidi package (Bidirectional typesetting in
+* plain TeX and LaTeX, using XeTeX engine)
+* 
+* Description: A convenient interface for
+* typesetting bidirectional texts in plain TeX
+* and LaTeX. The package includes adaptations
+* for use with many other commonly-used packages.
+* 
+* Copyright (c) 2007--2025 Vafa Khalighi
+* Copyright (c) 2018--2020 bidi-tex GitHub organization
+* 
+* v25.2.2 (Release Maryam Mirzakhani), 2025/02/02
+* 
+* License: LaTeX Project Public License, version
+* 1.3c or higher (your choice)
+* 
+* Location on CTAN: /macros/xetex/latex/bidi
+* 
+* Issue tracker: https://github.com/xepersian/bidi/issues
+* 
+* Discussions: https://github.com/xepersian/bidi/discussions
+* 
+* Primary author of bidi package: Vafa Khalighi.
+* 
+****************************************************
+
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/bi
+ditools.sty)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/la
+tex-xetex-bidi.def
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/fo
+otnote-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/am
+smath-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/am
+stext-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/ca
+ption-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/ca
+ption3-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/co
+lor-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/fl
+oat-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/ge
+ometry-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/gr
+aphicx-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/hy
+perref-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/mu
+lticol-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/su
+bfigure-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/wr
+apfig-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/xc
+olor-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/ps
+tricks-xetex-bidi.def))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/ex
+trafootnotefeatures-xetex-bidi.def))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/footnote-xetex-bidi-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/extrafootnotefeatures-xetex-bidi-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/book-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/algorithm-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/hyperref-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/url-xetex-xepersian.def))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/localize-xetex-xepersian.def
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/latex-localize-commands-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/xepersian-localize-commands-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/latex-localize-environments-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/xepersian-localize-environments-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/latex-localize-messages-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/latex-localize-misc-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/packages-localize-xetex-xepersian.def
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/color-localize-xetex-xepersian.def)))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/latex/algorithm
+icx/algpseudocode.sty
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (./styles/alg-fa.tex)) (./styles/custom.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/bo
+ok-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/fl
+oat-xetex-bidi.def) (./thesis.aux (./front/info.aux)
+(./front/template/title.aux) (./front/acknowledge.aux) (./front/abstract.aux)
+(./chapters/introduction.aux) (./chapters/literature.aux)
+(./chapters/theory.aux) (./chapters/results.aux) (./chapters/conclusions.aux)
+(./bibs/bibs.aux) (./front/dictionary.aux) (./chapters/appendix.aux)
+(./front/abstract-eng.aux) (./front/template/title-eng.aux)) (./thesis.out)
+(./thesis.out)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+(./front/info.tex) (./front/template/title.tex)
+[1] (./front/acknowledge.tex)
+[1] (./front/abstract.tex
+[2]) (./thesis.toc (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+[3]
+[4]
+[5]
+Overfull \hbox (0.80212pt too wide) detected at line 70
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۰۱[][][]
+)
+[6] (./thesis.lot
+Overfull \hbox (0.80212pt too wide) detected at line 21
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۰۰[][][]
+
+Overfull \hbox (0.80212pt too wide) detected at line 22
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۰۳[][][]
+)
+[7] (./thesis.lof
+[8]
+Overfull \hbox (0.80212pt too wide) detected at line 32
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۰۱[][][]
+
+Overfull \hbox (0.80212pt too wide) detected at line 33
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۰۲[][][]
+
+Overfull \hbox (0.80212pt too wide) detected at line 34
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۰۴[][][]
+)
+[9] (./chapters/introduction.tex
+فصل 1.
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 24.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 26.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 28.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 30.
+
+
+[1]
+
+LaTeX Warning: Citation `knuth1984texbook' on page 2 undefined on input line 39
+.
+
+
+LaTeX Warning: Citation `lamport1985LaTeX' on page 2 undefined on input line 39
+.
+
+)
+[2] (./chapters/literature.tex
+فصل 2.
+
+LaTeX Warning: Citation `SquiresQuake2005' on page 3 undefined on input line 12
+.
+
+
+LaTeX Warning: Citation `Raissi2019PINN' on page 3 undefined on input line 26.
+
+
+LaTeX Warning: Citation `Kovachki2023NeuralOperator' on page 3 undefined on inp
+ut line 26.
+
+
+[3]
+
+LaTeX Warning: Citation `SquiresQuake2005' on page 4 undefined on input line 59
+.
+
+
+LaTeX Warning: Citation `SquiresQuake2005' on page 4 undefined on input line 64
+.
+
+
+[4]
+
+LaTeX Warning: Citation `Bruus2014Governing' on page 5 undefined on input line 
+96.
+
+
+LaTeX Warning: Citation `Bruus2014Governing' on page 5 undefined on input line 
+104.
+
+
+LaTeX Warning: Citation `Bruus2014Governing' on page 5 undefined on input line 
+110.
+
+
+LaTeX Warning: Citation `ProvencherLanglois2015' on page 5 undefined on input l
+ine 122.
+
+
+LaTeX Warning: Citation `MaxeyRiley1983' on page 5 undefined on input line 127.
+
+
+
+LaTeX Warning: Citation `ProvencherLanglois2015' on page 5 undefined on input l
+ine 132.
+
+
+[5]
+
+LaTeX Warning: Citation `MorsiAlexander1972' on page 6 undefined on input line 
+147.
+
+
+LaTeX Warning: Citation `MorsiAlexander1972' on page 6 undefined on input line 
+153.
+
+
+LaTeX Warning: Citation `ProvencherLanglois2015' on page 6 undefined on input l
+ine 167.
+
+
+LaTeX Warning: Citation `Furlani2006Transport' on page 6 undefined on input lin
+e 167.
+
+
+LaTeX Warning: Citation `Furlani2006Transport' on page 6 undefined on input lin
+e 173.
+
+
+LaTeX Warning: Citation `ProvencherLanglois2015' on page 6 undefined on input l
+ine 177.
+
+
+LaTeX Warning: Citation `Furlani2006Transport' on page 6 undefined on input lin
+e 186.
+
+
+LaTeX Warning: Citation `Furlani2006Transport' on page 6 undefined on input lin
+e 190.
+
+
+[6]
+
+LaTeX Warning: Citation `Furlani2006Transport' on page 7 undefined on input lin
+e 199.
+
+
+LaTeX Warning: Citation `SquiresQuake2005' on page 7 undefined on input line 20
+3.
+
+
+LaTeX Warning: Citation `SquiresQuake2005' on page 7 undefined on input line 20
+7.
+
+
+LaTeX Warning: Citation `Goodfellow2016' on page 7 undefined on input line 229.
+
+
+
+[7]
+
+LaTeX Warning: Citation `Goodfellow2016' on page 8 undefined on input line 250.
+
+
+
+LaTeX Warning: Citation `Lagaris1998' on page 8 undefined on input line 258.
+
+
+LaTeX Warning: Citation `Baydin2018' on page 8 undefined on input line 265.
+
+
+LaTeX Warning: Citation `Baydin2018' on page 8 undefined on input line 272.
+
+
+LaTeX Warning: Citation `Lagaris1998' on page 8 undefined on input line 287.
+
+
+LaTeX Warning: Citation `Raissi2019PINN' on page 8 undefined on input line 293.
+
+
+
+[8]
+
+LaTeX Warning: Citation `Raissi2019PINN' on page 9 undefined on input line 352.
+
+
+
+[9]
+
+LaTeX Warning: Citation `SukumarSrivastava2022' on page 10 undefined on input l
+ine 368.
+
+
+LaTeX Warning: Citation `SukumarSrivastava2022' on page 10 undefined on input l
+ine 374.
+
+
+LaTeX Warning: Citation `Raissi2019PINN' on page 10 undefined on input line 379
+.
+
+
+LaTeX Warning: Citation `WangTengPerdikaris2021' on page 10 undefined on input 
+line 397.
+
+
+[10]
+
+LaTeX Warning: Citation `Wu2023Sampling' on page 11 undefined on input line 421
+.
+
+
+LaTeX Warning: Citation `Rathore2024' on page 11 undefined on input line 435.
+
+
+LaTeX Warning: Citation `Rathore2024' on page 11 undefined on input line 446.
+
+
+[11]
+
+LaTeX Warning: Citation `Khademi2025' on page 12 undefined on input line 485.
+
+
+LaTeX Warning: Citation `Khademi2025' on page 12 undefined on input line 492.
+
+
+LaTeX Warning: Citation `Steinfurth2024' on page 12 undefined on input line 497
+.
+
+
+LaTeX Warning: Citation `Wan2026TrajectoryFlowNet' on page 12 undefined on inpu
+t line 502.
+
+
+[12]
+
+LaTeX Warning: Citation `Kovachki2023NeuralOperator' on page 13 undefined on in
+put line 528.
+
+
+LaTeX Warning: Citation `lu2021deeponet' on page 13 undefined on input line 565
+.
+
+
+[13]
+
+LaTeX Warning: Citation `wang2021pideeponet' on page 14 undefined on input line
+ 573.
+
+
+LaTeX Warning: Citation `Kovachki2023NeuralOperator' on page 14 undefined on in
+put line 573.
+
+
+LaTeX Warning: Citation `Kovachki2023NeuralOperator' on page 14 undefined on in
+put line 589.
+
+
+LaTeX Warning: Citation `lu2021deeponet' on page 14 undefined on input line 599
+.
+
+
+[14]
+
+LaTeX Warning: Citation `lu2021deeponet' on page 15 undefined on input line 633
+.
+
+
+LaTeX Warning: Citation `Kovachki2023NeuralOperator' on page 15 undefined on in
+put line 639.
+
+
+LaTeX Warning: Citation `Bahmani2025RINO' on page 15 undefined on input line 65
+7.
+
+
+LaTeX Warning: Citation `lu2021deeponet' on page 15 undefined on input line 664
+.
+
+
+[15]
+
+LaTeX Warning: Citation `wang2021pideeponet' on page 16 undefined on input line
+ 699.
+
+
+LaTeX Warning: Citation `wang2021pideeponet' on page 16 undefined on input line
+ 743.
+
+
+[16]
+
+LaTeX Warning: Citation `SukumarSrivastava2022' on page 17 undefined on input l
+ine 759.
+
+
+LaTeX Warning: Citation `Huang2025DONIS' on page 17 undefined on input line 784
+.
+
+
+LaTeX Warning: Citation `Yang2026PIDeepONet' on page 17 undefined on input line
+ 792.
+
+
+[17]
+
+LaTeX Warning: Citation `lu2021deeponet' on page 18 undefined on input line 809
+.
+
+
+LaTeX Warning: Citation `wang2021pideeponet' on page 18 undefined on input line
+ 809.
+
+
+LaTeX Warning: Citation `Lu2022FairComparison' on page 18 undefined on input li
+ne 857.
+
+
+[18]
+
+LaTeX Warning: Citation `Onishi2026FlowConditions' on page 19 undefined on inpu
+t line 867.
+
+
+LaTeX Warning: Citation `Onishi2026FlowConditions' on page 19 undefined on inpu
+t line 876.
+
+
+LaTeX Warning: Citation `CruzGonzalez2026Vascular' on page 19 undefined on inpu
+t line 885.
+
+
+LaTeX Warning: Citation `Li2024PINO' on page 19 undefined on input line 894.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 908--909
+[][]\TU/XBNiloofar(0)/m/n/12 دامنهٔ بسته و خانوادهٔ[]
+
+Underfull \hbox (badness 2384) in paragraph at lines 910--910
+[][]\TU/XBNiloofar(0)/m/n/12 کروز گونزالس،[]
+
+Underfull \hbox (badness 2680) in paragraph at lines 910--910
+[][]\TU/XBNiloofar(0)/m/n/12 شدت ورودی و شرایط[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 910--910
+[][]\TU/XBNiloofar(0)/m/n/12 دادهٔ عددی و قیود[]
+
+Underfull \hbox (badness 6625) in paragraph at lines 911--911
+[][]\TU/XBNiloofar(0)/m/n/12 خانواده‌های معادلات و[]
+
+Underfull \hbox (badness 2735) in paragraph at lines 911--912
+[][]\TU/XBNiloofar(0)/m/n/12 معماری طیفی و نقش[]
+
+[19]
+[20]
+
+LaTeX Warning: Citation `lu2021deeponet' on page 21 undefined on input line 957
+.
+
+
+LaTeX Warning: Citation `Wang2023LongTime' on page 21 undefined on input line 9
+94.
+
+
+[21]
+
+LaTeX Warning: Citation `Liu2024Causality' on page 22 undefined on input line 1
+062.
+
+
+[22]
+
+LaTeX Warning: Citation `Mandl2026PITI' on page 23 undefined on input line 1095
+.
+
+
+LaTeX Warning: Citation `Fan2026MagneticBed' on page 23 undefined on input line
+ 1104.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1125--1125
+[][]\TU/XBNiloofar(0)/m/n/12 اتصال نگاشت‌های تحول[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1126--1126
+[][]\TU/XBNiloofar(0)/m/n/12 لیو و همکاران،[]
+
+Underfull \hbox (badness 5563) in paragraph at lines 1127--1127
+[][]\TU/XBNiloofar(0)/m/n/12 ماندل و همکاران،[]
+
+Underfull \hbox (badness 2302) in paragraph at lines 1127--1127
+[][]\TU/XBNiloofar(0)/m/n/12 یادگیری مشتق و انتگرال‌گیری[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1128--1128
+[][]\TU/XBNiloofar(0)/m/n/12 فن و همکاران،[]
+
+[23]
+[24]
+
+LaTeX Warning: Citation `Shenoy2016StokesTrap' on page 25 undefined on input li
+ne 1167.
+
+
+LaTeX Warning: Citation `Fang2023DataDriven' on page 25 undefined on input line
+ 1175.
+
+
+LaTeX Warning: Citation `Kislaya2025Programmable' on page 25 undefined on input
+ line 1184.
+
+
+LaTeX Warning: Citation `Li2026ParticleArchitecture' on page 25 undefined on in
+put line 1208.
+
+
+[25]
+[26] (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd)
+
+LaTeX Warning: Citation `Erben2024Optofluidic' on page 27 undefined on input li
+ne 1287.
+
+
+LaTeX Warning: Citation `Shum2025HydrodynamicControl' on page 27 undefined on i
+nput line 1295.
+
+
+LaTeX Warning: Citation `Alhashim2025DifferentiableFlow' on page 27 undefined o
+n input line 1303.
+
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 1350--1351
+[][]\TU/XBNiloofar(0)/m/n/12 تفاوت با طراحی[]
+
+Underfull \hbox (badness 3965) in paragraph at lines 1352--1352
+[][]\TU/XBNiloofar(0)/m/n/12 دبی درگاه‌ها با کنترل[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1353--1353
+[][]\TU/XBNiloofar(0)/m/n/12 فرمان‌های کنترل[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1353--1354
+[][]\TU/XBNiloofar(0)/m/n/12 بازخورد با مدل[]
+
+Underfull \hbox (badness 1097) in paragraph at lines 1354--1354
+[][]\TU/XBNiloofar(0)/m/n/12 هدایت، جداسازی و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1355--1355
+[][]\TU/XBNiloofar(0)/m/n/12 ماژول‌ها، هندسه و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1356--1356
+[][]\TU/XBNiloofar(0)/m/n/12 تحریک‌های اپتوسیالی[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1356--1356
+[][]\TU/XBNiloofar(0)/m/n/12 موقعیت و آرایش[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1356--1357
+[][]\TU/XBNiloofar(0)/m/n/12 تحریک مداوم و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1357--1358
+[][]\TU/XBNiloofar(0)/m/n/12 اتکا به برهم‌کنش[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1358--1358
+[][]\TU/XBNiloofar(0)/m/n/12 پارامترهای طراحی در[]
+
+[28]
+[29]
+
+LaTeX Warning: Citation `MaxeyRiley1983' on page 30 undefined on input line 141
+1.
+
+
+LaTeX Warning: Citation `ZhouGrauer2026Joint' on page 30 undefined on input lin
+e 1437.
+
+
+[30]
+
+LaTeX Warning: Citation `Raissi2020HFM' on page 31 undefined on input line 1449
+.
+
+
+LaTeX Warning: Citation `Steinfurth2024' on page 31 undefined on input line 145
+7.
+
+
+LaTeX Warning: Citation `Thakur2025ELPINN' on page 31 undefined on input line 1
+471.
+
+
+LaTeX Warning: Citation `Wan2026TrajectoryFlowNet' on page 31 undefined on inpu
+t line 1483.
+
+
+[31]
+
+LaTeX Warning: Citation `ZhouGrauer2026Joint' on page 32 undefined on input lin
+e 1502.
+
+
+LaTeX Warning: Citation `Nakao2025LagrangianDA' on page 32 undefined on input l
+ine 1512.
+
+
+[32]
+
+LaTeX Warning: Citation `lu2021deeponet' on page 33 undefined on input line 155
+9.
+
+
+[33]
+
+LaTeX Warning: Citation `Raissi2020HFM' on page 34 undefined on input line 1611
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1614--1615
+[][]\TU/XBNiloofar(0)/m/n/10.95 مشاهدهٔ اسکالر، بدون[]
+
+LaTeX Warning: Citation `Steinfurth2024' on page 34 undefined on input line 161
+5.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1615--1616
+[][]\TU/XBNiloofar(0)/m/n/10.95 اشتاینفورت و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1618--1619
+[][]\TU/XBNiloofar(0)/m/n/10.95 ورودی پردازش‌شدهٔ[]
+
+LaTeX Warning: Citation `Thakur2025ELPINN' on page 34 undefined on input line 1
+619.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1621--1622
+[][]\TU/XBNiloofar(0)/m/n/10.95 مسیر، سرعت و فشار[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1622--1623
+[][]\TU/XBNiloofar(0)/m/n/10.95 آموزش مرحله‌ای؛[]
+
+LaTeX Warning: Citation `Wan2026TrajectoryFlowNet' on page 34 undefined on inpu
+t line 1623.
+
+
+LaTeX Warning: Citation `ZhouGrauer2026Joint' on page 34 undefined on input lin
+e 1627.
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 1629--1630
+[][]\TU/XBNiloofar(0)/m/n/10.95 جریان، مسیر و ویژگی‌های[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1630--1631
+[][]\TU/XBNiloofar(0)/m/n/10.95 آزمون ردیاب و ذرهٔ[]
+
+LaTeX Warning: Citation `Nakao2025LagrangianDA' on page 34 undefined on input l
+ine 1631.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1634--1635
+[][]\TU/XBNiloofar(0)/m/n/10.95 روش تغییراتی، بدون[]
+
+LaTeX Warning: Citation `ZhouGrauer2026Joint' on page 34 undefined on input lin
+e 1659.
+
+
+[34]
+
+LaTeX Warning: Citation `Srivastava2011ElasticCurves' on page 35 undefined on i
+nput line 1668.
+
+
+[35]
+[36]
+
+LaTeX Warning: Citation `lu2021deeponet' on page 37 undefined on input line 180
+4.
+
+
+LaTeX Warning: Citation `wang2021pideeponet' on page 37 undefined on input line
+ 1811.
+
+
+[37]
+
+LaTeX Warning: Citation `Tiwari2026BayesianCFD' on page 38 undefined on input l
+ine 1858.
+
+
+LaTeX Warning: Citation `RoySarkar2026HiddenPhysics' on page 38 undefined on in
+put line 1867.
+
+
+LaTeX Warning: Citation `Li2024PINO' on page 38 undefined on input line 1875.
+
+
+[38]
+
+LaTeX Warning: Citation `Cao2023ResidualCorrection' on page 39 undefined on inp
+ut line 1938.
+
+
+[39]
+
+LaTeX Warning: Citation `Tiwari2026BayesianCFD' on page 40 undefined on input l
+ine 1997.
+
+
+LaTeX Warning: Citation `RoySarkar2026HiddenPhysics' on page 40 undefined on in
+put line 2000.
+
+
+LaTeX Warning: Citation `Cao2023ResidualCorrection' on page 40 undefined on inp
+ut line 2006.
+
+
+[40]
+
+LaTeX Warning: Citation `ElHamdaoui2026Tracking' on page 41 undefined on input 
+line 2038.
+
+
+LaTeX Warning: Citation `Strayer2024ForceMapping' on page 41 undefined on input
+ line 2047.
+
+
+[41]
+
+LaTeX Warning: Citation `Furlani2006Transport' on page 42 undefined on input li
+ne 2055.
+
+
+[42]
+[43]
+
+LaTeX Warning: Citation `Raue2009ProfileLikelihood' on page 44 undefined on inp
+ut line 2177.
+
+
+LaTeX Warning: Citation `WangZaki2025OuterObservations' on page 44 undefined on
+ input line 2195.
+
+
+LaTeX Warning: Citation `ZhouGrauer2026Joint' on page 44 undefined on input lin
+e 2199.
+
+
+[44]
+[45]
+
+LaTeX Warning: Citation `Cao2023ResidualCorrection' on page 46 undefined on inp
+ut line 2271.
+
+
+[46]
+
+LaTeX Warning: Citation `Wan2026TrajectoryFlowNet' on page 47 undefined on inpu
+t line 2339.
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 2340--2341
+[][]\TU/XBNiloofar(0)/m/n/10.95 جریان و ردیاب[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2341--2342
+[][]\TU/XBNiloofar(0)/m/n/10.95 موقعیت و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2342--2343
+[][]\TU/XBNiloofar(0)/m/n/10.95 مسیر و میدان[]
+
+LaTeX Warning: Citation `ZhouGrauer2026Joint' on page 47 undefined on input lin
+e 2345.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2347--2348
+[][]\TU/XBNiloofar(0)/m/n/10.95 موقعیت‌های[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2348--2349
+[][]\TU/XBNiloofar(0)/m/n/10.95 جریان و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2349--2350
+[][]\TU/XBNiloofar(0)/m/n/10.95 قوانین حرکت[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2349--2350
+[]\TU/XBNiloofar(0)/m/n/10.95 و مدل[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2350--2351
+[][]\TU/XBNiloofar(0)/m/n/10.95 مرجع عددی[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2350--2351
+[]\TU/XBNiloofar(0)/m/n/10.95 داده‌های[]
+
+LaTeX Warning: Citation `Strayer2024ForceMapping' on page 47 undefined on input
+ line 2351.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2351--2352
+[][]\TU/XBNiloofar(0)/m/n/10.95 استرایر و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2352--2353
+[][]\TU/XBNiloofar(0)/m/n/10.95 توازن نیرو در[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2354--2355
+[][]\TU/XBNiloofar(0)/m/n/10.95 توزیع محرک[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2355--2356
+[][]\TU/XBNiloofar(0)/m/n/10.95 خواص ذره،[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2356--2357
+[][]\TU/XBNiloofar(0)/m/n/10.95 مقایسه با حل[]
+
+LaTeX Warning: Citation `ElHamdaoui2026Tracking' on page 47 undefined on input 
+line 2357.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2357--2358
+[][]\TU/XBNiloofar(0)/m/n/10.95 الحمداوی و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2358--2359
+[][]\TU/XBNiloofar(0)/m/n/10.95 حرکت ذره با[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2359--2360
+[][]\TU/XBNiloofar(0)/m/n/10.95 حالت و مسیر[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2360--2361
+[][]\TU/XBNiloofar(0)/m/n/10.95 نیروی کنترل[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2362--2363
+[][]\TU/XBNiloofar(0)/m/n/10.95 شبیه‌سازی[]
+
+LaTeX Warning: Citation `WangZaki2025OuterObservations' on page 47 undefined on
+ input line 2363.
+
+
+Underfull \hbox (badness 4792) in paragraph at lines 2363--2364
+[][]\TU/XBNiloofar(0)/m/n/10.95 وانگ و زکی[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2364--2365
+[][]\TU/XBNiloofar(0)/m/n/10.95 ناویر–استوکس[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2365--2366
+[][]\TU/XBNiloofar(0)/m/n/10.95 سرعت ناحیهٔ[]
+
+Underfull \hbox (badness 3068) in paragraph at lines 2366--2367
+[][]\TU/XBNiloofar(0)/m/n/10.95 حالت جریان و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2367--2368
+[][]\TU/XBNiloofar(0)/m/n/10.95 معادلات و[]
+
+Underfull \hbox (badness 3557) in paragraph at lines 2368--2369
+[][]\TU/XBNiloofar(0)/m/n/10.95 دادهٔ مرجع حل[]
+
+LaTeX Warning: Citation `Shenoy2016StokesTrap' on page 47 undefined on input li
+ne 2395.
+
+
+LaTeX Warning: Citation `Erben2024Optofluidic' on page 47 undefined on input li
+ne 2395.
+
+
+[47]
+
+LaTeX Warning: Citation `lu2021deeponet' on page 48 undefined on input line 241
+6.
+
+
+LaTeX Warning: Citation `Onishi2026FlowConditions' on page 48 undefined on inpu
+t line 2422.
+
+
+LaTeX Warning: Citation `Wang2023LongTime' on page 48 undefined on input line 2
+422.
+
+
+LaTeX Warning: Citation `Wan2026TrajectoryFlowNet' on page 48 undefined on inpu
+t line 2442.
+
+
+LaTeX Warning: Citation `ZhouGrauer2026Joint' on page 48 undefined on input lin
+e 2442.
+
+
+[48]
+
+LaTeX Warning: Citation `Cao2023ResidualCorrection' on page 49 undefined on inp
+ut line 2463.
+
+
+LaTeX Warning: Citation `ElHamdaoui2026Tracking' on page 49 undefined on input 
+line 2471.
+
+
+LaTeX Warning: Citation `Strayer2024ForceMapping' on page 49 undefined on input
+ line 2471.
+
+
+LaTeX Warning: Citation `Raue2009ProfileLikelihood' on page 49 undefined on inp
+ut line 2486.
+
+
+LaTeX Warning: Citation `Shenoy2016StokesTrap' on page 49 undefined on input li
+ne 2504.
+
+
+LaTeX Warning: Citation `Erben2024Optofluidic' on page 49 undefined on input li
+ne 2504.
+
+
+LaTeX Warning: Citation `Onishi2026FlowConditions' on page 49 undefined on inpu
+t line 2507.
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 2508--2509
+[][]\TU/XBNiloofar(0)/m/n/10.95 پروفایل به میدان؛ ارزیابی مستقل؛ بخش[]
+
+LaTeX Warning: Citation `Wang2023LongTime' on page 49 undefined on input line 2
+510.
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 2511--2512
+[][]\TU/XBNiloofar(0)/m/n/10.95 تحریک به مسیر؛ آزمون زنجیره؛ بخش[]
+
+LaTeX Warning: Citation `Wan2026TrajectoryFlowNet' on page 49 undefined on inpu
+t line 2513.
+
+
+LaTeX Warning: Citation `ZhouGrauer2026Joint' on page 49 undefined on input lin
+e 2513.
+
+
+LaTeX Warning: Citation `ElHamdaoui2026Tracking' on page 49 undefined on input 
+line 2516.
+
+
+LaTeX Warning: Citation `Strayer2024ForceMapping' on page 49 undefined on input
+ line 2516.
+
+)
+[49]
+[50]
+[51] (./chapters/theory.tex
+فصل 3.
+
+[52]
+[53]
+[54]
+[55]
+[56]
+[57]
+[58]
+[59]
+
+LaTeX Warning: Citation `lu2021deeponet' on page 60 undefined on input line 396
+.
+
+
+LaTeX Warning: Citation `wang2021pideeponet' on page 60 undefined on input line
+ 403.
+
+
+[60]
+[61]
+[62]
+[63]
+[64]
+[65]
+[66]
+[67]
+[68]
+[69]
+[70]
+[71]
+[72]
+[73]
+[74]
+[75]
+[76]
+Underfull \hbox (badness 6157) in paragraph at lines 1306--1306
+[][]\TU/XBNiloofar(0)/m/n/10.95 هندسهٔ مشاهده‌شده و تخمین[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1311--1311
+[][]\TU/XBNiloofar(0)/m/n/10.95 بازیابی دو تحریک[]
+
+Underfull \hbox (badness 3724) in paragraph at lines 1312--1312
+[][]\TU/XBNiloofar(0)/m/n/10.95 تحریک معلوم و مسیر مرجع[]
+)
+[77] (./chapters/results.tex
+فصل 4.
+
+[78]
+[79]
+[80]
+[81]
+[82]
+[83]
+[84]
+[85]
+[86]
+[87]
+[88]
+[89]
+[90]
+[91]
+[92]
+[93]
+[94]
+[95]
+[96]
+[97]
+[98]
+[99]
+[100]
+[101]
+[102])
+[103]
+[104] (./chapters/conclusions.tex
+فصل 5.
+)
+[105] (./bibs/bibs.tex (./thesis.bbl
+[106]
+[107]
+[108]
+[109]))
+[110] (./front/dictionary.tex
+Overfull \hbox (18.0pt too wide) in paragraph at lines 10--18
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--18
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 19--24
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--24
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 25--30
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--30
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 31--38
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--38
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 39--43
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--43
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 44--47
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--47
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 48--51
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--51
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 52--58
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--58
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 59--62
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--62
+[][]
+[111]
+Overfull \hbox (18.0pt too wide) in paragraph at lines 63--65
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--65
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 66--69
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 70--73
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--73
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 74--76
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 77--79
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 80--83
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--83
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 84--86
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 87--91
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--91
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 95--101
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--101
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 102--107
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--107
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 108--110
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--110
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 111--113
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--113
+[][]
+
+Overfull \vbox (3.92294pt too high) has occurred while \output is active
+[112]) (./chapters/appendix.tex
+پیوست آ.
+)
+[113] (./front/abstract-eng.tex)
+[114] (./front/template/title-eng.tex)
+[115] (./thesis.aux (./front/info.aux) (./front/template/title.aux)
+(./front/acknowledge.aux) (./front/abstract.aux) (./chapters/introduction.aux)
+(./chapters/literature.aux) (./chapters/theory.aux) (./chapters/results.aux)
+(./chapters/conclusions.aux) (./bibs/bibs.aux) (./front/dictionary.aux)
+(./chapters/appendix.aux) (./front/abstract-eng.aux)
+(./front/template/title-eng.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)
+Output written on thesis.xdv (125 pages, 3550132 bytes).
+Transcript written on thesis.log.
+Latexmk: Getting log file 'thesis.log'
+Latexmk: Examining 'thesis.fls'
+Latexmk: Examining 'thesis.log'
+Latexmk: Found input bbl file 'thesis.bbl'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'thesis.xdv'
+Latexmk: Found bibliography file(s):
+  ./bibs/full.bib
+  ./bibs/refs.bib
+Latexmk: applying rule 'bibtex thesis'...
+Rule 'bibtex thesis':  Reasons for rerun
+Changed files or newly in use/created:
+  bibs/bibs.aux
+  chapters/appendix.aux
+  chapters/conclusions.aux
+  chapters/introduction.aux
+  chapters/literature.aux
+  chapters/results.aux
+  chapters/theory.aux
+  front/abstract-eng.aux
+  front/dictionary.aux
+  front/template/title-eng.aux
+  thesis.aux
+
+------------
+Run number 2 of rule 'bibtex thesis'
+------------
+------------
+Running 'bibtex  "thesis.aux"'
+------------
+This is BibTeX, Version 0.99d (TeX Live 2025/dev/Debian)
+The top-level auxiliary file: thesis.aux
+The style file: ./styles/packages/unsrtabbrv.bst
+Database file #1: bibs/full.bib
+Database file #2: bibs/refs.bib
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Changed files or newly in use/created:
+  bibs/bibs.aux
+  chapters/appendix.aux
+  chapters/conclusions.aux
+  chapters/introduction.aux
+  chapters/literature.aux
+  chapters/results.aux
+  chapters/theory.aux
+  front/abstract-eng.aux
+  front/dictionary.aux
+  front/template/title-eng.aux
+  thesis.aux
+  thesis.lof
+  thesis.out
+  thesis.toc
+
+------------
+Run number 3 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -interaction=nonstopmode -halt-on-error -file-line-error -recorder  "thesis.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./thesis.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo)) (./styles/common.tex
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/latex/pstricks/
+pstricks.sty (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+
+Package xcolor Warning: Package option `usenames' is obsolete and ignored on in
+put line 265.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def)
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex))))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/pstricks.tex
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/pst-fp.tex `pst-fp' v0.06, 2020/11/20 (hv))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/latex/pgf/utili
+ties/pgffor.sty
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/latex/pgf/utili
+ties/pgfrcs.sty
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/uti
+lities/pgfutil-common.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/uti
+lities/pgfutil-latex.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/uti
+lities/pgfrcs.code.tex
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf
+.revision.tex)))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/latex/pgf/utili
+ties/pgfkeys.sty
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/uti
+lities/pgfkeys.code.tex
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/uti
+lities/pgfkeyslibraryfiltered.code.tex)))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/latex/pgf/math/
+pgfmath.sty
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmath.code.tex
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathutil.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathparser.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.basic.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.trigonometric.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.random.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.comparison.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.base.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.round.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.misc.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfunctions.integerarithmetics.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathcalc.code.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/mat
+h/pgfmathfloat.code.tex)))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pgf/uti
+lities/pgffor.code.tex))
+`PSTricks' v3.21  <2024/11/16> (tvz,hv)
+--- We are running latex or xelatex ---
+(/usr/share/texlive/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/config/xdvipdfmx.cfg))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/pstricks-color.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/pstricks-arrows.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/pstricks-dots.tex)
+(/usr/share/texlive/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/config/xdvipdfmx.cfg
+Using PSTricks configuration for LaTeX+dvipdfmx
+)))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/pst-fp.tex `pst-fp' v0.06, 2020/11/20 (hv))
+>>> Loading XeTeX special macros
+
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/generic/pstrick
+s/pstricks-xetex.def))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/euscript.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/latex/algorithm
+icx/algorithmicx.sty (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/latex/algorithm
+s/algorithm.sty (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty))
+(./styles/review-highlights.tex
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidihl/
+bidihl.sty) (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-abspage.sty
+(/usr/share/texlive/texmf-dist/tex/latex/zref/zref-base.sty
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty))))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/xepersian.sty
+****************************************************
+* 
+* xepersian package (Persian for LaTeX, using XeTeX engine)
+* 
+* Description: The package supports Persian
+* typesetting, using fonts provided in the
+* distribution.
+* 
+* Copyright (c) 2008--2025 Vafa Khalighi
+* Copyright (c) 2018--2020 bidi-tex GitHub Organization
+* 
+* v25.2.2 (Release Persian Gate), 2025/02/02
+* 
+* License: LaTeX Project Public License, version
+* 1.3c or higher (your choice)
+* 
+* Location on CTAN: /macros/xetex/latex/xepersian
+* 
+* Issue tracker: https://github.com/xepersian/xepersian/issues
+* 
+* Discussions: https://github.com/xepersian/xepersian/discussions
+* 
+* Primary author of xepersian package: Vafa Khalighi.
+* 
+****************************************************
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/xepersian-persiancal.sty)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/unicode-persianmath.sty)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/bi
+di.sty
+****************************************************
+* 
+* bidi package (Bidirectional typesetting in
+* plain TeX and LaTeX, using XeTeX engine)
+* 
+* Description: A convenient interface for
+* typesetting bidirectional texts in plain TeX
+* and LaTeX. The package includes adaptations
+* for use with many other commonly-used packages.
+* 
+* Copyright (c) 2007--2025 Vafa Khalighi
+* Copyright (c) 2018--2020 bidi-tex GitHub organization
+* 
+* v25.2.2 (Release Maryam Mirzakhani), 2025/02/02
+* 
+* License: LaTeX Project Public License, version
+* 1.3c or higher (your choice)
+* 
+* Location on CTAN: /macros/xetex/latex/bidi
+* 
+* Issue tracker: https://github.com/xepersian/bidi/issues
+* 
+* Discussions: https://github.com/xepersian/bidi/discussions
+* 
+* Primary author of bidi package: Vafa Khalighi.
+* 
+****************************************************
+
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/bi
+ditools.sty)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/la
+tex-xetex-bidi.def
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/fo
+otnote-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/am
+smath-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/am
+stext-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/ca
+ption-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/ca
+ption3-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/co
+lor-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/fl
+oat-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/ge
+ometry-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/gr
+aphicx-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/hy
+perref-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/mu
+lticol-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/su
+bfigure-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/wr
+apfig-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/xc
+olor-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/ps
+tricks-xetex-bidi.def))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/ex
+trafootnotefeatures-xetex-bidi.def))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/footnote-xetex-bidi-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/extrafootnotefeatures-xetex-bidi-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/book-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/algorithm-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/hyperref-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/url-xetex-xepersian.def))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/localize-xetex-xepersian.def
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/latex-localize-commands-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/xepersian-localize-commands-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/latex-localize-environments-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/xepersian-localize-environments-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/latex-localize-messages-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/latex-localize-misc-xetex-xepersian.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/packages-localize-xetex-xepersian.def
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/xepersi
+an/color-localize-xetex-xepersian.def)))
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/latex/algorithm
+icx/algpseudocode.sty
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (./styles/alg-fa.tex)) (./styles/custom.tex)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/bo
+ok-xetex-bidi.def)
+(/workspace/.main-proposal-tex/usr/share/texlive/texmf-dist/tex/xelatex/bidi/fl
+oat-xetex-bidi.def) (./thesis.aux (./front/info.aux)
+(./front/template/title.aux) (./front/acknowledge.aux) (./front/abstract.aux)
+(./chapters/introduction.aux) (./chapters/literature.aux)
+(./chapters/theory.aux) (./chapters/results.aux) (./chapters/conclusions.aux)
+(./bibs/bibs.aux) (./front/dictionary.aux) (./chapters/appendix.aux)
+(./front/abstract-eng.aux) (./front/template/title-eng.aux)) (./thesis.out)
+(./thesis.out)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+(./front/info.tex) (./front/template/title.tex)
+[1] (./front/acknowledge.tex)
+[1] (./front/abstract.tex
+[2]) (./thesis.toc (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+[3]
+[4]
+[5]
+Overfull \hbox (0.80212pt too wide) detected at line 70
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۰۱[][][]
+)
+[6] (./thesis.lot
+Overfull \hbox (0.80212pt too wide) detected at line 21
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۰۰[][][]
+
+Overfull \hbox (0.80212pt too wide) detected at line 22
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۰۳[][][]
+)
+[7] (./thesis.lof
+[8]
+Overfull \hbox (0.80212pt too wide) detected at line 32
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۰۱[][][]
+
+Overfull \hbox (0.80212pt too wide) detected at line 33
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۰۲[][][]
+
+Overfull \hbox (0.80212pt too wide) detected at line 34
+ [][][]\TU/XBNiloofar(1)/m/n/12 ۱۰۴[][][]
+)
+[9] (./chapters/introduction.tex
+فصل 1.
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 24.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 26.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 28.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 30.
+
+
+[1])
+[2] (./chapters/literature.tex
+فصل 2.
+
+[3]
+[4]
+[5]
+[6]
+[7]
+[8]
+[9]
+[10]
+[11]
+[12]
+[13]
+[14]
+[15]
+[16]
+[17]
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 908--909
+[][]\TU/XBNiloofar(0)/m/n/12 دامنهٔ بسته و خانوادهٔ[]
+
+Underfull \hbox (badness 2384) in paragraph at lines 910--910
+[][]\TU/XBNiloofar(0)/m/n/12 کروز گونزالس،[]
+
+Underfull \hbox (badness 2680) in paragraph at lines 910--910
+[][]\TU/XBNiloofar(0)/m/n/12 شدت ورودی و شرایط[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 910--910
+[][]\TU/XBNiloofar(0)/m/n/12 دادهٔ عددی و قیود[]
+
+Underfull \hbox (badness 6625) in paragraph at lines 911--911
+[][]\TU/XBNiloofar(0)/m/n/12 خانواده‌های معادلات و[]
+
+Underfull \hbox (badness 2735) in paragraph at lines 911--912
+[][]\TU/XBNiloofar(0)/m/n/12 معماری طیفی و نقش[]
+
+[19]
+[20]
+[21]
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 1125--1125
+[][]\TU/XBNiloofar(0)/m/n/12 اتصال نگاشت‌های تحول[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1126--1126
+[][]\TU/XBNiloofar(0)/m/n/12 لیو و همکاران،[]
+
+Underfull \hbox (badness 5563) in paragraph at lines 1127--1127
+[][]\TU/XBNiloofar(0)/m/n/12 ماندل و همکاران،[]
+
+Underfull \hbox (badness 2302) in paragraph at lines 1127--1127
+[][]\TU/XBNiloofar(0)/m/n/12 یادگیری مشتق و انتگرال‌گیری[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1128--1128
+[][]\TU/XBNiloofar(0)/m/n/12 فن و همکاران،[]
+
+[23]
+[24]
+[25]
+[26] (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd)
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 1350--1351
+[][]\TU/XBNiloofar(0)/m/n/12 تفاوت با طراحی[]
+
+Underfull \hbox (badness 3965) in paragraph at lines 1352--1352
+[][]\TU/XBNiloofar(0)/m/n/12 دبی درگاه‌ها با کنترل[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1353--1353
+[][]\TU/XBNiloofar(0)/m/n/12 فرمان‌های کنترل[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1353--1354
+[][]\TU/XBNiloofar(0)/m/n/12 بازخورد با مدل[]
+
+Underfull \hbox (badness 1097) in paragraph at lines 1354--1354
+[][]\TU/XBNiloofar(0)/m/n/12 هدایت، جداسازی و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1355--1355
+[][]\TU/XBNiloofar(0)/m/n/12 ماژول‌ها، هندسه و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1356--1356
+[][]\TU/XBNiloofar(0)/m/n/12 تحریک‌های اپتوسیالی[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1356--1356
+[][]\TU/XBNiloofar(0)/m/n/12 موقعیت و آرایش[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1356--1357
+[][]\TU/XBNiloofar(0)/m/n/12 تحریک مداوم و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1357--1358
+[][]\TU/XBNiloofar(0)/m/n/12 اتکا به برهم‌کنش[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1358--1358
+[][]\TU/XBNiloofar(0)/m/n/12 پارامترهای طراحی در[]
+
+[28]
+[29]
+[30]
+[31]
+[32]
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 1611--1612
+[][]\TU/XBNiloofar(0)/m/n/10.95 رئیسی و همکاران[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1614--1615
+[][]\TU/XBNiloofar(0)/m/n/10.95 مشاهدهٔ اسکالر، بدون[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1615--1616
+[][]\TU/XBNiloofar(0)/m/n/10.95 اشتاینفورت و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1618--1619
+[][]\TU/XBNiloofar(0)/m/n/10.95 ورودی پردازش‌شدهٔ[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1621--1622
+[][]\TU/XBNiloofar(0)/m/n/10.95 مسیر، سرعت و فشار[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1622--1623
+[][]\TU/XBNiloofar(0)/m/n/10.95 آموزش مرحله‌ای؛[]
+
+Underfull \hbox (badness 1189) in paragraph at lines 1629--1630
+[][]\TU/XBNiloofar(0)/m/n/10.95 جریان، مسیر و ویژگی‌های[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1630--1631
+[][]\TU/XBNiloofar(0)/m/n/10.95 آزمون ردیاب و ذرهٔ[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1631--1632
+[][]\TU/XBNiloofar(0)/m/n/10.95 ناکائو و همکاران[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1634--1635
+[][]\TU/XBNiloofar(0)/m/n/10.95 روش تغییراتی، بدون[]
+
+[34]
+[35]
+[36]
+[37]
+[38]
+[39]
+[40]
+[41]
+[42]
+[43]
+[44]
+[45]
+[46]
+Underfull \hbox (badness 1231) in paragraph at lines 2340--2341
+[][]\TU/XBNiloofar(0)/m/n/10.95 جریان و ردیاب[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2341--2342
+[][]\TU/XBNiloofar(0)/m/n/10.95 موقعیت و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2342--2343
+[][]\TU/XBNiloofar(0)/m/n/10.95 مسیر و میدان[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2345--2346
+[][]\TU/XBNiloofar(0)/m/n/10.95 ژو و گراور[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2347--2348
+[][]\TU/XBNiloofar(0)/m/n/10.95 موقعیت‌های[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2348--2349
+[][]\TU/XBNiloofar(0)/m/n/10.95 جریان و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2349--2350
+[][]\TU/XBNiloofar(0)/m/n/10.95 قوانین حرکت[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2349--2350
+[]\TU/XBNiloofar(0)/m/n/10.95 و مدل[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2350--2351
+[][]\TU/XBNiloofar(0)/m/n/10.95 مرجع عددی[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2350--2351
+[]\TU/XBNiloofar(0)/m/n/10.95 داده‌های[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2351--2352
+[][]\TU/XBNiloofar(0)/m/n/10.95 استرایر و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2352--2353
+[][]\TU/XBNiloofar(0)/m/n/10.95 توازن نیرو در[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2354--2355
+[][]\TU/XBNiloofar(0)/m/n/10.95 توزیع محرک[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2355--2356
+[][]\TU/XBNiloofar(0)/m/n/10.95 خواص ذره،[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2356--2357
+[][]\TU/XBNiloofar(0)/m/n/10.95 مقایسه با حل[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2357--2358
+[][]\TU/XBNiloofar(0)/m/n/10.95 الحمداوی و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2358--2359
+[][]\TU/XBNiloofar(0)/m/n/10.95 حرکت ذره با[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2359--2360
+[][]\TU/XBNiloofar(0)/m/n/10.95 حالت و مسیر[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2360--2361
+[][]\TU/XBNiloofar(0)/m/n/10.95 نیروی کنترل[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2362--2363
+[][]\TU/XBNiloofar(0)/m/n/10.95 شبیه‌سازی[]
+
+Underfull \hbox (badness 4792) in paragraph at lines 2363--2364
+[][]\TU/XBNiloofar(0)/m/n/10.95 وانگ و زکی[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2364--2365
+[][]\TU/XBNiloofar(0)/m/n/10.95 ناویر–استوکس[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2365--2366
+[][]\TU/XBNiloofar(0)/m/n/10.95 سرعت ناحیهٔ[]
+
+Underfull \hbox (badness 3068) in paragraph at lines 2366--2367
+[][]\TU/XBNiloofar(0)/m/n/10.95 حالت جریان و[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2367--2368
+[][]\TU/XBNiloofar(0)/m/n/10.95 معادلات و[]
+
+Underfull \hbox (badness 3557) in paragraph at lines 2368--2369
+[][]\TU/XBNiloofar(0)/m/n/10.95 دادهٔ مرجع حل[]
+
+[47]
+[48]
+Underfull \hbox (badness 6559) in paragraph at lines 2504--2505
+[][]\TU/XBNiloofar(0)/m/n/10.95 هدایت بازخوردی و اپتوسیالی[]
+
+Underfull \hbox (badness 1178) in paragraph at lines 2508--2509
+[][]\TU/XBNiloofar(0)/m/n/10.95 پروفایل به میدان؛ ارزیابی مستقل؛ بخش[]
+
+Underfull \hbox (badness 4279) in paragraph at lines 2511--2512
+[][]\TU/XBNiloofar(0)/m/n/10.95 تحریک به مسیر؛ آزمون زنجیره؛ بخش[]
+)
+[49]
+[50]
+[51] (./chapters/theory.tex
+فصل 3.
+
+[52]
+[53]
+[54]
+[55]
+[56]
+[57]
+[58]
+[59]
+[60]
+[61]
+[62]
+[63]
+[64]
+[65]
+[66]
+[67]
+[68]
+[69]
+[70]
+[71]
+[72]
+[73]
+[74]
+[75]
+[76]
+Underfull \hbox (badness 6157) in paragraph at lines 1306--1306
+[][]\TU/XBNiloofar(0)/m/n/10.95 هندسهٔ مشاهده‌شده و تخمین[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1311--1311
+[][]\TU/XBNiloofar(0)/m/n/10.95 بازیابی دو تحریک[]
+
+Underfull \hbox (badness 3724) in paragraph at lines 1312--1312
+[][]\TU/XBNiloofar(0)/m/n/10.95 تحریک معلوم و مسیر مرجع[]
+)
+[77] (./chapters/results.tex
+فصل 4.
+
+[78]
+[79]
+[80]
+[81]
+[82]
+[83]
+[84]
+[85]
+[86]
+[87]
+[88]
+[89]
+[90]
+[91]
+[92]
+[93]
+[94]
+[95]
+[96]
+[97]
+[98]
+[99]
+[100]
+[101]
+[102])
+[103]
+[104] (./chapters/conclusions.tex
+فصل 5.
+)
+[105] (./bibs/bibs.tex (./thesis.bbl
+[106]
+[107]
+[108]
+[109]))
+[110] (./front/dictionary.tex
+Overfull \hbox (18.0pt too wide) in paragraph at lines 10--18
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--18
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 19--24
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--24
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 25--30
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--30
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 31--38
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--38
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 39--43
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--43
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 44--47
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--47
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 48--51
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--51
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 52--58
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--58
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 59--62
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--62
+[][]
+[111]
+Overfull \hbox (18.0pt too wide) in paragraph at lines 63--65
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--65
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 66--69
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 70--73
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--73
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 74--76
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 77--79
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 80--83
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--83
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 84--86
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 87--91
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--91
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 95--101
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--101
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 102--107
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--107
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 108--110
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--110
+[][]
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 111--113
+[][]$[]$[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--113
+[][]
+
+Overfull \vbox (3.92294pt too high) has occurred while \output is active
+[112]) (./chapters/appendix.tex
+پیوست آ.
+)
+[113] (./front/abstract-eng.tex)
+[114] (./front/template/title-eng.tex)
+[115] (./thesis.aux (./front/info.aux) (./front/template/title.aux)
+(./front/acknowledge.aux) (./front/abstract.aux) (./chapters/introduction.aux)
+(./chapters/literature.aux) (./chapters/theory.aux) (./chapters/results.aux)
+(./chapters/conclusions.aux) (./bibs/bibs.aux) (./front/dictionary.aux)
+(./chapters/appendix.aux) (./front/abstract-eng.aux)
+(./front/template/title-eng.aux)) )
+(see the transcript file for additional information)
+Output written on thesis.xdv (125 pages, 3570480 bytes).
+Transcript written on thesis.log.
+Latexmk: Getting log file 'thesis.log'
+Latexmk: Examining 'thesis.fls'
+Latexmk: Examining 'thesis.log'
+Latexmk: Found input bbl file 'thesis.bbl'
+Latexmk: Log file says output to 'thesis.xdv'
+Latexmk: Found bibliography file(s):
+  ./bibs/full.bib
+  ./bibs/refs.bib
+Latexmk: applying rule 'xdvipdfmx'...
+Rule 'xdvipdfmx':  Reasons for rerun
+Changed files or newly in use/created:
+  thesis.xdv
+Category 'changed_source_rules':
+  xelatex
+Category 'no_dest':
+  xdvipdfmx
+
+------------
+Run number 1 of rule 'xdvipdfmx'
+------------
+------------
+Running 'xdvipdfmx -E -o "thesis.pdf"  "thesis.xdv"'
+------------
+thesis.xdv -> thesis.pdf
+[1][2][3][4][5][6][7][8][9][10][11
+xdvipdfmx:warning: Object @page.1 already defined.
+][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29][30][31][32][33][34][35][36][37][38][39][40][41][42][43][44][45][46][47][48][49][50][51][52][53][54][55][56][57][58][59][60][61][62][63][64][65][66][67][68][69][70][71][72][73][74][75][76][77][78][79][80][81][82][83][84][85][86][87][88][89][90][91][92][93][94][95][96][97][98][99][100][101][102][103][104][105][106][107][108][109][110][111][112][113][114][115][116][117][118][119][120][121][122][123][124][125]
+1758642 bytes written
+Latexmk: All targets (thesis.xdv thesis.pdf) are up-to-date
+

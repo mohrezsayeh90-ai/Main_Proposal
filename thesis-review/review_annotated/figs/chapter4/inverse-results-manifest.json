@@ -1,0 +1,306 @@
+{
+  "source_revisions": {
+    "flow": "d5e9b5a1a08107cbfbce34fdd66932f2f99588df",
+    "magnetic": "a4fc9d722487a5af09b9a05c745f5184d1c87b22"
+  },
+  "checkpoint_sha256": {
+    "flow": "ccf6fa2b3e179a22c443384083e2dec338fc497f9562a567ed7e0955d3c67bf8",
+    "master9": "d5f428680f2e8cecc37b261463ea6cb410e15d9a73ea54347ef195413e551300"
+  },
+  "input_sha256": {
+    "flow/reports/experiments/pressure_long/output/selected_checkpoint.npz": "ccf6fa2b3e179a22c443384083e2dec338fc497f9562a567ed7e0955d3c67bf8",
+    "magnetic/results/master9/checkpoint.pt": "d5f428680f2e8cecc37b261463ea6cb410e15d9a73ea54347ef195413e551300",
+    "flow/flow_reconstruction_no_time/comparison_sources.json": "96600029d8903921965a0192d9fdc2c81f128768dd50707269fd6864f74458f7",
+    "flow/flow_reconstruction_no_time/comparison_metrics.json": "8b76b6d1bb6a7b89ba6d591e42b8dd63760fb3a57ec2eb36d025ffe0972ed879",
+    "flow/flow_reconstruction_no_time/arrival_time_comparison/durations.csv": "cf4b37d4a8b70e6cf1dbca6aea4e8a2844a400570684a776bbfd37d3b69b8b7f",
+    "flow/flow_reconstruction_no_time/arrival_time_comparison/metrics.json": "b60b656b31fcc58086ff1e75f680f6514d0ed826103c278a7bade70066b80996",
+    "flow/flow_reconstruction_no_time/geometry.py": "d3b2c73ba05555d6d2496675ac0fa241844ff99026906a9399bbd5e2392b5620",
+    "flow/presentations/defense_2026_11_07/data/inverse_beta4/result/report.json": "945e11a3ceefd826fa6efb7c1d846a42052146ea0735df1a9465fed8e4296e2a",
+    "flow/presentations/defense_2026_11_07/data/inverse_beta4/result/fitted_model.json": "a0dd13f305f44e1f4d0dc5eb15f65331a47e405b3903691c3063be30f021d023",
+    "flow/presentations/defense_2026_11_07/data/inverse_beta4/truth_comparison.json": "f3eb7f19d2762dfecd86688afe4508d825260b6445966ec0c549bb2cc97fe739",
+    "flow/flow_reconstruction_no_time/experiments/corners_beta4/result/report.json": "bfa2cd0c2e07d5b6d161588acb664c068972bdca32d75fc06d36640cb36fbd11",
+    "flow/flow_reconstruction_no_time/comparisons/corners_beta4/inlet_comparison.csv": "855de17dba005395ac3d1147d914e6a7432610849e9f985f057f228db2caa081",
+    "flow/presentations/defense_2026_11_07/data/inverse_beta4/result/observed_track_1.csv": "0dcf7c6cd3255d0ab7730be0b95f5a5a3def942d4000862f3766ef818703d048",
+    "flow/presentations/defense_2026_11_07/data/inverse_beta4/result/track_1_forward.csv": "388f1956b5ac5efae2ca9e6a9124b0d20cbdcce8e77feabca7b97ae108d4e75b",
+    "flow/flow_reconstruction_no_time/comparisons/corners_beta4/timed_track_1_dense.csv": "63a8152f388a3c9b7ff74e124c6b3122956bb125fb26eb1cceab45f8b93faabf",
+    "flow/flow_reconstruction_no_time/experiments/corners_beta4/result/track_1_forward.csv": "c032e2d9ce57ff09c4467f26bd5a408a93f949972793fea8a4f3b7800207a3dd",
+    "flow/flow_reconstruction_no_time/comparisons/corners_beta4/geometric_error_1.csv": "090676cc7fbad2fdbd53fe24d733f24310a3b87760f2402831af090e4b266bff",
+    "flow/presentations/defense_2026_11_07/data/inverse_beta4/result/observed_track_2.csv": "7fcb40857f4e1d282babffe3c3b18c7bd973f02e037556bc92614baffb1fbf65",
+    "flow/presentations/defense_2026_11_07/data/inverse_beta4/result/track_2_forward.csv": "5885892e1c3fd4096afc6fc3cc1c21bc6e17cdc4447dc278bcb6b4f1c1507cdc",
+    "flow/flow_reconstruction_no_time/comparisons/corners_beta4/timed_track_2_dense.csv": "a1f56a34cad6afc15c97330627c6dbb375e27d59a385de5ac9dff7419c671c21",
+    "flow/flow_reconstruction_no_time/experiments/corners_beta4/result/track_2_forward.csv": "be2115a67d1bc0a740bd7d3f759367299cbb53379463bcfec3d638b626088081",
+    "flow/flow_reconstruction_no_time/comparisons/corners_beta4/geometric_error_2.csv": "721cba9cd9ca9b5ca818c3696d77ed1e5ef93aa245586183b20a7f3db6cb8517",
+    "flow/flow_reconstruction/examples/corner_launch_preconditioned/result/report.json": "006546ab4cdb2fc62ef6a1f714dea95e9885ad701783cf48de1c2b70a8bf4bc0",
+    "flow/flow_reconstruction/examples/corner_launch_preconditioned/result/fitted_model.json": "c5923c6464cd50fe26fe47a6fdbbc1c3bc98910ac0737aa2fcd2a47182a64ca6",
+    "flow/flow_reconstruction/examples/corner_launch_preconditioned/result/truth_comparison.json": "7e795623826464e9c028cf8a6a090ba015e72b6b74c4d7d58b89e8723fa65b7f",
+    "flow/flow_reconstruction_no_time/experiments/corners_beta5/result/report.json": "cfb20edf73ad3ec84a19f2667cbe17476c4b82b0b4c5b2ad1f94884f6af6a236",
+    "flow/flow_reconstruction_no_time/comparisons/corners_beta5/inlet_comparison.csv": "21abab86dd79db632f9ec6677fb9825843fd6ed3054f5ed379707812b5bfc0e4",
+    "flow/flow_reconstruction/examples/corner_launch_preconditioned/result/observed_track_1.csv": "d7908a1ab41709b71d8add5877f6d988547ed511b0cb80d523035a9ea7aa8739",
+    "flow/flow_reconstruction/examples/corner_launch_preconditioned/result/track_1_forward.csv": "6777dc87f6b4c9dd10857220469a568fca35a314b02eeaf8686f7b7e7000a9fd",
+    "flow/flow_reconstruction_no_time/comparisons/corners_beta5/timed_track_1_dense.csv": "ac4d5e6bc5bbf000b410bc150e606b78b56e44a2be4e29b7f7aaabb37c6b404c",
+    "flow/flow_reconstruction_no_time/experiments/corners_beta5/result/track_1_forward.csv": "ccc8f8cc708224b0112ea3e8fdedd2c4407ffc415fb2447005cd4764b8c2a9e8",
+    "flow/flow_reconstruction_no_time/comparisons/corners_beta5/geometric_error_1.csv": "9b763e5b4782753b7699bb71da870f3ba03f73b0e6858f321373a7c16e8f4c24",
+    "flow/flow_reconstruction/examples/corner_launch_preconditioned/result/observed_track_2.csv": "fd04ccf3f2a5f8bf02ddd32a6ef1407874dc3dec7c93d0e525af379749aca63e",
+    "flow/flow_reconstruction/examples/corner_launch_preconditioned/result/track_2_forward.csv": "aa15fad1400d48569cfc01401fe45a89a72fd99f3d31baa0d66b62e8f37c8bc0",
+    "flow/flow_reconstruction_no_time/comparisons/corners_beta5/timed_track_2_dense.csv": "63473085da23ba597a38202e5140665f1d97591b6407fed62ab2bfe18651cc1c",
+    "flow/flow_reconstruction_no_time/experiments/corners_beta5/result/track_2_forward.csv": "2acc56e042a445e53b7e5b8ac724486268668694df6f04172407e33b4756f644",
+    "flow/flow_reconstruction_no_time/comparisons/corners_beta5/geometric_error_2.csv": "c24832ab02a96ed96e7d52f50a81151782ad0e150cee9c83ee2d1b9c9a123fb0",
+    "flow/flow_reconstruction/examples/corner_launch_preconditioned/result/truth_comparison.npz": "a3075d6878c2574b3f3d45765bb554a86740fe49a2f234f1062e79b1d148a434",
+    "flow/flow_reconstruction/examples/fem_beta/result/report.json": "22cd9acea6907afaf89f4c7230d635af007bad05957003e42e15afe96db90f97",
+    "flow/flow_reconstruction/examples/fem_beta/result/fitted_model.json": "a624be5cb1018f68f241f542230317c2073a10a5e353ed8df6ca013f02ab92de",
+    "flow/flow_reconstruction/examples/fem_beta/result/truth_comparison.json": "611abaa0a368c8868f30f0f3d9493e5977483d98bd6ef19c3da45215e4731a09",
+    "flow/flow_reconstruction_no_time/experiments/oblique_beta5/result/report.json": "5c2885abe607bf596931ce74aecf080a007afc297f4114b6d5cc23770af0f785",
+    "flow/flow_reconstruction_no_time/comparisons/oblique_beta5/inlet_comparison.csv": "5d84fee221ba5b971b4c2c4b133c585c3df4448e8a7280be6aca249020fe1aa6",
+    "flow/flow_reconstruction/examples/fem_beta/result/observed_track_1.csv": "7d2d8d5ec2a0b2b7482b33de404894a3b3ea01ecb7b1b29325073a09d161bd24",
+    "flow/flow_reconstruction/examples/fem_beta/result/track_1_forward.csv": "ecf3eadf6587a7c895ecba8241c87601d0cd689ad741113bea9a4845678d2c0b",
+    "flow/flow_reconstruction_no_time/comparisons/oblique_beta5/timed_track_1_dense.csv": "502c98bc9742e5e6bccf01801d708b844abbd38b8dc4832a168e9ee9923556ae",
+    "flow/flow_reconstruction_no_time/experiments/oblique_beta5/result/track_1_forward.csv": "4ef610b7e76407fe0abb68d89dc6283719bcd067be7dc0409e151f17d47697bc",
+    "flow/flow_reconstruction_no_time/comparisons/oblique_beta5/geometric_error_1.csv": "050a8088240ae929b6137f80d41a5dee54d057fd2368cafa7b6f08ce843fccb1",
+    "flow/flow_reconstruction/examples/fem_beta/result/observed_track_2.csv": "d01d074b420e8a68f92b5279ebfe3dbf620aafd374f189b79ca012a48aa0927b",
+    "flow/flow_reconstruction/examples/fem_beta/result/track_2_forward.csv": "c9dc5309634b7a77cb05ff7b8a3a1f92824508ea5ead778eaf0a89dbc92ba701",
+    "flow/flow_reconstruction_no_time/comparisons/oblique_beta5/timed_track_2_dense.csv": "80df763efa1e85dea2d839bdc0456e096270b7bf7f1e32d600a876cf9f7640d9",
+    "flow/flow_reconstruction_no_time/experiments/oblique_beta5/result/track_2_forward.csv": "8edb71f0a647ca92bd2760ec146f7b8ad5a90fb75e927fe6b04044c479aa0aac",
+    "flow/flow_reconstruction_no_time/comparisons/oblique_beta5/geometric_error_2.csv": "930f201198c9efd6514b3ab5f9ca34c45ad0c68c08ecfe280f33832573fc77e5",
+    "flow/flow_reconstruction/examples/fem_beta/result/truth_comparison.npz": "f4bae4e952aead6a294b3695023f36f297d218be1bbb597129a3e42067edc7bb",
+    "magnetic/results/master9/control_tests.json": "a57a76daa0105c376a566bba56c9b91a3ed46f9223c134759563ba2427297f52",
+    "magnetic/results/master9/provenance.json": "c5ef71b8a7a1e9b21637dc53bbf73aadf0c35cc1d644f4350a5614d3d05c3c6b",
+    "magnetic/results/master9/control_nominal.csv": "e7f7a8a0bd9d92aafe3505aa30edb89d62cfb29301ff11bb88ff1788c33fb8ec",
+    "magnetic/results/master9/control_low_speed_high_viscosity.csv": "7dd1e6418c4bfc1b7b2e6089390e9a4decf105eabd04853f36fe5fc54bd94a26",
+    "magnetic/results/master9/control_high_Re_fast_release.csv": "d3b545c8164600ce7fd129baebaf6972c630cf1a3d0e683337cfb83ec8f00a88",
+    "magnetic/results/master9/control_shifted_release.csv": "3c732f09b2e8958c90292e710ddc5e4bd4d8f752a28e2e0729b6ab4e6b5e2795"
+  },
+  "validation": {
+    "timed": {
+      "corners_beta4": {
+        "position_rmse": [
+          0.0004443325841779873,
+          0.0003768177771520424
+        ],
+        "mean_speed": 1.0019354465967374,
+        "truth": {
+          "generator": "independent FEM, Beta(4,4), Re=30",
+          "noise_std": 0.0002,
+          "noise_seed": 72109,
+          "reference_fields_used_in_inverse_loss": false,
+          "velocity_relative_l2": 0.19505029177662866,
+          "inlet_relative_l2": 0.32423059029184137,
+          "pressure_relative_l2": 0.2079541835661194
+        },
+        "field_norms_recomputed": false
+      },
+      "corners_beta5": {
+        "position_rmse": [
+          0.0006675707469400767,
+          0.0004820708622605059
+        ],
+        "mean_speed": 1.0023600780844009,
+        "truth": {
+          "velocity_relative_l2": 0.26912705833085343,
+          "pressure_relative_l2": 0.3299921272940264,
+          "v_relative_l2": 1.335349270204766,
+          "mean_speed_absolute_error": 0.002360078084400863,
+          "comparison_role": "synthetic independent FEM truth, fields not supplied to inversion",
+          "reference_grid_points": 7081,
+          "unique_recovery_claim": false,
+          "inlet_relative_l2": 0.43153302049602993
+        },
+        "field_norms_recomputed": true
+      },
+      "oblique_beta5": {
+        "position_rmse": [
+          0.0018984431148281816,
+          0.0010000904095163212
+        ],
+        "mean_speed": 1.0104699710436496,
+        "truth": {
+          "velocity_relative_l2": 0.21217203049344474,
+          "pressure_relative_l2": 0.4280359275023466,
+          "v_relative_l2": 1.533637312537361,
+          "mean_speed_absolute_error": 0.01046997104364955,
+          "comparison_role": "synthetic independent FEM truth, fields not supplied to inversion",
+          "reference_grid_points": 7081,
+          "unique_recovery_claim": false,
+          "inlet_relative_l2": 0.40212721776232363
+        },
+        "field_norms_recomputed": true
+      }
+    },
+    "geometric": {
+      "corners_beta4": {
+        "paths": [
+          {
+            "timed": {
+              "symmetric_distance_rmse_H": 0.00027125718697327894,
+              "symmetric_hausdorff_H": 0.0012802033536706441,
+              "ordered_arclength_rmse_H": 0.000646715248179831,
+              "endpoint_error_H": 0.0012802033536706441,
+              "observed_length_H": 3.3076144808950456,
+              "predicted_length_H": 3.3085786492120928
+            },
+            "without_time": {
+              "symmetric_distance_rmse_H": 0.00021301204265674708,
+              "symmetric_hausdorff_H": 0.0006744840965512677,
+              "ordered_arclength_rmse_H": 0.00021337526119088567,
+              "endpoint_error_H": 8.179204717376028e-05,
+              "observed_length_H": 3.3076144808950456,
+              "predicted_length_H": 3.3075635694682317
+            }
+          },
+          {
+            "timed": {
+              "symmetric_distance_rmse_H": 0.00020586072839498513,
+              "symmetric_hausdorff_H": 0.0009604728204285908,
+              "ordered_arclength_rmse_H": 0.0008431561627950839,
+              "endpoint_error_H": 0.0009604728204285908,
+              "observed_length_H": 2.0555505513522605,
+              "predicted_length_H": 2.0571847402215186
+            },
+            "without_time": {
+              "symmetric_distance_rmse_H": 0.0004029780209641727,
+              "symmetric_hausdorff_H": 0.002402362456989435,
+              "ordered_arclength_rmse_H": 0.001977865934868169,
+              "endpoint_error_H": 0.000648403199916172,
+              "observed_length_H": 2.0555505513522605,
+              "predicted_length_H": 2.051326491801211
+            }
+          }
+        ],
+        "inlet_difference": 0.0966117502837918,
+        "shape_difference": 0.09534421290294635
+      },
+      "corners_beta5": {
+        "paths": [
+          {
+            "timed": {
+              "symmetric_distance_rmse_H": 0.00033884682672697005,
+              "symmetric_hausdorff_H": 0.0014791024078324477,
+              "ordered_arclength_rmse_H": 0.0007772986384273274,
+              "endpoint_error_H": 0.0014791024078324477,
+              "observed_length_H": 3.295100685959015,
+              "predicted_length_H": 3.2962378049948446
+            },
+            "without_time": {
+              "symmetric_distance_rmse_H": 0.0003149388821295879,
+              "symmetric_hausdorff_H": 0.000851881944854859,
+              "ordered_arclength_rmse_H": 0.0003151983882069972,
+              "endpoint_error_H": 0.0004612186631438374,
+              "observed_length_H": 3.295100685959015,
+              "predicted_length_H": 3.2950122370446864
+            }
+          },
+          {
+            "timed": {
+              "symmetric_distance_rmse_H": 0.00022185405284548795,
+              "symmetric_hausdorff_H": 0.0011357773528327482,
+              "ordered_arclength_rmse_H": 0.001084964321853313,
+              "endpoint_error_H": 0.0011357773528327482,
+              "observed_length_H": 2.055898238892339,
+              "predicted_length_H": 2.058072746202678
+            },
+            "without_time": {
+              "symmetric_distance_rmse_H": 0.0004238080044458511,
+              "symmetric_hausdorff_H": 0.0026159448604134864,
+              "ordered_arclength_rmse_H": 0.00214781684435219,
+              "endpoint_error_H": 0.0006329834144979973,
+              "observed_length_H": 2.055898238892339,
+              "predicted_length_H": 2.0513103906847627
+            }
+          }
+        ],
+        "inlet_difference": 0.1398826920461658,
+        "shape_difference": 0.13804793449938157
+      },
+      "oblique_beta5": {
+        "paths": [
+          {
+            "timed": {
+              "symmetric_distance_rmse_H": 0.0013066545256569797,
+              "symmetric_hausdorff_H": 0.003239158479913696,
+              "ordered_arclength_rmse_H": 0.001424152322821393,
+              "endpoint_error_H": 0.003239158479913696,
+              "observed_length_H": 1.4201991392832907,
+              "predicted_length_H": 1.4215667560900593
+            },
+            "without_time": {
+              "symmetric_distance_rmse_H": 0.0009523079331446689,
+              "symmetric_hausdorff_H": 0.0021971302578404493,
+              "ordered_arclength_rmse_H": 0.0010932009191228526,
+              "endpoint_error_H": 0.0021971302578404493,
+              "observed_length_H": 1.4201991392832907,
+              "predicted_length_H": 1.4190070527880156
+            }
+          },
+          {
+            "timed": {
+              "symmetric_distance_rmse_H": 0.000879498622187891,
+              "symmetric_hausdorff_H": 0.0028741473685464196,
+              "ordered_arclength_rmse_H": 0.0015991817143272565,
+              "endpoint_error_H": 0.002874147368546419,
+              "observed_length_H": 1.0006255043002137,
+              "predicted_length_H": 1.003982026840176
+            },
+            "without_time": {
+              "symmetric_distance_rmse_H": 0.00022641843647594267,
+              "symmetric_hausdorff_H": 0.0007959563660228866,
+              "ordered_arclength_rmse_H": 0.0004228147572363065,
+              "endpoint_error_H": 0.0007378363393277879,
+              "observed_length_H": 1.0006255043002137,
+              "predicted_length_H": 0.9999002930282361
+            }
+          }
+        ],
+        "inlet_difference": 0.25265193210308673,
+        "shape_difference": 0.2525806807594551
+      }
+    },
+    "master9": {
+      "nominal": {
+        "Re": 0.6866217727567374,
+        "tracking": 5.7228613669850926e-05,
+        "delta_X": 5.95401931355842e-05,
+        "delta_Z": 0.0008051710648362409,
+        "Z_final": 1.422664277117186,
+        "rows": 138,
+        "command_intervals": 137
+      },
+      "low_speed_high_viscosity": {
+        "Re": 0.12499999999999999,
+        "tracking": 0.0011529496264418987,
+        "delta_X": 0.0011505758969267837,
+        "delta_Z": 0.0002591941393084163,
+        "Z_final": 1.4030411139446102,
+        "rows": 392,
+        "command_intervals": 391
+      },
+      "high_Re_fast_release": {
+        "Re": 4.949999999999999,
+        "tracking": 0.00011232836665878154,
+        "delta_X": 0.0001121674294567443,
+        "delta_Z": 0.00030090317470610195,
+        "Z_final": 1.4046591550009142,
+        "rows": 65,
+        "command_intervals": 64
+      },
+      "shifted_release": {
+        "Re": 0.7124999999999999,
+        "tracking": 4.130864787701971e-05,
+        "delta_X": 4.5138735413535747e-05,
+        "delta_Z": 0.00025022326253676397,
+        "Z_final": 1.401700104980756,
+        "rows": 96,
+        "command_intervals": 95
+      }
+    }
+  },
+  "units": {
+    "flow": "Stored common H, U_ref units; no additional A or A^2 scaling; no pressure shift",
+    "master9": "X=x_m/75e-6; Z=z_m/0.04; tau=0.75*time_s; error columns displayed times 10^4"
+  },
+  "output_sha256": {
+    "inverse-geometry-comparison.pdf": "0a27c27e695fde0dfb9aa46f6972794c82ec5158f862444f43f6b22f1727a7f7",
+    "inverse-geometry-duration.pdf": "2102392283e48609efd13ebd98453e11a5c6e6b681aacf4a16237a8e321e1335",
+    "inverse-master9-tracking.pdf": "38bcc6996b30e1952ec36cbcd1e841f7807a7d40181c30fb97c78732db78d919",
+    "inverse-timed-fields.pdf": "a96585911614c7949c131d0fc9a698798cfdfc29e7483a393cbd3781b1ea3de2",
+    "inverse-timed-replay.pdf": "1ce673ad7d76ac39e95cc93840e73e2fad0c25d9756780631255e9ad441969c0"
+  }
+}

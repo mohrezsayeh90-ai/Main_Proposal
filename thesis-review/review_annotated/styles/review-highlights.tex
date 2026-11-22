@@ -1,0 +1,29 @@
+% Review-only XeLaTeX markup. Load after xcolor and before XePersian.
+\usepackage{bidihl}
+\usepackage{zref-abspage}
+\definecolor{reviewblue}{RGB}{197,224,255}
+\definecolor{reviewyellow}{RGB}{255,241,163}
+\newif\ifReviewLists
+\AddToHook{cmd/listoffigures/before}{\ReviewListstrue}
+\AddToHook{cmd/listoffigures/after}{\ReviewListsfalse}
+\AddToHook{cmd/listoftables/before}{\ReviewListstrue}
+\AddToHook{cmd/listoftables/after}{\ReviewListsfalse}
+\makeatletter
+\DeclareRobustCommand{\ReviewMark}[3]{%
+  \ifReviewLists #3\else
+    \leavevmode\zref@labelbyprops{review:#2}{abspage}%
+    {\colorlet{bidihlcolor}{review#1}\bidihl{#3}}%
+  \fi
+}
+% Only short, self-contained inline numeric tokens use the color box.
+\DeclareRobustCommand{\ReviewNumber}[3]{%
+  \ifReviewLists #3\else
+    \leavevmode\zref@labelbyprops{review:#2}{abspage}%
+    {\setlength{\fboxsep}{0pt}\colorbox{review#1}{#3}}%
+  \fi
+}
+\pdfstringdefDisableCommands{%
+  \def\ReviewMark#1#2#3{#3}%
+  \def\ReviewNumber#1#2#3{#3}%
+}
+\makeatother
