@@ -1,0 +1,1087 @@
+{
+  "revisions": {
+    "flow": "92897a6962e537a4bea88042609be102095db037",
+    "magnetic": "639906f53a11934b3058fbbdb246e34a1dd001fd",
+    "thesis": "9690560dd817fc3bea96007fd4c200a1141db712"
+  },
+  "refitting": false,
+  "training": false,
+  "ode_solves": false,
+  "figures": [
+    {
+      "output": "forward-flow-exploratory-gallery.pdf",
+      "sha256": "b22286f1381656e3f3993284370cb6e49de8e61f8f2030e4c6827aebfada3c22",
+      "cases": [
+        "skew_b3",
+        "twin_b3_r20",
+        "waves3_r20",
+        "lobes4_r20",
+        "mixed",
+        "shoulder",
+        "nine"
+      ],
+      "layout": "2 x 4, seven profiles",
+      "source_page": "all_new_figures.pdf p.8",
+      "scale_conversions": "Saved dimensionless quantities; no rescaling",
+      "inputs_sha256": {
+        "flow/results/diverse_profiles_2026_11_07/all_new_figures.pdf": "a7ba122928951bea0a623eb038c060a2480036186a7133fb23c3ed0f239120d1",
+        "flow/flow_reconstruction_no_time/chain_revision_xt_yt/chains_only.pdf": "915167c612328630f4b30f8e84e83926a9a57dc0b93a03b9ca130adb690e9389",
+        "magnetic/results/trained_presentation/trained_cases_panels_1_to_5.pdf": "cd212c80a77b78bf43945b47de471a84a7333db20c1780dd4f9874278d46b6c8",
+        "flow/results/diverse_profiles_2026_11_07/metrics.json": "986d1f04a962417bd1790513937ad6c2b084493bb5c811942e1e0c5bd836a9fa",
+        "flow/results/diverse_profiles_2026_11_07/data/skew_b3.npz": "a5775b95d0878b040e9aa05acaab2c13be5f097603f4d6ee0787ed27b9433cd3",
+        "flow/results/diverse_profiles_2026_11_07/data/twin_b3_r20.npz": "7fb0ee27a6dcd5a4522656b9177034b1272b6b84ff65872ff84d3b5f879668f9",
+        "flow/results/diverse_profiles_2026_11_07/data/waves3_r20.npz": "2be049a8d480459539b0e7b940c5880a0dc9e421a1e05e9f6f4e09ac72549f62",
+        "flow/results/diverse_profiles_2026_11_07/data/lobes4_r20.npz": "5d50500df27c2c657778398b038e752d82012901299691e0d7160242e4b2ea82",
+        "flow/results/diverse_profiles_2026_11_07/data/mixed.npz": "ad6c45a3dc79b614f48f021400f21352da49e271431d4e6547d2b22e4e8741a7",
+        "flow/results/diverse_profiles_2026_11_07/data/shoulder.npz": "16556c87df0efccc04ef05c3daefdc3767d0e19234bb1e4fadefa4bf8edd6dd6",
+        "flow/results/diverse_profiles_2026_11_07/data/nine.npz": "3b865fd80adadf215c5a83b9e27309b01c6bc9df86316e681ef6e5dc7c1e146d"
+      }
+    },
+    {
+      "output": "forward-flow-chain-skew-b3.pdf",
+      "sha256": "e2b03955f193315f7d880c52726a92bccec623a28d59ad4646c64e5b8f686f8e",
+      "cases": [
+        "skew_b3"
+      ],
+      "layout": "three top panels, two wider lower panels; stretched maps",
+      "source_page": "all_new_figures.pdf p.1",
+      "scale_conversions": "Saved dimensionless quantities; no rescaling",
+      "inputs_sha256": {
+        "flow/results/diverse_profiles_2026_11_07/metrics.json": "986d1f04a962417bd1790513937ad6c2b084493bb5c811942e1e0c5bd836a9fa",
+        "flow/results/diverse_profiles_2026_11_07/data/skew_b3.npz": "a5775b95d0878b040e9aa05acaab2c13be5f097603f4d6ee0787ed27b9433cd3"
+      }
+    },
+    {
+      "output": "forward-flow-chain-twin-b3-r20.pdf",
+      "sha256": "b096bbe727cb265dda4e7ee05cbc2abc204d035db117aa075d9cbbb9402d36ef",
+      "cases": [
+        "twin_b3_r20"
+      ],
+      "layout": "three top panels, two wider lower panels; stretched maps",
+      "source_page": "all_new_figures.pdf p.2",
+      "scale_conversions": "Saved dimensionless quantities; no rescaling",
+      "inputs_sha256": {
+        "flow/results/diverse_profiles_2026_11_07/metrics.json": "986d1f04a962417bd1790513937ad6c2b084493bb5c811942e1e0c5bd836a9fa",
+        "flow/results/diverse_profiles_2026_11_07/data/twin_b3_r20.npz": "7fb0ee27a6dcd5a4522656b9177034b1272b6b84ff65872ff84d3b5f879668f9"
+      }
+    },
+    {
+      "output": "forward-flow-chain-waves3_r20.pdf",
+      "sha256": "e85d3ab2bedb8d5b091f64dd5afd740e2cd8270686999d67e7961a8d3c55f3c2",
+      "cases": [
+        "waves3_r20"
+      ],
+      "layout": "three top panels, two wider lower panels; stretched maps",
+      "source_page": "all_new_figures.pdf p.3",
+      "scale_conversions": "Saved dimensionless quantities; no rescaling",
+      "inputs_sha256": {
+        "flow/results/diverse_profiles_2026_11_07/metrics.json": "986d1f04a962417bd1790513937ad6c2b084493bb5c811942e1e0c5bd836a9fa",
+        "flow/results/diverse_profiles_2026_11_07/data/waves3_r20.npz": "2be049a8d480459539b0e7b940c5880a0dc9e421a1e05e9f6f4e09ac72549f62"
+      }
+    },
+    {
+      "output": "forward-flow-chain-lobes4_r20.pdf",
+      "sha256": "c721479116fa05ed898f35bb8826aa92855c1cc45094eec6676944f042910c1b",
+      "cases": [
+        "lobes4_r20"
+      ],
+      "layout": "three top panels, two wider lower panels; stretched maps",
+      "source_page": "all_new_figures.pdf p.4",
+      "scale_conversions": "Saved dimensionless quantities; no rescaling",
+      "inputs_sha256": {
+        "flow/results/diverse_profiles_2026_11_07/metrics.json": "986d1f04a962417bd1790513937ad6c2b084493bb5c811942e1e0c5bd836a9fa",
+        "flow/results/diverse_profiles_2026_11_07/data/lobes4_r20.npz": "5d50500df27c2c657778398b038e752d82012901299691e0d7160242e4b2ea82"
+      }
+    },
+    {
+      "output": "forward-flow-chain-mixed.pdf",
+      "sha256": "7e93b1a79bb3a60ba93ccefca409feb0658e3d22b33b9b4ed909f80f62892560",
+      "cases": [
+        "mixed"
+      ],
+      "layout": "three top panels, two wider lower panels; stretched maps",
+      "source_page": "all_new_figures.pdf p.5",
+      "scale_conversions": "Saved dimensionless quantities; no rescaling",
+      "inputs_sha256": {
+        "flow/results/diverse_profiles_2026_11_07/metrics.json": "986d1f04a962417bd1790513937ad6c2b084493bb5c811942e1e0c5bd836a9fa",
+        "flow/results/diverse_profiles_2026_11_07/data/mixed.npz": "ad6c45a3dc79b614f48f021400f21352da49e271431d4e6547d2b22e4e8741a7"
+      }
+    },
+    {
+      "output": "forward-flow-chain-shoulder.pdf",
+      "sha256": "d54b65765910a5f908922ab7cdb164fe97913d0778b98eb804d1f826b814582c",
+      "cases": [
+        "shoulder"
+      ],
+      "layout": "three top panels, two wider lower panels; stretched maps",
+      "source_page": "all_new_figures.pdf p.6",
+      "scale_conversions": "Saved dimensionless quantities; no rescaling",
+      "inputs_sha256": {
+        "flow/results/diverse_profiles_2026_11_07/metrics.json": "986d1f04a962417bd1790513937ad6c2b084493bb5c811942e1e0c5bd836a9fa",
+        "flow/results/diverse_profiles_2026_11_07/data/shoulder.npz": "16556c87df0efccc04ef05c3daefdc3767d0e19234bb1e4fadefa4bf8edd6dd6"
+      }
+    },
+    {
+      "output": "forward-flow-chain-nine.pdf",
+      "sha256": "08b55e9f45db5ddac9a117386e9c621febee843d898b7418354e604ad33491d8",
+      "cases": [
+        "nine"
+      ],
+      "layout": "three top panels, two wider lower panels; stretched maps",
+      "source_page": "all_new_figures.pdf p.7",
+      "scale_conversions": "Saved dimensionless quantities; no rescaling",
+      "inputs_sha256": {
+        "flow/results/diverse_profiles_2026_11_07/metrics.json": "986d1f04a962417bd1790513937ad6c2b084493bb5c811942e1e0c5bd836a9fa",
+        "flow/results/diverse_profiles_2026_11_07/data/nine.npz": "3b865fd80adadf215c5a83b9e27309b01c6bc9df86316e681ef6e5dc7c1e146d"
+      }
+    },
+    {
+      "output": "forward-magnetic-chain-03.pdf",
+      "sha256": "682cc35f1257ed9e8fe57c69710fec0f56d9550bd9da4c424377753a344e96e0",
+      "cases": [
+        "03_gaussian_pulse"
+      ],
+      "layout": "three top, two wider lower; independent spatial scales",
+      "source_page": "trained_cases_panels_1_to_5.pdf p.3",
+      "scale_conversions": "X=x_m/75e-6; Z=z_m/0.04; tau=0.75*time_s; analytic field / B_s; carrier / (2 U_ref)",
+      "inputs_sha256": {
+        "magnetic/results/trained_presentation/validation.json": "f38ff320866a097474bef63d531eee45efb91b5d254ff14788a2fece797a07a8",
+        "magnetic/results/trained_presentation/03_gaussian_pulse.csv": "25e7051f2b6de128a516cd246892fdb56dcb2d4108bd34e356d4970dd3144a26"
+      }
+    },
+    {
+      "output": "forward-magnetic-chain-08.pdf",
+      "sha256": "2ae03db07db95a6b12e27c7908df88f01bc89edec8dcf4c04537a61a48ef4cbe",
+      "cases": [
+        "08_alternating_pulses"
+      ],
+      "layout": "three top, two wider lower; independent spatial scales",
+      "source_page": "trained_cases_panels_1_to_5.pdf p.8",
+      "scale_conversions": "X=x_m/75e-6; Z=z_m/0.04; tau=0.75*time_s; analytic field / B_s; carrier / (2 U_ref)",
+      "inputs_sha256": {
+        "magnetic/results/trained_presentation/validation.json": "f38ff320866a097474bef63d531eee45efb91b5d254ff14788a2fece797a07a8",
+        "magnetic/results/trained_presentation/08_alternating_pulses.csv": "0cf222eeef8da6157b024280e01563d7405bf6a8fb1af644a64b93d11981bd6b"
+      }
+    },
+    {
+      "output": "forward-magnetic-chain-09.pdf",
+      "sha256": "17c474cb0210f931177cfc7827b1379e07b6e0ce674954b3a5c3aa9a3b0a98c5",
+      "cases": [
+        "09_slow_dual_chirp"
+      ],
+      "layout": "three top, two wider lower; independent spatial scales",
+      "source_page": "trained_cases_panels_1_to_5.pdf p.9",
+      "scale_conversions": "X=x_m/75e-6; Z=z_m/0.04; tau=0.75*time_s; analytic field / B_s; carrier / (2 U_ref)",
+      "inputs_sha256": {
+        "magnetic/results/trained_presentation/validation.json": "f38ff320866a097474bef63d531eee45efb91b5d254ff14788a2fece797a07a8",
+        "magnetic/results/trained_presentation/09_slow_dual_chirp.csv": "c8d77d7b1760e6bb6285bc131820f003dedd282b62ec4f2a40c072f6e95d1811"
+      }
+    },
+    {
+      "output": "forward-magnetic-chain-11.pdf",
+      "sha256": "8b3719077f38c440f508f6721774fc2b6de212edc7495dff13e152621cb7a8a7",
+      "cases": [
+        "11_downstream_switch"
+      ],
+      "layout": "three top, two wider lower; independent spatial scales",
+      "source_page": "trained_cases_panels_1_to_5.pdf p.11",
+      "scale_conversions": "X=x_m/75e-6; Z=z_m/0.04; tau=0.75*time_s; analytic field / B_s; carrier / (2 U_ref)",
+      "inputs_sha256": {
+        "magnetic/results/trained_presentation/validation.json": "f38ff320866a097474bef63d531eee45efb91b5d254ff14788a2fece797a07a8",
+        "magnetic/results/trained_presentation/11_downstream_switch.csv": "7704938806592b64e63bc88f76a726d32698994d16b5ab9557fec65a93e29749"
+      }
+    },
+    {
+      "output": "forward-magnetic-chain-12.pdf",
+      "sha256": "0c9900811672a53aee1ed71d215a7c359ac109d2a399826eab0921ba414c8f7d",
+      "cases": [
+        "12_phase_interference"
+      ],
+      "layout": "three top, two wider lower; independent spatial scales",
+      "source_page": "trained_cases_panels_1_to_5.pdf p.12",
+      "scale_conversions": "X=x_m/75e-6; Z=z_m/0.04; tau=0.75*time_s; analytic field / B_s; carrier / (2 U_ref)",
+      "inputs_sha256": {
+        "magnetic/results/trained_presentation/validation.json": "f38ff320866a097474bef63d531eee45efb91b5d254ff14788a2fece797a07a8",
+        "magnetic/results/trained_presentation/12_phase_interference.csv": "5d87a2ccfa7e9962332fcd062726c41069beea555c195d0ec1fc702975ea9ecd"
+      }
+    },
+    {
+      "output": "forward-magnetic-errors.pdf",
+      "sha256": "610e24458ee0746052e72c30d6b0d2f179fb4e2ceca0902cff53d751ecbdf106",
+      "cases": [
+        "03_gaussian_pulse",
+        "08_alternating_pulses",
+        "09_slow_dual_chirp",
+        "12_phase_interference"
+      ],
+      "layout": "two time-error axes",
+      "source_page": "magnetic pages 3,8,9,12",
+      "scale_conversions": "Absolute position differences / R,D; times *0.75",
+      "inputs_sha256": {
+        "magnetic/results/trained_presentation/validation.json": "f38ff320866a097474bef63d531eee45efb91b5d254ff14788a2fece797a07a8",
+        "magnetic/results/trained_presentation/01_constant_right.csv": "728e06843fe92aae4b981d88e9afb7c707cb9e4ac63bddfb726039741144a943",
+        "magnetic/results/trained_presentation/02_constant_left.csv": "17430c9f822193d5e3503c490277932a14cb17ca420307b1c324f2ae116a6c89",
+        "magnetic/results/trained_presentation/03_gaussian_pulse.csv": "25e7051f2b6de128a516cd246892fdb56dcb2d4108bd34e356d4970dd3144a26",
+        "magnetic/results/trained_presentation/04_sinusoidal.csv": "f98b9785a41e682104b8dd8e7e9d962fda0151bfe9a556b21e48da5fc3b93cdf",
+        "magnetic/results/trained_presentation/05_source_switch.csv": "d674a2446a13ad8829fb4cdf737a7d61e844ebc3f1795b630fceac89237f84be",
+        "magnetic/results/trained_presentation/06_two_source_chirp.csv": "0e09104ecc9b52d87d402955787a6165bf228a6516768c54a3fd3f4e416bc4d5",
+        "magnetic/results/trained_presentation/07_offset_alternating.csv": "eca61829039fd7b674c1c7301d7fd1feefd165b0934e37509ae387ac06685149",
+        "magnetic/results/trained_presentation/08_alternating_pulses.csv": "0cf222eeef8da6157b024280e01563d7405bf6a8fb1af644a64b93d11981bd6b",
+        "magnetic/results/trained_presentation/09_slow_dual_chirp.csv": "c8d77d7b1760e6bb6285bc131820f003dedd282b62ec4f2a40c072f6e95d1811",
+        "magnetic/results/trained_presentation/10_fast_multisine.csv": "49a9583ad77fd13e8f0e4d57c8690d903122a00f6ea62c3bb22f2a74f1a36fed",
+        "magnetic/results/trained_presentation/11_downstream_switch.csv": "7704938806592b64e63bc88f76a726d32698994d16b5ab9557fec65a93e29749",
+        "magnetic/results/trained_presentation/12_phase_interference.csv": "5d87a2ccfa7e9962332fcd062726c41069beea555c195d0ec1fc702975ea9ecd"
+      }
+    },
+    {
+      "output": "inverse-timed-chain-b.pdf",
+      "sha256": "f37a4101ff016861f6c3eeb995e8409cfb38c3e5f6ac9dd6ba3b26568c985e95",
+      "cases": [
+        "corners_beta4"
+      ],
+      "layout": "2 x 3; shared field scale; original clocks",
+      "source_page": "all_new_figures.pdf p.13",
+      "scale_conversions": "Saved x/H,y/H, u/U_ref, tU_ref/H; no clock warping",
+      "inputs_sha256": {
+        "flow/results/diverse_profiles_2026_11_07/data/inverse/corners_beta4/reconstructed_flow.npz": "ee72db04222b769d18a455cd135ad78669ad4167f98cb28eedf1a68f3fb0beda",
+        "flow/results/diverse_profiles_2026_11_07/data/inverse/corners_beta4/inlet_reference_units.csv": "98c0cab2fe95004ce40168ed3afc9339d4244d03ec0a24876ab999711a96d2fa",
+        "flow/results/diverse_profiles_2026_11_07/data/inverse/corners_beta4/observed_track_1.csv": "0dcf7c6cd3255d0ab7730be0b95f5a5a3def942d4000862f3766ef818703d048",
+        "flow/results/diverse_profiles_2026_11_07/data/inverse/corners_beta4/track_1_forward.csv": "388f1956b5ac5efae2ca9e6a9124b0d20cbdcce8e77feabca7b97ae108d4e75b",
+        "flow/results/diverse_profiles_2026_11_07/data/inverse/corners_beta4/observed_track_2.csv": "7fcb40857f4e1d282babffe3c3b18c7bd973f02e037556bc92614baffb1fbf65",
+        "flow/results/diverse_profiles_2026_11_07/data/inverse/corners_beta4/track_2_forward.csv": "5885892e1c3fd4096afc6fc3cc1c21bc6e17cdc4447dc278bcb6b4f1c1507cdc"
+      }
+    },
+    {
+      "output": "inverse-geometry-chain-b.pdf",
+      "sha256": "621e83f4d3f90c46a84bb2b9e3f10bbd03f54e105799b2f3a5342a26e8c1d7b1",
+      "cases": [
+        "corners_beta4"
+      ],
+      "layout": "2 x 3; shared field scale; original clocks",
+      "source_page": "chains_only.pdf p.1",
+      "scale_conversions": "Saved x/H,y/H, u/U_ref, tU_ref/H; no clock warping",
+      "inputs_sha256": {
+        "flow/flow_reconstruction_no_time/experiments/corners_beta4/result/reconstructed_flow.npz": "bb99c858aab2dcb4683aafbe9cca84bcc839fb7c5b8b6c859aab954856a73c39",
+        "flow/flow_reconstruction_no_time/experiments/corners_beta4/result/inlet_reference_units.csv": "f823d44f0f2bcc7ceea81cd50a3542c286a6759fb612476394cd99a82bf5a65d",
+        "flow/flow_reconstruction_no_time/experiments/corners_beta4/input/curve_1.csv": "fab26787cbb8ee465c9abb565fda0cbabbde8776a675668609da9b58d776fcda",
+        "flow/flow_reconstruction_no_time/experiments/corners_beta4/result/track_1_forward.csv": "c032e2d9ce57ff09c4467f26bd5a408a93f949972793fea8a4f3b7800207a3dd",
+        "flow/flow_reconstruction_no_time/comparisons/corners_beta4/timed_track_1_dense.csv": "63a8152f388a3c9b7ff74e124c6b3122956bb125fb26eb1cceab45f8b93faabf",
+        "flow/flow_reconstruction_no_time/experiments/corners_beta4/input/curve_2.csv": "8175a6ce2004532ad0c81ea5f9f77e2bde3df9fb4b194742d01d17a01074ba2f",
+        "flow/flow_reconstruction_no_time/experiments/corners_beta4/result/track_2_forward.csv": "be2115a67d1bc0a740bd7d3f759367299cbb53379463bcfec3d638b626088081",
+        "flow/flow_reconstruction_no_time/comparisons/corners_beta4/timed_track_2_dense.csv": "a1f56a34cad6afc15c97330627c6dbb375e27d59a385de5ac9dff7419c671c21",
+        "flow/flow_reconstruction_no_time/comparison_metrics.json": "8b76b6d1bb6a7b89ba6d591e42b8dd63760fb3a57ec2eb36d025ffe0972ed879",
+        "flow/flow_reconstruction_no_time/arrival_time_comparison/metrics.json": "b60b656b31fcc58086ff1e75f680f6514d0ed826103c278a7bade70066b80996"
+      }
+    },
+    {
+      "output": "inverse-timed-chain-a.pdf",
+      "sha256": "4806e2dd6c116e980b7dce9da1daeb07225bb536bbd210511f7e9fffd48f0488",
+      "cases": [
+        "corners_beta5"
+      ],
+      "layout": "2 x 3; shared field scale; original clocks",
+      "source_page": "all_new_figures.pdf p.11",
+      "scale_conversions": "Saved x/H,y/H, u/U_ref, tU_ref/H; no clock warping",
+      "inputs_sha256": {
+        "flow/results/diverse_profiles_2026_11_07/data/inverse/corners_beta5/reconstructed_flow.npz": "b1d668598e302a523678875b6926dda9eebe3daf20f712813ccff543b8169f48",
+        "flow/results/diverse_profiles_2026_11_07/data/inverse/corners_beta5/inlet_reference_units.csv": "5c85283bf1f1d247f04b0091a2848ca909157992ce34ab48e3448452aac154f1",
+        "flow/results/diverse_profiles_2026_11_07/data/inverse/corners_beta5/observed_track_1.csv": "d7908a1ab41709b71d8add5877f6d988547ed511b0cb80d523035a9ea7aa8739",
+        "flow/results/diverse_profiles_2026_11_07/data/inverse/corners_beta5/track_1_forward.csv": "6777dc87f6b4c9dd10857220469a568fca35a314b02eeaf8686f7b7e7000a9fd",
+        "flow/results/diverse_profiles_2026_11_07/data/inverse/corners_beta5/observed_track_2.csv": "fd04ccf3f2a5f8bf02ddd32a6ef1407874dc3dec7c93d0e525af379749aca63e",
+        "flow/results/diverse_profiles_2026_11_07/data/inverse/corners_beta5/track_2_forward.csv": "aa15fad1400d48569cfc01401fe45a89a72fd99f3d31baa0d66b62e8f37c8bc0"
+      }
+    },
+    {
+      "output": "inverse-geometry-chain-a.pdf",
+      "sha256": "6c95547771b763452cc16cb9ab47a36c571db3f4fb3d25fa6e604b4f999f3c44",
+      "cases": [
+        "corners_beta5"
+      ],
+      "layout": "2 x 3; shared field scale; original clocks",
+      "source_page": "chains_only.pdf p.2",
+      "scale_conversions": "Saved x/H,y/H, u/U_ref, tU_ref/H; no clock warping",
+      "inputs_sha256": {
+        "flow/flow_reconstruction_no_time/experiments/corners_beta5/result/reconstructed_flow.npz": "b2311c65906ab87a36b86b27be4a2712d9ae9bfbd320fd12992d57a4ef4e3814",
+        "flow/flow_reconstruction_no_time/experiments/corners_beta5/result/inlet_reference_units.csv": "fac384c6a5198824c3eec693cd46fe97ad74ba3710966e7b5b4476d8344e42d5",
+        "flow/flow_reconstruction_no_time/experiments/corners_beta5/input/curve_1.csv": "ead73257ad84f0af56e6d768fd257218bc194dcbd88b4a380224081a93eba4a7",
+        "flow/flow_reconstruction_no_time/experiments/corners_beta5/result/track_1_forward.csv": "ccc8f8cc708224b0112ea3e8fdedd2c4407ffc415fb2447005cd4764b8c2a9e8",
+        "flow/flow_reconstruction_no_time/comparisons/corners_beta5/timed_track_1_dense.csv": "ac4d5e6bc5bbf000b410bc150e606b78b56e44a2be4e29b7f7aaabb37c6b404c",
+        "flow/flow_reconstruction_no_time/experiments/corners_beta5/input/curve_2.csv": "e084382b94138831e2a9b900c292c4e1163d570db02f923aaebd5c6ec1d019ab",
+        "flow/flow_reconstruction_no_time/experiments/corners_beta5/result/track_2_forward.csv": "2acc56e042a445e53b7e5b8ac724486268668694df6f04172407e33b4756f644",
+        "flow/flow_reconstruction_no_time/comparisons/corners_beta5/timed_track_2_dense.csv": "63473085da23ba597a38202e5140665f1d97591b6407fed62ab2bfe18651cc1c",
+        "flow/flow_reconstruction_no_time/comparison_metrics.json": "8b76b6d1bb6a7b89ba6d591e42b8dd63760fb3a57ec2eb36d025ffe0972ed879",
+        "flow/flow_reconstruction_no_time/arrival_time_comparison/metrics.json": "b60b656b31fcc58086ff1e75f680f6514d0ed826103c278a7bade70066b80996"
+      }
+    },
+    {
+      "output": "inverse-timed-chain-oblique.pdf",
+      "sha256": "51be0b820257fc843580648abff097636fe69d512a7e9039ed6ec8f89d139761",
+      "cases": [
+        "oblique_beta5"
+      ],
+      "layout": "2 x 3; shared field scale; original clocks",
+      "source_page": "all_new_figures.pdf p.9",
+      "scale_conversions": "Saved x/H,y/H, u/U_ref, tU_ref/H; no clock warping",
+      "inputs_sha256": {
+        "flow/results/diverse_profiles_2026_11_07/data/inverse/oblique_beta5/reconstructed_flow.npz": "e905b2a1d7a7f2d6c605361dd21c2cca94ea83eb839a028116548e0e6bf8d6eb",
+        "flow/results/diverse_profiles_2026_11_07/data/inverse/oblique_beta5/inlet_reference_units.csv": "16f27753c2610b78ab93a89b9d36610ccf98bea278de472c8407d28db2d4387a",
+        "flow/results/diverse_profiles_2026_11_07/data/inverse/oblique_beta5/observed_track_1.csv": "7d2d8d5ec2a0b2b7482b33de404894a3b3ea01ecb7b1b29325073a09d161bd24",
+        "flow/results/diverse_profiles_2026_11_07/data/inverse/oblique_beta5/track_1_forward.csv": "ecf3eadf6587a7c895ecba8241c87601d0cd689ad741113bea9a4845678d2c0b",
+        "flow/results/diverse_profiles_2026_11_07/data/inverse/oblique_beta5/observed_track_2.csv": "d01d074b420e8a68f92b5279ebfe3dbf620aafd374f189b79ca012a48aa0927b",
+        "flow/results/diverse_profiles_2026_11_07/data/inverse/oblique_beta5/track_2_forward.csv": "c9dc5309634b7a77cb05ff7b8a3a1f92824508ea5ead778eaf0a89dbc92ba701"
+      }
+    },
+    {
+      "output": "inverse-geometry-chain-oblique.pdf",
+      "sha256": "63b36f9e27d5b59397b558e75f223044eb3fa98449760657773996b57c3bff02",
+      "cases": [
+        "oblique_beta5"
+      ],
+      "layout": "2 x 3; shared field scale; original clocks",
+      "source_page": "chains_only.pdf p.3",
+      "scale_conversions": "Saved x/H,y/H, u/U_ref, tU_ref/H; no clock warping",
+      "inputs_sha256": {
+        "flow/flow_reconstruction_no_time/experiments/oblique_beta5/result/reconstructed_flow.npz": "25db823ff5d0cb779be43f4777dab3651071b2780c41a2f670b029f28bdc5a0b",
+        "flow/flow_reconstruction_no_time/experiments/oblique_beta5/result/inlet_reference_units.csv": "c03b14970fb9125cf727bd17ff7487e468094d0915f669ef1de4463c22dc06eb",
+        "flow/flow_reconstruction_no_time/experiments/oblique_beta5/input/curve_1.csv": "c2db5091454b48c5727a2dded846416f4c92adc34d695aa9ff8ab33a99186b9e",
+        "flow/flow_reconstruction_no_time/experiments/oblique_beta5/result/track_1_forward.csv": "4ef610b7e76407fe0abb68d89dc6283719bcd067be7dc0409e151f17d47697bc",
+        "flow/flow_reconstruction_no_time/comparisons/oblique_beta5/timed_track_1_dense.csv": "502c98bc9742e5e6bccf01801d708b844abbd38b8dc4832a168e9ee9923556ae",
+        "flow/flow_reconstruction_no_time/experiments/oblique_beta5/input/curve_2.csv": "fa0897ad14d97e610c66abcb216a5b4d9c7d7a3842b754c94f3185bb6715ba11",
+        "flow/flow_reconstruction_no_time/experiments/oblique_beta5/result/track_2_forward.csv": "8edb71f0a647ca92bd2760ec146f7b8ad5a90fb75e927fe6b04044c479aa0aac",
+        "flow/flow_reconstruction_no_time/comparisons/oblique_beta5/timed_track_2_dense.csv": "80df763efa1e85dea2d839bdc0456e096270b7bf7f1e32d600a876cf9f7640d9",
+        "flow/flow_reconstruction_no_time/comparison_metrics.json": "8b76b6d1bb6a7b89ba6d591e42b8dd63760fb3a57ec2eb36d025ffe0972ed879",
+        "flow/flow_reconstruction_no_time/arrival_time_comparison/metrics.json": "b60b656b31fcc58086ff1e75f680f6514d0ed826103c278a7bade70066b80996"
+      }
+    },
+    {
+      "output": "inverse-particle-count-profiles.pdf",
+      "sha256": "090aeec2746f1a4ef805851cc66d87c12ef817b9679af1d4abffec70262c58e2",
+      "cases": [
+        "beta5",
+        "twin_b3_r30",
+        "flat30"
+      ],
+      "layout": "three profiles, N=2,5,6",
+      "source_page": "particle-count archived inlet.csv",
+      "scale_conversions": "Shared U_ref; no individual mean normalization",
+      "inputs_sha256": {
+        "flow/results/particle_count/summary.json": "f7b570cd190a4290bbcc782209c5cf3f98e4cf747d41615702b5cd266643c9aa",
+        "flow/results/particle_count/fits/beta5/N2/inlet.csv": "22a7c27f4f8adb0cda7b9b5f1032a99595b43b6c4a0657af28abfd493532fb68",
+        "flow/results/particle_count/fits/beta5/N5/inlet.csv": "31aaba3fcc9682ff2b02cb1741d245a0a1f87360784040a0c77bc8023654f892",
+        "flow/results/particle_count/fits/beta5/N6/inlet.csv": "13731080999b8db9eff32676aa6604af5f090d648ff7736a8e4a0e0a90b7fc62",
+        "flow/results/particle_count/fits/twin_b3_r30/N2/inlet.csv": "667be5a19e380b95868feb7002098ef02a1fedc908792104c035264369bf0fab",
+        "flow/results/particle_count/fits/twin_b3_r30/N5/inlet.csv": "d73ccdcc652ec72b133bde0aeb005bdd22150f86eadddf583b167ee96f21bae3",
+        "flow/results/particle_count/fits/twin_b3_r30/N6/inlet.csv": "ad91894620f5166d6b37a5184f8c9fb2ba2872efa57b5c8bd197b02519e2605d",
+        "flow/results/particle_count/fits/flat30/N2/inlet.csv": "8c9a2ce380d60510740038c14a1c0f2607b4ef6d3e27e633bc456469b3984267",
+        "flow/results/particle_count/fits/flat30/N5/inlet.csv": "ff4b48390e22fbba2f9faaa00ab9f2756a7ba33468f26ba6dd899bbbc5e7ebd6",
+        "flow/results/particle_count/fits/flat30/N6/inlet.csv": "ab4e3002787843bc3afcd03c3a8a678057ba6f39412fd14e4ddd97ca465da5fe"
+      }
+    },
+    {
+      "output": "inverse-master10-single.pdf",
+      "sha256": "8423e64e9eb6d01316cafa970509b8423d2b15fdb61fe689f9900793ce19440c",
+      "cases": [
+        "A_single"
+      ],
+      "layout": "2 x 2; source, path, independent replay errors",
+      "source_page": "operator_inverse/A_single",
+      "scale_conversions": "Already dimensionless X,Z,tau; errors *1e5",
+      "inputs_sha256": {
+        "magnetic/results/operator_inverse/A_single/controls.csv": "835d44bc1fb13229f9a339fe4af4474a25acd92f44c92b8f4dc2ab84154172ed",
+        "magnetic/results/operator_inverse/A_single/replay.csv": "fa56a6e9367dfc81d97a3a881997c830b986175ebdff1727596c654b8e13f55f",
+        "magnetic/results/operator_inverse/A_single/report.json": "578a4df720fc1f83f7bf8cad8677f89dffe62dd2bc9d1cd9cefdf54b5cdd9926"
+      }
+    },
+    {
+      "output": "formation-release-capacity.pdf",
+      "sha256": "958e89c84d6f6a05eccf5fe3433bef933363f72ed690f368e28dbf5033395287",
+      "cases": [
+        "C1_a4b0b778723f"
+      ],
+      "layout": "capacity fraction and release raster",
+      "source_page": "FORM F04",
+      "scale_conversions": "Saved dimensionless quantities; no rescaling",
+      "inputs_sha256": {
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/figures_manifest.json": "1fecf31acfdeabdc149ed577603cead5cc3dd7534a14cbe614cd20b5db3bc7eb",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/figure_inputs/summary.csv": "7309ffeb83c279f7ae3320d97c0006eecfc9dbae67a44fed256e33e5f912091b",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/cases/C1_a4b0b778723f/release_schedule.csv": "f5ae1c73a5ae0633f3ead5c1e900321a8c3677a69e7579e192700ee0810a1e75",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/cases/C1_a4b0b778723f/metrics.json": "95aaf84dd30f0ef9f54bb25b3faba7c4231d0e905dccd92962399ce6329ec6e9"
+      }
+    },
+    {
+      "output": "formation-clearance-penalty.pdf",
+      "sha256": "3c759da1db8fa4df6ce49036071861a7b201b73129462df6c1cdec89cc046b63",
+      "cases": [
+        "duck42",
+        "D1_93bf6b884031",
+        "G2"
+      ],
+      "layout": "two traces/penalty panels plus three identical event windows",
+      "source_page": "FORM F09 and previous F09_F11",
+      "scale_conversions": "Physical radius 0.0125; one-based pair [7,30]; shared lifetimes only",
+      "inputs_sha256": {
+        "thesis/figs/chapter4/formation-extension-manifest.json": "05c26988f30877fff0d1bbc9c0bcf214e82117658568c2a012c2f198f6aa1a70",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/historical_replays/dense_duck_six_fixed/trajectories.npz": "8199c334d22ec90aaf1620942fd80cbebe863d245587a748698ea768e61afa1c",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/historical_replays/dense_duck_six_fixed/metrics.json": "4835a6f44296ede127442fedce83f95c57c5b4231c23c8b91af2641019c87eff",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/cases/D1_93bf6b884031/trajectories.npz": "f62605586b46280fbfd017ed452128b525335cdad732108d4a702c98ae00eac5",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/cases/D1_93bf6b884031/metrics.json": "179ba9432933e0faf57c8b176c4b6f80fac328d4b8f92cfabae1a0e9e6ffcb46",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/cases/G2_b4fa12a4fafe/metrics.json": "7b6030873aec1814215cebe7be73b568ca987872ca1330ed507a3b090e17c958",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/cases/G2_b4fa12a4fafe/config.json": "cb1d64cbb4e166ad3018cedb3e5d83be9a2137f3d23b63d4b219c8286df99924",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/cases/G2_bdc15aa9b2cb/metrics.json": "4bfb58dceae634e3655c87fde30708c8ca6f82bfb44d61ed9bdc8aebf964dd63",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/cases/G2_bdc15aa9b2cb/config.json": "2227c1029a707f9915635fe9e2742fb584ead11f4cd2bab7394b64d9e3115be7",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/cases/G2_e18aa2e0db8b/metrics.json": "ae0cdbc3e138d91924bc1d947cf9dd7fbeb1dd4f381f2178ed4e78b4f2d7d6b5",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/cases/G2_e18aa2e0db8b/config.json": "87661ed86baf4e39266a95a5304defe513f23e9b1ea2aebb4a7d7eade04e64f1",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/cases/G2_505b26a09814/metrics.json": "e34e4d9052d5cbcbd56e6ec1ef1b83a68c76419683f85d7716cad9f54cd355ee",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/cases/G2_505b26a09814/config.json": "e0526eca6d763435bf65228b21bc8cb1d28ecfa68078b96eb6cc841515644004",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/cases/G2_315e224dacb7/metrics.json": "55807dee4fcee3bb18e6191199bbc359d1fa2bbe0bc98a972bd94b1a61b22c20",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/cases/G2_315e224dacb7/config.json": "a929bc588093cfabdfc3da51c9d8cc9c27a00c50801a88ce521cc9e37ff116bc",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/cases/G2_2fcfecf3718c/metrics.json": "8ea8fa17aa42e3b0ece1630ba854c5ad90f3c362d6f319586665181a9611ab7f",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/cases/G2_2fcfecf3718c/config.json": "61091108cf76bb297619d6dd6ab157862f92bda0ec887dfc1dc838814eb2890e",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/historical_replays/dense_duck_six_fixed/critical_event_snapshots.npz": "a86a294f516ac0e57098a4761ed0990d289c3e8d3ec5923f3a0d6bfb7d37a18d",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/historical_replays/dense_duck_six_fixed/critical_event.json": "34938123bb16ffad3d67e05b893ab42d48add98cd00ee94859385b70a3c84b71"
+      }
+    },
+    {
+      "output": "formation-reflection.pdf",
+      "sha256": "c3102fdd5a43e470653506c6c480c6f9c56205fd4da59f3512d87d37089f8ae7",
+      "cases": [
+        "D1_aa218bd9fa31"
+      ],
+      "layout": "two identity comparisons",
+      "source_page": "FORM F10",
+      "scale_conversions": "Saved dimensionless quantities; no rescaling",
+      "inputs_sha256": {
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/reflection/comparison.json": "af4c398a10ee8ce2a4890f213c4e36965a6c91443e63f76931a83cab94395c15",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/cases/D1_aa218bd9fa31/trajectories.npz": "3c65f65933e3e005845f1d4bcda4570603c1a0652633798d4f86faaa5f2c717b",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/reflection/trajectories.npz": "71f75abe695ca2ff30875fe99dbec096643c13bb3c6b541e9db1afbc9310327e"
+      }
+    },
+    {
+      "output": "formation-release-sensitivity.pdf",
+      "sha256": "3c693883e68d2ce34f41e0c02934f4cbf6065572f7bd0a42d57dedff91f450b4",
+      "cases": [
+        "F1_1358cc43f798",
+        "B1_cd46d15ee4e3"
+      ],
+      "layout": "two representatives, 13 scenarios each",
+      "source_page": "FORM F12",
+      "scale_conversions": "Saved dimensionless quantities; no rescaling",
+      "inputs_sha256": {
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/scenarios_manifest.json": "e046a2c3b06864c311099564b2c2c72809df2fa986872630d5d86d9341b75b2e",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/selection.json": "5920a19dba1642dbca5d1d229019092121c6d1e0c0e4a57dd9b44b2db0a0d7de",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/low_margin_nominal_level0/metrics.json": "0ea4c008aa9965d2e7b6913fd825ea62f4c7bb08f6ab352a7529bc96bb495be5",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/low_margin_position_level1/metrics.json": "c11c3a14426e54cc5785bf3c208daf0c98fa9cb88a431170e29d537bbbef8d75",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/low_margin_position_level2/metrics.json": "36b5093b862d59f5eaf151c1e8c0addf8f4ae2f0d932592bf1e5e685e87dae73",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/low_margin_axial_velocity_level1/metrics.json": "d25136207f763f7cdee1a0a4971bcb3897238fbdfb0f39df4ed6c06caa586b28",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/low_margin_axial_velocity_level2/metrics.json": "e24b81844144aef2211fc93dd0149308d9070f654b462cee883665c14559aaf1",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/low_margin_transverse_velocity_level1/metrics.json": "bc291682d6d3908b32a3ae9cc6ec690d514b45a0c7059f59e65bf5b09e4f3f58",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/low_margin_transverse_velocity_level2/metrics.json": "a7d821232a62885490898f201ebf0f4e8a341704a8ccf021bcfada37b94bf5a8",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/low_margin_timing_level1/metrics.json": "cb4a686a66ba9acdcf8d9d9a2798ff5e58261243b5a6bc64ef845ceb246e5e72",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/low_margin_timing_level2/metrics.json": "f7c0674cdda38c83ff7f426b960d0cbd6e7cda8dc048f96710e6f782e2d6e2eb",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/low_margin_joint_level1/metrics.json": "6c914298ff6a74013cf4056921c0fd6ab518f18c3ec5d64ed2346ce189ef1433",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/low_margin_joint_level2/metrics.json": "a6c91dce3149509096317fe4996bd0373729d3a9eb80a4d6255a8300864f09f6",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/low_margin_port_misplacement_level1/metrics.json": "253b13744c45f7e17879308a920b5ce3a1845ae4e90cdb3b3f20b0cebdc72939",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/low_margin_port_misplacement_level2/metrics.json": "ccb8599afdbac37af9b5232e149d07a924573c5e0399f17a778fd794754c0a32",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/high_margin_nominal_level0/metrics.json": "61462723cf213d39929fae6c3eeb19b035913b5c4e571b8880404cf615a899f7",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/high_margin_position_level1/metrics.json": "3fe71f4f2b116d41e2921d45b7be85304263b800cacdc1edfb182a887c24eeff",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/high_margin_position_level2/metrics.json": "e4d9dc4d7c7719fea1bcac88c0a1333459c950684e9b31c8c7a9450a35deef4d",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/high_margin_axial_velocity_level1/metrics.json": "1822b9bf92e2bb78103c1f8bc96ef9cb096b8e98eabafdb0f8fe419cd2f199fa",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/high_margin_axial_velocity_level2/metrics.json": "87f8281a085152d597acccd7a29a771de69a01054bbaa8692b5355c17a422821",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/high_margin_transverse_velocity_level1/metrics.json": "d1d5f434d2540216f8db0206fc0082070ebce002ce84cb1a39bc55ad91463014",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/high_margin_transverse_velocity_level2/metrics.json": "558767f59f4b2635a248528232c570b532a3f509c2298ba84a7e9acb9b2b03dd",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/high_margin_timing_level1/metrics.json": "06f2669a0c71242f6dcc0bbbabbe907a338140b69705a60ead75e6d33970e36e",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/high_margin_timing_level2/metrics.json": "a50e504a56bdf60c26f2bf23ec1a4ce3a11d5296b9704298d211064d5702cc20",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/high_margin_joint_level1/metrics.json": "2394d4928bad82bca1d72eed072eb9825c3a593d0ab99681ba588a3b56ebbe51",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/high_margin_joint_level2/metrics.json": "73f3a15ab659bb6c166feb0e8bd3e9433aeb89d7f3649732f0968b0577dab0ca",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/high_margin_port_misplacement_level1/metrics.json": "36323958df7df73894ee0506e2d3e4837b0ac5289cb6d680bdb45896170c4b14",
+        "thesis/New_Main_Results/runs/formation_20261112_cpu/robustness/high_margin_port_misplacement_level2/metrics.json": "35506332cfeae8be0426f6a0761cc9b4d3a62fc3e02efba3c75508d18df3503f"
+      }
+    }
+  ],
+  "checks": {
+    "skew_b3": {
+      "velocity_percent": 1.6026090345352204,
+      "pressure_percent": 2.374453901074557,
+      "transverse_rmse": 0.008952696365554211,
+      "transverse_relative_l2": 0.23457943228160005,
+      "cross_sections": [
+        0.051666666666666666,
+        0.20066666666666666,
+        0.9859574468085106
+      ]
+    },
+    "twin_b3_r20": {
+      "velocity_percent": 0.9456950195721094,
+      "pressure_percent": 1.8326284345310515,
+      "transverse_rmse": 0.0038405003693382975,
+      "transverse_relative_l2": 0.17043353234021705,
+      "cross_sections": [
+        0.051666666666666666,
+        0.20066666666666666,
+        0.9859574468085106
+      ]
+    },
+    "waves3_r20": {
+      "velocity_percent": 1.801269359949095,
+      "pressure_percent": 5.043363177419907,
+      "transverse_rmse": 0.009165062427105674,
+      "transverse_relative_l2": 0.21559794053913445,
+      "cross_sections": [
+        0.051666666666666666,
+        0.20066666666666666,
+        0.9859574468085106
+      ]
+    },
+    "lobes4_r20": {
+      "velocity_percent": 2.928451211971792,
+      "pressure_percent": 2.2061852328534384,
+      "transverse_rmse": 0.018536766986183378,
+      "transverse_relative_l2": 0.4864603920056767,
+      "cross_sections": [
+        0.051666666666666666,
+        0.20066666666666666,
+        0.9859574468085106
+      ]
+    },
+    "mixed": {
+      "velocity_percent": 2.328008464747943,
+      "pressure_percent": 5.159582710706009,
+      "transverse_rmse": 0.014354963865302411,
+      "transverse_relative_l2": 0.43636540152960773,
+      "cross_sections": [
+        0.051666666666666666,
+        0.20066666666666666,
+        0.9859574468085106
+      ]
+    },
+    "shoulder": {
+      "velocity_percent": 2.237426593226384,
+      "pressure_percent": 5.658492839459937,
+      "transverse_rmse": 0.012420703369335524,
+      "transverse_relative_l2": 0.3848301443383251,
+      "cross_sections": [
+        0.051666666666666666,
+        0.20066666666666666,
+        0.9859574468085106
+      ]
+    },
+    "nine": {
+      "velocity_percent": 2.7529171329491025,
+      "pressure_percent": 6.8393922557066595,
+      "transverse_rmse": 0.01671598799465272,
+      "transverse_relative_l2": 0.8101756167759707,
+      "cross_sections": [
+        0.051666666666666666,
+        0.20066666666666666,
+        0.9859574468085106
+      ]
+    },
+    "01_constant_right": {
+      "X0": 0.0,
+      "Z0": -2.0,
+      "tau_f": 2.25,
+      "max_X": 5.017114087775189e-05,
+      "max_Z": 1.531744895891425e-05
+    },
+    "02_constant_left": {
+      "X0": 0.0,
+      "Z0": -2.0,
+      "tau_f": 2.25,
+      "max_X": 7.850719075526844e-06,
+      "max_Z": 1.1610110450289979e-05
+    },
+    "03_gaussian_pulse": {
+      "X0": 0.0,
+      "Z0": -2.0,
+      "tau_f": 2.25,
+      "max_X": 3.1987573093710214e-05,
+      "max_Z": 2.083720386384172e-06
+    },
+    "04_sinusoidal": {
+      "X0": 0.0,
+      "Z0": -2.0,
+      "tau_f": 2.25,
+      "max_X": 5.3487714722465996e-05,
+      "max_Z": 6.9973470191719844e-06
+    },
+    "05_source_switch": {
+      "X0": 0.0,
+      "Z0": -2.0,
+      "tau_f": 2.25,
+      "max_X": 2.618424200308582e-05,
+      "max_Z": 1.2123637790645986e-05
+    },
+    "06_two_source_chirp": {
+      "X0": 0.0,
+      "Z0": -2.0,
+      "tau_f": 2.25,
+      "max_X": 2.0350373538459824e-05,
+      "max_Z": 7.889154533466392e-06
+    },
+    "07_offset_alternating": {
+      "X0": -0.3,
+      "Z0": -1.0,
+      "tau_f": 2.4000000000000004,
+      "max_X": 5.065712939617343e-05,
+      "max_Z": 3.256864132092797e-05
+    },
+    "08_alternating_pulses": {
+      "X0": 0.35,
+      "Z0": -1.125,
+      "tau_f": 2.0999999999999996,
+      "max_X": 1.8853191268759393e-05,
+      "max_Z": 1.1916017284420259e-05
+    },
+    "09_slow_dual_chirp": {
+      "X0": 0.15,
+      "Z0": -0.625,
+      "tau_f": 2.25,
+      "max_X": 4.460271790509138e-05,
+      "max_Z": 6.07870471883501e-06
+    },
+    "10_fast_multisine": {
+      "X0": -0.4,
+      "Z0": -1.875,
+      "tau_f": 1.35,
+      "max_X": 2.3582905289503377e-05,
+      "max_Z": 3.243347338915709e-05
+    },
+    "11_downstream_switch": {
+      "X0": 0.25,
+      "Z0": 0.5,
+      "tau_f": 1.5,
+      "max_X": 2.2856729924229846e-05,
+      "max_Z": 5.5027652334956045e-06
+    },
+    "12_phase_interference": {
+      "X0": -0.25,
+      "Z0": -1.5,
+      "tau_f": 2.4000000000000004,
+      "max_X": 9.570890351636075e-06,
+      "max_Z": 1.3521989524725893e-05
+    },
+    "timed_corners_beta4": {
+      "euclidean_rms_percent_H": [
+        0.06283811667487946,
+        0.0532900810991701
+      ],
+      "component_rms_times_1e4": [
+        4.443325841779873,
+        3.768177771520424
+      ]
+    },
+    "timed_corners_beta5": {
+      "euclidean_rms_percent_H": [
+        0.09440876041661937,
+        0.06817511514336996
+      ],
+      "component_rms_times_1e4": [
+        6.675707469400766,
+        4.820708622605059
+      ]
+    },
+    "timed_oblique_beta5": {
+      "euclidean_rms_percent_H": [
+        0.26848040003838375,
+        0.14143414207372443
+      ],
+      "component_rms_times_1e4": [
+        18.984431148281814,
+        10.000904095163213
+      ]
+    },
+    "A_single_X": 6.314624544401237e-05,
+    "A_single_Z": 1.1437444898565463e-05,
+    "A_single_report": {
+      "config": {
+        "h": 0.0125,
+        "knots": 7,
+        "scales": [
+          5.5e-05,
+          4e-05
+        ],
+        "regularization": 0.1,
+        "starts": 3,
+        "iterations": 90,
+        "seed": 731,
+        "prior": "left-positive"
+      },
+      "selected_start": 1,
+      "starts": [
+        {
+          "start": 0,
+          "objective": 0.15266044890756542,
+          "data_term": 0.14132831969388604,
+          "regularization_term": 0.011332129213679376,
+          "domain_penalty": 0.0,
+          "iterations": 47,
+          "evaluations": 52,
+          "optimizer_converged": true,
+          "reason": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "feasible": true,
+          "sampling_error": 5.551115123125783e-17,
+          "seconds": 19.83427841899993,
+          "coefficients": [
+            [
+              0.12293187001854822,
+              0.0
+            ],
+            [
+              0.18073420473507198,
+              0.0
+            ],
+            [
+              0.28033439588422715,
+              0.0
+            ],
+            [
+              0.3200872604790618,
+              0.0
+            ],
+            [
+              0.2500028906345434,
+              0.0
+            ],
+            [
+              0.17958569994780557,
+              0.0
+            ],
+            [
+              0.11943318400409585,
+              0.0
+            ]
+          ]
+        },
+        {
+          "start": 1,
+          "objective": 0.15266044890100225,
+          "data_term": 0.14132831931621517,
+          "regularization_term": 0.011332129584787076,
+          "domain_penalty": 0.0,
+          "iterations": 48,
+          "evaluations": 96,
+          "optimizer_converged": false,
+          "reason": "ABNORMAL: ",
+          "feasible": true,
+          "sampling_error": 5.551115123125783e-17,
+          "seconds": 37.23582312800045,
+          "coefficients": [
+            [
+              0.12293186858614724,
+              0.0
+            ],
+            [
+              0.1807342056377005,
+              0.0
+            ],
+            [
+              0.28033439221691087,
+              0.0
+            ],
+            [
+              0.32008726367851775,
+              0.0
+            ],
+            [
+              0.2500028885457715,
+              0.0
+            ],
+            [
+              0.17958570264043094,
+              0.0
+            ],
+            [
+              0.11943317876391378,
+              0.0
+            ]
+          ]
+        },
+        {
+          "start": 2,
+          "objective": 0.15266044890814923,
+          "data_term": 0.14132832005477694,
+          "regularization_term": 0.01133212885337229,
+          "domain_penalty": 0.0,
+          "iterations": 41,
+          "evaluations": 47,
+          "optimizer_converged": true,
+          "reason": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "feasible": true,
+          "sampling_error": 5.551115123125783e-17,
+          "seconds": 19.483668578000106,
+          "coefficients": [
+            [
+              0.1229318619759785,
+              0.0
+            ],
+            [
+              0.18073421198813827,
+              0.0
+            ],
+            [
+              0.28033438884397577,
+              0.0
+            ],
+            [
+              0.32008726334141346,
+              0.0
+            ],
+            [
+              0.2500028899524288,
+              0.0
+            ],
+            [
+              0.1795857034832088,
+              0.0
+            ],
+            [
+              0.11943319179490242,
+              0.0
+            ]
+          ]
+        }
+      ],
+      "seconds": 76.55406100799974,
+      "initial_convention": "exact_first_observation",
+      "time_origin": 0,
+      "units": "tau,X,Z",
+      "rejection_rule": "Require domain-feasible sampled rollout, amplitude bound, sampling error <=0.0005; independent replay required separately",
+      "case": "A_single",
+      "parameters": {
+        "eta": 0.003276913272013514,
+        "mean": 0.015,
+        "rho": 1000.0
+      },
+      "q0": [
+        0.12,
+        -1
+      ],
+      "observation_count": 121,
+      "noise_um": 0,
+      "noise_seed": 0,
+      "source": "DOP853 synthetic; truth amplitudes never supplied to fit",
+      "evaluation_count": 601,
+      "sign": 1,
+      "waveform_raw_relative_l2": 0.00374470395106099,
+      "waveform_aligned_relative_l2": 0.00374470395106099,
+      "waveform_raw": {
+        "rmse": [
+          0.0008612125681117577,
+          0.0
+        ],
+        "maximum": [
+          0.002931868586147246,
+          0.0
+        ]
+      },
+      "waveform_aligned": {
+        "rmse": [
+          0.0008612125681117577,
+          0.0
+        ],
+        "maximum": [
+          0.002931868586147246,
+          0.0
+        ]
+      },
+      "neural_vs_clean": {
+        "rmse": [
+          5.4960239239890525e-06,
+          1.4457152474653736e-05
+        ],
+        "maximum": [
+          9.592009509964972e-06,
+          2.585548431260909e-05
+        ]
+      },
+      "replay_vs_clean": {
+        "rmse": [
+          4.4264919035150345e-05,
+          6.636610509182442e-06
+        ],
+        "maximum": [
+          6.314624544401237e-05,
+          1.1437444898565463e-05
+        ]
+      },
+      "neural_vs_observed": {
+        "rmse": [
+          5.390465329046337e-06,
+          1.4517446661510363e-05
+        ],
+        "maximum": [
+          9.394281946559224e-06,
+          2.585548431260909e-05
+        ]
+      },
+      "zero_vs_clean": {
+        "rmse": [
+          0.028778637886067833,
+          0.0027419697264901796
+        ],
+        "maximum": [
+          0.04929575385913476,
+          0.006672318168406299
+        ]
+      },
+      "reference_refinement": {
+        "rmse": [
+          3.313185237482655e-10,
+          3.986938078631779e-11
+        ],
+        "maximum": [
+          4.730135311215022e-10,
+          7.807027246897746e-11
+        ]
+      },
+      "replay_refinement": {
+        "rmse": [
+          3.055618097854215e-10,
+          4.16888922161757e-11
+        ],
+        "maximum": [
+          3.7089151194713565e-10,
+          7.638639720752849e-11
+        ]
+      },
+      "field_aligned_at_reference": {
+        "rmse": [
+          0.0001889813241465609,
+          0.0004702666390041931,
+          0.00016632128530803602,
+          9.095929476866836e-05
+        ],
+        "maximum": [
+          0.00035092518767163017,
+          0.0014656044578743727,
+          0.0002529446491308096,
+          0.0001830063721233871
+        ]
+      },
+      "field_scales": "B/BS, F/(ALPHA*BS^2/D); evaluated at q_ref(tau)",
+      "independent_replay_complete": true,
+      "domain_feasible": true,
+      "amplitude_margin": 0.3870195175080298,
+      "state_X_margin": 0.58,
+      "near_best_replays": [
+        {
+          "start": 0,
+          "replay": {
+            "rmse": [
+              4.426493783313544e-05,
+              6.636615433950234e-06
+            ],
+            "maximum": [
+              6.314623985617662e-05,
+              1.1437450941287342e-05
+            ]
+          },
+          "completed": true,
+          "waveform_global_aligned_relative_l2": 0.0037447049061610357,
+          "objective": 0.15266044890756542
+        },
+        {
+          "start": 1,
+          "replay": {
+            "rmse": [
+              4.4264919035150345e-05,
+              6.636610509182442e-06
+            ],
+            "maximum": [
+              6.314624544401237e-05,
+              1.1437444898565463e-05
+            ]
+          },
+          "completed": true,
+          "waveform_global_aligned_relative_l2": 0.00374470395106099,
+          "objective": 0.15266044890100225
+        },
+        {
+          "start": 2,
+          "replay": {
+            "rmse": [
+              4.42649126507262e-05,
+              6.63660848812503e-06
+            ],
+            "maximum": [
+              6.314619587133308e-05,
+              1.1437446346018731e-05
+            ]
+          },
+          "completed": true,
+          "waveform_global_aligned_relative_l2": 0.0037446990467666827,
+          "objective": 0.15266044890814923
+        }
+      ],
+      "total_seconds": 80.72508790499978,
+      "error_definition": "Component RMSE and max on stated grid; waveform relative norm is joint across sources/time; no per-coordinate relative position errors",
+      "status": "completed",
+      "assessment": "No numeric inverse pass gate; optimizer convergence, replay error, and waveform error reported separately",
+      "checkpoint_sha256": "080b7e5dd76c98a75fca7f92cc4ec314907a7f7340c809b739b1e2eabc0e3133"
+    },
+    "formation_registered_hashes": "F04,F09,F10,F12 inputs verified",
+    "release_capacity": {
+      "ports": [
+        "B1",
+        "B2",
+        "B3",
+        "T1",
+        "T2",
+        "T3"
+      ],
+      "counts": [
+        5,
+        4,
+        3,
+        6,
+        5,
+        1
+      ],
+      "accepted": [
+        0,
+        1,
+        1,
+        3
+      ],
+      "executed": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "planned": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    "Duck 42_refined_min": 0.026048132811949044,
+    "Fish 100_refined_min": 0.026196957840267487,
+    "critical_pair": {
+      "one_based": [
+        7,
+        30
+      ],
+      "times": [
+        1.7214927119863062,
+        1.7314927119863062,
+        1.7414927119863062
+      ]
+    },
+    "reflection": {
+      "source_case": "D1_aa218bd9fa31",
+      "N": 100,
+      "accepted": true,
+      "paired_reference_symmetry": {
+        "max_endpoint_reflection_residual": 6.804363002006077e-16,
+        "signed_minimum_distance_change": 4.163336342344337e-17
+      },
+      "frozen_PINN_asymmetry": {
+        "max_endpoint_reflection_residual": 0.00010930022857372863,
+        "signed_minimum_distance_change": -4.48454131815601e-09
+      },
+      "interpretation": "Same saved schedule reflected, with no optimizer rerun; PINN asymmetry is reported separately."
+    }
+  }
+}

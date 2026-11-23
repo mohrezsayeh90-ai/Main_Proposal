@@ -19,6 +19,7 @@
 
 \input{styles/common.tex}
 \input{styles/custom.tex}
+\usepackage{placeins}
 
 \begin{document}
 
@@ -49,6 +50,10 @@
 
 % -------------------- Table of Contents --------------------
 
+% Allow three-digit Persian page numbers in the contents and lists.
+\makeatletter
+\renewcommand{\@pnumwidth}{1.8em}
+\makeatother
 \tableofcontents \newpage
 \listoftables \newpage
 \listoffigures \newpage

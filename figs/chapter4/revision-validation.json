@@ -1,0 +1,733 @@
+{
+  "forward": {
+    "flow": {
+      "beta": {
+        "velocity_relative_l2": 0.009060065852523582,
+        "v_relative_l2": 0.09261043323870884,
+        "v_rmse": 0.004158989743234261,
+        "pressure_relative_l2": 0.03082342150145328,
+        "reynolds": 30.0,
+        "momentum_rms": 0.2758569584903527,
+        "inlet_flux": 0.999999999976191,
+        "mesh_change": {
+          "velocity_relative_l2": 3.1572251183129914e-05,
+          "pressure_relative_l2": 0.0003620140274082291
+        },
+        "inlet_max_error": 8.881784197001252e-16
+      },
+      "flat": {
+        "velocity_relative_l2": 0.030019309455908475,
+        "v_relative_l2": 0.397805783282916,
+        "v_rmse": 0.010812076290035921,
+        "pressure_relative_l2": 0.10974254153129304,
+        "reynolds": 70.0,
+        "momentum_rms": 0.5170347123447507,
+        "inlet_flux": 1.0000000034751308,
+        "mesh_change": {
+          "velocity_relative_l2": 5.287027428633451e-05,
+          "pressure_relative_l2": 0.00038784851899154423
+        },
+        "inlet_max_error": 4.440892098500626e-16
+      },
+      "asymmetric": {
+        "velocity_relative_l2": 0.04649095790441279,
+        "v_relative_l2": 0.37159561052478224,
+        "v_rmse": 0.0081450975382775,
+        "pressure_relative_l2": 0.17844667487757435,
+        "reynolds": 100.0,
+        "momentum_rms": 0.15086371880233035,
+        "inlet_flux": 0.9999990463256838,
+        "mesh_change": {
+          "velocity_relative_l2": 7.111801490119606e-06,
+          "pressure_relative_l2": 0.00011103079125298316
+        },
+        "inlet_max_error": 4.440892098500626e-16
+      },
+      "nine": {
+        "velocity_relative_l2": 0.06603996222734278,
+        "v_relative_l2": 0.8919863288084644,
+        "v_rmse": 0.024466121988857212,
+        "pressure_relative_l2": 0.08209510240381988,
+        "reynolds": 55.0,
+        "momentum_rms": 2.09289578504481,
+        "inlet_flux": 0.9999996207759416,
+        "mesh_change": {
+          "velocity_relative_l2": 9.460151127438107e-05,
+          "pressure_relative_l2": 0.001985771516601888
+        },
+        "inlet_max_error": 8.881784197001252e-16
+      }
+    },
+    "magnetic": {
+      "01_constant_right": {
+        "X0": 0.0,
+        "Z0": -2.0,
+        "tau_f": 2.25,
+        "max_X_error": 5.017114087775554e-05,
+        "max_Z_error": 1.5317448958940272e-05,
+        "samples": 801
+      },
+      "02_constant_left": {
+        "X0": 0.0,
+        "Z0": -2.0,
+        "tau_f": 2.25,
+        "max_X_error": 7.850719075525037e-06,
+        "max_Z_error": 1.161011045028304e-05,
+        "samples": 801
+      },
+      "03_gaussian_pulse": {
+        "X0": 0.0,
+        "Z0": -2.0,
+        "tau_f": 2.25,
+        "max_X_error": 3.198757309370859e-05,
+        "max_Z_error": 2.083720386403254e-06,
+        "samples": 801
+      },
+      "04_sinusoidal": {
+        "X0": 0.0,
+        "Z0": -2.0,
+        "tau_f": 2.25,
+        "max_X_error": 5.3487714722466606e-05,
+        "max_Z_error": 6.99734701919974e-06,
+        "samples": 801
+      },
+      "05_source_switch": {
+        "X0": 0.0,
+        "Z0": -2.0,
+        "tau_f": 2.25,
+        "max_X_error": 2.6184242003096658e-05,
+        "max_Z_error": 1.212363779068415e-05,
+        "samples": 801
+      },
+      "06_two_source_chirp": {
+        "X0": 0.0,
+        "Z0": -2.0,
+        "tau_f": 2.25,
+        "max_X_error": 2.0350373538461156e-05,
+        "max_Z_error": 7.88915453348027e-06,
+        "samples": 801
+      },
+      "07_offset_alternating": {
+        "X0": -0.3,
+        "Z0": -1.0,
+        "tau_f": 2.4000000000000004,
+        "max_X_error": 5.065712939616995e-05,
+        "max_Z_error": 3.256864132092363e-05,
+        "samples": 801
+      },
+      "08_alternating_pulses": {
+        "X0": 0.35,
+        "Z0": -1.125,
+        "tau_f": 2.0999999999999996,
+        "max_X_error": 1.8853191268763947e-05,
+        "max_Z_error": 1.1916017284424596e-05,
+        "samples": 801
+      },
+      "09_slow_dual_chirp": {
+        "X0": 0.15,
+        "Z0": -0.625,
+        "tau_f": 2.25,
+        "max_X_error": 4.4602717905101175e-05,
+        "max_Z_error": 6.07870471883154e-06,
+        "samples": 801
+      },
+      "10_fast_multisine": {
+        "X0": -0.4,
+        "Z0": -1.875,
+        "tau_f": 1.35,
+        "max_X_error": 2.3582905289476486e-05,
+        "max_Z_error": 3.2433473389156114e-05,
+        "samples": 801
+      },
+      "11_downstream_switch": {
+        "X0": 0.25,
+        "Z0": 0.5,
+        "tau_f": 1.5,
+        "max_X_error": 2.28567299242477e-05,
+        "max_Z_error": 5.502765233478257e-06,
+        "samples": 801
+      },
+      "12_phase_interference": {
+        "X0": -0.25,
+        "Z0": -1.5,
+        "tau_f": 2.4000000000000004,
+        "max_X_error": 9.570890351640049e-06,
+        "max_Z_error": 1.3521989524728495e-05,
+        "samples": 801
+      }
+    },
+    "flow_gates": {
+      "velocity_relative_l2": false,
+      "pressure_relative_l2": false,
+      "momentum_rms": false,
+      "divergence_rms": true,
+      "outlet_traction_rms": true,
+      "flux_max_error": true,
+      "boundary_max_error": true
+    },
+    "exploratory_selected": [
+      {
+        "name": "skew_b3",
+        "reynolds": 30.0,
+        "velocity_relative_l2": 0.016026090345352205,
+        "pressure_relative_l2": 0.02374453901074557
+      },
+      {
+        "name": "twin_b3_r20",
+        "reynolds": 20.0,
+        "velocity_relative_l2": 0.009456950195721094,
+        "pressure_relative_l2": 0.018326284345310515
+      },
+      {
+        "name": "waves3_r20",
+        "reynolds": 20.0,
+        "velocity_relative_l2": 0.018012693599490953,
+        "pressure_relative_l2": 0.050433631774199066
+      },
+      {
+        "name": "lobes4_r20",
+        "reynolds": 20.0,
+        "velocity_relative_l2": 0.029284512119717918,
+        "pressure_relative_l2": 0.022061852328534384
+      },
+      {
+        "name": "mixed",
+        "reynolds": 30.0,
+        "velocity_relative_l2": 0.02328008464747943,
+        "pressure_relative_l2": 0.051595827107060094
+      },
+      {
+        "name": "shoulder",
+        "reynolds": 30.0,
+        "velocity_relative_l2": 0.022374265932263843,
+        "pressure_relative_l2": 0.05658492839459937
+      },
+      {
+        "name": "nine",
+        "reynolds": 55.0,
+        "velocity_relative_l2": 0.027529171329491023,
+        "pressure_relative_l2": 0.0683939225570666
+      }
+    ]
+  },
+  "inverse": {
+    "timed": {
+      "corners_beta4": {
+        "position_rmse": [
+          0.0004443325841779873,
+          0.0003768177771520424
+        ],
+        "mean_speed": 1.0019354465967374,
+        "truth": {
+          "generator": "independent FEM, Beta(4,4), Re=30",
+          "noise_std": 0.0002,
+          "noise_seed": 72109,
+          "reference_fields_used_in_inverse_loss": false,
+          "velocity_relative_l2": 0.19505029177662866,
+          "inlet_relative_l2": 0.32423059029184137,
+          "pressure_relative_l2": 0.2079541835661194
+        },
+        "field_norms_recomputed": false
+      },
+      "corners_beta5": {
+        "position_rmse": [
+          0.0006675707469400767,
+          0.0004820708622605059
+        ],
+        "mean_speed": 1.0023600780844009,
+        "truth": {
+          "velocity_relative_l2": 0.26912705833085343,
+          "pressure_relative_l2": 0.3299921272940264,
+          "v_relative_l2": 1.335349270204766,
+          "mean_speed_absolute_error": 0.002360078084400863,
+          "comparison_role": "synthetic independent FEM truth, fields not supplied to inversion",
+          "reference_grid_points": 7081,
+          "unique_recovery_claim": false,
+          "inlet_relative_l2": 0.43153302049602993
+        },
+        "field_norms_recomputed": true
+      },
+      "oblique_beta5": {
+        "position_rmse": [
+          0.0018984431148281816,
+          0.0010000904095163212
+        ],
+        "mean_speed": 1.0104699710436496,
+        "truth": {
+          "velocity_relative_l2": 0.21217203049344474,
+          "pressure_relative_l2": 0.4280359275023466,
+          "v_relative_l2": 1.533637312537361,
+          "mean_speed_absolute_error": 0.01046997104364955,
+          "comparison_role": "synthetic independent FEM truth, fields not supplied to inversion",
+          "reference_grid_points": 7081,
+          "unique_recovery_claim": false,
+          "inlet_relative_l2": 0.40212721776232363
+        },
+        "field_norms_recomputed": true
+      }
+    },
+    "geometric": {
+      "corners_beta4": {
+        "paths": [
+          {
+            "timed": {
+              "symmetric_distance_rmse_H": 0.00027125718697327894,
+              "symmetric_hausdorff_H": 0.0012802033536706441,
+              "ordered_arclength_rmse_H": 0.000646715248179831,
+              "endpoint_error_H": 0.0012802033536706441,
+              "observed_length_H": 3.3076144808950456,
+              "predicted_length_H": 3.3085786492120928
+            },
+            "without_time": {
+              "symmetric_distance_rmse_H": 0.00021301204265674708,
+              "symmetric_hausdorff_H": 0.0006744840965512677,
+              "ordered_arclength_rmse_H": 0.00021337526119088567,
+              "endpoint_error_H": 8.179204717376028e-05,
+              "observed_length_H": 3.3076144808950456,
+              "predicted_length_H": 3.3075635694682317
+            }
+          },
+          {
+            "timed": {
+              "symmetric_distance_rmse_H": 0.00020586072839498513,
+              "symmetric_hausdorff_H": 0.0009604728204285908,
+              "ordered_arclength_rmse_H": 0.0008431561627950839,
+              "endpoint_error_H": 0.0009604728204285908,
+              "observed_length_H": 2.0555505513522605,
+              "predicted_length_H": 2.0571847402215186
+            },
+            "without_time": {
+              "symmetric_distance_rmse_H": 0.0004029780209641727,
+              "symmetric_hausdorff_H": 0.002402362456989435,
+              "ordered_arclength_rmse_H": 0.001977865934868169,
+              "endpoint_error_H": 0.000648403199916172,
+              "observed_length_H": 2.0555505513522605,
+              "predicted_length_H": 2.051326491801211
+            }
+          }
+        ],
+        "inlet_difference": 0.0966117502837918,
+        "shape_difference": 0.09534421290294635
+      },
+      "corners_beta5": {
+        "paths": [
+          {
+            "timed": {
+              "symmetric_distance_rmse_H": 0.00033884682672697005,
+              "symmetric_hausdorff_H": 0.0014791024078324477,
+              "ordered_arclength_rmse_H": 0.0007772986384273274,
+              "endpoint_error_H": 0.0014791024078324477,
+              "observed_length_H": 3.295100685959015,
+              "predicted_length_H": 3.2962378049948446
+            },
+            "without_time": {
+              "symmetric_distance_rmse_H": 0.0003149388821295879,
+              "symmetric_hausdorff_H": 0.000851881944854859,
+              "ordered_arclength_rmse_H": 0.0003151983882069972,
+              "endpoint_error_H": 0.0004612186631438374,
+              "observed_length_H": 3.295100685959015,
+              "predicted_length_H": 3.2950122370446864
+            }
+          },
+          {
+            "timed": {
+              "symmetric_distance_rmse_H": 0.00022185405284548795,
+              "symmetric_hausdorff_H": 0.0011357773528327482,
+              "ordered_arclength_rmse_H": 0.001084964321853313,
+              "endpoint_error_H": 0.0011357773528327482,
+              "observed_length_H": 2.055898238892339,
+              "predicted_length_H": 2.058072746202678
+            },
+            "without_time": {
+              "symmetric_distance_rmse_H": 0.0004238080044458511,
+              "symmetric_hausdorff_H": 0.0026159448604134864,
+              "ordered_arclength_rmse_H": 0.00214781684435219,
+              "endpoint_error_H": 0.0006329834144979973,
+              "observed_length_H": 2.055898238892339,
+              "predicted_length_H": 2.0513103906847627
+            }
+          }
+        ],
+        "inlet_difference": 0.1398826920461658,
+        "shape_difference": 0.13804793449938157
+      },
+      "oblique_beta5": {
+        "paths": [
+          {
+            "timed": {
+              "symmetric_distance_rmse_H": 0.0013066545256569797,
+              "symmetric_hausdorff_H": 0.003239158479913696,
+              "ordered_arclength_rmse_H": 0.001424152322821393,
+              "endpoint_error_H": 0.003239158479913696,
+              "observed_length_H": 1.4201991392832907,
+              "predicted_length_H": 1.4215667560900593
+            },
+            "without_time": {
+              "symmetric_distance_rmse_H": 0.0009523079331446689,
+              "symmetric_hausdorff_H": 0.0021971302578404493,
+              "ordered_arclength_rmse_H": 0.0010932009191228526,
+              "endpoint_error_H": 0.0021971302578404493,
+              "observed_length_H": 1.4201991392832907,
+              "predicted_length_H": 1.4190070527880156
+            }
+          },
+          {
+            "timed": {
+              "symmetric_distance_rmse_H": 0.000879498622187891,
+              "symmetric_hausdorff_H": 0.0028741473685464196,
+              "ordered_arclength_rmse_H": 0.0015991817143272565,
+              "endpoint_error_H": 0.002874147368546419,
+              "observed_length_H": 1.0006255043002137,
+              "predicted_length_H": 1.003982026840176
+            },
+            "without_time": {
+              "symmetric_distance_rmse_H": 0.00022641843647594267,
+              "symmetric_hausdorff_H": 0.0007959563660228866,
+              "ordered_arclength_rmse_H": 0.0004228147572363065,
+              "endpoint_error_H": 0.0007378363393277879,
+              "observed_length_H": 1.0006255043002137,
+              "predicted_length_H": 0.9999002930282361
+            }
+          }
+        ],
+        "inlet_difference": 0.25265193210308673,
+        "shape_difference": 0.2525806807594551
+      }
+    },
+    "master9": {
+      "nominal": {
+        "Re": 0.6866217727567374,
+        "tracking": 5.7228613669850926e-05,
+        "delta_X": 5.95401931355842e-05,
+        "delta_Z": 0.0008051710648362409,
+        "Z_final": 1.422664277117186,
+        "rows": 138,
+        "command_intervals": 137
+      },
+      "low_speed_high_viscosity": {
+        "Re": 0.12499999999999999,
+        "tracking": 0.0011529496264418987,
+        "delta_X": 0.0011505758969267837,
+        "delta_Z": 0.0002591941393084163,
+        "Z_final": 1.4030411139446102,
+        "rows": 392,
+        "command_intervals": 391
+      },
+      "high_Re_fast_release": {
+        "Re": 4.949999999999999,
+        "tracking": 0.00011232836665878154,
+        "delta_X": 0.0001121674294567443,
+        "delta_Z": 0.00030090317470610195,
+        "Z_final": 1.4046591550009142,
+        "rows": 65,
+        "command_intervals": 64
+      },
+      "shifted_release": {
+        "Re": 0.7124999999999999,
+        "tracking": 4.130864787701971e-05,
+        "delta_X": 4.5138735413535747e-05,
+        "delta_Z": 0.00025022326253676397,
+        "Z_final": 1.401700104980756,
+        "rows": 96,
+        "command_intervals": 95
+      }
+    }
+  },
+  "particle_count": {
+    "matrix": [
+      [
+        2.70024106879316,
+        3.07854012532403,
+        3.0974149801313735,
+        0.0009065687908953664,
+        0.6369740021444587
+      ],
+      [
+        21.37097863695385,
+        9.382333228457325,
+        9.751349522023474,
+        8.069433795492476,
+        5.418363256350567
+      ],
+      [
+        43.812616668074725,
+        5.434327023902189,
+        14.827492667829281,
+        4.122389610442606,
+        4.427746852432074
+      ],
+      [
+        15.003132635705455,
+        11.162959769459532,
+        2.6079614757522798,
+        1.7948723715479484,
+        2.3590221168931786
+      ],
+      [
+        22.311044941654416,
+        12.8161302813723,
+        13.81950087978634,
+        8.27631625125897,
+        5.582041515151881
+      ],
+      [
+        15.9245930559694,
+        7.618396578040191,
+        6.138317917941373,
+        8.320973814731532,
+        6.468942739929154
+      ],
+      [
+        21.662880106774647,
+        19.372198790067888,
+        6.834445484712667,
+        5.785385087046765,
+        5.191968603729734
+      ],
+      [
+        27.788794015329167,
+        32.03543261480672,
+        28.156001994490428,
+        20.72991240207883,
+        9.87637773201616
+      ],
+      [
+        25.353974290411774,
+        7.324729139659354,
+        5.876431969766341,
+        4.689843650677988,
+        4.366187636724366
+      ],
+      [
+        39.11357648095907,
+        39.091926110073175,
+        39.114972602218884,
+        39.05787375281284,
+        39.053107054406524
+      ]
+    ],
+    "medians": [
+      21.986962524214533,
+      10.272646498958428,
+      8.29289750336807,
+      6.927409441269621,
+      5.30516593004015
+    ],
+    "fits_checked": 50,
+    "grid_points": 4097,
+    "improving_steps": 29,
+    "total_steps": 40,
+    "maximum_norm_difference_percent": 7.105427357601002e-15,
+    "replays_completed": 200,
+    "selected_converged": 0,
+    "selected_stops": {
+      "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT": 49,
+      "ABNORMAL: ": 1
+    },
+    "nine_difference_percentage_points": 0.06046942655254384
+  },
+  "inputs_sha256": {
+    "flow/reports/experiments/pressure_long/output/selected_checkpoint.validation.json": "eade7ebaab09b950e6aeaf2ed9814c8322e3c81a6d1f271ccaf22803afafdd99",
+    "flow/reports/experiments/pressure_long/output/validation_best_checkpoint/metrics.json": "5847a1894bc671ad6e654fed4c161a410c8f43036037f1ac8d6c78067f97156d",
+    "flow/reports/experiments/pressure_long/output/selected_checkpoint.npz": "ccf6fa2b3e179a22c443384083e2dec338fc497f9562a567ed7e0955d3c67bf8",
+    "magnetic/results/operator/checkpoint.pt": "080b7e5dd76c98a75fca7f92cc4ec314907a7f7340c809b739b1e2eabc0e3133",
+    "flow/reports/experiments/pressure_long/output/validation_best_checkpoint/beta.npz": "6fa4eb5c28e9e37055d806440d2d28e0f0f178154bb7a26e36aad3c8ee671f0f",
+    "flow/validation/references/beta.npz": "34fb61c2b7b232a6c5928709b5768edc749cfc4c71d736614d51e47d3b5f9ba1",
+    "flow/reports/experiments/pressure_long/output/validation_best_checkpoint/flat.npz": "e6717fb95b3265183d3913ac740836fb0601012df5ebe1c22d832d13e7a16420",
+    "flow/validation/references/flat.npz": "f9e6dd71b99231164d2f6dae128e967045e9878f41661098e43ab603ee716f6e",
+    "flow/reports/experiments/pressure_long/output/validation_best_checkpoint/asymmetric.npz": "2daf9774b20a8579f2fffadf1c8e138e7ef5300506737e0c8d1d90601b1ab5b5",
+    "flow/validation/references/asymmetric.npz": "0db341d75992967e50ddac34e9bb31f3820d8c94fdf9e61ca10f8bf76c20bdd3",
+    "flow/reports/experiments/pressure_long/output/validation_best_checkpoint/nine.npz": "227070d2cc90128e53e205c84a18b1c8b7dabc97933303a3a94c522b17cc5b13",
+    "flow/validation/references/nine.npz": "6726f082c625b37ba5fcbe77079c914ed062e8083b3b9be3fcf6dbd389add2bd",
+    "flow/reports/experiments/pressure_long/output/validation_checkpoint/metrics.json": "20ada2e7306a32d9e7b753214268e3c71315550c0fdc4a9bbd9b2deb91388cc8",
+    "flow/results/diverse_profiles_2026_11_07/metrics.json": "986d1f04a962417bd1790513937ad6c2b084493bb5c811942e1e0c5bd836a9fa",
+    "magnetic/results/trained_presentation/validation.json": "f38ff320866a097474bef63d531eee45efb91b5d254ff14788a2fece797a07a8",
+    "magnetic/results/trained_presentation/01_constant_right.csv": "728e06843fe92aae4b981d88e9afb7c707cb9e4ac63bddfb726039741144a943",
+    "magnetic/results/trained_presentation/02_constant_left.csv": "17430c9f822193d5e3503c490277932a14cb17ca420307b1c324f2ae116a6c89",
+    "magnetic/results/trained_presentation/03_gaussian_pulse.csv": "25e7051f2b6de128a516cd246892fdb56dcb2d4108bd34e356d4970dd3144a26",
+    "magnetic/results/trained_presentation/04_sinusoidal.csv": "f98b9785a41e682104b8dd8e7e9d962fda0151bfe9a556b21e48da5fc3b93cdf",
+    "magnetic/results/trained_presentation/05_source_switch.csv": "d674a2446a13ad8829fb4cdf737a7d61e844ebc3f1795b630fceac89237f84be",
+    "magnetic/results/trained_presentation/06_two_source_chirp.csv": "0e09104ecc9b52d87d402955787a6165bf228a6516768c54a3fd3f4e416bc4d5",
+    "magnetic/results/trained_presentation/07_offset_alternating.csv": "eca61829039fd7b674c1c7301d7fd1feefd165b0934e37509ae387ac06685149",
+    "magnetic/results/trained_presentation/08_alternating_pulses.csv": "0cf222eeef8da6157b024280e01563d7405bf6a8fb1af644a64b93d11981bd6b",
+    "magnetic/results/trained_presentation/09_slow_dual_chirp.csv": "c8d77d7b1760e6bb6285bc131820f003dedd282b62ec4f2a40c072f6e95d1811",
+    "magnetic/results/trained_presentation/10_fast_multisine.csv": "49a9583ad77fd13e8f0e4d57c8690d903122a00f6ea62c3bb22f2a74f1a36fed",
+    "magnetic/results/trained_presentation/11_downstream_switch.csv": "7704938806592b64e63bc88f76a726d32698994d16b5ab9557fec65a93e29749",
+    "magnetic/results/trained_presentation/12_phase_interference.csv": "5d87a2ccfa7e9962332fcd062726c41069beea555c195d0ec1fc702975ea9ecd",
+    "magnetic/results/master9/checkpoint.pt": "d5f428680f2e8cecc37b261463ea6cb410e15d9a73ea54347ef195413e551300",
+    "flow/flow_reconstruction_no_time/comparison_sources.json": "96600029d8903921965a0192d9fdc2c81f128768dd50707269fd6864f74458f7",
+    "flow/flow_reconstruction_no_time/comparison_metrics.json": "8b76b6d1bb6a7b89ba6d591e42b8dd63760fb3a57ec2eb36d025ffe0972ed879",
+    "flow/flow_reconstruction_no_time/arrival_time_comparison/durations.csv": "cf4b37d4a8b70e6cf1dbca6aea4e8a2844a400570684a776bbfd37d3b69b8b7f",
+    "flow/flow_reconstruction_no_time/arrival_time_comparison/metrics.json": "b60b656b31fcc58086ff1e75f680f6514d0ed826103c278a7bade70066b80996",
+    "flow/flow_reconstruction_no_time/geometry.py": "d3b2c73ba05555d6d2496675ac0fa241844ff99026906a9399bbd5e2392b5620",
+    "flow/presentations/defense_2026_11_07/data/inverse_beta4/result/report.json": "945e11a3ceefd826fa6efb7c1d846a42052146ea0735df1a9465fed8e4296e2a",
+    "flow/presentations/defense_2026_11_07/data/inverse_beta4/result/fitted_model.json": "a0dd13f305f44e1f4d0dc5eb15f65331a47e405b3903691c3063be30f021d023",
+    "flow/presentations/defense_2026_11_07/data/inverse_beta4/truth_comparison.json": "f3eb7f19d2762dfecd86688afe4508d825260b6445966ec0c549bb2cc97fe739",
+    "flow/flow_reconstruction_no_time/experiments/corners_beta4/result/report.json": "bfa2cd0c2e07d5b6d161588acb664c068972bdca32d75fc06d36640cb36fbd11",
+    "flow/flow_reconstruction_no_time/comparisons/corners_beta4/inlet_comparison.csv": "855de17dba005395ac3d1147d914e6a7432610849e9f985f057f228db2caa081",
+    "flow/presentations/defense_2026_11_07/data/inverse_beta4/result/observed_track_1.csv": "0dcf7c6cd3255d0ab7730be0b95f5a5a3def942d4000862f3766ef818703d048",
+    "flow/presentations/defense_2026_11_07/data/inverse_beta4/result/track_1_forward.csv": "388f1956b5ac5efae2ca9e6a9124b0d20cbdcce8e77feabca7b97ae108d4e75b",
+    "flow/flow_reconstruction_no_time/comparisons/corners_beta4/timed_track_1_dense.csv": "63a8152f388a3c9b7ff74e124c6b3122956bb125fb26eb1cceab45f8b93faabf",
+    "flow/flow_reconstruction_no_time/experiments/corners_beta4/result/track_1_forward.csv": "c032e2d9ce57ff09c4467f26bd5a408a93f949972793fea8a4f3b7800207a3dd",
+    "flow/flow_reconstruction_no_time/comparisons/corners_beta4/geometric_error_1.csv": "090676cc7fbad2fdbd53fe24d733f24310a3b87760f2402831af090e4b266bff",
+    "flow/presentations/defense_2026_11_07/data/inverse_beta4/result/observed_track_2.csv": "7fcb40857f4e1d282babffe3c3b18c7bd973f02e037556bc92614baffb1fbf65",
+    "flow/presentations/defense_2026_11_07/data/inverse_beta4/result/track_2_forward.csv": "5885892e1c3fd4096afc6fc3cc1c21bc6e17cdc4447dc278bcb6b4f1c1507cdc",
+    "flow/flow_reconstruction_no_time/comparisons/corners_beta4/timed_track_2_dense.csv": "a1f56a34cad6afc15c97330627c6dbb375e27d59a385de5ac9dff7419c671c21",
+    "flow/flow_reconstruction_no_time/experiments/corners_beta4/result/track_2_forward.csv": "be2115a67d1bc0a740bd7d3f759367299cbb53379463bcfec3d638b626088081",
+    "flow/flow_reconstruction_no_time/comparisons/corners_beta4/geometric_error_2.csv": "721cba9cd9ca9b5ca818c3696d77ed1e5ef93aa245586183b20a7f3db6cb8517",
+    "flow/flow_reconstruction/examples/corner_launch_preconditioned/result/report.json": "006546ab4cdb2fc62ef6a1f714dea95e9885ad701783cf48de1c2b70a8bf4bc0",
+    "flow/flow_reconstruction/examples/corner_launch_preconditioned/result/fitted_model.json": "c5923c6464cd50fe26fe47a6fdbbc1c3bc98910ac0737aa2fcd2a47182a64ca6",
+    "flow/flow_reconstruction/examples/corner_launch_preconditioned/result/truth_comparison.json": "7e795623826464e9c028cf8a6a090ba015e72b6b74c4d7d58b89e8723fa65b7f",
+    "flow/flow_reconstruction_no_time/experiments/corners_beta5/result/report.json": "cfb20edf73ad3ec84a19f2667cbe17476c4b82b0b4c5b2ad1f94884f6af6a236",
+    "flow/flow_reconstruction_no_time/comparisons/corners_beta5/inlet_comparison.csv": "21abab86dd79db632f9ec6677fb9825843fd6ed3054f5ed379707812b5bfc0e4",
+    "flow/flow_reconstruction/examples/corner_launch_preconditioned/result/observed_track_1.csv": "d7908a1ab41709b71d8add5877f6d988547ed511b0cb80d523035a9ea7aa8739",
+    "flow/flow_reconstruction/examples/corner_launch_preconditioned/result/track_1_forward.csv": "6777dc87f6b4c9dd10857220469a568fca35a314b02eeaf8686f7b7e7000a9fd",
+    "flow/flow_reconstruction_no_time/comparisons/corners_beta5/timed_track_1_dense.csv": "ac4d5e6bc5bbf000b410bc150e606b78b56e44a2be4e29b7f7aaabb37c6b404c",
+    "flow/flow_reconstruction_no_time/experiments/corners_beta5/result/track_1_forward.csv": "ccc8f8cc708224b0112ea3e8fdedd2c4407ffc415fb2447005cd4764b8c2a9e8",
+    "flow/flow_reconstruction_no_time/comparisons/corners_beta5/geometric_error_1.csv": "9b763e5b4782753b7699bb71da870f3ba03f73b0e6858f321373a7c16e8f4c24",
+    "flow/flow_reconstruction/examples/corner_launch_preconditioned/result/observed_track_2.csv": "fd04ccf3f2a5f8bf02ddd32a6ef1407874dc3dec7c93d0e525af379749aca63e",
+    "flow/flow_reconstruction/examples/corner_launch_preconditioned/result/track_2_forward.csv": "aa15fad1400d48569cfc01401fe45a89a72fd99f3d31baa0d66b62e8f37c8bc0",
+    "flow/flow_reconstruction_no_time/comparisons/corners_beta5/timed_track_2_dense.csv": "63473085da23ba597a38202e5140665f1d97591b6407fed62ab2bfe18651cc1c",
+    "flow/flow_reconstruction_no_time/experiments/corners_beta5/result/track_2_forward.csv": "2acc56e042a445e53b7e5b8ac724486268668694df6f04172407e33b4756f644",
+    "flow/flow_reconstruction_no_time/comparisons/corners_beta5/geometric_error_2.csv": "c24832ab02a96ed96e7d52f50a81151782ad0e150cee9c83ee2d1b9c9a123fb0",
+    "flow/flow_reconstruction/examples/corner_launch_preconditioned/result/truth_comparison.npz": "a3075d6878c2574b3f3d45765bb554a86740fe49a2f234f1062e79b1d148a434",
+    "flow/flow_reconstruction/examples/fem_beta/result/report.json": "22cd9acea6907afaf89f4c7230d635af007bad05957003e42e15afe96db90f97",
+    "flow/flow_reconstruction/examples/fem_beta/result/fitted_model.json": "a624be5cb1018f68f241f542230317c2073a10a5e353ed8df6ca013f02ab92de",
+    "flow/flow_reconstruction/examples/fem_beta/result/truth_comparison.json": "611abaa0a368c8868f30f0f3d9493e5977483d98bd6ef19c3da45215e4731a09",
+    "flow/flow_reconstruction_no_time/experiments/oblique_beta5/result/report.json": "5c2885abe607bf596931ce74aecf080a007afc297f4114b6d5cc23770af0f785",
+    "flow/flow_reconstruction_no_time/comparisons/oblique_beta5/inlet_comparison.csv": "5d84fee221ba5b971b4c2c4b133c585c3df4448e8a7280be6aca249020fe1aa6",
+    "flow/flow_reconstruction/examples/fem_beta/result/observed_track_1.csv": "7d2d8d5ec2a0b2b7482b33de404894a3b3ea01ecb7b1b29325073a09d161bd24",
+    "flow/flow_reconstruction/examples/fem_beta/result/track_1_forward.csv": "ecf3eadf6587a7c895ecba8241c87601d0cd689ad741113bea9a4845678d2c0b",
+    "flow/flow_reconstruction_no_time/comparisons/oblique_beta5/timed_track_1_dense.csv": "502c98bc9742e5e6bccf01801d708b844abbd38b8dc4832a168e9ee9923556ae",
+    "flow/flow_reconstruction_no_time/experiments/oblique_beta5/result/track_1_forward.csv": "4ef610b7e76407fe0abb68d89dc6283719bcd067be7dc0409e151f17d47697bc",
+    "flow/flow_reconstruction_no_time/comparisons/oblique_beta5/geometric_error_1.csv": "050a8088240ae929b6137f80d41a5dee54d057fd2368cafa7b6f08ce843fccb1",
+    "flow/flow_reconstruction/examples/fem_beta/result/observed_track_2.csv": "d01d074b420e8a68f92b5279ebfe3dbf620aafd374f189b79ca012a48aa0927b",
+    "flow/flow_reconstruction/examples/fem_beta/result/track_2_forward.csv": "c9dc5309634b7a77cb05ff7b8a3a1f92824508ea5ead778eaf0a89dbc92ba701",
+    "flow/flow_reconstruction_no_time/comparisons/oblique_beta5/timed_track_2_dense.csv": "80df763efa1e85dea2d839bdc0456e096270b7bf7f1e32d600a876cf9f7640d9",
+    "flow/flow_reconstruction_no_time/experiments/oblique_beta5/result/track_2_forward.csv": "8edb71f0a647ca92bd2760ec146f7b8ad5a90fb75e927fe6b04044c479aa0aac",
+    "flow/flow_reconstruction_no_time/comparisons/oblique_beta5/geometric_error_2.csv": "930f201198c9efd6514b3ab5f9ca34c45ad0c68c08ecfe280f33832573fc77e5",
+    "flow/flow_reconstruction/examples/fem_beta/result/truth_comparison.npz": "f4bae4e952aead6a294b3695023f36f297d218be1bbb597129a3e42067edc7bb",
+    "magnetic/results/master9/control_tests.json": "a57a76daa0105c376a566bba56c9b91a3ed46f9223c134759563ba2427297f52",
+    "magnetic/results/master9/provenance.json": "c5ef71b8a7a1e9b21637dc53bbf73aadf0c35cc1d644f4350a5614d3d05c3c6b",
+    "magnetic/results/master9/control_nominal.csv": "e7f7a8a0bd9d92aafe3505aa30edb89d62cfb29301ff11bb88ff1788c33fb8ec",
+    "magnetic/results/master9/control_low_speed_high_viscosity.csv": "7dd1e6418c4bfc1b7b2e6089390e9a4decf105eabd04853f36fe5fc54bd94a26",
+    "magnetic/results/master9/control_high_Re_fast_release.csv": "d3b545c8164600ce7fd129baebaf6972c630cf1a3d0e683337cfb83ec8f00a88",
+    "magnetic/results/master9/control_shifted_release.csv": "3c732f09b2e8958c90292e710ddc5e4bd4d8f752a28e2e0729b6ab4e6b5e2795"
+  },
+  "particle_count_inputs_sha256": {
+    "summary.json": "f7b570cd190a4290bbcc782209c5cf3f98e4cf747d41615702b5cd266643c9aa",
+    "design.json": "8fb01ed5174ecdfe5a3af6b183952af04a0f253d888e2323311667eae07823b9",
+    "audit.json": "7408bd2d569f6cf9f30d8704f1cca2ae6fc0d8cb510d49cc4bef57068c3de23c",
+    "summary.csv": "a2758b9c3b747e1b4c27d37eef9c7587247b5b6328c596f0c1754b3ca69163f4",
+    "reference/parabolic/metadata.json": "9580d51cc01df67ef14d7163ca284d8aad3e743f615393eefaae9280a3bc7334",
+    "reference/skew_b3/metadata.json": "8037656c8014e5377cf83fffe3161ea072d8184d717e726ec176859e49572cdc",
+    "reference/beta5/metadata.json": "bbde289a3beb1250159348d8c7718b0873de40953e1f70d9741d8d2cc04d909a",
+    "reference/twin_b3_r30/metadata.json": "1a6582cc56a2abca701580ce9e23173891ef35854af5e9c1c11f4d5a3381a5c1",
+    "reference/mixed/metadata.json": "b91dddb4a5e31aaad5036409d4fdd85be8a938c7b505692609ea94f05bc216b1",
+    "reference/shoulder/metadata.json": "4cc65ab063bef1ddaff84d8bdf034a62918ad878583b6519cde6f6432b5dff48",
+    "reference/waves3_r30/metadata.json": "93f74d388910511225e219d8aca445f4ee23695747b9af48efd0f636ad6c08a2",
+    "reference/lobes4_r30/metadata.json": "46854d0188c9dba6dfb8e811385e06f7a35693c9f1268c1604fece39389b2316",
+    "reference/flat30/metadata.json": "5c5894e1a878e014ac9a175e5326c08e062adf33cb2bd139935f2311526cde58",
+    "reference/nine30/metadata.json": "cc63e63a1d4b337f24ba106d6c725663a80186d48e2d77b9f50912e7ff000a05",
+    "fits/parabolic/N2/inlet.csv": "8c75d6aa9edc588b64f920069d2b80bbb377ca755baed5655fd01be0bad086de",
+    "fits/parabolic/N2/report.json": "5a0bafa367a94509e8f6a0ce435865ef433dea729d81e105f074aa9d22c3d9f8",
+    "fits/parabolic/N3/inlet.csv": "cd18e888f9a2c129bfe699bc1d0b6fa3bde1b5821d578e1247825834fc6ccced",
+    "fits/parabolic/N3/report.json": "a76513ddbce59e23a20e157a3c0f3e150b89be92d82fe21078f655a15bced5a6",
+    "fits/parabolic/N4/inlet.csv": "1118ce1d9ddacca487e48d2a857dcee013181d60668acf3f671aea3dc69e0266",
+    "fits/parabolic/N4/report.json": "50e39818cf705209f6b64bc8e70e09110e14dd4d1c25efdb0c58e6ca68d02543",
+    "fits/parabolic/N5/inlet.csv": "d297f09d2ee1cc30ea45152cda3e6986d83171503374306d61e1c0d8cf3b0d9d",
+    "fits/parabolic/N5/report.json": "3f12f32194be0e583055afba15a18eb2d141eced46eab6113a423087fbf78bfe",
+    "fits/parabolic/N6/inlet.csv": "4a6dfe433e1eeebfbdc7902718f1ea75595e28b8e232e7d39f63d171d0d40a07",
+    "fits/parabolic/N6/report.json": "f7fb65276315d2174a8af8e1d27453229648f8dcd19a3b1cefc6985bbe4b5e8e",
+    "fits/skew_b3/N2/inlet.csv": "a9eb4b7f7ed1466f9ff6096aac7051ad7749d0ed891ad047b48dd3d6763fdb3f",
+    "fits/skew_b3/N2/report.json": "8cfd4f4672c6d6f5f406877b7fcf2debf661a7b332e192f8021e14691f689a23",
+    "fits/skew_b3/N3/inlet.csv": "b42d61f08d2db51a1cb505f59da0ae4a0acc8ded48a43b6049a014c6abf83d09",
+    "fits/skew_b3/N3/report.json": "2df061d15326ec48ace0378bcaaae5a4a383ddc71a50993e3bdb5c7a3e4504f2",
+    "fits/skew_b3/N4/inlet.csv": "b5a9f1af400680ec99925895d6e5c67d4be592941fb5d0198d185e3468a4d249",
+    "fits/skew_b3/N4/report.json": "ad976368294eab51358c289cf5f6308f4ec5792492a4ca31d16ea947abd7a713",
+    "fits/skew_b3/N5/inlet.csv": "a19194c057a01968fea5a54cb6b4807522ea0a33ae8aba8ac743e3cfcc193ef9",
+    "fits/skew_b3/N5/report.json": "cf518a2d10ffd0ee29e255cfc20f19679f0190e60cfaf8482b4e9e2793d87bb6",
+    "fits/skew_b3/N6/inlet.csv": "2c8ad095101b1f65924cdd032e7911e9781f3cf1b0ded3bed931527b53d43f90",
+    "fits/skew_b3/N6/report.json": "c15d763f007965aeb402ca1667b9c4b7423d4bacea70a113829e5c40af0b7289",
+    "fits/beta5/N2/inlet.csv": "22a7c27f4f8adb0cda7b9b5f1032a99595b43b6c4a0657af28abfd493532fb68",
+    "fits/beta5/N2/report.json": "dfebeaac160d2e5cd9dc4a2d20e2135b74f98cacb081ca1f84d80efa88d07b0a",
+    "fits/beta5/N3/inlet.csv": "fba7174b32bab0dc1d07b6b89b9f9f48c4fd685bde0143ff13879aad62331466",
+    "fits/beta5/N3/report.json": "0f165a505230c8cca2dd19a515d11ffecf187d4939dd994b79341e22bbea7f4e",
+    "fits/beta5/N4/inlet.csv": "5dd41f3654221d7fb4b90f90fc4601ccec7937f038e23c1b5d0f78837e3b1ade",
+    "fits/beta5/N4/report.json": "74d1314f60daaebe9d0f9942f6bacd86534b2c0e93ec0b88ce6bc9c14139ec1b",
+    "fits/beta5/N5/inlet.csv": "31aaba3fcc9682ff2b02cb1741d245a0a1f87360784040a0c77bc8023654f892",
+    "fits/beta5/N5/report.json": "e5fc45c38e733f28ca40bac45c84124c8025f5d76d6044c041612d7aae8930d4",
+    "fits/beta5/N6/inlet.csv": "13731080999b8db9eff32676aa6604af5f090d648ff7736a8e4a0e0a90b7fc62",
+    "fits/beta5/N6/report.json": "d0fc5225335186a80e581059d4a80f34598552f1148d00cd8076ee662dea6758",
+    "fits/twin_b3_r30/N2/inlet.csv": "667be5a19e380b95868feb7002098ef02a1fedc908792104c035264369bf0fab",
+    "fits/twin_b3_r30/N2/report.json": "9e9fd5a8eff459f970e6ae2663e7cecd231bcd0a1648edfaca3d69c176f8da60",
+    "fits/twin_b3_r30/N3/inlet.csv": "72fa766e083dda20150332fbc615cf3000152b3023438a2cb00c5874a6725f4f",
+    "fits/twin_b3_r30/N3/report.json": "2ba7547a079c57a64a66231bffa29799c9768cb2aa4091b6d5613757225f603a",
+    "fits/twin_b3_r30/N4/inlet.csv": "33e559b699a11ac5d1a5eb2976ea292754b9d3b0b9c62a39ec94af0a3adfa32e",
+    "fits/twin_b3_r30/N4/report.json": "8a504452c5e50f79878cfaef206cd32fe9e2b8b03ca9e57a92e68d031b098841",
+    "fits/twin_b3_r30/N5/inlet.csv": "d73ccdcc652ec72b133bde0aeb005bdd22150f86eadddf583b167ee96f21bae3",
+    "fits/twin_b3_r30/N5/report.json": "255ed25de03270322dc392e2c0c3eec23344d5825b4ff5e0506e7511518fda1b",
+    "fits/twin_b3_r30/N6/inlet.csv": "ad91894620f5166d6b37a5184f8c9fb2ba2872efa57b5c8bd197b02519e2605d",
+    "fits/twin_b3_r30/N6/report.json": "1e10f8eff1257b187e533170f2d49cb5e1cf6a6c3b1a53adc10e1a2c5948d1d8",
+    "fits/mixed/N2/inlet.csv": "ab73f50823c4f8ceb887846070fc13fa93fd5dc132748ec81d7377e16902ee3e",
+    "fits/mixed/N2/report.json": "e6e9c34839f46df56e6dfaf0864fdbf7984716edf5482ce064afff44a429d18d",
+    "fits/mixed/N3/inlet.csv": "d1dc10ae8069a0aced95e9feb9f2f565a902de63bbeea01b2bb8a1cc4f96e0cb",
+    "fits/mixed/N3/report.json": "3c50a7b992d9ecc18be1b0e491ea542b9cdcb69d7f52369d0e59228d909f97d1",
+    "fits/mixed/N4/inlet.csv": "4425a5781e35c407cce3f2247363c9270f3be0126e815776f59f1f1dd6adb5b5",
+    "fits/mixed/N4/report.json": "7d698ed04bc75257c9890b999c11ea5cb1857b1ea37e172beaa228603a329661",
+    "fits/mixed/N5/inlet.csv": "a6e565081349060604470c1a681dbfcc5f13802f75a8eb0a539cf06f05bde05b",
+    "fits/mixed/N5/report.json": "f5533617366cd4d830875c69f5967221738f67535101f0379929ea916d01d417",
+    "fits/mixed/N6/inlet.csv": "51555267e3e9e1f535ebebb4fe9b8e309f40c66bb9368439f7457a48c82a7223",
+    "fits/mixed/N6/report.json": "204d31658d95fa1291e34a9a28037ad1bc96a01128ab2f6598676326c3c6e70b",
+    "fits/shoulder/N2/inlet.csv": "f72c9f2ce4c5a6f836be0177bc10206073acb3b40ba3bf9fd999ff396696a36b",
+    "fits/shoulder/N2/report.json": "a2269353221f9c453bc13d662b34b643fb4134a7975cab2cef7d0d32b04a5081",
+    "fits/shoulder/N3/inlet.csv": "4a35204b3b70f6a0080ae9bf5c53d306c3a21c8f04d7e98e1866a7b785621c2c",
+    "fits/shoulder/N3/report.json": "a60115512805d3ead453a1790f9ea5c1797454f18c10f445df140251cd8f302e",
+    "fits/shoulder/N4/inlet.csv": "6c364f34b1ce719584a87b09021972609d9ab667f8cc0e3ee551c532a84e8d29",
+    "fits/shoulder/N4/report.json": "59764ad47bf4383a40bd495918190837f20a13beae5b6ccd8a41377c0c6e9295",
+    "fits/shoulder/N5/inlet.csv": "69a5c3062e355c036ce4f4d974603aca1e1138321a1b02e2e4ac7a20b1434043",
+    "fits/shoulder/N5/report.json": "3ac85998d3ff47d09a4d3e6ed23425bfd526674d0e22979eb4119906ef0c22a7",
+    "fits/shoulder/N6/inlet.csv": "4c85b4144d4db0e0587867abcc463785c03e85f47f42db200b9f07c39b360f43",
+    "fits/shoulder/N6/report.json": "9e50b914a941277c00ec270bcbd8bbd253fb566dcd3484b0c01d3a84fc26875c",
+    "fits/waves3_r30/N2/inlet.csv": "0e4243363c26f059d84a07c20e30d47d6133b22a9526717bc200507d808dfcc9",
+    "fits/waves3_r30/N2/report.json": "91357da8ed1c18df1ed558aaf5eac855156c721be3c859f9e7584e5903ff84cd",
+    "fits/waves3_r30/N3/inlet.csv": "beb151bd419eabb3345e53cde1cdb724f848f71ebbad1a1cc48c7f0a7a4dd598",
+    "fits/waves3_r30/N3/report.json": "a8d9cd057c013826fb7a335ba8f9fb4d503f1ba4bce14ff3c5a9d8c8ce5e2815",
+    "fits/waves3_r30/N4/inlet.csv": "dfb84c8baa762b7aac239f0232d3f2f7c038bf8f7e96d487f16f725429ccdffa",
+    "fits/waves3_r30/N4/report.json": "10374e93628472485c68900ce44e5014dd3c539b58763334ca360b607641d3a6",
+    "fits/waves3_r30/N5/inlet.csv": "cdca122d78cbff3997a944494b851e0915d22de32c2853a0f863dd99175bccd4",
+    "fits/waves3_r30/N5/report.json": "159f83bbc8db7b1fc5c2d8ac4cde5c7b5608d2715a5bf67391d7bc107e5b805d",
+    "fits/waves3_r30/N6/inlet.csv": "6866c2a3dc9cf7bdd7d790398696c17090a58d879e7515b1071ae28b505cab42",
+    "fits/waves3_r30/N6/report.json": "372c10e847aa8802f678e8b291f1e13c26e76cb4e85e40767e39be96975a8ff5",
+    "fits/lobes4_r30/N2/inlet.csv": "eb819c8ab80d9671af59b508854977c50f583dd501cd377a7b74e1cb96bf1171",
+    "fits/lobes4_r30/N2/report.json": "f7ff44d0fad8ae6705dbf54ed50b83eff8725eedf049778f370bae346d5d85d3",
+    "fits/lobes4_r30/N3/inlet.csv": "581f1c6ba9c1454836c17059a4e537e96935c9169296bcd599fec43bbd2721bf",
+    "fits/lobes4_r30/N3/report.json": "1096c06b8d04d3f6907aa3e37ff50fd5f6777432dd58eb3e53cac4b027b7a504",
+    "fits/lobes4_r30/N4/inlet.csv": "bcbc4e3aab0a8bbdffbde99c9ceab0c759c1e647a2a3a7253a764f99b92f2cc3",
+    "fits/lobes4_r30/N4/report.json": "5ffe8939e1f0ce1beb3e23d9f49080d6cda5bcf323d76f519c9252300622b764",
+    "fits/lobes4_r30/N5/inlet.csv": "eb3c4155aa68a10998ae53176005b40cf0bacf767127f3e829cd24340118188c",
+    "fits/lobes4_r30/N5/report.json": "5f90899460eab6fd70e26a8bfcf74ef9db624c0cad25fa92e742a4250de20a80",
+    "fits/lobes4_r30/N6/inlet.csv": "37c2a7a6c110e2b982b4820112d50ae8bac64de5fd774298bc6bb1b6b1070a1b",
+    "fits/lobes4_r30/N6/report.json": "0c2859bd40a0666ae2cc452ef2e163c124009b13656cef80d96c25f1abae1a9f",
+    "fits/flat30/N2/inlet.csv": "8c9a2ce380d60510740038c14a1c0f2607b4ef6d3e27e633bc456469b3984267",
+    "fits/flat30/N2/report.json": "e9dd70c2f960f959ab0040e410cafdfcc9f5dde59955aa006bc4a3ce18483478",
+    "fits/flat30/N3/inlet.csv": "1fc3270994474b472f8b3d67a4e47f69a90d8e01da6719d24ab45c9ce0c21f5f",
+    "fits/flat30/N3/report.json": "7fe6d0b026ea680b9bbb166c164f7408d1a2210d72664e6b514e720d84743834",
+    "fits/flat30/N4/inlet.csv": "982e37e2c5b3501274d2e3423b9fdef33a6b6c95422d2a70dd97c655fa6c2c6b",
+    "fits/flat30/N4/report.json": "b922ff37736a430fc426d72b9f51b8aefffd3940685c72111351d18cdb340bca",
+    "fits/flat30/N5/inlet.csv": "ff4b48390e22fbba2f9faaa00ab9f2756a7ba33468f26ba6dd899bbbc5e7ebd6",
+    "fits/flat30/N5/report.json": "9d2281167253e7cfc88ccbee6753313bb7174606e952ddf624f558622cb97e52",
+    "fits/flat30/N6/inlet.csv": "ab4e3002787843bc3afcd03c3a8a678057ba6f39412fd14e4ddd97ca465da5fe",
+    "fits/flat30/N6/report.json": "6f59572494e63043a0b69237ed0416cd8042756c17c75ae063e14796facd4cb4",
+    "fits/nine30/N2/inlet.csv": "dde61d941b382cf22ffeb0bd1eee415458d00199e6515503432fd6254221c44e",
+    "fits/nine30/N2/report.json": "581f796e2c6d49f52cf09f9b40a4d488cb8c7f603ea7a5a4525e89e7bb0d4406",
+    "fits/nine30/N3/inlet.csv": "be32863bc47f60b259fa87b95bde9537e3ba3eff95e44d51638ab90b33940dae",
+    "fits/nine30/N3/report.json": "044121ee1e68e92444d3f2e5f5f2a6a821ae7dab4ce6c3915dfab5273fbb1eb4",
+    "fits/nine30/N4/inlet.csv": "ccf5f72f9d9c0e8701ad2d6d9a057428654ab2a623721c1537f5de86cdf7078f",
+    "fits/nine30/N4/report.json": "29451c965996f614ad596a3048135ca86239e15c8f0b358b5f7af8fbae68d0d4",
+    "fits/nine30/N5/inlet.csv": "328c84a0adfbbfbd37950b6d209adcc3edfb1da4781b74f2e41f90438ed16a9c",
+    "fits/nine30/N5/report.json": "9b4d2e1ca48af1cbf7d5400d1ab7aa30e12b75984a73a4499986c2bf685d9b1c",
+    "fits/nine30/N6/inlet.csv": "3f1439d75ce886004eabf59dbb6bb4051722a9664d9cdb2eda0095062a0e1236",
+    "fits/nine30/N6/report.json": "4398fb5523008d644176be8de082bd613841da883303e7cb672ac71893a246e3"
+  }
+}
