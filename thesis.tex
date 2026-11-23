@@ -19,6 +19,14 @@
 
 \input{styles/common.tex}
 \input{styles/custom.tex}
+\usepackage{placeins}
+
+% Mark the Flow Reconstruction thesis revisions in the review PDF.
+\definecolor{FlowRevisionRed}{RGB}{180,0,0}
+\DeclareRobustCommand{\FlowRevision}[1]{{\color{FlowRevisionRed}#1}}
+\newenvironment{FlowRevisionText}
+  {\par\color{FlowRevisionRed}\hypersetup{linkcolor=FlowRevisionRed}}
+  {\par}
 
 \begin{document}
 
@@ -49,6 +57,10 @@
 
 % -------------------- Table of Contents --------------------
 
+% Allow three-digit Persian page numbers in the contents and lists.
+\makeatletter
+\renewcommand{\@pnumwidth}{1.8em}
+\makeatother
 \tableofcontents \newpage
 \listoftables \newpage
 \listoffigures \newpage
