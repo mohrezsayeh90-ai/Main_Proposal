@@ -1,0 +1,243 @@
+{
+  "cases": {
+    "corners_beta4": {
+      "mean_speed": 1.0004800857226903,
+      "reynolds": 30.01440257168071,
+      "velocity_relative_l2": 0.09776085592406077,
+      "pressure_relative_l2": 0.09198960283692072,
+      "inlet_relative_l2": 0.15930986556011767,
+      "optimizer": {
+        "start": 1,
+        "iterations": 400,
+        "optimizer_success": false,
+        "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+      },
+      "maximum_iterations": 400,
+      "inverse_config": {
+        "reference_reynolds": 30.0,
+        "mean_speed_bounds": [
+          0.5,
+          1.5
+        ],
+        "profile_points": 65,
+        "position_scale": 0.001,
+        "smoothness": 1e-05,
+        "regularization_kind": "inlet_curvature",
+        "physics_weight": 0.02,
+        "physics_scale": 0.1,
+        "physics_points": 192,
+        "shape_prior": 0.0001,
+        "mean_prior": 0.0001,
+        "log_shape_bound": 3.0,
+        "precondition_shape": true,
+        "starts": 2,
+        "max_iterations": 400,
+        "quadrature_order": 3,
+        "seed": 71103
+      },
+      "replays": [
+        {
+          "name": "upper_left",
+          "completed": true,
+          "boundary_exit_time": null,
+          "observed_points": 101,
+          "simulated_points": 101,
+          "position_rmse": 0.0002872785915452017,
+          "max_position_error": 0.0008541395046812368
+        },
+        {
+          "name": "lower_right",
+          "completed": true,
+          "boundary_exit_time": null,
+          "observed_points": 101,
+          "simulated_points": 101,
+          "position_rmse": 0.00020499984514934066,
+          "max_position_error": 0.0008112908040789855
+        }
+      ],
+      "reference": {
+        "path": "presentations/defense_2026_11_07/data/beta4_re30.npz",
+        "sha256": "17cc3a32cdb10bdc6a17ff9dfa52cd974e93fc077870326611879eba543b26e6",
+        "problem_sha256": "97ab66cfeeee7defa1950091969d296fad9c6e1268d74bde7353498ce6ed3536",
+        "observations_sha256": {
+          "observed_track_1.csv": "0dcf7c6cd3255d0ab7730be0b95f5a5a3def942d4000862f3766ef818703d048",
+          "observed_track_2.csv": "7fcb40857f4e1d282babffe3c3b18c7bd973f02e037556bc92614baffb1fbf65"
+        }
+      }
+    },
+    "corners_beta5": {
+      "mean_speed": 1.0009880479963547,
+      "reynolds": 30.02964143989064,
+      "velocity_relative_l2": 0.25084480120442404,
+      "pressure_relative_l2": 0.30321485822009003,
+      "inlet_relative_l2": 0.4051394047027371,
+      "optimizer": {
+        "start": 1,
+        "iterations": 500,
+        "optimizer_success": false,
+        "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+      },
+      "maximum_iterations": 500,
+      "inverse_config": {
+        "reference_reynolds": 30.0,
+        "mean_speed_bounds": [
+          0.5,
+          1.5
+        ],
+        "profile_points": 65,
+        "position_scale": 0.001,
+        "smoothness": 1e-05,
+        "regularization_kind": "inlet_curvature",
+        "physics_weight": 0.02,
+        "physics_scale": 0.1,
+        "physics_points": 192,
+        "shape_prior": 0.0001,
+        "mean_prior": 0.0001,
+        "log_shape_bound": 3.0,
+        "precondition_shape": true,
+        "starts": 3,
+        "max_iterations": 500,
+        "quadrature_order": 3,
+        "seed": 71103
+      },
+      "replays": [
+        {
+          "name": "upper_left",
+          "completed": true,
+          "boundary_exit_time": null,
+          "observed_points": 101,
+          "simulated_points": 101,
+          "position_rmse": 0.00034433315066724165,
+          "max_position_error": 0.001152435334024008
+        },
+        {
+          "name": "lower_right",
+          "completed": true,
+          "boundary_exit_time": null,
+          "observed_points": 101,
+          "simulated_points": 101,
+          "position_rmse": 0.00022480218938125633,
+          "max_position_error": 0.000648462686347189
+        }
+      ],
+      "reference": {
+        "path": "flow_reconstruction/examples/corner_launch_preconditioned/result/truth_comparison.npz",
+        "sha256": "a3075d6878c2574b3f3d45765bb554a86740fe49a2f234f1062e79b1d148a434",
+        "problem_sha256": "29eb51330e73131ff02a3c495cda21a838b26b5c8a6b86d4872b15cbc4c6e82e",
+        "observations_sha256": {
+          "observed_track_1.csv": "d7908a1ab41709b71d8add5877f6d988547ed511b0cb80d523035a9ea7aa8739",
+          "observed_track_2.csv": "fd04ccf3f2a5f8bf02ddd32a6ef1407874dc3dec7c93d0e525af379749aca63e"
+        }
+      }
+    },
+    "oblique_beta5": {
+      "mean_speed": 1.0074509241005447,
+      "reynolds": 30.223527723016343,
+      "velocity_relative_l2": 0.16068589922469975,
+      "pressure_relative_l2": 0.30786468462521105,
+      "inlet_relative_l2": 0.30190915697995474,
+      "optimizer": {
+        "start": 1,
+        "iterations": 400,
+        "optimizer_success": false,
+        "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+      },
+      "maximum_iterations": 400,
+      "inverse_config": {
+        "reference_reynolds": 30.0,
+        "mean_speed_bounds": [
+          0.5,
+          1.5
+        ],
+        "profile_points": 65,
+        "position_scale": 0.001,
+        "smoothness": 1e-05,
+        "regularization_kind": "inlet_curvature",
+        "physics_weight": 0.02,
+        "physics_scale": 0.1,
+        "physics_points": 192,
+        "shape_prior": 0.0001,
+        "mean_prior": 0.0001,
+        "log_shape_bound": 3.0,
+        "precondition_shape": false,
+        "starts": 3,
+        "max_iterations": 400,
+        "quadrature_order": 3,
+        "seed": 71103
+      },
+      "replays": [
+        {
+          "name": "upper_left",
+          "completed": true,
+          "boundary_exit_time": null,
+          "observed_points": 81,
+          "simulated_points": 81,
+          "position_rmse": 0.0013437874802885996,
+          "max_position_error": 0.003281839406386601
+        },
+        {
+          "name": "lower_right",
+          "completed": true,
+          "boundary_exit_time": null,
+          "observed_points": 81,
+          "simulated_points": 81,
+          "position_rmse": 0.00047858911254139327,
+          "max_position_error": 0.0013541938965666597
+        }
+      ],
+      "reference": {
+        "path": "flow_reconstruction/examples/fem_beta/result/truth_comparison.npz",
+        "sha256": "f4bae4e952aead6a294b3695023f36f297d218be1bbb597129a3e42067edc7bb",
+        "problem_sha256": "69b303da01a98fd06eb9dedbede3c7be5e261194dab83789e3f1bfc26153186e",
+        "observations_sha256": {
+          "observed_track_1.csv": "7d2d8d5ec2a0b2b7482b33de404894a3b3ea01ecb7b1b29325073a09d161bd24",
+          "observed_track_2.csv": "d01d074b420e8a68f92b5279ebfe3dbf620aafd374f189b79ca012a48aa0927b"
+        }
+      }
+    }
+  },
+  "figures": [
+    {
+      "figure": "figs/chapter4/inverse-timed-replay.pdf",
+      "renderer": "plot_inverse_results.timed_replay",
+      "experiment": "corners_beta5",
+      "reference_sha256": {
+        "flow_reconstruction/examples/corner_launch_preconditioned/result/truth_comparison.npz": "a3075d6878c2574b3f3d45765bb554a86740fe49a2f234f1062e79b1d148a434",
+        "observed_track_1.csv": "d7908a1ab41709b71d8add5877f6d988547ed511b0cb80d523035a9ea7aa8739",
+        "observed_track_2.csv": "fd04ccf3f2a5f8bf02ddd32a6ef1407874dc3dec7c93d0e525af379749aca63e"
+      },
+      "latex_labels": [
+        "fig:results-inverse-timed-replay",
+        "tab:results-inverse-timed"
+      ],
+      "old_thesis_revision": "993bb19cc445a6ad4c3961fdcacb73fef449b01c",
+      "old_source_revision": "d5e9b5a1a08107cbfbce34fdd66932f2f99588df",
+      "old_checkpoint_sha256": "ccf6fa2b3e179a22c443384083e2dec338fc497f9562a567ed7e0955d3c67bf8",
+      "old_pdf_sha256": "1ce673ad7d76ac39e95cc93840e73e2fad0c25d9756780631255e9ad441969c0",
+      "new_source_revision": "f6b8690059716e809c2dac27c8715e65fcb1d267",
+      "new_checkpoint_sha256": "e46687f8d50818329072eca1af7c70136fb9e3d314207f89e9427ccc140dfbf9",
+      "new_pdf_sha256": "4c470391ba91debcf6c0356b598a1017e6a6b05a600b774856f1218753dc0be1"
+    },
+    {
+      "figure": "figs/chapter4/inverse-timed-fields.pdf",
+      "renderer": "plot_inverse_results.fields",
+      "experiment": "corners_beta5",
+      "reference_sha256": {
+        "flow_reconstruction/examples/corner_launch_preconditioned/result/truth_comparison.npz": "a3075d6878c2574b3f3d45765bb554a86740fe49a2f234f1062e79b1d148a434",
+        "observed_track_1.csv": "d7908a1ab41709b71d8add5877f6d988547ed511b0cb80d523035a9ea7aa8739",
+        "observed_track_2.csv": "fd04ccf3f2a5f8bf02ddd32a6ef1407874dc3dec7c93d0e525af379749aca63e"
+      },
+      "latex_labels": [
+        "fig:results-inverse-timed-fields",
+        "tab:results-inverse-timed"
+      ],
+      "old_thesis_revision": "993bb19cc445a6ad4c3961fdcacb73fef449b01c",
+      "old_source_revision": "d5e9b5a1a08107cbfbce34fdd66932f2f99588df",
+      "old_checkpoint_sha256": "ccf6fa2b3e179a22c443384083e2dec338fc497f9562a567ed7e0955d3c67bf8",
+      "old_pdf_sha256": "a96585911614c7949c131d0fc9a698798cfdfc29e7483a393cbd3781b1ea3de2",
+      "new_source_revision": "f6b8690059716e809c2dac27c8715e65fcb1d267",
+      "new_checkpoint_sha256": "e46687f8d50818329072eca1af7c70136fb9e3d314207f89e9427ccc140dfbf9",
+      "new_pdf_sha256": "68645b5d9ece9568e7b714bf6f7375caa6a91c3b375456b099cd4e983b0ae301"
+    }
+  ]
+}

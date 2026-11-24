@@ -1,0 +1,134 @@
+{
+  "cases": [
+    {
+      "name": "asymmetric",
+      "reynolds": 100.0,
+      "velocity_relative_l2": 0.04958030341595693,
+      "u_relative_l2": 0.04861304298069318,
+      "v_relative_l2": 0.4995689007620975,
+      "v_rmse": 0.010950176236072593,
+      "pressure_relative_l2": 0.09112698469210288,
+      "role": "repeated_reference_validation_excluded_from_objective",
+      "momentum_rms": 0.08591344688795566,
+      "divergence_rms": 9.293965243508793e-17,
+      "boundary_max_error": 4.440892098500626e-16,
+      "outlet_traction_rms": 0.00019082921786570987,
+      "flux_max_error": 3.821316613583647e-06,
+      "reference_sha256": "0db341d75992967e50ddac34e9bb31f3820d8c94fdf9e61ca10f8bf76c20bdd3",
+      "arrays_sha256": "a09e13337c8b59158cfcf9587e8ed2ff3ef7c8a0778c1f00580296b01d2264e2"
+    },
+    {
+      "name": "beta",
+      "reynolds": 30.0,
+      "velocity_relative_l2": 0.00790488616195033,
+      "u_relative_l2": 0.006853902714517788,
+      "v_relative_l2": 0.10376208589398307,
+      "v_rmse": 0.004659793026314152,
+      "pressure_relative_l2": 0.059848402071845025,
+      "role": "repeated_reference_validation_excluded_from_objective",
+      "momentum_rms": 0.10739911487142786,
+      "divergence_rms": 2.4054936869473413e-16,
+      "boundary_max_error": 8.881784197001252e-16,
+      "outlet_traction_rms": 0.00011505934405556183,
+      "flux_max_error": 3.8098838133215907e-06,
+      "reference_sha256": "34fb61c2b7b232a6c5928709b5768edc749cfc4c71d736614d51e47d3b5f9ba1",
+      "arrays_sha256": "ab781a1c40ed277b61226f553ad66acd6da808659af5b6cc7b090b20978d76a2"
+    },
+    {
+      "name": "flat",
+      "reynolds": 70.0,
+      "velocity_relative_l2": 0.019558181350679216,
+      "u_relative_l2": 0.018666332186968376,
+      "v_relative_l2": 0.22966415366874293,
+      "v_rmse": 0.0062421072163925525,
+      "pressure_relative_l2": 0.04512173684280987,
+      "role": "repeated_reference_validation_excluded_from_objective",
+      "momentum_rms": 0.44848074163910084,
+      "divergence_rms": 8.475710529232552e-16,
+      "boundary_max_error": 4.440892098500626e-16,
+      "outlet_traction_rms": 0.00011858762595091584,
+      "flux_max_error": 7.0994723176953656e-06,
+      "reference_sha256": "f9e6dd71b99231164d2f6dae128e967045e9878f41661098e43ab603ee716f6e",
+      "arrays_sha256": "0c8fa8efd68138c58166d189403d30ea5879e84ede97a63b9bf87c0eb62528d6"
+    },
+    {
+      "name": "nine",
+      "reynolds": 55.0,
+      "velocity_relative_l2": 0.042105284740665945,
+      "u_relative_l2": 0.0389050449296826,
+      "v_relative_l2": 0.6448045398363049,
+      "v_rmse": 0.01768622009227175,
+      "pressure_relative_l2": 0.2941138884131623,
+      "role": "repeated_reference_validation_excluded_from_objective",
+      "momentum_rms": 1.8763518000243258,
+      "divergence_rms": 1.4043409598794448e-15,
+      "boundary_max_error": 8.881784197001252e-16,
+      "outlet_traction_rms": 0.0001486319521518165,
+      "flux_max_error": 4.6217574714013665e-06,
+      "reference_sha256": "6726f082c625b37ba5fcbe77079c914ed062e8083b3b9be3fcf6dbd389add2bd",
+      "arrays_sha256": "13966d5b3e43b4a491c867ead2ec7d12ccd06796dffdd3c80cb663b3015be4ad"
+    }
+  ],
+  "thresholds": {
+    "velocity_relative_l2": 0.05,
+    "pressure_relative_l2": 0.1,
+    "momentum_rms": 0.05,
+    "divergence_rms": 0.0001,
+    "outlet_traction_rms": 0.01,
+    "flux_max_error": 0.002,
+    "boundary_max_error": 0.0001
+  },
+  "gates": {
+    "velocity_relative_l2": true,
+    "pressure_relative_l2": false,
+    "momentum_rms": false,
+    "divergence_rms": true,
+    "outlet_traction_rms": true,
+    "flux_max_error": true,
+    "boundary_max_error": true
+  },
+  "all_gates_passed": false,
+  "step": 314000,
+  "checkpoint_sha256": "e46687f8d50818329072eca1af7c70136fb9e3d314207f89e9427ccc140dfbf9",
+  "source_revision": "f6b8690059716e809c2dac27c8715e65fcb1d267",
+  "figures": [
+    {
+      "figure": "figs/chapter4/forward-flow-beta.pdf",
+      "renderer": "plot_forward_results.maps",
+      "experiment": "beta",
+      "reference_sha256": {
+        "beta": "34fb61c2b7b232a6c5928709b5768edc749cfc4c71d736614d51e47d3b5f9ba1"
+      },
+      "latex_labels": [
+        "fig:results-forward-flow-beta",
+        "tab:results-forward-flow-errors"
+      ],
+      "old_thesis_revision": "993bb19cc445a6ad4c3961fdcacb73fef449b01c",
+      "old_source_revision": "d5e9b5a1a08107cbfbce34fdd66932f2f99588df",
+      "old_checkpoint_sha256": "ccf6fa2b3e179a22c443384083e2dec338fc497f9562a567ed7e0955d3c67bf8",
+      "old_pdf_sha256": "2d8c264c05750290c520ae880dca80f7fc52762ed0e5c70ab63398d55410eee1",
+      "new_source_revision": "f6b8690059716e809c2dac27c8715e65fcb1d267",
+      "new_checkpoint_sha256": "e46687f8d50818329072eca1af7c70136fb9e3d314207f89e9427ccc140dfbf9",
+      "new_pdf_sha256": "f39ee355a91ad87e0830f261da8e42a76418b2dbccc282f4cf2302e0868d9b3b"
+    },
+    {
+      "figure": "figs/chapter4/forward-flow-nine.pdf",
+      "renderer": "plot_forward_results.maps",
+      "experiment": "nine",
+      "reference_sha256": {
+        "nine": "6726f082c625b37ba5fcbe77079c914ed062e8083b3b9be3fcf6dbd389add2bd"
+      },
+      "latex_labels": [
+        "fig:results-forward-flow-nine",
+        "tab:results-forward-flow-errors"
+      ],
+      "old_thesis_revision": "993bb19cc445a6ad4c3961fdcacb73fef449b01c",
+      "old_source_revision": "d5e9b5a1a08107cbfbce34fdd66932f2f99588df",
+      "old_checkpoint_sha256": "ccf6fa2b3e179a22c443384083e2dec338fc497f9562a567ed7e0955d3c67bf8",
+      "old_pdf_sha256": "72cd66f40b20e1b72e16d5d0ddb0f2941159f6219bf7cb4144fd2fabdbde185f",
+      "new_source_revision": "f6b8690059716e809c2dac27c8715e65fcb1d267",
+      "new_checkpoint_sha256": "e46687f8d50818329072eca1af7c70136fb9e3d314207f89e9427ccc140dfbf9",
+      "new_pdf_sha256": "e67b0ba9f9f7d75feceb9b700f6c4b64399102194956b7e3ada89056127f9b7e"
+    }
+  ]
+}

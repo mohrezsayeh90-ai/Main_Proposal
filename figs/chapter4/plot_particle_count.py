@@ -134,8 +134,9 @@ def design_plot(a,out):
     save(fig,out,'inverse-particle-count-design')
 
 
-def errors_plot(summary,out):
+def errors_plot(summary,out,minimum_color_max=0):
     matrix = np.asarray(summary['inlet_errors_percent'])
+    color_max = max(matrix.max(), minimum_color_max)
     order = summary['profile_order'];counts = summary['N']
     fig = plt.figure(figsize=(6.27,4.2))
     gs = fig.add_gridspec(1,2,width_ratios=[1.35,1],left=.17,right=.985,
@@ -143,7 +144,7 @@ def errors_plot(summary,out):
     ax = fig.add_subplot(gs[0,0]);curves=fig.add_subplot(gs[0,1])
     bar = fig.add_axes([.17,.155,.367,.025])
     im = ax.pcolormesh(np.arange(6)-.5,np.arange(11)-.5,matrix,
-                       cmap='magma_r',vmin=0,vmax=matrix.max(),rasterized=False)
+                       cmap='magma_r',vmin=0,vmax=color_max,rasterized=False)
     ax.set(xlim=(-.5,4.5),ylim=(9.5,-.5),xticks=range(5),xticklabels=counts,yticks=range(10),
            yticklabels=[LABELS[name] for name in order],xlabel=r'$N_p$')
     ax.set_title('(a)',loc='left',fontsize=8)
@@ -152,16 +153,20 @@ def errors_plot(summary,out):
         for j in range(5):
             value=matrix[i,j];text=f'{value:.4f}' if value<.01 else f'{value:.2f}'
             ax.text(j,i,text,ha='center',va='center',fontsize=7.5,
-                    color='white' if value>.6*matrix.max() else 'black')
+                    color='white' if value>.6*color_max else 'black')
     cb=fig.colorbar(im,cax=bar,orientation='horizontal')
     cb.set_label('Inlet relative L2 error (%)',fontsize=8,labelpad=2)
     cb.ax.tick_params(labelsize=7.5,pad=1,length=2)
     cb.solids.set_rasterized(False)
     cb.solids.set_edgecolor('face')
-    for name,color,style in [('beta5','#4477AA','--'),('lobes4_r30','#AA3377','-.'),('nine30','#AA8800',':')]:
+    displayed = ['beta5', 'lobes4_r30', 'nine30']
+    for name,color,style in zip(displayed, ['#4477AA','#AA3377','#AA8800'], ['--','-.',':']):
         curves.plot(counts,matrix[order.index(name)],color=color,ls=style,marker='o',ms=2.5,lw=1,label=LABELS[name])
-    curves.plot(counts,np.median(matrix,axis=0),'k-',lw=2,marker='s',ms=3,label='Median')
-    curves.set(xlabel=r'$N_p$',ylabel='Inlet relative L2 error (%)',xticks=counts,ylim=(0,46))
+    median = np.median(matrix,axis=0)
+    curves.plot(counts,median,'k-',lw=2,marker='s',ms=3,label='Median')
+    ymax = max(median.max(), *(matrix[order.index(name)].max() for name in displayed))
+    curves.set(xlabel=r'$N_p$',ylabel='Inlet relative L2 error (%)',xticks=counts,
+               ylim=(0, 46 if ymax < 46 else 1.04*ymax))
     curves.set_title('(b)',loc='left',fontsize=8);curves.grid(alpha=.2,lw=.4)
     curves.tick_params(labelsize=8,pad=2,length=2)
     fig.legend(*curves.get_legend_handles_labels(),loc='lower center',ncol=4,frameon=False,
@@ -169,7 +174,7 @@ def errors_plot(summary,out):
     save(fig,out,'inverse-particle-count-errors')
 
 
-def profiles_plot(inlets,out):
+def profiles_plot(inlets,out,minimum_upper_limit=0):
     names=['beta5','lobes4_r30','flat30','nine30']
     fig,axes=plt.subplots(2,2,figsize=(6.27,4.35),sharex=True,sharey=True)
     maximum=max(float(inlets[name,n][key].max()) for name in names for n in range(2,7)
@@ -180,7 +185,7 @@ def profiles_plot(inlets,out):
             ax.plot(d['y'],d['estimated'],color=color,ls=style,lw=1.05,
                     marker='o' if n==6 else None,markevery=256,ms=2,label=f'{n} particles')
         ax.plot(d['y'],d['truth'],'k--',lw=1.7,label='Reference',zorder=10)
-        ax.set(xlim=(0,1),ylim=(0,maximum*1.04),xlabel=r'$y/H$',ylabel=r'$u/U_{\rm ref}$')
+        ax.set(xlim=(0,1),ylim=(0,max(minimum_upper_limit,maximum*1.04)),xlabel=r'$y/H$',ylabel=r'$u/U_{\rm ref}$')
         ax.set_title(f'({chr(97+index)}) {LABELS[name]}',loc='left',fontsize=8)
         ax.grid(alpha=.18,lw=.4);ax.tick_params(pad=2,length=2.5)
     handles,labels=axes[0,0].get_legend_handles_labels()

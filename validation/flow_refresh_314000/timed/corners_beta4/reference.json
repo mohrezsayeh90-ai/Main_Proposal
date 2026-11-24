@@ -1,0 +1,9 @@
+{
+  "path": "presentations/defense_2026_11_07/data/beta4_re30.npz",
+  "sha256": "17cc3a32cdb10bdc6a17ff9dfa52cd974e93fc077870326611879eba543b26e6",
+  "problem_sha256": "97ab66cfeeee7defa1950091969d296fad9c6e1268d74bde7353498ce6ed3536",
+  "observations_sha256": {
+    "observed_track_1.csv": "0dcf7c6cd3255d0ab7730be0b95f5a5a3def942d4000862f3766ef818703d048",
+    "observed_track_2.csv": "7fcb40857f4e1d282babffe3c3b18c7bd973f02e037556bc92614baffb1fbf65"
+  }
+}

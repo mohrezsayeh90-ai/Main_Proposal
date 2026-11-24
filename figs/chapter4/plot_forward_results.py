@@ -152,7 +152,7 @@ def inlets(flow, out):
     save(fig, out, 'forward-flow-inlets')
 
 
-def maps(a, out, name):
+def maps(a, out, name, scale_with=None):
     fig = plt.figure(figsize=(WIDTH, 3.25))
     gs = fig.add_gridspec(3, 6, width_ratios=[1,1,.055,.27,1,.055],
                           left=.075, right=.915, bottom=.13, top=.90, wspace=.20, hspace=.9)
@@ -167,12 +167,18 @@ def maps(a, out, name):
             z[a['iy'],a['ix']] = a[key][:,row]
             values.append(z)
         values.append(values[1]-values[0])
-        low, high = min(z.min() for z in values[:2]), max(z.max() for z in values[:2])
+        shared = values[:2]
+        if scale_with is not None:
+            shared = [*shared, scale_with['prediction'][:, row]]
+        low, high = min(z.min() for z in shared), max(z.max() for z in shared)
         norm = Normalize(low,high)
         cmap = 'viridis'
         if row == 1:
             high = max(abs(low),abs(high)); norm = Normalize(-high,high); cmap='RdBu_r'
         diffmax = np.max(np.abs(values[2]))
+        if scale_with is not None:
+            diffmax = max(diffmax, np.max(np.abs(
+                scale_with['prediction'][:, row] - scale_with['reference'][:, row])))
         axes = [fig.add_subplot(gs[row,col]) for col in [0,1,4]]
         for col, (ax,z) in enumerate(zip(axes, values)):
             mesh = ax.pcolormesh(xe, ye, z, cmap=cmap if col<2 else 'RdBu_r',

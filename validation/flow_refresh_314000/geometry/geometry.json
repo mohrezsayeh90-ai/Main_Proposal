@@ -1,0 +1,509 @@
+{
+  "cases": {
+    "corners_beta4": {
+      "paths": [
+        {
+          "particle": 1,
+          "timed_completed": true,
+          "without_time_completed": true,
+          "timed": {
+            "symmetric_distance_rmse_H": 0.00020022113770699174,
+            "symmetric_hausdorff_H": 0.0007673858524684687,
+            "ordered_arclength_rmse_H": 0.00041238552706281513,
+            "endpoint_error_H": 0.0007673858524684687,
+            "observed_length_H": 3.3076144808950456,
+            "predicted_length_H": 3.3081793320474193
+          },
+          "without_time": {
+            "symmetric_distance_rmse_H": 0.0002167858933833881,
+            "symmetric_hausdorff_H": 0.000707567758704473,
+            "ordered_arclength_rmse_H": 0.00021713924082707544,
+            "endpoint_error_H": 0.0002352995453892424,
+            "observed_length_H": 3.3076144808950456,
+            "predicted_length_H": 3.3075591940326574
+          }
+        },
+        {
+          "particle": 2,
+          "timed_completed": true,
+          "without_time_completed": true,
+          "timed": {
+            "symmetric_distance_rmse_H": 0.0001650508709796169,
+            "symmetric_hausdorff_H": 0.0006769148035748268,
+            "ordered_arclength_rmse_H": 0.0001930721040477383,
+            "endpoint_error_H": 0.0001141692427126605,
+            "observed_length_H": 2.0555505513522605,
+            "predicted_length_H": 2.055303033900784
+          },
+          "without_time": {
+            "symmetric_distance_rmse_H": 0.0003942076431382124,
+            "symmetric_hausdorff_H": 0.002158700793844782,
+            "ordered_arclength_rmse_H": 0.0018287509337265252,
+            "endpoint_error_H": 0.0006523416003763532,
+            "observed_length_H": 2.0555505513522605,
+            "predicted_length_H": 2.0516435757867013
+          }
+        }
+      ],
+      "inlet_difference": 0.18121131339846755,
+      "shape_difference": 0.18341473567645591,
+      "optimizer": [
+        {
+          "start": 0,
+          "objective": 0.43881671707387376,
+          "iterations": 700,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "spline_minimum": 0.0,
+          "valid": true,
+          "mean_speed": 1.0100508824461587,
+          "reynolds": 30.30152647338476,
+          "components": [
+            0.41029128742507415,
+            0.004784184287382626,
+            0.02366465303882694,
+            7.659232258936465e-05,
+            0.0
+          ]
+        },
+        {
+          "start": 1,
+          "objective": 0.43051544901350414,
+          "iterations": 700,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "spline_minimum": 0.0,
+          "valid": true,
+          "mean_speed": 1.0097810298938572,
+          "reynolds": 30.293430896815718,
+          "components": [
+            0.40993862379073,
+            0.0034336135286818005,
+            0.017066440423270733,
+            7.677127086073789e-05,
+            0.0
+          ]
+        }
+      ],
+      "maximum_iterations": 700,
+      "selected_start": 1,
+      "geometry_config": {
+        "points": 129,
+        "clock_knots": 33,
+        "clock_smoothness": 0.001,
+        "clock_log_bound": 5.0,
+        "starts": 2,
+        "max_iterations": 700,
+        "seed": 81206
+      },
+      "flow_config": {
+        "reference_reynolds": 30.0,
+        "mean_speed_bounds": [
+          0.5,
+          1.5
+        ],
+        "profile_points": 65,
+        "position_scale": 0.001,
+        "smoothness": 1e-05,
+        "regularization_kind": "inlet_curvature",
+        "physics_weight": 0.02,
+        "physics_scale": 0.1,
+        "physics_points": 192,
+        "shape_prior": 0.0001,
+        "mean_prior": 0.0001,
+        "log_shape_bound": 3.0,
+        "precondition_shape": true,
+        "starts": 3,
+        "max_iterations": 400,
+        "quadrature_order": 3,
+        "seed": 71103
+      }
+    },
+    "corners_beta5": {
+      "paths": [
+        {
+          "particle": 1,
+          "timed_completed": true,
+          "without_time_completed": true,
+          "timed": {
+            "symmetric_distance_rmse_H": 0.00019866631165298842,
+            "symmetric_hausdorff_H": 0.0008001064995034542,
+            "ordered_arclength_rmse_H": 0.00022762926380903226,
+            "endpoint_error_H": 0.00045728724810984394,
+            "observed_length_H": 3.295100685959015,
+            "predicted_length_H": 3.295169967157585
+          },
+          "without_time": {
+            "symmetric_distance_rmse_H": 0.00023281944503602696,
+            "symmetric_hausdorff_H": 0.0006438151037225745,
+            "ordered_arclength_rmse_H": 0.0002340611195501042,
+            "endpoint_error_H": 0.00013796211178532776,
+            "observed_length_H": 3.295100685959015,
+            "predicted_length_H": 3.2950435383451517
+          }
+        },
+        {
+          "particle": 2,
+          "timed_completed": true,
+          "without_time_completed": true,
+          "timed": {
+            "symmetric_distance_rmse_H": 0.00016569008056347933,
+            "symmetric_hausdorff_H": 0.0005902039382406911,
+            "ordered_arclength_rmse_H": 0.00029381682453341775,
+            "endpoint_error_H": 0.00021685897937726554,
+            "observed_length_H": 2.055898238892339,
+            "predicted_length_H": 2.05539455484625
+          },
+          "without_time": {
+            "symmetric_distance_rmse_H": 0.000421815703004864,
+            "symmetric_hausdorff_H": 0.002456926337219379,
+            "ordered_arclength_rmse_H": 0.002090205082072647,
+            "endpoint_error_H": 0.0006121177584020649,
+            "observed_length_H": 2.055898238892339,
+            "predicted_length_H": 2.051423280084989
+          }
+        }
+      ],
+      "inlet_difference": 0.1133902758089106,
+      "shape_difference": 0.11542639389147585,
+      "optimizer": [
+        {
+          "start": 0,
+          "objective": 0.477178400108008,
+          "iterations": 700,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "spline_minimum": 0.0,
+          "valid": true,
+          "mean_speed": 1.010651880123917,
+          "reynolds": 30.319556403717513,
+          "components": [
+            0.4057708109379672,
+            0.01510857192829798,
+            0.05622647257350407,
+            7.254466824089573e-05,
+            0.0
+          ]
+        },
+        {
+          "start": 1,
+          "objective": 0.4480997343843619,
+          "iterations": 700,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "spline_minimum": 0.0,
+          "valid": true,
+          "mean_speed": 1.0112242743626818,
+          "reynolds": 30.336728230880453,
+          "components": [
+            0.40707469548715786,
+            0.006801342830866918,
+            0.034150674535325005,
+            7.302153102508646e-05,
+            0.0
+          ]
+        }
+      ],
+      "maximum_iterations": 700,
+      "selected_start": 1,
+      "geometry_config": {
+        "points": 129,
+        "clock_knots": 33,
+        "clock_smoothness": 0.001,
+        "clock_log_bound": 5.0,
+        "starts": 2,
+        "max_iterations": 700,
+        "seed": 81206
+      },
+      "flow_config": {
+        "reference_reynolds": 30.0,
+        "mean_speed_bounds": [
+          0.5,
+          1.5
+        ],
+        "profile_points": 65,
+        "position_scale": 0.001,
+        "smoothness": 1e-05,
+        "regularization_kind": "inlet_curvature",
+        "physics_weight": 0.02,
+        "physics_scale": 0.1,
+        "physics_points": 192,
+        "shape_prior": 0.0001,
+        "mean_prior": 0.0001,
+        "log_shape_bound": 3.0,
+        "precondition_shape": true,
+        "starts": 3,
+        "max_iterations": 400,
+        "quadrature_order": 3,
+        "seed": 71103
+      }
+    },
+    "oblique_beta5": {
+      "paths": [
+        {
+          "particle": 1,
+          "timed_completed": true,
+          "without_time_completed": true,
+          "timed": {
+            "symmetric_distance_rmse_H": 0.0009337751989983568,
+            "symmetric_hausdorff_H": 0.0027696580805889955,
+            "ordered_arclength_rmse_H": 0.0012729317283479303,
+            "endpoint_error_H": 0.0027696580805889955,
+            "observed_length_H": 1.4201991392832907,
+            "predicted_length_H": 1.4219306937584872
+          },
+          "without_time": {
+            "symmetric_distance_rmse_H": 0.00025377399075286636,
+            "symmetric_hausdorff_H": 0.000780741526135661,
+            "ordered_arclength_rmse_H": 0.00033585356414571376,
+            "endpoint_error_H": 0.0005230929658841139,
+            "observed_length_H": 1.4201991392832907,
+            "predicted_length_H": 1.4195566044362977
+          }
+        },
+        {
+          "particle": 2,
+          "timed_completed": true,
+          "without_time_completed": true,
+          "timed": {
+            "symmetric_distance_rmse_H": 0.0003047290597744812,
+            "symmetric_hausdorff_H": 0.0012241455810119602,
+            "ordered_arclength_rmse_H": 0.000831017101868802,
+            "endpoint_error_H": 0.0012241455810119602,
+            "observed_length_H": 1.0006255043002137,
+            "predicted_length_H": 1.0027358115165683
+          },
+          "without_time": {
+            "symmetric_distance_rmse_H": 0.0001816274040380693,
+            "symmetric_hausdorff_H": 0.0005290005772531715,
+            "ordered_arclength_rmse_H": 0.00018750147376920634,
+            "endpoint_error_H": 0.00020032695963020139,
+            "observed_length_H": 1.0006255043002137,
+            "predicted_length_H": 1.0005214586274525
+          }
+        }
+      ],
+      "inlet_difference": 0.2506034302508935,
+      "shape_difference": 0.251407042315505,
+      "optimizer": [
+        {
+          "start": 0,
+          "objective": 0.13710022108201492,
+          "iterations": 700,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "spline_minimum": 0.0,
+          "valid": true,
+          "mean_speed": 1.004069305154593,
+          "reynolds": 30.12207915463779,
+          "components": [
+            0.04673718778945092,
+            0.029856832181288425,
+            0.06049903503327737,
+            7.166078001603659e-06,
+            0.0
+          ]
+        },
+        {
+          "start": 1,
+          "objective": 0.13218934652903422,
+          "iterations": 700,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "spline_minimum": 0.0,
+          "valid": true,
+          "mean_speed": 1.0048680100773477,
+          "reynolds": 30.146040302320433,
+          "components": [
+            0.052575809436292,
+            0.0256560768211179,
+            0.0539497729367788,
+            7.687334850388112e-06,
+            0.0
+          ]
+        }
+      ],
+      "maximum_iterations": 700,
+      "selected_start": 1,
+      "geometry_config": {
+        "points": 129,
+        "clock_knots": 33,
+        "clock_smoothness": 0.001,
+        "clock_log_bound": 5.0,
+        "starts": 2,
+        "max_iterations": 700,
+        "seed": 81206
+      },
+      "flow_config": {
+        "reference_reynolds": 30.0,
+        "mean_speed_bounds": [
+          0.5,
+          1.5
+        ],
+        "profile_points": 65,
+        "position_scale": 0.001,
+        "smoothness": 1e-05,
+        "regularization_kind": "inlet_curvature",
+        "physics_weight": 0.02,
+        "physics_scale": 0.1,
+        "physics_points": 192,
+        "shape_prior": 0.0001,
+        "mean_prior": 0.0001,
+        "log_shape_bound": 3.0,
+        "precondition_shape": true,
+        "starts": 3,
+        "max_iterations": 400,
+        "quadrature_order": 3,
+        "seed": 71103
+      }
+    }
+  },
+  "baseline_axis_limits": {
+    "inlet_upper": 2.2316860080813283,
+    "distance_upper": {
+      "corners_beta4": 25.224805798389067,
+      "corners_beta5": 27.467421034341605,
+      "oblique_beta5": 32.2891788454096
+    }
+  },
+  "axis_limits": {
+    "inlet_upper": 2.6590949841696734,
+    "distance_upper": {
+      "corners_beta4": 25.224805798389067,
+      "corners_beta5": 27.467421034341605,
+      "oblique_beta5": 32.2891788454096
+    }
+  },
+  "durations": [
+    {
+      "case": "corners_beta4",
+      "particle": 1,
+      "observed": 1.2,
+      "inferred": 1.1906080813577309,
+      "difference_percent": -0.7826598868557559
+    },
+    {
+      "case": "corners_beta4",
+      "particle": 2,
+      "observed": 1.2,
+      "inferred": 1.1940986789112147,
+      "difference_percent": -0.4917767573987727
+    },
+    {
+      "case": "corners_beta5",
+      "particle": 1,
+      "observed": 1.2,
+      "inferred": 1.1900369093823353,
+      "difference_percent": -0.8302575514720542
+    },
+    {
+      "case": "corners_beta5",
+      "particle": 2,
+      "observed": 1.2,
+      "inferred": 1.1935293997841063,
+      "difference_percent": -0.5392166846578025
+    },
+    {
+      "case": "oblique_beta5",
+      "particle": 1,
+      "observed": 0.55,
+      "inferred": 0.5491314236442397,
+      "difference_percent": -0.1579229737746036
+    },
+    {
+      "case": "oblique_beta5",
+      "particle": 2,
+      "observed": 0.55,
+      "inferred": 0.5490806783067121,
+      "difference_percent": -0.16714939877961818
+    }
+  ],
+  "figures": [
+    {
+      "figure": "figs/chapter4/inverse-geometry-comparison.pdf",
+      "renderer": "plot_inverse_results.geometry",
+      "experiment": [
+        "corners_beta4",
+        "corners_beta5",
+        "oblique_beta5"
+      ],
+      "reference_sha256": {
+        "corners_beta4": {
+          "flow_reconstruction_no_time/experiments/corners_beta4/input/curve_1.csv": "fab26787cbb8ee465c9abb565fda0cbabbde8776a675668609da9b58d776fcda",
+          "flow_reconstruction_no_time/experiments/corners_beta4/input/curve_2.csv": "8175a6ce2004532ad0c81ea5f9f77e2bde3df9fb4b194742d01d17a01074ba2f",
+          "flow_reconstruction_no_time/experiments/corners_beta4/input/problem.json": "ea927b3acaa09022096d27a79933976ed5dd6cc7cde69c9cf20a3517c27a3935",
+          "observed_track_1.csv": "0dcf7c6cd3255d0ab7730be0b95f5a5a3def942d4000862f3766ef818703d048",
+          "observed_track_2.csv": "7fcb40857f4e1d282babffe3c3b18c7bd973f02e037556bc92614baffb1fbf65"
+        },
+        "corners_beta5": {
+          "flow_reconstruction_no_time/experiments/corners_beta5/input/curve_1.csv": "ead73257ad84f0af56e6d768fd257218bc194dcbd88b4a380224081a93eba4a7",
+          "flow_reconstruction_no_time/experiments/corners_beta5/input/curve_2.csv": "e084382b94138831e2a9b900c292c4e1163d570db02f923aaebd5c6ec1d019ab",
+          "flow_reconstruction_no_time/experiments/corners_beta5/input/problem.json": "ea927b3acaa09022096d27a79933976ed5dd6cc7cde69c9cf20a3517c27a3935",
+          "observed_track_1.csv": "d7908a1ab41709b71d8add5877f6d988547ed511b0cb80d523035a9ea7aa8739",
+          "observed_track_2.csv": "fd04ccf3f2a5f8bf02ddd32a6ef1407874dc3dec7c93d0e525af379749aca63e"
+        },
+        "oblique_beta5": {
+          "flow_reconstruction_no_time/experiments/oblique_beta5/input/curve_1.csv": "c2db5091454b48c5727a2dded846416f4c92adc34d695aa9ff8ab33a99186b9e",
+          "flow_reconstruction_no_time/experiments/oblique_beta5/input/curve_2.csv": "fa0897ad14d97e610c66abcb216a5b4d9c7d7a3842b754c94f3185bb6715ba11",
+          "flow_reconstruction_no_time/experiments/oblique_beta5/input/problem.json": "ba366967cf6f0e28c0d151a08b929e45967e35ac2b98318ec433846fe619e718",
+          "observed_track_1.csv": "7d2d8d5ec2a0b2b7482b33de404894a3b3ea01ecb7b1b29325073a09d161bd24",
+          "observed_track_2.csv": "d01d074b420e8a68f92b5279ebfe3dbf620aafd374f189b79ca012a48aa0927b"
+        }
+      },
+      "latex_labels": [
+        "fig:results-inverse-geometry",
+        "tab:results-inverse-geometry"
+      ],
+      "old_thesis_revision": "993bb19cc445a6ad4c3961fdcacb73fef449b01c",
+      "old_source_revision": "d5e9b5a1a08107cbfbce34fdd66932f2f99588df",
+      "old_checkpoint_sha256": "ccf6fa2b3e179a22c443384083e2dec338fc497f9562a567ed7e0955d3c67bf8",
+      "old_pdf_sha256": "0a27c27e695fde0dfb9aa46f6972794c82ec5158f862444f43f6b22f1727a7f7",
+      "new_source_revision": "f6b8690059716e809c2dac27c8715e65fcb1d267",
+      "new_checkpoint_sha256": "e46687f8d50818329072eca1af7c70136fb9e3d314207f89e9427ccc140dfbf9",
+      "new_pdf_sha256": "dbec96bfea3496bb37a4c7e179a33b3b443a6dce67b00de9e719b78e91704d83"
+    },
+    {
+      "figure": "figs/chapter4/inverse-geometry-duration.pdf",
+      "renderer": "plot_inverse_results.durations",
+      "experiment": [
+        "corners_beta4",
+        "corners_beta5",
+        "oblique_beta5"
+      ],
+      "reference_sha256": {
+        "corners_beta4": {
+          "flow_reconstruction_no_time/experiments/corners_beta4/input/curve_1.csv": "fab26787cbb8ee465c9abb565fda0cbabbde8776a675668609da9b58d776fcda",
+          "flow_reconstruction_no_time/experiments/corners_beta4/input/curve_2.csv": "8175a6ce2004532ad0c81ea5f9f77e2bde3df9fb4b194742d01d17a01074ba2f",
+          "flow_reconstruction_no_time/experiments/corners_beta4/input/problem.json": "ea927b3acaa09022096d27a79933976ed5dd6cc7cde69c9cf20a3517c27a3935",
+          "observed_track_1.csv": "0dcf7c6cd3255d0ab7730be0b95f5a5a3def942d4000862f3766ef818703d048",
+          "observed_track_2.csv": "7fcb40857f4e1d282babffe3c3b18c7bd973f02e037556bc92614baffb1fbf65"
+        },
+        "corners_beta5": {
+          "flow_reconstruction_no_time/experiments/corners_beta5/input/curve_1.csv": "ead73257ad84f0af56e6d768fd257218bc194dcbd88b4a380224081a93eba4a7",
+          "flow_reconstruction_no_time/experiments/corners_beta5/input/curve_2.csv": "e084382b94138831e2a9b900c292c4e1163d570db02f923aaebd5c6ec1d019ab",
+          "flow_reconstruction_no_time/experiments/corners_beta5/input/problem.json": "ea927b3acaa09022096d27a79933976ed5dd6cc7cde69c9cf20a3517c27a3935",
+          "observed_track_1.csv": "d7908a1ab41709b71d8add5877f6d988547ed511b0cb80d523035a9ea7aa8739",
+          "observed_track_2.csv": "fd04ccf3f2a5f8bf02ddd32a6ef1407874dc3dec7c93d0e525af379749aca63e"
+        },
+        "oblique_beta5": {
+          "flow_reconstruction_no_time/experiments/oblique_beta5/input/curve_1.csv": "c2db5091454b48c5727a2dded846416f4c92adc34d695aa9ff8ab33a99186b9e",
+          "flow_reconstruction_no_time/experiments/oblique_beta5/input/curve_2.csv": "fa0897ad14d97e610c66abcb216a5b4d9c7d7a3842b754c94f3185bb6715ba11",
+          "flow_reconstruction_no_time/experiments/oblique_beta5/input/problem.json": "ba366967cf6f0e28c0d151a08b929e45967e35ac2b98318ec433846fe619e718",
+          "observed_track_1.csv": "7d2d8d5ec2a0b2b7482b33de404894a3b3ea01ecb7b1b29325073a09d161bd24",
+          "observed_track_2.csv": "d01d074b420e8a68f92b5279ebfe3dbf620aafd374f189b79ca012a48aa0927b"
+        }
+      },
+      "latex_labels": [
+        "fig:results-inverse-duration",
+        "tab:results-inverse-geometry"
+      ],
+      "old_thesis_revision": "993bb19cc445a6ad4c3961fdcacb73fef449b01c",
+      "old_source_revision": "d5e9b5a1a08107cbfbce34fdd66932f2f99588df",
+      "old_checkpoint_sha256": "ccf6fa2b3e179a22c443384083e2dec338fc497f9562a567ed7e0955d3c67bf8",
+      "old_pdf_sha256": "2102392283e48609efd13ebd98453e11a5c6e6b681aacf4a16237a8e321e1335",
+      "new_source_revision": "f6b8690059716e809c2dac27c8715e65fcb1d267",
+      "new_checkpoint_sha256": "e46687f8d50818329072eca1af7c70136fb9e3d314207f89e9427ccc140dfbf9",
+      "new_pdf_sha256": "e6e233f67e0839ca6caa04c83ee980178d2cc7a943657ad44594925c839e9cf0"
+    }
+  ]
+}

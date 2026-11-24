@@ -215,7 +215,7 @@ def timed_replay(case,out):
     save(fig,out,'inverse-timed-replay')
 
 
-def fields(a,out):
+def fields(a,out,scale_with=None):
     x,y=(np.unique(a['xy'][:,i]) for i in [0,1])
     assert (len(x),len(y))==(73,97)
     ix,iy=np.searchsorted(x,a['xy'][:,0]),np.searchsorted(y,a['xy'][:,1])
@@ -229,9 +229,15 @@ def fields(a,out):
         for key in ['reference','prediction']:
             z=np.empty((len(y),len(x)));z[iy,ix]=a[key][:,row];values.append(z)
         values.append(values[1]-values[0])
-        lo=min(z.min() for z in values[:2]);hi=max(z.max() for z in values[:2]);cmap='viridis'
+        shared = values[:2]
+        if scale_with is not None:
+            shared = [*shared, scale_with['prediction'][:, row]]
+        lo=min(z.min() for z in shared);hi=max(z.max() for z in shared);cmap='viridis'
         if row==1:hi=max(abs(lo),abs(hi));lo=-hi;cmap='RdBu_r'
         dm=np.max(np.abs(values[2]))
+        if scale_with is not None:
+            dm = max(dm, np.max(np.abs(scale_with['prediction'][:, row] -
+                                      scale_with['reference'][:, row])))
         for col,slot in enumerate([0,1,4]):
             ax=fig.add_subplot(gs[row,slot]);norm=Normalize(lo,hi) if col<2 else Normalize(-dm,dm)
             mesh=ax.pcolormesh(xe,ye,values[col],norm=norm,cmap=cmap if col<2 else 'RdBu_r',rasterized=True)
@@ -252,9 +258,13 @@ def fields(a,out):
     save(fig,out,'inverse-timed-fields')
 
 
-def geometry(flow,checks,out):
+def geometry(flow,checks,out,baseline_limits=None):
     fig,axes=plt.subplots(3,3,figsize=(WIDTH,4.95),gridspec_kw={'width_ratios':[1.25,1,1.15]})
-    umax=max(max(a['inlet']['timed_u'].max(),a['inlet']['no_time_u'].max()) for a in flow.values())*1.05
+    peak=max(max(a['inlet']['timed_u'].max(),a['inlet']['no_time_u'].max()) for a in flow.values())
+    umax=1.05*peak
+    if baseline_limits is not None and peak < baseline_limits['inlet_upper']:
+        umax=baseline_limits['inlet_upper']
+    final_limits=dict(inlet_upper=float(umax),distance_upper={})
     for row,(name,label) in enumerate(zip(CASES,LABELS)):
         spatial,inlet,error=axes[row];a=flow[name]
         for track,color in zip(a['tracks'],COLORS):
@@ -269,6 +279,11 @@ def geometry(flow,checks,out):
         inlet.set(xlim=(0,umax),ylim=(0,1),xlabel=r'$u_{\rm inlet}/U_{\rm ref}$',ylabel=r'$y^*$')
         inlet.text(.96,.97,r'$\Delta f$: '+f"{100*checks['geometric'][name]['inlet_difference']:.3f}%",transform=inlet.transAxes,ha='right',va='top',fontsize=7.5)
         error.set(xlim=(0,1),ylim=(0,None),xlabel='Input arc fraction',ylabel=r'$10^4 d_{\rm obs\to replay}/H$')
+        if baseline_limits is not None:
+            upper=baseline_limits['distance_upper'][name]
+            if error.dataLim.ymax < upper:
+                error.set_ylim(0,upper)
+        final_limits['distance_upper'][name]=float(error.get_ylim()[1])
         error.yaxis.set_major_locator(MaxNLocator(3))
         for col,ax in enumerate(axes[row]):decorate(ax,f'({string.ascii_lowercase[row*3+col]})'+(' '+label if col==0 else ''))
     handles=[Line2D([],[],color=COLORS[i],lw=1.2,label=f'Particle {i+1}') for i in [0,1]]
@@ -277,6 +292,7 @@ def geometry(flow,checks,out):
     fig.legend(handles=handles,loc='lower center',ncol=3,frameon=False,bbox_to_anchor=(.51,.005),fontsize=7.5)
     fig.subplots_adjust(left=.08,right=.98,bottom=.17,top=.96,hspace=.8,wspace=.67)
     save(fig,out,'inverse-geometry-comparison')
+    return final_limits
 
 
 def durations(a,out):
@@ -285,11 +301,16 @@ def durations(a,out):
     axes[0].hlines(rows,a['timed_duration'],a['no_time_inferred_duration'],color='.65',lw=1)
     axes[0].plot(a['timed_duration'],rows,'o',color='.15',ms=4,label='Observed (supplied)')
     axes[0].plot(a['no_time_inferred_duration'],rows,'D',color='#9b3069',mfc='none',ms=4,label='Geometry (inferred)')
-    axes[0].set(xlim=(0,1.3),xlabel=r'$T^*$',yticks=rows,yticklabels=['B / 1','B / 2','A / 1','A / 2','Oblique / 1','Oblique / 2'])
+    largest_duration = max(a['timed_duration'].max(), a['no_time_inferred_duration'].max())
+    duration_limit = 1.3 if largest_duration < 1.3 else 1.04*largest_duration
+    axes[0].set(xlim=(0,duration_limit),xlabel=r'$T^*$',yticks=rows,yticklabels=['B / 1','B / 2','A / 1','A / 2','Oblique / 1','Oblique / 2'])
     axes[0].invert_yaxis()
     axes[1].axvline(0,color='.5',ls=':',lw=.8)
     axes[1].plot(a['relative_difference_percent'],rows,'o',color='#24588b',ms=4)
-    axes[1].set(xlim=(-2,5),xlabel=r'$100(T_{\rm geo}^*-T_{\rm obs}^*)/T_{\rm obs}^*$')
+    differences = a['relative_difference_percent']
+    low, high = differences.min(), differences.max()
+    limits = (-2 if low > -2 else 1.04*low, 5 if high < 5 else 1.04*high)
+    axes[1].set(xlim=limits,xlabel=r'$100(T_{\rm geo}^*-T_{\rm obs}^*)/T_{\rm obs}^*$')
     for tag,ax in zip(['(a)','(b)'],axes):decorate(ax,tag)
     fig.legend(*axes[0].get_legend_handles_labels(),loc='lower center',ncol=2,frameon=False,bbox_to_anchor=(.53,0),fontsize=7.5)
     fig.subplots_adjust(left=.15,right=.98,bottom=.28,top=.9,wspace=.26)

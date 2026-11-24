@@ -1,0 +1,9 @@
+{
+  "path": "flow_reconstruction/examples/fem_beta/result/truth_comparison.npz",
+  "sha256": "f4bae4e952aead6a294b3695023f36f297d218be1bbb597129a3e42067edc7bb",
+  "problem_sha256": "69b303da01a98fd06eb9dedbede3c7be5e261194dab83789e3f1bfc26153186e",
+  "observations_sha256": {
+    "observed_track_1.csv": "7d2d8d5ec2a0b2b7482b33de404894a3b3ea01ecb7b1b29325073a09d161bd24",
+    "observed_track_2.csv": "d01d074b420e8a68f92b5279ebfe3dbf620aafd374f189b79ca012a48aa0927b"
+  }
+}

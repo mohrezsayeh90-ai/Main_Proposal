@@ -1,0 +1,3022 @@
+{
+  "profile_order": [
+    "parabolic",
+    "skew_b3",
+    "beta5",
+    "twin_b3_r30",
+    "mixed",
+    "shoulder",
+    "waves3_r30",
+    "lobes4_r30",
+    "flat30",
+    "nine30"
+  ],
+  "N": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "inlet_errors_percent": [
+    [
+      1.7612557679580383,
+      1.8634906606812613,
+      1.890980678748122,
+      2.012018552717652,
+      1.8840677766623772
+    ],
+    [
+      44.9403222503833,
+      21.98004814013008,
+      10.443493433820752,
+      11.052212368636875,
+      4.811810607986956
+    ],
+    [
+      35.37835081835645,
+      18.39499608917052,
+      20.409855216849834,
+      14.626680880704034,
+      4.395535810434893
+    ],
+    [
+      18.29439269270545,
+      8.738815245315578,
+      3.723601596552917,
+      5.716301480831999,
+      1.9927640100147308
+    ],
+    [
+      26.538472891676918,
+      9.428570474104898,
+      12.477201000667328,
+      9.270284928039697,
+      6.399031627629413
+    ],
+    [
+      16.779744313995227,
+      8.805240477555731,
+      17.303588685963806,
+      14.193661696316989,
+      6.884939820541894
+    ],
+    [
+      25.47008124975905,
+      3.8081971546134525,
+      4.677224682506495,
+      3.1102696277387443,
+      4.115706320667526
+    ],
+    [
+      27.893793262848305,
+      31.650657015287475,
+      27.45532977983206,
+      18.73590038962012,
+      5.851592573779279
+    ],
+    [
+      20.271872223250412,
+      6.499373416248648,
+      6.696619140024168,
+      5.461154092598902,
+      5.052583607504374
+    ],
+    [
+      39.07801947424408,
+      39.086136342029434,
+      39.12287967141347,
+      39.24791796751726,
+      39.04243964904442
+    ]
+  ],
+  "median_error_percent_by_N": [
+    26.004277070717983,
+    9.116905475830315,
+    11.46034721724404,
+    10.161248648338287,
+    4.932197107745665
+  ],
+  "improving_steps": 25,
+  "strictly_monotonic_profiles": [],
+  "N6_better_than_N2": 9,
+  "replays_completed": 200,
+  "runs": {
+    "parabolic": {
+      "2": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.0957664943364726,
+            "iterations": 78,
+            "optimizer_success": true,
+            "reason": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "start": 1,
+            "objective": 0.0887852045850959,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.000194903704086617,
+            "position_rmse_clean": 3.2392140967151e-05,
+            "maximum_observed_euclidean_error": 0.0005632155371029382,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.00020382495935423927,
+            "position_rmse_clean": 4.125432085057703e-05,
+            "maximum_observed_euclidean_error": 0.0006550356004763991,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "3": {
+        "selected_start": 0,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.09666632870392552,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.09806326555173023,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.0001948002212566879,
+            "position_rmse_clean": 2.5481550681124922e-05,
+            "maximum_observed_euclidean_error": 0.0005629856298542756,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.00020339954651599933,
+            "position_rmse_clean": 3.897935459023374e-05,
+            "maximum_observed_euclidean_error": 0.0006463282137554538,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.00022373822198143754,
+            "position_rmse_clean": 6.142890363428393e-05,
+            "maximum_observed_euclidean_error": 0.0008135736675041992,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "4": {
+        "selected_start": 0,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.0951032851712337,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.09721272583699456,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.00019662439148739565,
+            "position_rmse_clean": 3.893017595914568e-05,
+            "maximum_observed_euclidean_error": 0.0005628278822720926,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.00020198054159552674,
+            "position_rmse_clean": 3.4573748122723645e-05,
+            "maximum_observed_euclidean_error": 0.0006417111489142747,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0002287959848435897,
+            "position_rmse_clean": 7.560710427517889e-05,
+            "maximum_observed_euclidean_error": 0.0008157900714251919,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.00018697663021799568,
+            "position_rmse_clean": 4.215345893325398e-05,
+            "maximum_observed_euclidean_error": 0.000579652331722545,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "5": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.4426388528943895,
+            "iterations": 48,
+            "optimizer_success": true,
+            "reason": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "start": 1,
+            "objective": 0.14207900991274117,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.00020436083781096503,
+            "position_rmse_clean": 6.501488643464931e-05,
+            "maximum_observed_euclidean_error": 0.0006113995506385197,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.000202779284486984,
+            "position_rmse_clean": 2.283002971204256e-05,
+            "maximum_observed_euclidean_error": 0.0005679088305508243,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0002406022019509873,
+            "position_rmse_clean": 9.171709056635611e-05,
+            "maximum_observed_euclidean_error": 0.0008400994876618416,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.00022289133402641915,
+            "position_rmse_clean": 0.00012163996436095605,
+            "maximum_observed_euclidean_error": 0.0006425088836720745,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 5,
+            "completed": true,
+            "position_rmse_observed": 0.0002589426350053965,
+            "position_rmse_clean": 0.00013687915010214769,
+            "maximum_observed_euclidean_error": 0.0008264402913858804,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "6": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.29126985418014395,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.17648001960668286,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.00020445922505093442,
+            "position_rmse_clean": 6.281843116406544e-05,
+            "maximum_observed_euclidean_error": 0.0006004952035362464,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.00022460272196660926,
+            "position_rmse_clean": 9.233495077754823e-05,
+            "maximum_observed_euclidean_error": 0.0006986451041150958,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.00038057394114506606,
+            "position_rmse_clean": 0.00030224316133092925,
+            "maximum_observed_euclidean_error": 0.0010345034272330029,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.0002784807725725604,
+            "position_rmse_clean": 0.00020472301819718621,
+            "maximum_observed_euclidean_error": 0.0007664321274991213,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 5,
+            "completed": true,
+            "position_rmse_observed": 0.00027783384912590995,
+            "position_rmse_clean": 0.00016563554952454351,
+            "maximum_observed_euclidean_error": 0.0009241206849170373,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 6,
+            "completed": true,
+            "position_rmse_observed": 0.00025534547939754117,
+            "position_rmse_clean": 0.00016594150299858548,
+            "maximum_observed_euclidean_error": 0.000670090306345046,
+            "boundary_exit_time": null
+          }
+        ]
+      }
+    },
+    "skew_b3": {
+      "2": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.38414438573671245,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.33130836496391075,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.00025887813112665623,
+            "position_rmse_clean": 0.00015435829915258324,
+            "maximum_observed_euclidean_error": 0.0007198615633932755,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.00024539331605801375,
+            "position_rmse_clean": 0.00016412356153711765,
+            "maximum_observed_euclidean_error": 0.0007518075617786734,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "3": {
+        "selected_start": 0,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.70346103726327,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.7680980833399673,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.0006333095050756207,
+            "position_rmse_clean": 0.0005954441556321492,
+            "maximum_observed_euclidean_error": 0.0017309085377454118,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.0004222631855086194,
+            "position_rmse_clean": 0.0003874628178703017,
+            "maximum_observed_euclidean_error": 0.0014311998734739286,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0006398685730634099,
+            "position_rmse_clean": 0.0005953113071286232,
+            "maximum_observed_euclidean_error": 0.0018144110125554902,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "4": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.6783496091695933,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.49735569644751415,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.00048483380180467625,
+            "position_rmse_clean": 0.0004334399016297405,
+            "maximum_observed_euclidean_error": 0.0012234732881146635,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.00039900220593366213,
+            "position_rmse_clean": 0.0003478258665631478,
+            "maximum_observed_euclidean_error": 0.0013294374644354085,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0003192055918185843,
+            "position_rmse_clean": 0.00022031026820744853,
+            "maximum_observed_euclidean_error": 0.0010211439004840222,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.0004591771451964884,
+            "position_rmse_clean": 0.0004066825359717387,
+            "maximum_observed_euclidean_error": 0.001588116522700289,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "5": {
+        "selected_start": 0,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.9636470707680228,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 1.0015385755158204,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.0006086751630341599,
+            "position_rmse_clean": 0.0005657367660217952,
+            "maximum_observed_euclidean_error": 0.0015273709456704806,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.00041265041256754445,
+            "position_rmse_clean": 0.0003641934775016,
+            "maximum_observed_euclidean_error": 0.0014191981639356576,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0006378147067932935,
+            "position_rmse_clean": 0.0005903153618528867,
+            "maximum_observed_euclidean_error": 0.001761573065874959,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.0010137681782076155,
+            "position_rmse_clean": 0.0009813197735191227,
+            "maximum_observed_euclidean_error": 0.0031228562125765174,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 5,
+            "completed": true,
+            "position_rmse_observed": 0.0004463003348441492,
+            "position_rmse_clean": 0.000385400353420115,
+            "maximum_observed_euclidean_error": 0.001148796818487076,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "6": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 1.5050927595988357,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 1.3138658402908256,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.0006588451055169048,
+            "position_rmse_clean": 0.0006202316059963363,
+            "maximum_observed_euclidean_error": 0.0014841586537056107,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.0004210821149902995,
+            "position_rmse_clean": 0.00037058118691277376,
+            "maximum_observed_euclidean_error": 0.0014196680820897428,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.00037694634908452704,
+            "position_rmse_clean": 0.00028861804899518723,
+            "maximum_observed_euclidean_error": 0.001118845094762067,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.0008585307056419667,
+            "position_rmse_clean": 0.0008280114790722637,
+            "maximum_observed_euclidean_error": 0.002856937928126657,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 5,
+            "completed": true,
+            "position_rmse_observed": 0.000459534568893154,
+            "position_rmse_clean": 0.0003886295606008699,
+            "maximum_observed_euclidean_error": 0.0014929956629455205,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 6,
+            "completed": true,
+            "position_rmse_observed": 0.0007733701987716749,
+            "position_rmse_clean": 0.0007652046577122782,
+            "maximum_observed_euclidean_error": 0.002017983891521786,
+            "boundary_exit_time": null
+          }
+        ]
+      }
+    },
+    "beta5": {
+      "2": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.6384509159954567,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.3504228527776464,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.0004324960091510946,
+            "position_rmse_clean": 0.0003846875048589217,
+            "maximum_observed_euclidean_error": 0.0012939335815616423,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.0002461576544722278,
+            "position_rmse_clean": 0.00017625296378638507,
+            "maximum_observed_euclidean_error": 0.0009129722303024965,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "3": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 11.14598778326153,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 3.494764358655481,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.001158957116870605,
+            "position_rmse_clean": 0.0011357349572053408,
+            "maximum_observed_euclidean_error": 0.0025586176687819183,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.0004799339409976359,
+            "position_rmse_clean": 0.0004469857286663835,
+            "maximum_observed_euclidean_error": 0.0015565772490125941,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0020990726497392954,
+            "position_rmse_clean": 0.002096082104121899,
+            "maximum_observed_euclidean_error": 0.006723752201358777,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "4": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 2.900181782606478,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 2.845839326706863,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.00076161830018525,
+            "position_rmse_clean": 0.0007267587816653595,
+            "maximum_observed_euclidean_error": 0.002329975900117721,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.0004741922215276619,
+            "position_rmse_clean": 0.0004443964084350994,
+            "maximum_observed_euclidean_error": 0.001645787444150859,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0017676352406042941,
+            "position_rmse_clean": 0.0017585728181726446,
+            "maximum_observed_euclidean_error": 0.0051199869454147005,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.001706955013368745,
+            "position_rmse_clean": 0.0016848686295355265,
+            "maximum_observed_euclidean_error": 0.00424091840816227,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "5": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 3.341545457886532,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 3.019252948264129,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.0007896027116589966,
+            "position_rmse_clean": 0.0007544689852461258,
+            "maximum_observed_euclidean_error": 0.001788608057149635,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.0004089819694290322,
+            "position_rmse_clean": 0.0003639492357115431,
+            "maximum_observed_euclidean_error": 0.0014069022893984841,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0016657597961162514,
+            "position_rmse_clean": 0.001660139445081317,
+            "maximum_observed_euclidean_error": 0.005431941945440895,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.00227389629210366,
+            "position_rmse_clean": 0.002253622198790964,
+            "maximum_observed_euclidean_error": 0.006409933804921753,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 5,
+            "completed": true,
+            "position_rmse_observed": 0.0007137994465723808,
+            "position_rmse_clean": 0.0006684277357788464,
+            "maximum_observed_euclidean_error": 0.002275393337741713,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "6": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 2.850701311444478,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 2.608747382256519,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.0007656261539704788,
+            "position_rmse_clean": 0.0007319302779337731,
+            "maximum_observed_euclidean_error": 0.0017999680889001946,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.00032967430919452883,
+            "position_rmse_clean": 0.00027225524691679924,
+            "maximum_observed_euclidean_error": 0.0010920522708575818,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0013529696538678168,
+            "position_rmse_clean": 0.0013485048539049083,
+            "maximum_observed_euclidean_error": 0.004765629295522048,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.001499736837391262,
+            "position_rmse_clean": 0.0014808863359092703,
+            "maximum_observed_euclidean_error": 0.004611581392667173,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 5,
+            "completed": true,
+            "position_rmse_observed": 0.0009919412275967024,
+            "position_rmse_clean": 0.000971309283619372,
+            "maximum_observed_euclidean_error": 0.002705031789918823,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 6,
+            "completed": true,
+            "position_rmse_observed": 0.0011968879560451968,
+            "position_rmse_clean": 0.0011917250923218095,
+            "maximum_observed_euclidean_error": 0.0032277620473225425,
+            "boundary_exit_time": null
+          }
+        ]
+      }
+    },
+    "twin_b3_r30": {
+      "2": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.11132597417465717,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.10973872327695147,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.00025881117092365686,
+            "position_rmse_clean": 0.00017649160724002647,
+            "maximum_observed_euclidean_error": 0.0007756245060845915,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.0002044749777014521,
+            "position_rmse_clean": 3.905028847246959e-05,
+            "maximum_observed_euclidean_error": 0.0005795178143491587,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "3": {
+        "selected_start": 0,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.17401480045713846,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.2026602328243169,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.00022991305461038446,
+            "position_rmse_clean": 0.00014294731093121346,
+            "maximum_observed_euclidean_error": 0.0006806963366975918,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.0002253860389284133,
+            "position_rmse_clean": 9.655679898206168e-05,
+            "maximum_observed_euclidean_error": 0.0007558645766903586,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0002937083013415647,
+            "position_rmse_clean": 0.00019357056128978663,
+            "maximum_observed_euclidean_error": 0.0010533562967111605,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "4": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.3013550866940291,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.2941147594405605,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.00025807010609122874,
+            "position_rmse_clean": 0.0001814758057088093,
+            "maximum_observed_euclidean_error": 0.0008031633344578726,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.0002392466786075114,
+            "position_rmse_clean": 0.00012092956610269537,
+            "maximum_observed_euclidean_error": 0.0007865890764690398,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.00039634198100336066,
+            "position_rmse_clean": 0.00031654605788286106,
+            "maximum_observed_euclidean_error": 0.0013019325088642977,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.0006990438804694288,
+            "position_rmse_clean": 0.0006603159986948158,
+            "maximum_observed_euclidean_error": 0.0024666921027753186,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "5": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.38876763128918934,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.35381730754195106,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.00026912018734247327,
+            "position_rmse_clean": 0.00019661283315525223,
+            "maximum_observed_euclidean_error": 0.000821822296937792,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.00026808499937378303,
+            "position_rmse_clean": 0.0001687667795110535,
+            "maximum_observed_euclidean_error": 0.0009019394575988367,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0003822656522116263,
+            "position_rmse_clean": 0.00030089372114364696,
+            "maximum_observed_euclidean_error": 0.0012474243321229672,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.0006576956831553532,
+            "position_rmse_clean": 0.0006176950930372495,
+            "maximum_observed_euclidean_error": 0.00226130803714412,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 5,
+            "completed": true,
+            "position_rmse_observed": 0.0003547444017069403,
+            "position_rmse_clean": 0.00028373841122209664,
+            "maximum_observed_euclidean_error": 0.0009533746401925656,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "6": {
+        "selected_start": 0,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.4919359091733886,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.5416301193376618,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.00027712391719638763,
+            "position_rmse_clean": 0.00020451678578944793,
+            "maximum_observed_euclidean_error": 0.0008854208179628655,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.0004159018448537294,
+            "position_rmse_clean": 0.0003559388735781851,
+            "maximum_observed_euclidean_error": 0.0012583254535023468,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0005967938764181166,
+            "position_rmse_clean": 0.0005383129610768581,
+            "maximum_observed_euclidean_error": 0.0016907198816602641,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.000735324320010851,
+            "position_rmse_clean": 0.0006973557443836427,
+            "maximum_observed_euclidean_error": 0.0026412985845884226,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 5,
+            "completed": true,
+            "position_rmse_observed": 0.0004294247799440172,
+            "position_rmse_clean": 0.0003740440688256516,
+            "maximum_observed_euclidean_error": 0.001254029376740879,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 6,
+            "completed": true,
+            "position_rmse_observed": 0.00036522202784764553,
+            "position_rmse_clean": 0.00030916953396679914,
+            "maximum_observed_euclidean_error": 0.0009626651392277374,
+            "boundary_exit_time": null
+          }
+        ]
+      }
+    },
+    "mixed": {
+      "2": {
+        "selected_start": 0,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.648761407056301,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.7031628738626886,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.0007013355788057301,
+            "position_rmse_clean": 0.0006785562499478793,
+            "maximum_observed_euclidean_error": 0.0018528266621042064,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.000308846501186867,
+            "position_rmse_clean": 0.0002609954489943693,
+            "maximum_observed_euclidean_error": 0.0011762297584525135,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "3": {
+        "selected_start": 0,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.8595176377404681,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.8792820301214082,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.0005498299692721713,
+            "position_rmse_clean": 0.0005134985453807709,
+            "maximum_observed_euclidean_error": 0.001701050305846179,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.00023330832158883265,
+            "position_rmse_clean": 0.0001527332335425746,
+            "maximum_observed_euclidean_error": 0.0007591819048896269,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.000937143199691388,
+            "position_rmse_clean": 0.0009081967144518462,
+            "maximum_observed_euclidean_error": 0.0032573676028467883,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "4": {
+        "selected_start": 0,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.918572620562375,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 1.174224906872468,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.0005152401382271412,
+            "position_rmse_clean": 0.00047779602620837326,
+            "maximum_observed_euclidean_error": 0.0018770206298988196,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.0002721573214374857,
+            "position_rmse_clean": 0.00021005775751935682,
+            "maximum_observed_euclidean_error": 0.0008240688837248297,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0007422192304449864,
+            "position_rmse_clean": 0.0007060949132431439,
+            "maximum_observed_euclidean_error": 0.0025338692539917337,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.0011870524121742679,
+            "position_rmse_clean": 0.0011869866224125235,
+            "maximum_observed_euclidean_error": 0.004762849327546924,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "5": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 1.3819817355425825,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 1.3274080046421335,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.0005362157092507789,
+            "position_rmse_clean": 0.0005019012673958552,
+            "maximum_observed_euclidean_error": 0.001969999962516407,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.0004358429958947339,
+            "position_rmse_clean": 0.00040442344986686777,
+            "maximum_observed_euclidean_error": 0.0010827155723122505,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.001392254053491819,
+            "position_rmse_clean": 0.0013779593239826805,
+            "maximum_observed_euclidean_error": 0.005127547740948882,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.0009210530266245861,
+            "position_rmse_clean": 0.0009158939336945397,
+            "maximum_observed_euclidean_error": 0.0038429152982964007,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 5,
+            "completed": true,
+            "position_rmse_observed": 0.0007009437058705987,
+            "position_rmse_clean": 0.0006647429459445499,
+            "maximum_observed_euclidean_error": 0.002398082476058077,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "6": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 2.3143915337754963,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 2.0511939111436606,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.000814649204790971,
+            "position_rmse_clean": 0.0007930448774569596,
+            "maximum_observed_euclidean_error": 0.0030321540004240497,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.0009087670198421688,
+            "position_rmse_clean": 0.0008999008911020366,
+            "maximum_observed_euclidean_error": 0.0019775185220163166,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0013697946265706824,
+            "position_rmse_clean": 0.0013589818791782781,
+            "maximum_observed_euclidean_error": 0.005038910419744341,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.0009135804487999625,
+            "position_rmse_clean": 0.0009107867649020162,
+            "maximum_observed_euclidean_error": 0.0038727823230117245,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 5,
+            "completed": true,
+            "position_rmse_observed": 0.001115246141590333,
+            "position_rmse_clean": 0.0010888134045721944,
+            "maximum_observed_euclidean_error": 0.0033791117759534514,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 6,
+            "completed": true,
+            "position_rmse_observed": 0.0008248842685423631,
+            "position_rmse_clean": 0.0008107632511540063,
+            "maximum_observed_euclidean_error": 0.0019772647665019147,
+            "boundary_exit_time": null
+          }
+        ]
+      }
+    },
+    "shoulder": {
+      "2": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.15972739560754443,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.15104921610911343,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.00023959719545938983,
+            "position_rmse_clean": 0.0001457656960216365,
+            "maximum_observed_euclidean_error": 0.0007369997532696199,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.00021488985639679057,
+            "position_rmse_clean": 8.230458797324361e-05,
+            "maximum_observed_euclidean_error": 0.0006127808263880083,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "3": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.6227187951746371,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.3639459934234932,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.0002925969118157371,
+            "position_rmse_clean": 0.00021485193264687036,
+            "maximum_observed_euclidean_error": 0.0008147589539550995,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.0002571729648019072,
+            "position_rmse_clean": 0.0001714670828995012,
+            "maximum_observed_euclidean_error": 0.0007554137487585442,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0006226610048476737,
+            "position_rmse_clean": 0.0005880377346034074,
+            "maximum_observed_euclidean_error": 0.0018422905113167024,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "4": {
+        "selected_start": 0,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.42275489538098093,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.4415376382705005,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.00028243428505267154,
+            "position_rmse_clean": 0.00019364603017306778,
+            "maximum_observed_euclidean_error": 0.0008059309813964271,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.00027945792654068347,
+            "position_rmse_clean": 0.0001994162513270525,
+            "maximum_observed_euclidean_error": 0.000865011339926956,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0005958932733734231,
+            "position_rmse_clean": 0.0005560692447355389,
+            "maximum_observed_euclidean_error": 0.0017970371039085914,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.0003437731582815769,
+            "position_rmse_clean": 0.00028082876070656084,
+            "maximum_observed_euclidean_error": 0.0010050805362104528,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "5": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 1.0202300264258353,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.7518303440889358,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.00041555848133167174,
+            "position_rmse_clean": 0.00035768659696806164,
+            "maximum_observed_euclidean_error": 0.0011362909973539588,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.0005814708298950323,
+            "position_rmse_clean": 0.0005412788362754645,
+            "maximum_observed_euclidean_error": 0.0016507461223447097,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0005740726738398098,
+            "position_rmse_clean": 0.0005272767947646643,
+            "maximum_observed_euclidean_error": 0.0018437177322451802,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.00034142622655843687,
+            "position_rmse_clean": 0.0002822156990724813,
+            "maximum_observed_euclidean_error": 0.0009355548307983972,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 5,
+            "completed": true,
+            "position_rmse_observed": 0.000583062305436949,
+            "position_rmse_clean": 0.0005355448676298497,
+            "maximum_observed_euclidean_error": 0.0016230067192178554,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "6": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.9611994923498377,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.9357795839425422,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.0006177968265798609,
+            "position_rmse_clean": 0.0005799382381417206,
+            "maximum_observed_euclidean_error": 0.0016310556538372645,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.0007457975718440024,
+            "position_rmse_clean": 0.0007100732821466982,
+            "maximum_observed_euclidean_error": 0.0019452971596666238,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0005156403053358753,
+            "position_rmse_clean": 0.00047693362223600683,
+            "maximum_observed_euclidean_error": 0.0014089742377252498,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.0006099184095526873,
+            "position_rmse_clean": 0.0005709084288281574,
+            "maximum_observed_euclidean_error": 0.0018972652568491506,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 5,
+            "completed": true,
+            "position_rmse_observed": 0.0005166291743046404,
+            "position_rmse_clean": 0.0004733400859969004,
+            "maximum_observed_euclidean_error": 0.0014164186151591563,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 6,
+            "completed": true,
+            "position_rmse_observed": 0.0005793433098287389,
+            "position_rmse_clean": 0.0005577189623593464,
+            "maximum_observed_euclidean_error": 0.0014616857508658596,
+            "boundary_exit_time": null
+          }
+        ]
+      }
+    },
+    "waves3_r30": {
+      "2": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.17448999899513135,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.16503852868372684,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.0003074363125721851,
+            "position_rmse_clean": 0.0002474132872838202,
+            "maximum_observed_euclidean_error": 0.0008465848488299068,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.00021145407488098878,
+            "position_rmse_clean": 8.652853861680022e-05,
+            "maximum_observed_euclidean_error": 0.0007954455764218227,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "3": {
+        "selected_start": 0,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.36869686001798985,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.4015294807471231,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.0003155197021253479,
+            "position_rmse_clean": 0.00024176678535919708,
+            "maximum_observed_euclidean_error": 0.0008526141761112161,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.00027881660670984825,
+            "position_rmse_clean": 0.00020451126973508493,
+            "maximum_observed_euclidean_error": 0.0008654485653817821,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0005271245143737274,
+            "position_rmse_clean": 0.0004820611176612472,
+            "maximum_observed_euclidean_error": 0.0015325685698443611,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "4": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.39629123415199474,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.36806661429330273,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.0002997362575405421,
+            "position_rmse_clean": 0.0002216333285796531,
+            "maximum_observed_euclidean_error": 0.0008192079444284396,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.00026349038786530564,
+            "position_rmse_clean": 0.0001789065877408038,
+            "maximum_observed_euclidean_error": 0.0007779207512605279,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0004761745413796455,
+            "position_rmse_clean": 0.0004229860534388693,
+            "maximum_observed_euclidean_error": 0.0014352285934171607,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.0005127057114851757,
+            "position_rmse_clean": 0.0004952804333940258,
+            "maximum_observed_euclidean_error": 0.001680032350498507,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "5": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.5286833735975266,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.5139994798702006,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.00032370723974432363,
+            "position_rmse_clean": 0.00025449182765395565,
+            "maximum_observed_euclidean_error": 0.0008490024420354668,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.0002482232815249004,
+            "position_rmse_clean": 0.00016229284939150006,
+            "maximum_observed_euclidean_error": 0.0007551749549403106,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0004967497691026245,
+            "position_rmse_clean": 0.00043511623211817986,
+            "maximum_observed_euclidean_error": 0.0015684874500277216,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.00040695175524791473,
+            "position_rmse_clean": 0.0003795416732673407,
+            "maximum_observed_euclidean_error": 0.0013508513078752085,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 5,
+            "completed": true,
+            "position_rmse_observed": 0.0004599863327039268,
+            "position_rmse_clean": 0.00039896693903997447,
+            "maximum_observed_euclidean_error": 0.001750859540369592,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "6": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.6990984378504572,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.6713961041953438,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.0003201162044830074,
+            "position_rmse_clean": 0.0002491246594080461,
+            "maximum_observed_euclidean_error": 0.0008614567275917327,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.00032603101128484845,
+            "position_rmse_clean": 0.00026813861775320977,
+            "maximum_observed_euclidean_error": 0.0010457527654878197,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0006955783268084816,
+            "position_rmse_clean": 0.0006588044952102708,
+            "maximum_observed_euclidean_error": 0.0022171809197934975,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.0006614639624613154,
+            "position_rmse_clean": 0.00065099489750353,
+            "maximum_observed_euclidean_error": 0.0020705471589876788,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 5,
+            "completed": true,
+            "position_rmse_observed": 0.000737742129409091,
+            "position_rmse_clean": 0.0006969343000200164,
+            "maximum_observed_euclidean_error": 0.0023656970309989278,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 6,
+            "completed": true,
+            "position_rmse_observed": 0.0004654653244891634,
+            "position_rmse_clean": 0.0004444928684830523,
+            "maximum_observed_euclidean_error": 0.001437316151743999,
+            "boundary_exit_time": null
+          }
+        ]
+      }
+    },
+    "lobes4_r30": {
+      "2": {
+        "selected_start": 0,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.11432636929679313,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.13145475493377157,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.00023174873145945094,
+            "position_rmse_clean": 0.0001303910051213247,
+            "maximum_observed_euclidean_error": 0.0005771566070062095,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.0002038449963883578,
+            "position_rmse_clean": 6.876600161080917e-05,
+            "maximum_observed_euclidean_error": 0.0007512219563396867,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "3": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.7239436580949581,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.6299971987266948,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.000542428297742245,
+            "position_rmse_clean": 0.0005039312362485344,
+            "maximum_observed_euclidean_error": 0.0016468025474390398,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.00021839892903731723,
+            "position_rmse_clean": 0.00010978782097123007,
+            "maximum_observed_euclidean_error": 0.0006249970776906977,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0006583478114019671,
+            "position_rmse_clean": 0.0006179132585306811,
+            "maximum_observed_euclidean_error": 0.0017253677118710174,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "4": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 1.3212431725397777,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.6198907984672886,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.0005008154498221276,
+            "position_rmse_clean": 0.000455725079581671,
+            "maximum_observed_euclidean_error": 0.001823320993294958,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.0002961376216594994,
+            "position_rmse_clean": 0.00024135701622954748,
+            "maximum_observed_euclidean_error": 0.0008725732540621414,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0005991663382909126,
+            "position_rmse_clean": 0.0005635610759752863,
+            "maximum_observed_euclidean_error": 0.0016432052411250557,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.00030612751232729306,
+            "position_rmse_clean": 0.00023354422649723001,
+            "maximum_observed_euclidean_error": 0.0009840225528244483,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "5": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 1.67274979859002,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 1.0258496092809846,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.0004006061016357294,
+            "position_rmse_clean": 0.0003406499644855247,
+            "maximum_observed_euclidean_error": 0.0013664941246824393,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.0003151009825318043,
+            "position_rmse_clean": 0.00026558864879268747,
+            "maximum_observed_euclidean_error": 0.0008859366009673178,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0007115480056383548,
+            "position_rmse_clean": 0.0006765783195136216,
+            "maximum_observed_euclidean_error": 0.0021068460021815673,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.0005055429941329887,
+            "position_rmse_clean": 0.00045432937568126594,
+            "maximum_observed_euclidean_error": 0.0015349846523256914,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 5,
+            "completed": true,
+            "position_rmse_observed": 0.0007198749493220462,
+            "position_rmse_clean": 0.0006846689273273853,
+            "maximum_observed_euclidean_error": 0.001935841642554501,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "6": {
+        "selected_start": 0,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 2.2210859494415933,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 2.3482583032609545,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.00036150581002547245,
+            "position_rmse_clean": 0.00029240445496830854,
+            "maximum_observed_euclidean_error": 0.0008841877765887924,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.0010142978734675283,
+            "position_rmse_clean": 0.0010018915563153128,
+            "maximum_observed_euclidean_error": 0.0027529578558654695,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0007038054059515386,
+            "position_rmse_clean": 0.0006690552191907457,
+            "maximum_observed_euclidean_error": 0.002049355946189626,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.0008081390750576841,
+            "position_rmse_clean": 0.0007783722091478023,
+            "maximum_observed_euclidean_error": 0.002632239285791784,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 5,
+            "completed": true,
+            "position_rmse_observed": 0.0011340797582685273,
+            "position_rmse_clean": 0.0011239379412121859,
+            "maximum_observed_euclidean_error": 0.0022918744523714014,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 6,
+            "completed": true,
+            "position_rmse_observed": 0.0013162976274089546,
+            "position_rmse_clean": 0.0013148860340091671,
+            "maximum_observed_euclidean_error": 0.003228274360692509,
+            "boundary_exit_time": null
+          }
+        ]
+      }
+    },
+    "flat30": {
+      "2": {
+        "selected_start": 0,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.12697420167964318,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.162930316539182,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.00021101960673189596,
+            "position_rmse_clean": 8.62159987848189e-05,
+            "maximum_observed_euclidean_error": 0.0006167779519965743,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.00021157893745457832,
+            "position_rmse_clean": 5.342371075709574e-05,
+            "maximum_observed_euclidean_error": 0.000593564203927415,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "3": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.5080164983354445,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.1971653757700433,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.00022060785625253472,
+            "position_rmse_clean": 0.00012062874793398746,
+            "maximum_observed_euclidean_error": 0.0006412349824330474,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.00020022856465690077,
+            "position_rmse_clean": 5.148294584024118e-05,
+            "maximum_observed_euclidean_error": 0.0006683523498493512,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.00024803023564418195,
+            "position_rmse_clean": 0.0001364587046504898,
+            "maximum_observed_euclidean_error": 0.0007947821297648379,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "4": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.35306458595537604,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.3519099399492389,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.0002679047917283189,
+            "position_rmse_clean": 0.00019073037726402645,
+            "maximum_observed_euclidean_error": 0.0009627255855232838,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.0001996693961155037,
+            "position_rmse_clean": 2.8417906836442963e-05,
+            "maximum_observed_euclidean_error": 0.0006023405573849364,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0003033734640998296,
+            "position_rmse_clean": 0.00022748592813047282,
+            "maximum_observed_euclidean_error": 0.000870816490368709,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.0004632861212050756,
+            "position_rmse_clean": 0.0004167866366855864,
+            "maximum_observed_euclidean_error": 0.0013159424820223826,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "5": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.34208013856174263,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.33941704582319576,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.00029721120409220865,
+            "position_rmse_clean": 0.00023034738991240046,
+            "maximum_observed_euclidean_error": 0.0009673000131754026,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.00021496087840570022,
+            "position_rmse_clean": 6.498733917893004e-05,
+            "maximum_observed_euclidean_error": 0.0006200407183397118,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0003734587680259907,
+            "position_rmse_clean": 0.0003245696901655516,
+            "maximum_observed_euclidean_error": 0.0009772853277042858,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.00038927281531577087,
+            "position_rmse_clean": 0.0003350029301885074,
+            "maximum_observed_euclidean_error": 0.0011267219892042702,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 5,
+            "completed": true,
+            "position_rmse_observed": 0.0002564345533175029,
+            "position_rmse_clean": 0.00014772348405483422,
+            "maximum_observed_euclidean_error": 0.0007183023812315123,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "6": {
+        "selected_start": 0,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.42706772449822056,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.5260130958778642,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.00023083571730809235,
+            "position_rmse_clean": 0.0001342710916887869,
+            "maximum_observed_euclidean_error": 0.0006778079164461454,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.00020580939654770672,
+            "position_rmse_clean": 4.195455758233293e-05,
+            "maximum_observed_euclidean_error": 0.0006244779445296893,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0003547503343291917,
+            "position_rmse_clean": 0.0002826979071199493,
+            "maximum_observed_euclidean_error": 0.0008576494373228481,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.0005131296985601671,
+            "position_rmse_clean": 0.0004791846605394137,
+            "maximum_observed_euclidean_error": 0.0015848088862352135,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 5,
+            "completed": true,
+            "position_rmse_observed": 0.00040461537101470305,
+            "position_rmse_clean": 0.0003377424110207589,
+            "maximum_observed_euclidean_error": 0.0011154280365220973,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 6,
+            "completed": true,
+            "position_rmse_observed": 0.0005154515709956002,
+            "position_rmse_clean": 0.0004717788973529586,
+            "maximum_observed_euclidean_error": 0.0012848473880232316,
+            "boundary_exit_time": null
+          }
+        ]
+      }
+    },
+    "nine30": {
+      "2": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.09746701790913595,
+            "iterations": 62,
+            "optimizer_success": true,
+            "reason": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "start": 1,
+            "objective": 0.09085421003191142,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.0001947528912772445,
+            "position_rmse_clean": 2.9694710981951035e-05,
+            "maximum_observed_euclidean_error": 0.0005614104405227175,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.00020449906438375353,
+            "position_rmse_clean": 4.115545296810644e-05,
+            "maximum_observed_euclidean_error": 0.0006475813031618418,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "3": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 2.572111400940863,
+            "iterations": 6,
+            "optimizer_success": true,
+            "reason": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+          },
+          {
+            "start": 1,
+            "objective": 0.12789236281543445,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.0002009753733915346,
+            "position_rmse_clean": 4.9502730464311225e-05,
+            "maximum_observed_euclidean_error": 0.0005871476376848736,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.00021677899062705992,
+            "position_rmse_clean": 6.854524166867811e-05,
+            "maximum_observed_euclidean_error": 0.0006285378374009574,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.00026159984522798754,
+            "position_rmse_clean": 0.00014464971997830698,
+            "maximum_observed_euclidean_error": 0.0008935328481193246,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "4": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.1775527909535319,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.1770808079447504,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.00028021693882225677,
+            "position_rmse_clean": 0.00020429176920528427,
+            "maximum_observed_euclidean_error": 0.000818976932892047,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.00021143621422177887,
+            "position_rmse_clean": 7.217503639464487e-05,
+            "maximum_observed_euclidean_error": 0.0007470017116674974,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.0002775724557975801,
+            "position_rmse_clean": 0.00017459145431836216,
+            "maximum_observed_euclidean_error": 0.0008650366531620216,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.0002610211260866709,
+            "position_rmse_clean": 0.000186048353872608,
+            "maximum_observed_euclidean_error": 0.0008202666479473291,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "5": {
+        "selected_start": 0,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.23873029686966496,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.2867850660848692,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.00021720748040625947,
+            "position_rmse_clean": 0.00010110928506267664,
+            "maximum_observed_euclidean_error": 0.0006342310176293413,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.00019979986042118676,
+            "position_rmse_clean": 2.607211547339429e-05,
+            "maximum_observed_euclidean_error": 0.0006242062752135907,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.00035197445075389944,
+            "position_rmse_clean": 0.0002774090273791473,
+            "maximum_observed_euclidean_error": 0.0009000683354496662,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.00030351554767538684,
+            "position_rmse_clean": 0.00024760158792595436,
+            "maximum_observed_euclidean_error": 0.0009576654123972349,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 5,
+            "completed": true,
+            "position_rmse_observed": 0.00041755417538199966,
+            "position_rmse_clean": 0.0003522223569020375,
+            "maximum_observed_euclidean_error": 0.0012138007935044112,
+            "boundary_exit_time": null
+          }
+        ]
+      },
+      "6": {
+        "selected_start": 1,
+        "optimizer": [
+          {
+            "start": 0,
+            "objective": 0.9367525445042626,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          },
+          {
+            "start": 1,
+            "objective": 0.4330588579137579,
+            "iterations": 200,
+            "optimizer_success": false,
+            "reason": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+          }
+        ],
+        "replay": [
+          {
+            "particle": 1,
+            "completed": true,
+            "position_rmse_observed": 0.00020270888402704822,
+            "position_rmse_clean": 6.223644067914871e-05,
+            "maximum_observed_euclidean_error": 0.0005893439242066972,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 2,
+            "completed": true,
+            "position_rmse_observed": 0.00025212726762006553,
+            "position_rmse_clean": 0.00014888262809520776,
+            "maximum_observed_euclidean_error": 0.0008494847137028694,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 3,
+            "completed": true,
+            "position_rmse_observed": 0.00031964135154088013,
+            "position_rmse_clean": 0.0002488158533097343,
+            "maximum_observed_euclidean_error": 0.0010613903878972945,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 4,
+            "completed": true,
+            "position_rmse_observed": 0.0005445808276950833,
+            "position_rmse_clean": 0.0005047822933347346,
+            "maximum_observed_euclidean_error": 0.0016579625050465582,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 5,
+            "completed": true,
+            "position_rmse_observed": 0.0004968652591517557,
+            "position_rmse_clean": 0.0004468288793092645,
+            "maximum_observed_euclidean_error": 0.0013611382790128996,
+            "boundary_exit_time": null
+          },
+          {
+            "particle": 6,
+            "completed": true,
+            "position_rmse_observed": 0.00046336066631436475,
+            "position_rmse_clean": 0.00040586360111726676,
+            "maximum_observed_euclidean_error": 0.0011977931977473757,
+            "boundary_exit_time": null
+          }
+        ]
+      }
+    }
+  },
+  "selected_optimizer_converged": 0,
+  "observation_sha256": {
+    "parabolic": {
+      "track_1.csv": "8d2e2041e4b644b6eac0ddda0749ed2076224ebacf8b3fd68f363f21cc837c34",
+      "track_2.csv": "e2693b95aefea1b2005f76765a2c21cceaa4ab59268c0bf4dfb3287af9b80911",
+      "track_3.csv": "5629782f253ce0a1bb70e476d781dd7b9fe12a32b6ce257993bddd8e41bc8eb5",
+      "track_4.csv": "314a9e7180b2f9b1de73b3cb6c3c1e6425efc96dd98874cee0cc2df81aa6db9e",
+      "track_5.csv": "13376542bb5915e813a421d1133edc51445200e284d612b12e82990a5ec0bc6c",
+      "track_6.csv": "b9e9486cd29a0fe740b347e44ed88e1af1b4a810143dc6adb4292ff772f5a57a"
+    },
+    "skew_b3": {
+      "track_1.csv": "d38586b588387a9baca1c88d2506a6be050e58292e8eaeda894e7c477fde8f18",
+      "track_2.csv": "7cb2a87e2a8ad08616d26c1b67af23a17981e4d4a9515eb7fe58bf1c539a11ff",
+      "track_3.csv": "0c1b877b5b8d372a6f265e2f49e866787b3c414c2c9807271d2e7dbdb7aeb632",
+      "track_4.csv": "436b494792693c24d218c0d3be49d3ebe5321e21ae3ad1683ffcf75adca94a5f",
+      "track_5.csv": "27a6ae5ea98fb8b546fa7182cd177845164426aa9a550853264f0f597b3bc8da",
+      "track_6.csv": "1130e5d30a675f06eaf723a01b7536e213cd72293ba82284aa95ffd22efb5df3"
+    },
+    "beta5": {
+      "track_1.csv": "f6aad2f92cb59f61b25eefa69d4afa0a346660467ba30b119ff12d1451544921",
+      "track_2.csv": "85adb21055a929c1b96c60bfdd655ec81e72393d2cf139ffd6e361e3802d8372",
+      "track_3.csv": "168a4eba43f98403cd2ca3b06f93683b6682222a580a292264438efbc60f9456",
+      "track_4.csv": "3080f4d235e557dfbdac153ac9c66205b3e529a27a45de96a0f8382f1d8ca656",
+      "track_5.csv": "5594f8d943feaa160374fe7a705b045dc888efda9b065012cce0efbc220e6f24",
+      "track_6.csv": "d322814fd6b54c778a958f8ccdfe061c655854b419b3c2d34a5d3c27f6990dcd"
+    },
+    "twin_b3_r30": {
+      "track_1.csv": "10a1e99c459ce603797b8f525fd420e99121f955c894bcd1bf0a04847f89cc8b",
+      "track_2.csv": "bb3ae7eddd15f506288d83172fb65805c9133b7a2a4a5550f1ebfb87ae419161",
+      "track_3.csv": "91e5fcd5866fc5349aa92009a77ea6987037a5176a36ae54975a2ef0d80e993f",
+      "track_4.csv": "d35b38cd89234cbcabc3a2d334f96c5f4ee8b95cf004b969c27b2305233f401d",
+      "track_5.csv": "729d92f5b22c79d3d716183e0d74a6b9d4c2283667290d0ec609c6ee0e7660df",
+      "track_6.csv": "2fb3746f43c98d76fde839325f5a159bd701951e346a98cc0430dc7ae4597ee4"
+    },
+    "mixed": {
+      "track_1.csv": "a199452fc47a33f37fb0997e519830ce7de6406feed86b2a5fdf769190b7ac81",
+      "track_2.csv": "3d9ba9df1343d035737d69514aa85a1e07a23303de9604756a907ed575f46b05",
+      "track_3.csv": "6e8c4de4447fc7569d97e24eb5488577006fceedd51065e0ffd11a99cf3bc59f",
+      "track_4.csv": "2f053ff7508fb8bf89bc0db72b33ad3c118101a2a17aaf9a691514a460777866",
+      "track_5.csv": "5c95b5d8f75fef16916a49804378031f1660c557c247ab9b5dbd7b8393e49134",
+      "track_6.csv": "e299bbc9f5fed786d372e8e010d950410923b0c831ba24f972bd5f9719ade040"
+    },
+    "shoulder": {
+      "track_1.csv": "2303acf61d0591b080485ca5cac9e2ec0895bae5daba32007533c5b2b446a842",
+      "track_2.csv": "8675f7f7f2e78a123735c4edb4666442c167b49b2b5afabf299755cc288d72c7",
+      "track_3.csv": "6f1cafec9d3ea9ff4affaf21d18c9f24e96d8a2c9f6e71441a80f7349cd6585d",
+      "track_4.csv": "440b8748398571891ac34e606c7531e106e5f6165c256e3395d554a52827b88a",
+      "track_5.csv": "43f07252b28f31ee8b7b0164e565c04d259320d153979c6222f82dc5d85917e4",
+      "track_6.csv": "3c8a11fd82a85535fcdc403c02653e871e0142a20cd232644ed436317b44064b"
+    },
+    "waves3_r30": {
+      "track_1.csv": "c140b3a1424f20322c1136d79a82139c10ac579628ed03935226dbc1b51481cc",
+      "track_2.csv": "f35634511f898ba0f54a436e0921a4f7c95b7b6e1e61cf8c0a53af05bbbb5a7c",
+      "track_3.csv": "8ee107a5475b0dd4c06714344f49400cef528115bc8e51d7214f65f021bc4b70",
+      "track_4.csv": "2af3e34810b12126e069960ce3087b598187a870e103306f812f6e73788ae22c",
+      "track_5.csv": "e4330c45e47cb5a3f95c864d85045a8bf077a44f9fb5511a9579ddd15485d7ca",
+      "track_6.csv": "94de72b8be5730a66cae8661c885ff8c0e7394b190464092f76de3ad11748f05"
+    },
+    "lobes4_r30": {
+      "track_1.csv": "b9a6974b6b5907b8a4458e20aacf848a57485620d1ee016975c553691bc0a379",
+      "track_2.csv": "7869dd8b8251cfdac206343d7752412339f2839476a6c3e3b0c7c6612e607eee",
+      "track_3.csv": "0ebed3c0966e74f1e952833719f27a94b2468493707d117c280f7fe37ab0a389",
+      "track_4.csv": "e0e4fa546e42249e614ecee8896d9f9f73ce84c17abd76836079d6c81c7c4e5b",
+      "track_5.csv": "d2fcdde34f9292694c9e288897167e93cbbf793bdf13d99b5746e1188bc38fa3",
+      "track_6.csv": "11e789033abf24078d09759ed6a1a74c0a82c4bdb344a24a2e1a277d0529a4d8"
+    },
+    "flat30": {
+      "track_1.csv": "f456ae42f5852e4a5827bb5d96a511c21a94135b8787051c2fcb88c29fd814df",
+      "track_2.csv": "258c64bf1cebef4b5d468b7acbd69553a64ac93bc5be39b32926ec4ef512e2e1",
+      "track_3.csv": "e318cf92d6ef0bd41fcac1e9fb4b977030dad26ca4cbacef316a967c439ef571",
+      "track_4.csv": "97f4710fe5f41bded2bfb6fdee43fc32ff10a1f36847eb07326f6b81b3154474",
+      "track_5.csv": "a67de98242f89683db592a0bc273961756dccca62f66132288a79312640ea89a",
+      "track_6.csv": "77de6261bd659194ad2198ef4fed7ccb64f376ced8fa4a65ce5ceee3a47eac7f"
+    },
+    "nine30": {
+      "track_1.csv": "9c7f4ce86fd208bae8b4f8dac53dd688e9698a9f51ecd9af1ab9477216e43182",
+      "track_2.csv": "3fcd5e9801cbba4bb085acc8b869dc181866ec68ec93960357d0c5c6644ae5c7",
+      "track_3.csv": "672688c01e93a0a910db340fd50dababb14f5cbdfd29e6a08610308cce48c03c",
+      "track_4.csv": "de0bc801acf412a5dffdbfbc4de57df49288e35cf82c351df5a0ae0085a32689",
+      "track_5.csv": "a9acc9d10db6c7f63b6f6543604aff5e1111f510ab5dbc3972cc5bd0c06e7f0d",
+      "track_6.csv": "2487b81722a97dc2485f97b7eb629461e856b4b552dfb8a00093477c2e706f45"
+    }
+  },
+  "reference_sha256": {
+    "parabolic": "ce001d49a69fe0cdaa878b8bb09a6d196061ecc998544bcf8ce59d2c4eaeb37f",
+    "skew_b3": "9f846714d11d753a40794ec119708410deb5789c7238202b22c25c699f17eb30",
+    "beta5": "ae2a940139a87484a216d2060d8ef2e165876b8d9a0221319ac04992656d7261",
+    "twin_b3_r30": "393d27cf7912fff4be0591086313aa5aee31c4caa25707626f708fab6838e6c4",
+    "mixed": "671c613b1c00036c6b49a96cabaeb6a00e78d9938109d862ba7373b03738e4d6",
+    "shoulder": "6433768c80002c6adc5e782dba53dc326251576766e0206da7bdc16b8e31b381",
+    "waves3_r30": "ff38c415dc9d6ff58714f22a2bb29906f48a6e1d59ffd8feb411684df5c22a90",
+    "lobes4_r30": "67a150c4b9bb7bba59fcd8c3a8ed046c47351eb507af2362ca0909468a49521e",
+    "flat30": "9193295b64c870e4824792c8d37c7db00f58b73ae974e5b4cc514a07acad33e2",
+    "nine30": "2ae4fb805fdae687c459ed945ac6f6e0866ea8622c7f11c1bb0ac5645485b565"
+  },
+  "design_sha256": "8fb01ed5174ecdfe5a3af6b183952af04a0f253d888e2323311667eae07823b9",
+  "inverse_config": {
+    "reference_reynolds": 30.0,
+    "mean_speed_bounds": [
+      0.5,
+      1.5
+    ],
+    "profile_points": 65,
+    "position_scale": 0.001,
+    "smoothness": 1e-05,
+    "regularization_kind": "inlet_curvature",
+    "physics_weight": 0.02,
+    "physics_scale": 0.1,
+    "physics_points": 192,
+    "shape_prior": 0.0001,
+    "mean_prior": 0.0001,
+    "log_shape_bound": 3.0,
+    "precondition_shape": true,
+    "starts": 2,
+    "max_iterations": 200,
+    "quadrature_order": 3,
+    "seed": 71103
+  },
+  "figures": [
+    {
+      "figure": "figs/chapter4/inverse-particle-count-errors.pdf",
+      "renderer": "plot_particle_count.errors_plot",
+      "experiment": "10 profiles \u00d7 N=2\u20136",
+      "reference_sha256": {
+        "parabolic": "ce001d49a69fe0cdaa878b8bb09a6d196061ecc998544bcf8ce59d2c4eaeb37f",
+        "skew_b3": "9f846714d11d753a40794ec119708410deb5789c7238202b22c25c699f17eb30",
+        "beta5": "ae2a940139a87484a216d2060d8ef2e165876b8d9a0221319ac04992656d7261",
+        "twin_b3_r30": "393d27cf7912fff4be0591086313aa5aee31c4caa25707626f708fab6838e6c4",
+        "mixed": "671c613b1c00036c6b49a96cabaeb6a00e78d9938109d862ba7373b03738e4d6",
+        "shoulder": "6433768c80002c6adc5e782dba53dc326251576766e0206da7bdc16b8e31b381",
+        "waves3_r30": "ff38c415dc9d6ff58714f22a2bb29906f48a6e1d59ffd8feb411684df5c22a90",
+        "lobes4_r30": "67a150c4b9bb7bba59fcd8c3a8ed046c47351eb507af2362ca0909468a49521e",
+        "flat30": "9193295b64c870e4824792c8d37c7db00f58b73ae974e5b4cc514a07acad33e2",
+        "nine30": "2ae4fb805fdae687c459ed945ac6f6e0866ea8622c7f11c1bb0ac5645485b565"
+      },
+      "latex_labels": [
+        "fig:inverse-count-errors"
+      ],
+      "old_thesis_revision": "993bb19cc445a6ad4c3961fdcacb73fef449b01c",
+      "old_source_revision": "92897a6962e537a4bea88042609be102095db037",
+      "old_checkpoint_sha256": "ccf6fa2b3e179a22c443384083e2dec338fc497f9562a567ed7e0955d3c67bf8",
+      "old_pdf_sha256": "4aebaf16c04475f460a045db6486f5f81186fb5d57af2a66fec40849161d35e1",
+      "new_source_revision": "f6b8690059716e809c2dac27c8715e65fcb1d267",
+      "new_checkpoint_sha256": "e46687f8d50818329072eca1af7c70136fb9e3d314207f89e9427ccc140dfbf9",
+      "new_pdf_sha256": "cd1422ac5e012e16629383174cb739126e33f18af9699be7af7c178e0974b72c"
+    },
+    {
+      "figure": "figs/chapter4/inverse-particle-count-profiles.pdf",
+      "renderer": "plot_particle_count.profiles_plot",
+      "experiment": "10 profiles \u00d7 N=2\u20136",
+      "reference_sha256": {
+        "parabolic": "ce001d49a69fe0cdaa878b8bb09a6d196061ecc998544bcf8ce59d2c4eaeb37f",
+        "skew_b3": "9f846714d11d753a40794ec119708410deb5789c7238202b22c25c699f17eb30",
+        "beta5": "ae2a940139a87484a216d2060d8ef2e165876b8d9a0221319ac04992656d7261",
+        "twin_b3_r30": "393d27cf7912fff4be0591086313aa5aee31c4caa25707626f708fab6838e6c4",
+        "mixed": "671c613b1c00036c6b49a96cabaeb6a00e78d9938109d862ba7373b03738e4d6",
+        "shoulder": "6433768c80002c6adc5e782dba53dc326251576766e0206da7bdc16b8e31b381",
+        "waves3_r30": "ff38c415dc9d6ff58714f22a2bb29906f48a6e1d59ffd8feb411684df5c22a90",
+        "lobes4_r30": "67a150c4b9bb7bba59fcd8c3a8ed046c47351eb507af2362ca0909468a49521e",
+        "flat30": "9193295b64c870e4824792c8d37c7db00f58b73ae974e5b4cc514a07acad33e2",
+        "nine30": "2ae4fb805fdae687c459ed945ac6f6e0866ea8622c7f11c1bb0ac5645485b565"
+      },
+      "latex_labels": [
+        "fig:inverse-count-profiles"
+      ],
+      "old_thesis_revision": "993bb19cc445a6ad4c3961fdcacb73fef449b01c",
+      "old_source_revision": "92897a6962e537a4bea88042609be102095db037",
+      "old_checkpoint_sha256": "ccf6fa2b3e179a22c443384083e2dec338fc497f9562a567ed7e0955d3c67bf8",
+      "old_pdf_sha256": "92e89778461d99b5efdd93e0e84620895dc0267990e84a7a5acb3a7187ed2f6f",
+      "new_source_revision": "f6b8690059716e809c2dac27c8715e65fcb1d267",
+      "new_checkpoint_sha256": "e46687f8d50818329072eca1af7c70136fb9e3d314207f89e9427ccc140dfbf9",
+      "new_pdf_sha256": "42860b33ea905da7b8d64b8f0afae2c0a6e32874b2fd96c9a1c7d92b58a426b6"
+    }
+  ],
+  "cached_objective_parity": [
+    {
+      "profile": "beta5",
+      "particles": 2,
+      "jax": "0.11.1",
+      "loss_difference": 4.547473508864641e-13,
+      "max_gradient_difference": 5.638867150992155e-11
+    },
+    {
+      "profile": "beta5",
+      "particles": 2,
+      "jax": "0.11.1",
+      "loss_difference": 1.5916157281026244e-12,
+      "max_gradient_difference": 3.2741809263825417e-11
+    },
+    {
+      "profile": "beta5",
+      "particles": 3,
+      "jax": "0.11.1",
+      "loss_difference": 3.637978807091713e-12,
+      "max_gradient_difference": 4.3655745685100555e-11
+    },
+    {
+      "profile": "beta5",
+      "particles": 3,
+      "jax": "0.11.1",
+      "loss_difference": 0.0,
+      "max_gradient_difference": 2.1827872842550278e-11
+    },
+    {
+      "profile": "beta5",
+      "particles": 4,
+      "jax": "0.11.1",
+      "loss_difference": 3.637978807091713e-12,
+      "max_gradient_difference": 5.820766091346741e-11
+    },
+    {
+      "profile": "beta5",
+      "particles": 4,
+      "jax": "0.11.1",
+      "loss_difference": 1.0913936421275139e-11,
+      "max_gradient_difference": 2.1827872842550278e-11
+    },
+    {
+      "profile": "beta5",
+      "particles": 5,
+      "jax": "0.11.1",
+      "loss_difference": 9.094947017729282e-12,
+      "max_gradient_difference": 2.1827872842550278e-11
+    },
+    {
+      "profile": "beta5",
+      "particles": 5,
+      "jax": "0.11.1",
+      "loss_difference": 9.094947017729282e-12,
+      "max_gradient_difference": 5.9117155615240335e-12
+    },
+    {
+      "profile": "beta5",
+      "particles": 6,
+      "jax": "0.11.1",
+      "loss_difference": 7.275957614183426e-12,
+      "max_gradient_difference": 1.5916157281026244e-12
+    },
+    {
+      "profile": "beta5",
+      "particles": 6,
+      "jax": "0.11.1",
+      "loss_difference": 1.2732925824820995e-11,
+      "max_gradient_difference": 1.8189894035458565e-11
+    }
+  ]
+}

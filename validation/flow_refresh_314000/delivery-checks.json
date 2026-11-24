@@ -1,0 +1,86 @@
+{
+  "thesis_sha256": "0d166f68a330c41bc4eace7373f1b8d9f7d95c351e7509683a0691a417d65c2a",
+  "pages": 166,
+  "figures": {
+    "fig:inverse-count-errors": {
+      "printed_page": 97,
+      "pdf_page": 110
+    },
+    "fig:inverse-count-profiles": {
+      "printed_page": 98,
+      "pdf_page": 111
+    },
+    "fig:results-forward-flow-beta": {
+      "printed_page": 89,
+      "pdf_page": 102
+    },
+    "fig:results-forward-flow-nine": {
+      "printed_page": 89,
+      "pdf_page": 102
+    },
+    "fig:results-inverse-duration": {
+      "printed_page": 132,
+      "pdf_page": 145
+    },
+    "fig:results-inverse-geometry": {
+      "printed_page": 131,
+      "pdf_page": 144
+    },
+    "fig:results-inverse-timed-fields": {
+      "printed_page": 95,
+      "pdf_page": 108
+    },
+    "fig:results-inverse-timed-replay": {
+      "printed_page": 95,
+      "pdf_page": 108
+    },
+    "tab:results-forward-flow-errors": {
+      "printed_page": 90,
+      "pdf_page": 103
+    },
+    "tab:results-inverse-geometry": {
+      "printed_page": 132,
+      "pdf_page": 145
+    },
+    "tab:results-inverse-timed": {
+      "printed_page": 94,
+      "pdf_page": 107
+    }
+  },
+  "pdf_media_boxes_pt": {
+    "figs/chapter4/forward-flow-beta.pdf": [
+      451.44,
+      234.0
+    ],
+    "figs/chapter4/forward-flow-nine.pdf": [
+      451.44,
+      234.0
+    ],
+    "figs/chapter4/inverse-timed-replay.pdf": [
+      451.44,
+      277.2
+    ],
+    "figs/chapter4/inverse-timed-fields.pdf": [
+      451.44,
+      234.0
+    ],
+    "figs/chapter4/inverse-geometry-comparison.pdf": [
+      451.44,
+      356.4
+    ],
+    "figs/chapter4/inverse-geometry-duration.pdf": [
+      451.44,
+      183.6
+    ],
+    "figs/chapter4/inverse-particle-count-errors.pdf": [
+      451.44,
+      302.4
+    ],
+    "figs/chapter4/inverse-particle-count-profiles.pdf": [
+      451.44,
+      313.2
+    ]
+  },
+  "retained_figs": 44,
+  "retained_redline": 30
+}

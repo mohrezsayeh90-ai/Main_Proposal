@@ -1,0 +1,21 @@
+{
+  "source_revision": "8b0e1f8ffdf54e2915ec107cc5593955ab6ebaa4",
+  "checkpoint_step": 442400,
+  "checkpoint_sha256": "722df80b9524c2fc517a2a8d01360f2f5da62a6d895b7e090dcd0b02e13fad62",
+  "source_pdf": "reports/inverse_stokes_particles_15/designs_and_trajectories.pdf",
+  "source_pdf_sha256": "861b70fb9d8251b59c3bc396ed4504b7b7dc6b55112ea3d45f44ddd50318d297",
+  "source_page": 16,
+  "media_box_pt": [
+    1512,
+    648
+  ],
+  "initial_designs_passed": 9,
+  "coarse_fem_adjustments": 6,
+  "max_final_fine_fem_error_percent_W": 0.9261597076329509,
+  "max_error_plus_mesh_difference_percent_W": 0.9512732933663809,
+  "files": {
+    "fine-fem-errors-percent-W.csv": "aa19941d2d84f5dfcc70ad7bcfad338fc148154b95b137fc35cee60759ccb80b",
+    "results.csv": "4c894c898b8b33df282e53be64c554d8d61fcfe2c4b39945c2c0280983e5d67a",
+    "wall-inverse-stokes-overview.pdf": "0e7905c12ec4780e49b57bc79927b7e4d3f8f72f4805fd0e8b1c5df72aeb339f"
+  }
+}
