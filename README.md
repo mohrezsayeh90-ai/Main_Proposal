@@ -102,6 +102,18 @@ latexmk -xelatex -interaction=nonstopmode -halt-on-error -file-line-error thesis
 
 در Overleaf فایل `thesis.tex` را به‌عنوان Main document و **XeLaTeX** را به‌عنوان Compiler انتخاب کنید.
 
+### ساخت PDF بازبینی با زمینهٔ طلایی
+
+پس از نصب PyMuPDF، این دستورها را از ریشهٔ مخزن اجرا کنید.
+
+```sh
+latexmk -xelatex -jobname=thesis-normal thesis.tex
+latexmk -xelatex -jobname=thesis-marker -usepretex='\def\ThesisReviewMarker{1}' thesis.tex
+python scripts/highlight_thesis.py thesis-normal.pdf thesis-marker.pdf thesis-review.pdf
+```
+
+فایل نشانه‌گذاری مختصات جمله‌ها و کپشن‌های منتخب را تعیین می‌کند. اسکریپت زمینهٔ طلایی را پشت متن نسخهٔ عادی رسم می‌کند.
+
 ### مجوز و انتساب
 
 نام نویسنده، انتساب قالب و مجوز اصلی CC BY 4.0 حفظ شده‌اند. فایل‌های فونت و سایر دارایی‌های همراه همان فایل‌های ZIP ارسالی هستند؛ مجوز هر دارایی تابع شرایط صاحب آن است.

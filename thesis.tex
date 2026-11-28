@@ -28,9 +28,13 @@
   {\par\color{FlowRevisionRed}\hypersetup{linkcolor=FlowRevisionRed}}
   {\par}
 
-% Gold marks reported error, acceptance, and scope findings for review.
-\definecolor{ReviewGoldInk}{HTML}{8C5B00}
-\DeclareRobustCommand{\ReviewGold}[1]{{\color{ReviewGoldInk}#1}}
+% A marker build supplies highlight coordinates to scripts/highlight_thesis.py.
+\ifdefined\ThesisReviewMarker
+  \definecolor{ReviewMarkerInk}{HTML}{8C5B00}
+  \DeclareRobustCommand{\ReviewGold}[1]{{\color{ReviewMarkerInk}#1}}
+\else
+  \DeclareRobustCommand{\ReviewGold}[1]{#1}
+\fi
 
 \begin{document}
 
