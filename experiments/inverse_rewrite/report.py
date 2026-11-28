@@ -44,12 +44,13 @@ def local_figure():
     fig,axes = plt.subplots(2,3,figsize=(6.27,4.4),sharex=True,sharey=True)
     for n,ax in zip([2,4,20,31,64,96],axes.flat):
         errors = []
-        for seed,color,style in [(PRIMARY,'#007c75','-.'),(REPLICATE,'#a04679','--')]:
+        for seed,color,style,label in [(PRIMARY,'#007c75','-.','Run 1'),
+                                       (REPLICATE,'#a04679','--','Run 2')]:
             path = OUT/f'seed_{seed}/nine30/local_extended_fine/N{n}/inlet.csv'
             d = np.genfromtxt(path,delimiter=',',names=True)
             if not errors:
                 ax.plot(d['truth'],d['y'],'k-',lw=1,label='FEM reference')
-            ax.plot(d['estimated'],d['y'],style,color=color,lw=1.1,label=f'Seed {seed}')
+            ax.plot(d['estimated'],d['y'],style,color=color,lw=1.1,label=label)
             errors.append(100*results[seed][n]['error'])
         ax.set(xlabel=r'$u/U_{ref}$',ylabel='$y/H$',ylim=(0,1),title=f'N={n} | {errors[0]:.1f} / {errors[1]:.1f}%')
         ax.grid(alpha=.15)
