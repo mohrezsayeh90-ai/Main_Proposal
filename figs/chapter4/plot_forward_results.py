@@ -239,7 +239,7 @@ def paths(magnetic, out):
             spatial.set_title(r'(k) $X_0=-0.30,\ Z_0=-1$',loc='left',fontsize=7,pad=5)
     handles=[Line2D([],[],color='#24588b',lw=1.2,label=r'$a_L$'),
              Line2D([],[],color='#bc4a24',lw=1.2,ls='--',label=r'$a_R$'),
-             Line2D([],[],color='#9b3069',lw=1.3,label='Master10'),
+             Line2D([],[],color='#9b3069',lw=1.3,label='Operator'),
              Line2D([],[],color='.12',ls='--',marker='o',mfc='none',ms=3,label='DOP853')]
     fig.legend(handles=handles,loc='lower center',bbox_to_anchor=(.51,.033),ncol=4,frameon=False,
                handlelength=2,columnspacing=1.3)

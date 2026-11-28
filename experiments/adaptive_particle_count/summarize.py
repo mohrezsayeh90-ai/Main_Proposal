@@ -39,7 +39,14 @@ for name in NAMES:
   inputs[str(p.relative_to(ROOT))]=hashlib.sha256(p.read_bytes()).hexdigest();inputs[str(p.with_name('report.json').relative_to(ROOT))]=hashlib.sha256(p.with_name('report.json').read_bytes()).hexdigest();errors.append(e)
  for ax in list(axs.flat)[len(counts):]:ax.axis('off')
  fig.legend(*axs.flat[0].get_legend_handles_labels(),loc='lower center',ncol=3 if OUT.name=='near_inlet' else 2,frameon=False)
- fig.suptitle(name.replace('_',' '),fontsize=10);fig.subplots_adjust(left=.09,right=.98,bottom=.17,top=.86,wspace=.28,hspace=.65)
+ display_names = {
+     'beta5': 'Narrow beta', 'skew_b3': 'Asymmetric', 'flat30': 'Near-flat',
+     'twin_b3_r30': 'Twin peaks', 'waves3_r30': 'Three-cycle',
+     'lobes4_r30': 'Four-cycle', 'nine30': 'Nine-cycle', 'mixed': 'Mixed scales',
+     'shoulder': 'Shoulder',
+ }
+ display_name = display_names.get(name, name.replace('_', ' '))
+ fig.suptitle(display_name,fontsize=10);fig.subplots_adjust(left=.09,right=.98,bottom=.17,top=.86,wspace=.28,hspace=.65)
  for ext in ['pdf','png']:fig.savefig(FIG/f'{name}.{ext}',dpi=250,metadata={'CreationDate':None,'ModDate':None} if ext=='pdf' else None)
  plt.close(fig)
  manifest.append(dict(profile=name,display_counts=counts,errors_percent=errors,inputs_sha256=inputs))

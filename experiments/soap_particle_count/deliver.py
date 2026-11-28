@@ -90,13 +90,13 @@ def deliver(variant, names, control, titles):
                 ax.plot(d['estimated'],d['y'],color='#bb2888',ls='--',lw=1.2)
                 suffix = '*' if not evaluated[n]['complete'] else ''
                 ax.set(xlabel=r'$u/U_{ref}$',ylabel='$y/H$',ylim=(0,1),
-                       title=f"N={n} | SOAP {100*evaluated[n]['error']:.2f}%{suffix}")
+                       title=f"N={n} | error {100*evaluated[n]['error']:.2f}%{suffix}")
                 ax.grid(alpha=.15)
             for ax in list(axes.flat)[len(counts):]:
                 ax.axis('off')
             fig.legend(handles=[Line2D([],[],color='k',label='Reference'),
-                                Line2D([],[],color='#173f59',ls=':',label='94k when available'),
-                                Line2D([],[],color='#bb2888',ls='--',label='314k SOAP')],
+                                Line2D([],[],color='#173f59',ls=':',label='Earlier fit (if available)'),
+                                Line2D([],[],color='#bb2888',ls='--',label='Retrained fit')],
                        loc='lower center',ncol=3,frameon=False,bbox_to_anchor=(.5,.025))
             fig.suptitle(title,fontsize=10)
             fig.subplots_adjust(left=.10,right=.98,bottom=.18,top=.86,wspace=.28,hspace=.65)
