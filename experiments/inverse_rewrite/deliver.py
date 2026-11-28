@@ -101,14 +101,15 @@ def render():
                     np.testing.assert_allclose(compatible['random',n]['estimated'],compatible['hybrid',n]['estimated'],
                                                atol=1e-12,rtol=1e-12)
                 ax.set(xlabel=r'$u/U_{ref}$',ylabel='$y/H$',title=(
-                    f"N={n} | {errors['random']:.1f} / {errors['hybrid']:.1f}%"),ylim=(0,1))
+                    f"{n} particles\nRandom {errors['random']:.2f}%  Mixed {errors['hybrid']:.2f}%"),ylim=(0,1))
+                ax.title.set_fontsize(7)
                 ax.grid(alpha=.15)
             fig.legend(handles=[Line2D([],[],color='k',label='FEM reference'),
                         Line2D([],[],color=COLORS['random'],ls='--',label='Random'),
-                        Line2D([],[],color=COLORS['hybrid'],ls='-.',label='Random + near inlet')],
+                        Line2D([],[],color=COLORS['hybrid'],ls='-.',label='Mixed (random + near inlet)')],
                        loc='lower center',bbox_to_anchor=(.5,.035),ncol=3,frameon=False)
-            fig.suptitle(title+' | random / mixed error',fontsize=10)
-            fig.subplots_adjust(left=.1,right=.98,bottom=.18,top=.86,wspace=.29,hspace=.65)
+            fig.suptitle(title+' | inlet reconstruction by particle count',fontsize=10)
+            fig.subplots_adjust(left=.1,right=.98,bottom=.18,top=.82,wspace=.29,hspace=.79)
             output = figures/f'{name}.pdf'
             fig.savefig(output,metadata={'CreationDate':None,'ModDate':None})
             plt.close(fig)
