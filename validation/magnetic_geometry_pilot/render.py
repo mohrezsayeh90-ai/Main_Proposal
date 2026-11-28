@@ -123,7 +123,7 @@ def main():
                           "optimizer_converged": row["optimizer_converged"]})
 
     pf.legend(handles=[Line2D([], [], color=TARGET, label="DOP853 target"),
-                       Line2D([], [], color=PRED, linestyle="--", label="Master10 prediction"),
+                       Line2D([], [], color=PRED, linestyle="--", label="Operator prediction"),
                        Line2D([], [], color=REPLAY, label="Independent replay")],
               loc="upper center", ncol=3, frameon=False, bbox_to_anchor=(.52,.965))
     cf.legend(handles=[Line2D([], [], color=PRED, label=r"$a_L$ (upper), $B_x/B_s$ (lower)"),
