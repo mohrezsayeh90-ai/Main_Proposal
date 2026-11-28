@@ -1,0 +1,27 @@
+{
+  "name": "short_pulse",
+  "checkpoint_sha256": "080b7e5dd76c98a75fca7f92cc4ec314907a7f7340c809b739b1e2eabc0e3133",
+  "model": {
+    "rmse_X": 0.0004291348119327757,
+    "max_X": 0.0017991133182223978
+  },
+  "replay": {
+    "rmse_X": 0.000429835262505157,
+    "max_X": 0.0017654933207730261
+  },
+  "zero_field": {
+    "rmse_X": 0.003868003605502158,
+    "max_X": 0.0077389542994812655
+  },
+  "model_replay_rmse_X": 2.4991621193024677e-05,
+  "time_s": 1.8116076923807851,
+  "model_time_s": 1.8115950751901981,
+  "target_z_end": 0.6,
+  "transverse_span_X": 0.01395303805868707,
+  "min_axial_velocity_replay": 0.9926002959598239,
+  "peak_total_amplitude": 0.6881626846864478,
+  "pilot_pass": true,
+  "iterations": 85,
+  "optimizer_converged": false,
+  "termination": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+}

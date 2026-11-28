@@ -1,0 +1,27 @@
+{
+  "name": "alternating",
+  "checkpoint_sha256": "080b7e5dd76c98a75fca7f92cc4ec314907a7f7340c809b739b1e2eabc0e3133",
+  "model": {
+    "rmse_X": 0.00024223337554756685,
+    "max_X": 0.000606506146555344
+  },
+  "replay": {
+    "rmse_X": 0.00024236641797034387,
+    "max_X": 0.0005888797516650085
+  },
+  "zero_field": {
+    "rmse_X": 0.011441953516814103,
+    "max_X": 0.020310985802183934
+  },
+  "model_replay_rmse_X": 5.334960021546828e-06,
+  "time_s": 1.618799494985202,
+  "model_time_s": 1.6188204222156821,
+  "target_z_end": 0.65,
+  "transverse_span_X": 0.030319928181023303,
+  "min_axial_velocity_replay": 0.9856827442387943,
+  "peak_total_amplitude": 0.6777925476793171,
+  "pilot_pass": true,
+  "iterations": 85,
+  "optimizer_converged": false,
+  "termination": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+}
